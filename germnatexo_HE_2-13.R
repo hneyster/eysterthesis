@@ -19,7 +19,10 @@ library(reshape2)
 library(Rmisc)
 #library(lme4)
 library(scales)
+library(lme4)
 library(nlme)
+library(MASS)
+library(car)
 #library(lmerTest)
 ## point to files on computer
 setwd("C:/Users/Harold/Documents/github/eysterthesis")
@@ -618,17 +621,17 @@ mf_labeller <- function(var, value){
   return(value)
 }
 
-species<-unique(gh$sp)
-pdf(file="supplement.pdf")
+species<-sort(unique(gh$sp))
+pdf(file="supplementheight.pdf", height=8, width=7)
 for(i in 1:length(species)){
   a<-ggplot(subset(gh, sp==species[i]), aes(x=(mdaysfromgerm),y=plantheight, color=origin, group=trayloc))+  
     geom_line(size=.6, alpha=.2) +geom_point(position=pd, size=1.6, alpha=.2)+ 
     geom_smooth(aes(group = origin), size = 1, method = "lm", se = FALSE, alpha=1)+
-    facet_grid(temp~strat, labeller=mf_labeller)+
-    ylab("height (cm)")+
-    xlab("days since germination")+
-    ggtitle(paste(species[i], " height vs. age by stratification length and temperature"))
-  print(a)
+    facet_grid(temp~strat)+theme_bw()+
+    ylab("Height (cm)")+
+    xlab("Days since germination")+
+    ggtitle("Stratification length (days)") +theme(plot.title=element_text(size=10))
+  plot(a)
   #ggsave("heightbyspecies.pdf")
 }
 dev.off()
@@ -653,23 +656,101 @@ plot4a<-ggplot(subset(gh, sp=="DACGLO"), aes(x=(mdaysfromgerm),y=plantheight, co
   ggtitle("DACGLO height vs. days since germ  by color=continent, column=strat(days), row=temp(C)")
 ggsave("heightbyspecies.pdf")
 
+germs$uniqind<-NA
+germs$uniqind<- do.call(paste, c(germs[c("sp", "individual")], sep="_")) #creates a column that defines the individual 
+
+
 #----------Measuring Plasticity: coef of variation ------------------------------------
 
-
+##CV averaging across strat and temp.
 germindsummarys<-
-  ddply(subset(germs, sp!="PLAMED" & sp!="PLACOR"), c( "uniqind", "origin" , "sp"), summarise,
+  ddply(subset(germs, sp!="PLAMED" & sp!="PLACOR"), c( "uniqind", "origin" , "location", "sp"), summarise,
         mean=mean(germinated), sd=sd(germinated),
         cv=sd(germinated)/mean(germinated))
 
 germindsummarygr<-
-  ddply(hlms, c( "uniqind", "origin" , "sp"), summarise,
+  ddply(hlms, c( "uniqind", "origin", "location" , "sp"), summarise,
         mean=mean(gr), sd=sd(gr),
         cv=sd(gr)/mean(gr))
 
 germindsummarydate<-
-  ddply(subset(germsn, sp!="PLAMED" & sp!="PLACOR"), c( "uniqind", "origin" , "sp"), summarise,
+  ddply(subset(germsn, sp!="PLAMED" & sp!="PLACOR"), c( "uniqind", "location", "origin" , "sp"), summarise,
         mean=mean(daysfromstart), sd=sd(daysfromstart),
         cv=sd(daysfromstart)/mean(daysfromstart))
+
+#CV averaging across strat:
+germindsummarys2<-
+  ddply(subset(germs, sp!="PLAMED" & sp!="PLACOR"), c( "uniqind", "origin" , "strat", "location", "sp"), summarise,
+        mean=mean(germinated), sd=sd(germinated),
+        cv=sd(germinated)/mean(germinated))
+
+germindsummarygr2<-
+  ddply(hlms, c( "uniqind", "origin", "strat" ,"location" , "sp"), summarise,
+        mean=mean(gr), sd=sd(gr),
+        cv=sd(gr)/mean(gr))
+
+germindsummarydate2<-
+  ddply(subset(germsn, sp!="PLAMED" & sp!="PLACOR"), c( "uniqind","strat", "location", "origin" , "sp"), summarise,
+        mean=mean(daysfromstart), sd=sd(daysfromstart),
+        cv=sd(daysfromstart)/mean(daysfromstart))
+
+#CV averaging across temp:
+germindsummarys3<-
+  ddply(subset(germs, sp!="PLAMED" & sp!="PLACOR"), c( "uniqind", "origin" , "temp", "location", "sp"), summarise,
+        mean=mean(germinated), sd=sd(germinated),
+        cv=sd(germinated)/mean(germinated))
+
+germindsummarygr3<-
+  ddply(hlms, c( "uniqind", "origin", "temp" ,"location" , "sp"), summarise,
+        mean=mean(gr), sd=sd(gr),
+        cv=sd(gr)/mean(gr))
+
+germindsummarydate3<-
+  ddply(subset(germsn, sp!="PLAMED" & sp!="PLACOR"), c( "uniqind","temp", "location", "origin" , "sp"), summarise,
+        mean=mean(daysfromstart), sd=sd(daysfromstart),
+        cv=sd(daysfromstart)/mean(daysfromstart))
+
+#modeling CV across temp and strat:
+#for germ rate:
+cvgermr<-lme(cv~origin, random=~1|sp, data=subset(germindsummarys, cv!="NaN"))
+Anova(cvgermr, type="III")
+qqnorm(cvgermr)
+#for germ date:
+cvgermd<-lme(cv~origin, random=~1|sp, data=subset(germindsummarydate, cv!="NaN"))
+Anova(cvgermd, type="III")
+qqnorm(cvgermd)
+#for growth rate:
+cvgr<-lme(cv~origin, random=~1|sp, data=subset(germindsummarygr, cv!="NaN"))
+Anova(cvgr, type="III")
+qqnorm(cvgr)
+
+##modeling with strat as an effect:
+cvgermrs<-lme(cv~origin*strat, random=~1|sp, data=subset(germindsummarys2, cv!="NaN"))
+Anova(cvgermrs, type="III")
+qqnorm(cvgermrs)
+#for germ date:
+cvgermds<-lme(cv~origin*strat, random=~1|sp, data=subset(germindsummarydate2, cv!="NaN"))
+Anova(cvgermds, type="III")
+qqnorm(cvgermds)
+#for growth rate:
+cvgrs<-lme(cv~origin*strat, random=~1|sp, data=subset(germindsummarygr2, cv!="NaN"))
+Anova(cvgrs, type="III")
+qqnorm(cvgrs)
+
+##modeling with temp as an effect:
+
+cvgermrt<-lme(cv~origin*temp(as.factor), random=~1|sp, data=subset(germindsummarys3, cv!="NaN"))
+Anova(cvgermrt, type="III")
+qqnorm(cvgermrt)
+#for germ date:
+cvgermdts<-lme(cv~origin*temp random=~1|sp, data=subset(germindsummarydate3, cv!="NaN"))
+Anova(cvgermdt, type="III")
+qqnorm(cvgermdt)
+#for growth rate:
+cvgrt<-lme(cv~origin*temp, random=~1|sp, data=subset(germindsummarygr3, cv!="NaN"))
+Anova(cvgrt, type="III")
+qqnorm(cvgrt)
+
 
 
 # indparent<-unique(subset(germindsummarys$uniqind, germindsummarys$sd!="NA" ))
@@ -715,10 +796,7 @@ plot5c<-ggplot(subset(germindsummarygr, sd!="NA"), aes(x=as.factor(mean),y=(cv),
 print(plot5c)
 dev.off()
 
-##averaging across each species
-
-#germindsummarys$cvn<-ifelse(germindsummarys$cv!="NaN", germindsummarys$cv, 0) #setting undefined cv values (resulting from mean==0) to zero
-
+##averaging across each species:
 
 germsummarysp<-
   ddply(subset(germindsummarys, cv!="NaN"), c("origin" , "sp" ), summarise,
@@ -764,19 +842,16 @@ plasticc<-ggplot(germsummarygrp, aes(x=as.factor(sp),y=(mean), color=origin))+
 pdf("figure10.pdf", width=8, height=11)
 multiplot(plasticb, plastica, plasticc)
 dev.off()
-# Models ------------------------------------------------------------------
 
-germs$uniqind<-NA
-germs$uniqind<- do.call(paste, c(germs[c("sp", "individual")], sep="_")) #creates a column that defines the individual 
 
-#asimplemodel <- lm(daysfromstart~origin*temp, data=subset(germs, germinated==1))
 
 #------------------------------DATE OF GERMINATION MODELs-------
 
-# #global model with species as fixed effect:
-# moddatesf<-lme(daysfromstart~origin*temp*strat*sp, random=~1|location/uniqind, data=subset(germs, germinated==1 & sp!="PLAMED" & sp!="PLACOR"))
-# 
-# 
+## Global model with species as random effect:
+moddater<-lme(log(daysfromstart)~origin*as.factor(temp)*strat, random=~1|sp/location/uniqind, data=subset(germs, germinated==1 & sp!="PLAMED" & sp!="PLACOR"))
+Anova(moddater, type="III")
+qqnorm(moddater)
+plot(moddater) 
 # #making a global model with species, location, and individual:
 # moddategsli<-lmer(daysfromstart~origin*temp*strat +(1|sp/location/uniqind), data=subset(germs, germinated==1 & sp!="PLAMED" & sp!="PLACOR"))
 # save(moddategsli, file="moddategsli.Rdata")
@@ -787,7 +862,7 @@ germs$uniqind<- do.call(paste, c(germs[c("sp", "individual")], sep="_")) #create
 # moddategs<-lmer(daysfromstart~origin*temp*strat +(1|sp), data=subset(germs, germinated==1 & sp!="PLAMED" & sp!="PLACOR"))
 # save(moddategs,  file="moddatesgsl.Rdata")
 
-#Modelling each species separately, with temp as factor, and the log of days from start 
+#Modeling each species separately, with temp as factor, and the log of days from start 
 moddateliPLALAN<-lme(log(daysfromstart)~origin*as.factor(temp)*strat, random=~1|location/uniqind, data=subset(germs, germinated==1 & sp=="PLALAN" & sp!="PLAMED" & sp!="PLACOR"))
 moddateliPLAMAJ<-lme(log(daysfromstart)~origin*as.factor(temp)*strat, random=~1|location/uniqind, data=subset(germs, germinated==1 & sp=="PLAMAJ" & sp!="PLAMED" & sp!="PLACOR"))
 moddateliRUMCRI<-lme(log(daysfromstart)~origin*as.factor(temp)*strat, random=~1|location/uniqind, data=subset(germs, germinated==1 & sp=="RUMCRI" & sp!="PLAMED" & sp!="PLACOR"))
@@ -797,15 +872,28 @@ moddateliCHEMAJ<-lme(log(daysfromstart)~origin*as.factor(temp)*strat, random=~1|
 moddateliTAROFF<-lme(log(daysfromstart)~origin*as.factor(temp)*strat, random=~1|location/uniqind, data=subset(germs, germinated==1 & sp=="TAROFF" & sp!="PLAMED" & sp!="PLACOR"))
 
 #creating qqplots
-pdf("moddate_qqplot.pdf")
-qqnorm(moddateliPLALAN, main="normal qq plot for PLALAN germ date")
-qqnorm(moddateliPLAMAJ, main="normal qq plot for PLAMAJ germ date")
-qqnorm(moddateliCAPBUR, main="normal qq plot for CAPBUR germ date")
-qqnorm(moddateliCHEMAJ, main="normal qq plot for CHEMAJ germ date")
-qqnorm(moddateliRUMCRI, main="normal qq plot for RUMCRI germ date")
-qqnorm(moddateliTAROFF, main="normal qq plot for TAROFF germ date")
-qqnorm(moddateliDACGLO, main="normal qq plot for DACGLO germ date")
+jpeg(filename="moddate_qqplotG.jpeg", height=3.8, width=5, units="in", res=500)
+qqnorm(moddateliPLALAN, main="D")
+qqnorm(moddateliPLAMAJ, main="E")
+qqnorm(moddateliCAPBUR, main="A")
+qqnorm(moddateliCHEMAJ, main="B")
+qqnorm(moddateliRUMCRI, main="F")
+qqnorm(moddateliTAROFF, main="G")
+qqnorm(moddateliDACGLO, main="C")
+
+pdf("qqnorm2.pdf", width=8, height=11)
 dev.off()
+jpeg(filename="moddate_qqplotF.jpeg", height=1.9, width=2.5, units="in", res=500)
+dev.off()
+par(mfrow=c(2,2))
+plot(qq2d)
+qq2d<-qqnorm(moddateliPLALAN)
+qq2e<-qqnorm(moddateliPLAMAJ)
+qq2a<-qqnorm(moddateliCAPBUR)
+qq2b<-qqnorm(moddateliCHEMAJ)
+qq2f<-qqnorm(moddateliRUMCRI)
+qq2g<-qqnorm(moddateliTAROFF)
+qq2c<-qqnorm(moddateliDACGLO)
 
 # 
 # #taking out individual, because doesn't significant help the model (alpha =.15)
@@ -841,7 +929,22 @@ dev.off()
 # modrategs<-lmer(germinated~origin*temp*strat +(1|sp), data=subset(germs, sp!="PLAMED" & sp!="PLACOR"))
 # save(modrategs,  file="modrategs.Rdata")
 
-##Modeling with GLM:
+#Modeling with GLMM, with species as Random Effect:
+
+modrater<-glmer(germinated~origin*as.factor(temp)*strat+(1|sp/location/uniqind), 
+                family=binomial(link="logit"), 
+                data=subset(germs, sp!="PLAMED" & sp!="PLACOR")) #fails to converge
+
+Anova(modrater, type="III")
+plot(modrater)
+#Modeling as glmmpql:
+
+modraterp<-glmmPQL(germinated~origin*as.factor(temp)*strat, random=~1|sp/location/uniqind, 
+                   family=binomial(link="logit"), 
+                   data=subset(germs, sp!="PLAMED" & sp!="PLACOR"))
+Anova(modraterp, type="3")
+plot(modraterp)
+##Modeling as GLM, for each species separately:
 #first averaging for each population
 germrateloc<-
   ddply(germs, c( "sp", "origin", "strat", "temp", "location"), summarise,
@@ -868,7 +971,7 @@ plot(lmratePLALAN)
 ggplot(subset(germrateloc, sp=="PLALAN"), aes(mean)) + 
     geom_histogram()
 
-#Now modelling the individual: 
+#Now modeling the individual: 
 modrateliPLALAN<-lme(germinated~origin*temp*strat, random=~1|location/uniqind, data=subset(germs, sp=="PLALAN" & sp!="PLAMED" & sp!="PLACOR"))
 save(modrateliPLALAN,  file="modrateliPLALAN.Rdata") # sig better than model w/o ind or loc 
 modrateliDACGLO<-lme(germinated~origin*temp*strat, random=~1|location/uniqind, data=subset(germs, sp=="DACGLO" & sp!="PLAMED" & sp!="PLACOR"))
@@ -894,6 +997,10 @@ mod<-glm(germinated~origin*as.factor(temp)*strat, family=binomial(link="logit"),
 
 modrateliPLALANg<-glmmPQL(germinated~origin*as.factor(temp)*strat, random=~1|location/uniqind, family=binomial(link="logit"), data=subset(germs, sp=="PLALAN" & sp!="PLAMED" & sp!="PLACOR"))
 
+modraterp<-glmmPQL(germinated~origin*as.factor(temp)*strat, random=~1|sp/location/uniqind, 
+                   family=binomial(link="logit"), 
+                   data=subset(germs, sp!="PLAMED" & sp!="PLACOR"))
+
 #using type 1. see https://mcfromnz.wordpress.com/2011/03/02/anova-type-iiiiii-ss-explained/ 
 #Kenward-Roger and Satterthwaite give nearly identicall DenDF, but perhaps KR is better. see: Schaalje, G., McBride, J. and Fellingham, G. (2002). Journal of Agricultural, Biological, and Enviromental Statistics 7, 512-524. 
 #Anova of nlme model produces nearly identical DenDfs 
@@ -901,19 +1008,25 @@ anova(modrateliPLALANrb, ddf = "Kenward-Roger", type=1)
 anova(modrateliPLALANrb)
 anova(modrateliPLALAN)
 #creating qqplots
-pdf("modrate_qqplot.pdf")
-qqnorm(modrateliPLALAN, main="normal qq plot for PLALAN germ rate")
-qqnorm(modrateliPLAMAJ, main="normal qq plot for PLAMAJ germ rate")
-qqnorm(modrateliCAPBUR, main="normal qq plot for CAPBUR germ rate")
-qqnorm(modrateliCHEMAJ, main="normal qq plot for CHEMAJ germ rate")
-qqnorm(modrateliRUMCRI, main="normal qq plot for RUMCRI germ rate")
-qqnorm(modrateliTAROFF, main="normal qq plot for TAROFF germ rate")
-qqnorm(modrateliDACGLO, main="normal qq plot for DACGLO germ rate")
+par(mfrow=c(3,3))
+pdf("modrate_qqplot.pdf", width=6, height=9)
+plot(lmrateCAPBUR, which=2, main="A")
+plot(lmrateCHEMAJ, which=2, main="B")
+plot(lmrateDACGLO, which=2, main="C")
+plot(lmratePLALAN, which=2, main="D")
+plot(lmratePLAMAJ, which=2, main="E")
+plot(lmrateRUMCRI, which=2, main="F")
+plot(lmrateTAROFF, which=2, main="G")
+
 dev.off()
 
 
 #-----------------------Growth Rate Models ---------------------
-
+## growth rate response model with species as random effect:
+modgrowthsr<-lme(gr~origin*as.factor(temp)*strat, random=~1|sp/location/uniqind, data=hlms )
+Anova(modgrowthsr, type="3") #type III Sum of Squares for a Chi square test 
+plot(modgrowthsr)
+qqnorm(modgrowthsr)
 # #growth rate response model with speceis as fixed:
 #subsetting to remove variables that have missing data 
 hlmss1<-subset(hlms, (sp=="CHEMAJ" & temp!="25.3") | sp=="DACGLO" | sp=="PLALAN" | sp=="PLAMAJ" | sp=="RUMCRI" | sp=="TAROFF" | (sp=="CAPBUR" & temp!="11.3" & temp!="25.3"))
@@ -950,14 +1063,15 @@ modgrowthsliRUMCRI<-lme(gr~origin*as.factor(temp)*strat, random=~1|location/uniq
 save(modgrowthsliRUMCRI,  file="modgrowthsliRUMCRI.Rdata") #not different from model without ind (p=1), or loc (p=.2166)
 
 #qqplots:
+jpeg(filename="modgrowths_qqplotG.jpeg", height=2.5, width=2.5, units="in", res=500)
 pdf("modgrowth_qqplot.pdf")
-qqnorm(modgrowthsliPLALAN, main="normal qq plot for PLALAN growth rate")
-qqnorm(modgrowthsliPLAMAJ, main="normal qq plot for PLAMAJ growth rate")
-qqnorm(modgrowthsliCAPBUR, main="normal qq plot for CAPBUR growth rate")
-qqnorm(modgrowthsliCHEMAJ, main="normal qq plot for CHEMAJ growth rate")
-qqnorm(modgrowthsliRUMCRI, main="normal qq plot for RUMCRI growth rate")
-qqnorm(modgrowthsliTAROFF, main="normal qq plot for TAROFF growth rate")
-qqnorm(modgrowthsliDACGLO, main="normal qq plot for DACGLO growth rate")
+qqnorm(modgrowthsliPLALAN, main="D")
+qqnorm(modgrowthsliPLAMAJ, main="E")
+qqnorm(modgrowthsliCAPBUR, main="A")
+qqnorm(modgrowthsliCHEMAJ, main="B")
+qqnorm(modgrowthsliRUMCRI, main="F")
+qqnorm(modgrowthsliTAROFF, main="G")
+qqnorm(modgrowthsliDACGLO, main="C")
 dev.off()
 
 
