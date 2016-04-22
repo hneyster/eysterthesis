@@ -190,7 +190,7 @@ ggplot(germinatedlocsummarys,aes(x=sp,y=mean, colour=location))+
   geom_errorbar(aes(ymin=mean-sem, ymax=mean+sem), width=.4, position=pd, size=.8) + 
   geom_line() +geom_point(position=pd, size=2.6) + ggtitle("Germination percent vs. location vs. species in soil")
 
-#and for filter paper:
+#and for filter paper: 
 ggplot(germinatedlocsummaryf,aes(x=sp,y=mean, colour=location))+ 
   xlab("species") + ylab("mean percent germination")+
   geom_errorbar(aes(ymin=mean-sem, ymax=mean+sem), width=.4, position=pd, size=.8) + 
@@ -873,7 +873,7 @@ moddateliTAROFF<-lme(log(daysfromstart)~origin*as.factor(temp)*strat, random=~1|
 
 #creating qqplots
 jpeg(filename="moddate_qqplotG.jpeg", height=3.8, width=5, units="in", res=500)
-qqnorm(moddateliPLALAN, main="D")
+qqnorm(moddateliPLALAN, main="D") 
 qqnorm(moddateliPLAMAJ, main="E")
 qqnorm(moddateliCAPBUR, main="A")
 qqnorm(moddateliCHEMAJ, main="B")
