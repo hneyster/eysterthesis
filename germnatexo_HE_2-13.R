@@ -13,7 +13,6 @@ options(stringsAsFactors = FALSE)
 
 ## load libraries
 library(ggplot2)
-library(nlme)
 library(plyr)
 library(reshape2)
 library(Rmisc)
@@ -739,12 +738,12 @@ qqnorm(cvgrs)
 
 ##modeling with temp as an effect:
 
-cvgermrt<-lme(cv~origin*temp(as.factor), random=~1|sp, data=subset(germindsummarys3, cv!="NaN"))
+cvgermrt<-lme(cv~origin*as.factor(temp), random=~1|sp, data=subset(germindsummarys3, cv!="NaN"))
 Anova(cvgermrt, type="III")
 qqnorm(cvgermrt)
 #for germ date:
-cvgermdts<-lme(cv~origin*temp random=~1|sp, data=subset(germindsummarydate3, cv!="NaN"))
-Anova(cvgermdt, type="III")
+cvgermdts<-lme(cv~origin*as.factor(temp), random=~1|sp, data=subset(germindsummarydate3, cv!="NaN"))
+Anova(cvgermdts, type="III")
 qqnorm(cvgermdt)
 #for growth rate:
 cvgrt<-lme(cv~origin*temp, random=~1|sp, data=subset(germindsummarygr3, cv!="NaN"))
@@ -847,11 +846,12 @@ dev.off()
 
 #------------------------------DATE OF GERMINATION MODELs-------
 
-## Global model with species as random effect:
+## Global germination date model with species as random effect:
 moddater<-lme(log(daysfromstart)~origin*as.factor(temp)*strat, random=~1|sp/location/uniqind, data=subset(germs, germinated==1 & sp!="PLAMED" & sp!="PLACOR"))
 Anova(moddater, type="III")
 qqnorm(moddater)
 plot(moddater) 
+moddatercoef<-coef(moddater)
 # #making a global model with species, location, and individual:
 # moddategsli<-lmer(daysfromstart~origin*temp*strat +(1|sp/location/uniqind), data=subset(germs, germinated==1 & sp!="PLAMED" & sp!="PLACOR"))
 # save(moddategsli, file="moddategsli.Rdata")
