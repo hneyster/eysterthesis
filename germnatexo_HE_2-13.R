@@ -744,9 +744,9 @@ qqnorm(cvgermrt)
 #for germ date:
 cvgermdts<-lme(cv~origin*as.factor(temp), random=~1|sp, data=subset(germindsummarydate3, cv!="NaN"))
 Anova(cvgermdts, type="III")
-qqnorm(cvgermdt)
+qqnorm(cvgermdts)
 #for growth rate:
-cvgrt<-lme(cv~origin*temp, random=~1|sp, data=subset(germindsummarygr3, cv!="NaN"))
+cvgrt<-lme(cv~origin*as.factor(temp), random=~1|sp, data=subset(germindsummarygr3, cv!="NaN"))
 Anova(cvgrt, type="III")
 qqnorm(cvgrt)
 
