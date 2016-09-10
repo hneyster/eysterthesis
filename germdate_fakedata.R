@@ -6,7 +6,7 @@
 # 2016-05-16 simplifying a lot, but adding individuals. Removed strating and interactions for now.
 # <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <>
 # Calculating some data parameters: 
-# setwd("C:/Users/Owner/Documents/GitHub/eysterthesis")
+setwd("C:/Users/Owner/Documents/GitHub/eysterthesis")
 # germidn<-subset(germid, sp!="PLAMED" & sp!="PLACOR")
 # length(unique(germidn$uniqueid))
 # mean(subset(germidn, germinated==1 & origin=="USA")$daysfromstart)-mean(subset(germidn, germinated==1 & origin=="Europe")$daysfromstart)
@@ -103,7 +103,7 @@ for(i in 1:nsp){ # loop over species
                rnorm(1, sitestrat, sitestrat.sd),
                rnorm(1, temporigin, temporigin.sd),
                rnorm(1, tempstrat, tempstrat.sd),
-               rnorm(1, originstrat, originstrat.sd),
+               rnorm(1, originstrat, originstrat.sd)
   )
     
     bb <- rnorm(n = length(temp), mean = mm %*% coeff, sd = 0.1)
@@ -113,8 +113,8 @@ for(i in 1:nsp){ # loop over species
     
     fake <- rbind(fake, fakex)  
   }
-} #getting an error that argument 12 is empty 
+} #getting an error: "Error in mm %*% coeff : non-conformable arguments" 
 
-summary(lm(bb ~ (site+temp+origin+strat1+strat2)^2, data = fake)) # sanity check 
+summary(lm(bb ~ (site+temp+origin+strat)^2, data = fake)) # sanity check 
 
-save(list=c("fake"), file = "Fake_Budburst_ind.RData")
+save(list=c("fake"), file = "Fake_germdate.RData")
