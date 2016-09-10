@@ -5,11 +5,11 @@
 # Set up: same as experiment, with two continents, 7 species, two levels of stratification length, and four levels of strating. 2016-04-01 adding interactions. This ends up generating expected differences, but variation in effect sizes across species is minimal currently.
 # 2016-05-16 simplifying a lot, but adding individuals. Removed strating and interactions for now.
 # <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <> <>
-Calculating some data parameters: 
-setwd("C:/Users/Owner/Documents/GitHub/eysterthesis")
-germidn<-subset(germid, sp!="PLAMED" & sp!="PLACOR")
-length(unique(germidn$uniqueid))
-mean(subset(germidn, germinated==1 & origin=="USA")$daysfromstart)-mean(subset(germidn, germinated==1 & origin=="Europe")$daysfromstart)
+# Calculating some data parameters: 
+# setwd("C:/Users/Owner/Documents/GitHub/eysterthesis")
+# germidn<-subset(germid, sp!="PLAMED" & sp!="PLACOR")
+# length(unique(germidn$uniqueid))
+# mean(subset(germidn, germinated==1 & origin=="USA")$daysfromstart)-mean(subset(germidn, germinated==1 & origin=="Europe")$daysfromstart)
 
 
 install.packages("dplyr")
