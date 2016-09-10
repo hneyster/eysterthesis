@@ -30,7 +30,7 @@ setwd("C:/Users/Harold/Documents/github/eysterthesis")
 height<- read.csv("input/height_data_2-13-16.csv", header=TRUE) #Read the height file
 germ <- read.csv("input/Germ_Data_2-9-16.csv", header=TRUE) #read the germination file
 id<- read.csv("input/id_Data-2-4-16.csv", header=TRUE) #read the id file
-lab1<-read.csv("label.csv", header=TRUE) #read in the graph labeling file
+lab1<-read.csv("input/label.csv", header=TRUE) #read in the graph labeling file
 
 
 ## basic data cleaning
