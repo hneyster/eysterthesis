@@ -24,7 +24,7 @@ library(MASS)
 library(car)
 #library(lmerTest)
 ## point to files on computer
-setwd("C:/Users/Harold/Documents/github/eysterthesis")
+setwd("C:/Users/Owner/Documents/github/eysterthesis")
 
 ## Get files
 height<- read.csv("input/height_data_2-13-16.csv", header=TRUE) #Read the height file

@@ -1,3 +1,4 @@
+//Stan code to model germination date 
 //Adapted from "lday_site_sp_chill_inter.stan" by Dan Flynn 
 // Stan model following Meetup 2016-03-28
 // Now with chilling levels as dummy variables for each level, two levels
