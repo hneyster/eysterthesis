@@ -22,25 +22,27 @@ germs.y<-(subset(germs,
 ggplot(germs.y, aes(daysfromstart))+geom_histogram() #looking at a histogram of the data
 
 ggplot(subset(germs.y, sp=="PLAMAJ" & temp==25.3), aes(daysfromstart))+geom_histogram() #looking at different sp
-data<-subset(germs.y, sp="PLALAN")
+data<-germs.y
 ## Setting up the data for the Stan model---------------------------------------
 
 N<-nrow(data)
+K<-4
 y<-data$daysfromstart                    # dependent variable
 temp<-data$temp   # independent variable 
 strat<-data$strat
 dummy_variables <- model.matrix(~ origin, data = data)
 origin<-dummy_variables[,2]
 covariates<-matrix(c(origin, temp, strat), nrow=N)                  #covariate matrix
-X = cbind(intercept=1, covariates) #covariates + intercept 
-datax<-list(N=N, K=ncol(X), y=y, X=X)
+X = cbind(intercept=1, covariates) #covariates + intercept
+intercept<-rep(1, nrow(data))
+datax<-list(N=N, K=K, y=y, temp=temp, origin=origin, strat=strat, intercept=intercept, X=X)
 
 ## fitting into a Stan model -------------------------------------------------
 fit <- stan(file = "~/linreg.stan", data=datax, chains=10, iter=1000)
-
+#save(fit, file="germdate_nore.Rdata")
 print(fit, c("beta" , "sigma"))
 
-stan_trace(fit, "beta[2]") #tests for mixing and convergence for temperature 
+stan_trace(fit, "beta[5]") #tests for mixing and convergence for a given parameter 
 stan_trace(fit, "sigma")
 modsims <- extract(fit)
 str(modsims)
@@ -54,24 +56,6 @@ print(fit, digits=3)
 #----launching shiny stan---------
 my_sso <- launch_shinystan(fit, rstudio = getOption("shinystan.rstudio"))
 
-#----R^2------------
-stanmodelcodeRsq = "
-.
-.
-.
-
-generated quantities {
-real rss;                
-real totalss;
-real<lower=0, upper=1> R2;                 
-vector[N] mu;
-
-mu <- X * beta;
-rss <- dot_self(y-mu);
-totalss <- dot_self(y-mean(y));
-R2 <- 1 - rss/totalss;
-}
-"
 
 
 
