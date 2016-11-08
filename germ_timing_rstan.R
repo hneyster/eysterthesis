@@ -2,6 +2,7 @@
 rm(list=ls()) 
 options(stringsAsFactors = FALSE)
 options(shinystan.rstudio = TRUE)
+options(mc.cores = parallel::detectCores())
 
 ## some good references:
 # https://www.r-bloggers.com/bayesian-regression-with-stan-part-1-normal-regression/
@@ -25,7 +26,8 @@ ggplot(subset(germs.y, sp=="PLAMAJ" & temp==25.3), aes(daysfromstart))+geom_hist
 data<-germs.y
 ## Setting up the data for the Stan model---------------------------------------
 
-N<-nrow(data)
+nseed<-length(unique(data$uniqueid)) #1205 unique seeds
+N<-nseed
 K<-4
 y<-data$daysfromstart                    # dependent variable
 temp<-data$temp   # independent variable 
@@ -35,29 +37,67 @@ origin<-dummy_variables[,2]
 covariates<-matrix(c(origin, temp, strat), nrow=N)                  #covariate matrix
 X = cbind(intercept=1, covariates) #covariates + intercept
 intercept<-rep(1, nrow(data))
-datax<-list(N=N, K=K, y=y, temp=temp, origin=origin, strat=strat, intercept=intercept, X=X)
+#setting up to random effects data:
+nsp<-length(unique(germs.y$sp))
+sp_alph<-data$sp
+
+sp<-ifelse (sp_alph=="CAPBUR", 1,     #making sp numeric, in alphabetical order 
+            ifelse(sp_alph=="CHEMAJ",2,
+                   ifelse(sp_alph=="DACGLO", 3, 
+                          ifelse(sp_alph=="PLALAN", 4,
+                                 ifelse(sp_alph=="PLAMAJ", 5, 
+                                        ifelse(sp_alph=="RUMCRI", 6, 7)))))
+nsp<-length(unique(data$sp))
+
+#----#add'l random effects -- not in the model yet ------
+# nloc<-length(unique(data$location)) #16 unique locations 
+# loc.a<-data$location
+# locd<-data.frame(sort(unique(data$location)))
+# locd$n<-seq(1,16,1)
+# locn<-data.frame()
+# for( i in 1:N) {
+#   for (j in 1:nloc) {
+#     locn[i,j]<-ifelse(loc.a[i]==locd[j,1], j, 0)}
+# }
+# loc<-data$location
+# locn$v17<-rowSums(locn[-1], na.rm=TRUE)
+# loc<-locn$v17
+# ifelse()
+# dummy_variables_fam<-model.matrix(~uniqind, data=data)
+# family<-dummy_variables_fam
+# nfamily<-length(unique(data$uniqind)) #80 unique seed families 
+
+
+#putting it all together: 
+datax<-list(N=N, y=y, temp=temp, origin=origin, strat=strat,  nsp=nsp, sp=sp)
+            #,nloc=nloc, nfamily=nfamily, loc=loc, family=family)
 
 ## fitting into a Stan model -------------------------------------------------
-fit <- stan(file = "~/linreg.stan", data=datax, chains=10, iter=1000)
+fit <- stan(file = "germdate.stan", data=datax, chains=10, iter=1000) #  divergent transitions above diag 
+fit1 <- stan(file = "germdate.stan", data=datax, chains=10, iter=1000, control = list(adapt_delta = 0.99))
+fit2 <- stan(file = "germdate.stan", data=datax, chains=4, iter=5000, control = list(adapt_delta = 0.99))
+#stanmodel_sp-random<-fit2
+#save(stanmodel_sp-random, file = "germdate_sp-random.Rdata")
 #save(fit, file="germdate_nore.Rdata")
 print(fit, c("beta" , "sigma"))
+print(fit)
 
-stan_trace(fit, "beta[5]") #tests for mixing and convergence for a given parameter 
+stan_trace(fit1, "mu_b_inter_to") #tests for mixing and convergence for a given parameter 
 stan_trace(fit, "sigma")
 modsims <- extract(fit)
 str(modsims)
 plot(modsims$beta)
-pairs(fit, pars=c("beta"))
+pairs(fit2, pars=c("mu_b_temp", "mu_b_strat", "mu_b_origin"))
+plot(fit2, pars=c("mu_b_inter_to","mu_b_inter_ts", "mu_b_inter_so", "mu_b_inter_tso"))
+plot(fit2, pars=c("mu_b_temp", "mu_b_strat", "mu_b_origin"))
+
 la<-extract(fit, permuted=TRUE) #shows parameters by iteration
 a<-extract(fit, permuted=FALSE) #shows parameters & chains & interations 
 m<-as.matrix(fit) # use the functions as.array or as.matrix with s3 objects 
 print(fit, digits=3)
 
 #----launching shiny stan---------
-my_sso <- launch_shinystan(fit, rstudio = getOption("shinystan.rstudio"))
-
-
-
+my_sso <- launch_shinystan(fit1, rstudio = getOption("shinystan.rstudio"))
 
 
 # Make predictions for covariate values between 10 and 30
