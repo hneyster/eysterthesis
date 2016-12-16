@@ -21,7 +21,9 @@ germs.y<-(subset(germs,
                    sp!="PLACOR"))    #just the data from seeds that germianted, and taking out the congenerics 
 
 ggplot(germs.y, aes(daysfromstart))+geom_histogram() #looking at a histogram of the data
-
+ggplot(germs.y, aes(daysfromstart)) +
+    geom_histogram() +
+    facet_wrap(~sp)
 ggplot(subset(germs.y, sp=="PLAMAJ" & temp==25.3), aes(daysfromstart))+geom_histogram() #looking at different sp
 data<-germs.y
 ## Setting up the data for the Stan model---------------------------------------
