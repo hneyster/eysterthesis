@@ -1,0 +1,3185 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Andrews1974}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=878f901d3c0fe17a4370529a59875d6d}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=113e03d214d5c8840749c527be5b5208}{%
+           family={Burrows},
+           familyi={B\bibinitperiod},
+           given={V.\bibnamedelimi D.},
+           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0a4d86082bcc86d2de9f0fcaa607efe1}
+      \strng{fullhash}{0a4d86082bcc86d2de9f0fcaa607efe1}
+      \strng{bibnamehash}{0a4d86082bcc86d2de9f0fcaa607efe1}
+      \strng{authorbibnamehash}{0a4d86082bcc86d2de9f0fcaa607efe1}
+      \strng{authornamehash}{0a4d86082bcc86d2de9f0fcaa607efe1}
+      \strng{authorfullhash}{0a4d86082bcc86d2de9f0fcaa607efe1}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Can J. Plant Sci}
+      \field{title}{Increasing winter survival of dormant seeds by a treatment inducing secondary dormancy}
+      \field{volume}{54}
+      \field{year}{1974}
+      \field{pages}{565\bibrangedash 571}
+      \range{pages}{7}
+    \endentry
+    \entry{ISTA1954}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b6ba4a13e2009f20d28e862cb2ac817d}{%
+           family={Association},
+           familyi={A\bibinitperiod},
+           given={International\bibnamedelimb Seed\bibnamedelima Testing},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {19}%
+      }
+      \strng{namehash}{b6ba4a13e2009f20d28e862cb2ac817d}
+      \strng{fullhash}{b6ba4a13e2009f20d28e862cb2ac817d}
+      \strng{bibnamehash}{b6ba4a13e2009f20d28e862cb2ac817d}
+      \strng{authorbibnamehash}{b6ba4a13e2009f20d28e862cb2ac817d}
+      \strng{authornamehash}{b6ba4a13e2009f20d28e862cb2ac817d}
+      \strng{authorfullhash}{b6ba4a13e2009f20d28e862cb2ac817d}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. International Seed Testing Assoc}
+      \field{title}{International rules for seed testing}
+      \field{year}{1954}
+      \field{pages}{3\bibrangedash 79}
+      \range{pages}{77}
+    \endentry
+    \entry{Baskin1998}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=95b49686ba24433650373bab3e48eee5}{%
+           family={Baskin},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=b2f4cbe90733e12e47e515a300aba518}{%
+           family={Baskin},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Academic Press}%
+      }
+      \list{publisher}{1}{%
+        {San Diego}%
+      }
+      \strng{namehash}{68315440e76339577832ea32e1bbc03f}
+      \strng{fullhash}{68315440e76339577832ea32e1bbc03f}
+      \strng{bibnamehash}{68315440e76339577832ea32e1bbc03f}
+      \strng{authorbibnamehash}{68315440e76339577832ea32e1bbc03f}
+      \strng{authornamehash}{68315440e76339577832ea32e1bbc03f}
+      \strng{authorfullhash}{68315440e76339577832ea32e1bbc03f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Seeds: ecology, biogeography, and evolution of dormancy and germination}
+      \field{year}{1998}
+    \endentry
+    \entry{Bellard2016}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=5b9edadadc3e03a336fae69af12e5330}{%
+           family={Bellard},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5a14a0ab966064c49fdf829b64dfbc60}{%
+           family={Cassey},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b400bcc4e9375ef64a021f1346ef251f}{%
+           family={Blackburn},
+           familyi={B\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a8d7d3fcdb91c3271f63a999693e665}
+      \strng{fullhash}{910e26e33a8342282ebda2494cefde23}
+      \strng{bibnamehash}{910e26e33a8342282ebda2494cefde23}
+      \strng{authorbibnamehash}{910e26e33a8342282ebda2494cefde23}
+      \strng{authornamehash}{9a8d7d3fcdb91c3271f63a999693e665}
+      \strng{authorfullhash}{910e26e33a8342282ebda2494cefde23}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biology letters}
+      \field{number}{2}
+      \field{title}{Alien species as a driver of recent extinctions}
+      \field{volume}{12}
+      \field{year}{2016}
+      \field{pages}{20150623}
+      \range{pages}{1}
+    \endentry
+    \entry{Bush2012}{report}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=f445bad3e87073e2a6f222894980bba6}{%
+           family={Bush},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=700e3fa7771dbad33ca3c6099747d5fa}{%
+           family={Ogle},
+           familyi={O\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5bf2dd0562e711e021d9cc9bba4c62ce}{%
+           family={St.\bibnamedelimi John},
+           familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=10bdfd31f9c60c212d89cf3f46a06546}{%
+           family={Stannard},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c45652dd5485deb337964fa81e676bc6}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {USDA-Natural Resources Conservation Service, Aberdeen Plant Materials Center. Aberdeen, Idaho 83210}%
+      }
+      \strng{namehash}{c2aca3d5902ab65a84a74093a998bd68}
+      \strng{fullhash}{f98793f3a9f84c845921c1feae0bff5d}
+      \strng{bibnamehash}{f98793f3a9f84c845921c1feae0bff5d}
+      \strng{authorbibnamehash}{f98793f3a9f84c845921c1feae0bff5d}
+      \strng{authornamehash}{c2aca3d5902ab65a84a74093a998bd68}
+      \strng{authorfullhash}{f98793f3a9f84c845921c1feae0bff5d}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Plant Guide for Orchardgrass (Dactylis glomerata)}
+      \field{type}{techreport}
+      \field{year}{2012}
+    \endentry
+    \entry{Carpenter2017}{article}{}
+      \name{author}{10}{}{%
+        {{uniquename=0,uniquepart=base,hash=5321a7ac2b0407bc405fa8816fd73f09}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=937991c72400f4d0e0252027c8c03f67}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb04571d965766ee6d71dafbd3eb452e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9cc812cde8c441e79dfaab4955a72c2c}{%
+           family={Goodrich},
+           familyi={G\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1982fa604a3f94837efceaa53330b2a4}{%
+           family={Betancourt},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=13e542215366001a04c3d21163d79458}{%
+           family={Brubaker},
+           familyi={B\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=41eee90a96d38ce11a198e6c0aeb415f}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Jiqiang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=137297e0019ba55bca6f9b200782ae52}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6f0d8885ad4c012b0ced0ee95cdf2729}{%
+           family={Riddell},
+           familyi={R\bibinitperiod},
+           given={Allen},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{315a7c9e1cdeecc523de3b4d0e029d66}
+      \strng{fullhash}{29572594759b21c576aa9533a18a00d1}
+      \strng{bibnamehash}{e4968eed159491fc2404d638da373f05}
+      \strng{authorbibnamehash}{e4968eed159491fc2404d638da373f05}
+      \strng{authornamehash}{315a7c9e1cdeecc523de3b4d0e029d66}
+      \strng{authorfullhash}{29572594759b21c576aa9533a18a00d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{©} 2017 American Statistical Association. All rights reserved. Stan is a probabilistic programming language for specifying statistical models. A Stan program imperatively defines a log probability function over parameters conditioned on specified data and constants. As of version 2.14.0, Stan provides full Bayesian inference for continuous-variable models through Markov chain Monte Carlo methods such as the No-U-Turn sampler, an adaptive form of Hamiltonian Monte Carlo sampling. Penalized maximum likelihood estimates are calculated using optimization methods such as the limited memory Broyden-Fletcher-Goldfarb-Shanno algorithm. Stan is also a platform for computing log densities and their gradients and Hessians, which can be used in alternative algorithms such as variational Bayes, expectation propagation, and marginal inference using approximate integration. To this end, Stan is set up so that the densities, gradients, and Hessians, along with intermediate quantities of the algorithm such as acceptance probabilities, are easily accessible. Stan can be called from the command line using the cmdstan package, through R using the rstan package, and through Python using the pystan package. All three interfaces support sampling and optimization-based inference with diagnostics and posterior analysis. rstan and pystan also provide access to log probabilities, gradients, Hessians, parameter transforms, and specialized plotting.}
+      \field{issn}{1548-7660}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{number}{1}
+      \field{title}{{Stan: A Probabilistic Programming Language}}
+      \field{volume}{76}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.18637/jss.v076.i01
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/v76i01.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstatsoft.org/v76/i01/
+      \endverb
+      \verb{url}
+      \verb http://www.jstatsoft.org/v76/i01/
+      \endverb
+    \endentry
+    \entry{Casal998}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=604bd681438eda9af2e84cef51107962}{%
+           family={Casal},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=56aabd4a8ab318d96e92b6ced9470bb1}{%
+           family={Sánchez},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efc01efe1096faa634bfeb8100dcc67f}
+      \strng{fullhash}{efc01efe1096faa634bfeb8100dcc67f}
+      \strng{bibnamehash}{efc01efe1096faa634bfeb8100dcc67f}
+      \strng{authorbibnamehash}{efc01efe1096faa634bfeb8100dcc67f}
+      \strng{authornamehash}{efc01efe1096faa634bfeb8100dcc67f}
+      \strng{authorfullhash}{efc01efe1096faa634bfeb8100dcc67f}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Seed Science Research}
+      \field{title}{Phytochromes and seed germination}
+      \field{volume}{8}
+      \field{year}{1998}
+      \field{pages}{317\bibrangedash 329}
+      \range{pages}{13}
+    \endentry
+    \entry{Clavero2005}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=85e84187c202954cef24092d97e111a2}{%
+           family={Clavero},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=11418b9771bff13c47a69e07e436948d}{%
+           family={Garcia-Berthou},
+           familyi={G\bibinithyphendelim B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98c7eaafd14708bda138e28582d62b40}
+      \strng{fullhash}{98c7eaafd14708bda138e28582d62b40}
+      \strng{bibnamehash}{98c7eaafd14708bda138e28582d62b40}
+      \strng{authorbibnamehash}{98c7eaafd14708bda138e28582d62b40}
+      \strng{authornamehash}{98c7eaafd14708bda138e28582d62b40}
+      \strng{authorfullhash}{98c7eaafd14708bda138e28582d62b40}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TRENDS in Ecology and Evolution}
+      \field{number}{3}
+      \field{title}{Invasive species are a leading cause of animal extinctions}
+      \field{volume}{20}
+      \field{year}{2005}
+      \field{pages}{110\bibrangedash 110}
+      \range{pages}{1}
+    \endentry
+    \entry{Clements2011}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4ff2e95b1843058c6eec13891692981c}{%
+           family={Clements},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=14e363f2568d4b23c04716d6897a054d}{%
+           family={Ditommaso},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c8c31cd32dc380307f31abf40bef3438}
+      \strng{fullhash}{c8c31cd32dc380307f31abf40bef3438}
+      \strng{bibnamehash}{c8c31cd32dc380307f31abf40bef3438}
+      \strng{authorbibnamehash}{c8c31cd32dc380307f31abf40bef3438}
+      \strng{authornamehash}{c8c31cd32dc380307f31abf40bef3438}
+      \strng{authorfullhash}{c8c31cd32dc380307f31abf40bef3438}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Weed Research}
+      \field{number}{3}
+      \field{title}{Climate change and weed adaptation: can evolution of invasive plants lead to greater range expansion than forecasted?}
+      \field{volume}{51}
+      \field{year}{2011}
+      \field{pages}{227\bibrangedash 240}
+      \range{pages}{14}
+    \endentry
+    \entry{Colautti2004}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4fbc716c61816a5119ba1b8151cc1a5b}{%
+           family={Colautti},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a30d78f32230fdce7287364730b2fa0b}{%
+           family={MacIsaac},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6018da16910e0baca3b6c487b726708a}
+      \strng{fullhash}{6018da16910e0baca3b6c487b726708a}
+      \strng{bibnamehash}{6018da16910e0baca3b6c487b726708a}
+      \strng{authorbibnamehash}{6018da16910e0baca3b6c487b726708a}
+      \strng{authornamehash}{6018da16910e0baca3b6c487b726708a}
+      \strng{authorfullhash}{6018da16910e0baca3b6c487b726708a}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diversity and Distributions}
+      \field{number}{2}
+      \field{title}{A neutral terminology to define ‘invasive’ species}
+      \field{volume}{10}
+      \field{year}{2004}
+      \field{pages}{135\bibrangedash 141}
+      \range{pages}{7}
+    \endentry
+    \entry{Conner2004}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6293710d27ebaaf3918bd8e346120b7a}{%
+           family={Conner},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=aa49e33be7c96986a68e15376bd3143c}{%
+           family={Hartl},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Sinauer Associates Incorporated}%
+      }
+      \strng{namehash}{92305c40261178c90a8728360f5411e5}
+      \strng{fullhash}{92305c40261178c90a8728360f5411e5}
+      \strng{bibnamehash}{92305c40261178c90a8728360f5411e5}
+      \strng{authorbibnamehash}{92305c40261178c90a8728360f5411e5}
+      \strng{authornamehash}{92305c40261178c90a8728360f5411e5}
+      \strng{authorfullhash}{92305c40261178c90a8728360f5411e5}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A primer of ecological genetics}
+      \field{year}{2004}
+    \endentry
+    \entry{Daehler2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4f30e0d506d7aad68bb07b77dc1bceaa}{%
+           family={Daehler},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f30e0d506d7aad68bb07b77dc1bceaa}
+      \strng{fullhash}{4f30e0d506d7aad68bb07b77dc1bceaa}
+      \strng{bibnamehash}{4f30e0d506d7aad68bb07b77dc1bceaa}
+      \strng{authorbibnamehash}{4f30e0d506d7aad68bb07b77dc1bceaa}
+      \strng{authornamehash}{4f30e0d506d7aad68bb07b77dc1bceaa}
+      \strng{authorfullhash}{4f30e0d506d7aad68bb07b77dc1bceaa}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Ecology, Evolution, and Systematics}
+      \field{title}{Performance comparisons of co-occurring native and alien invasive plants: implications for conservation and restoration}
+      \field{year}{2003}
+      \field{pages}{183\bibrangedash 211}
+      \range{pages}{29}
+    \endentry
+    \entry{Daehler1999}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4f30e0d506d7aad68bb07b77dc1bceaa}{%
+           family={Daehler},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c0a9ef5ba394a9c6f8be7b9ce4cb8782}{%
+           family={Carion},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=13299a0306e85af50b824885329b1883}{%
+           family={Chou},
+           familyi={C\bibinitperiod}}}%
+        {{hash=f4a5f77dbc261a64bd853d05f8410365}{%
+           family={H.},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1d9268ea43695cb7322684f7cd63289d}{%
+           family={Waller},
+           familyi={W\bibinitperiod},
+           given={G.\bibnamedelimi R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=95cfefab3dfeffebce4b7e94e84af46e}{%
+           family={Reinhardt},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Taipei}%
+      }
+      \list{publisher}{1}{%
+        {Academic Sinica}%
+      }
+      \strng{namehash}{c2da21040dcc8ab2854a42952e2eee6e}
+      \strng{fullhash}{c2da21040dcc8ab2854a42952e2eee6e}
+      \strng{bibnamehash}{c2da21040dcc8ab2854a42952e2eee6e}
+      \strng{authorbibnamehash}{c2da21040dcc8ab2854a42952e2eee6e}
+      \strng{authornamehash}{c2da21040dcc8ab2854a42952e2eee6e}
+      \strng{authorfullhash}{c2da21040dcc8ab2854a42952e2eee6e}
+      \strng{editorbibnamehash}{88a5c855b08ab1fcdd6106eaf9ff4549}
+      \strng{editornamehash}{c333d3ad6d3838114f3cf6c2913b2828}
+      \strng{editorfullhash}{88a5c855b08ab1fcdd6106eaf9ff4549}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Biodiversity & Allelopathy: From Organisms to Ecosystems in the Pacific}
+      \field{title}{Threats of invasive plants to the conservation of biodiversity}
+      \field{year}{1999}
+      \field{pages}{21\bibrangedash 7}
+      \range{pages}{7}
+    \endentry
+    \entry{Daehler1994}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4f30e0d506d7aad68bb07b77dc1bceaa}{%
+           family={Daehler},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f33afc6e9507e6ce00674578f57d9744}{%
+           family={Strong},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bba3ec005fae0ce09e6d40f85f935ae}
+      \strng{fullhash}{1bba3ec005fae0ce09e6d40f85f935ae}
+      \strng{bibnamehash}{1bba3ec005fae0ce09e6d40f85f935ae}
+      \strng{authorbibnamehash}{1bba3ec005fae0ce09e6d40f85f935ae}
+      \strng{authornamehash}{1bba3ec005fae0ce09e6d40f85f935ae}
+      \strng{authorfullhash}{1bba3ec005fae0ce09e6d40f85f935ae}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological diversity: problems and challenges}
+      \field{title}{Native plant biodiversity vs the introduced invaders: status of the conflict and future management options}
+      \field{volume}{19}
+      \field{year}{1994}
+      \field{pages}{92}
+      \range{pages}{1}
+    \endentry
+    \entry{Davis2001}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=c42f4e3fbf878f178f99c8f45eed2c7e}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a5368e9a13bf176d01e3a27ed5f6adf0}{%
+           family={Pelsor},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{821a8c4e9292197c7295f1bf43cca62f}
+      \strng{fullhash}{821a8c4e9292197c7295f1bf43cca62f}
+      \strng{bibnamehash}{821a8c4e9292197c7295f1bf43cca62f}
+      \strng{authorbibnamehash}{821a8c4e9292197c7295f1bf43cca62f}
+      \strng{authornamehash}{821a8c4e9292197c7295f1bf43cca62f}
+      \strng{authorfullhash}{821a8c4e9292197c7295f1bf43cca62f}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology letters}
+      \field{number}{5}
+      \field{title}{Experimental support for a resource‐based mechanistic model of invasibility}
+      \field{volume}{4}
+      \field{year}{2001}
+      \field{pages}{421\bibrangedash 428}
+      \range{pages}{8}
+    \endentry
+    \entry{Defelice2001}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3f68c06c7c7315c394c6f1c5a5e2d6f4}{%
+           family={Defelice},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3f68c06c7c7315c394c6f1c5a5e2d6f4}
+      \strng{fullhash}{3f68c06c7c7315c394c6f1c5a5e2d6f4}
+      \strng{bibnamehash}{3f68c06c7c7315c394c6f1c5a5e2d6f4}
+      \strng{authorbibnamehash}{3f68c06c7c7315c394c6f1c5a5e2d6f4}
+      \strng{authornamehash}{3f68c06c7c7315c394c6f1c5a5e2d6f4}
+      \strng{authorfullhash}{3f68c06c7c7315c394c6f1c5a5e2d6f4}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Weed technology}
+      \field{number}{4}
+      \field{title}{Shepherd's-purse, Capsella bursa-pastoris (L.) Medic. 1}
+      \field{volume}{15}
+      \field{year}{2001}
+      \field{pages}{892\bibrangedash 895}
+      \range{pages}{4}
+    \endentry
+    \entry{Egli1980}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2fcb294cf036337b0504f3685e46cb53}{%
+           family={Egli},
+           familyi={E\bibinitperiod},
+           given={D.\bibnamedelimi B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e681927caf603f4a13115b53635a28d3}{%
+           family={Wardlaw},
+           familyi={W\bibinitperiod},
+           given={I.\bibnamedelimi F.},
+           giveni={I\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68fb4e34404bd6519c98705bf188c18c}
+      \strng{fullhash}{68fb4e34404bd6519c98705bf188c18c}
+      \strng{bibnamehash}{68fb4e34404bd6519c98705bf188c18c}
+      \strng{authorbibnamehash}{68fb4e34404bd6519c98705bf188c18c}
+      \strng{authornamehash}{68fb4e34404bd6519c98705bf188c18c}
+      \strng{authorfullhash}{68fb4e34404bd6519c98705bf188c18c}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Agronomy Journal}
+      \field{number}{3}
+      \field{title}{Temperature response of seed growth characteristics of soybeans}
+      \field{volume}{72}
+      \field{year}{1980}
+      \field{pages}{560\bibrangedash 564}
+      \range{pages}{5}
+    \endentry
+    \entry{Ehrenfeld2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=522301e12f81544bdf51f268cef5cbea}{%
+           family={Ehrenfeld},
+           familyi={E\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{522301e12f81544bdf51f268cef5cbea}
+      \strng{fullhash}{522301e12f81544bdf51f268cef5cbea}
+      \strng{bibnamehash}{522301e12f81544bdf51f268cef5cbea}
+      \strng{authorbibnamehash}{522301e12f81544bdf51f268cef5cbea}
+      \strng{authornamehash}{522301e12f81544bdf51f268cef5cbea}
+      \strng{authorfullhash}{522301e12f81544bdf51f268cef5cbea}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecosystems}
+      \field{number}{6}
+      \field{title}{Effects of exotic plant invasions on soil nutrient cycling processes}
+      \field{volume}{6}
+      \field{year}{2003}
+      \field{pages}{503\bibrangedash 523}
+      \range{pages}{21}
+    \endentry
+    \entry{Ellis1986}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=ba120c134797f51bc243a3d7b3093932}{%
+           family={Ellis},
+           familyi={E\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5295a3b8a5805a4e99abda6cd21b925c}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=504ccfe44a6497f2bb5243785392b618}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={E.\bibnamedelimi H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f0d0c284d8dcc5649a7385bc577679dc}
+      \strng{fullhash}{3c6f343093fd5006ab64b6ca2de50575}
+      \strng{bibnamehash}{3c6f343093fd5006ab64b6ca2de50575}
+      \strng{authorbibnamehash}{3c6f343093fd5006ab64b6ca2de50575}
+      \strng{authornamehash}{f0d0c284d8dcc5649a7385bc577679dc}
+      \strng{authorfullhash}{3c6f343093fd5006ab64b6ca2de50575}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of experimental botany}
+      \field{number}{179}
+      \field{title}{Quantal Response of Seed Germination in Brachiaria humidicola, Echinochloa turnerana, Eragrostis tef and Panicum maximum to Photon Dose for the Low Energy Reaction and the High Irradiance Reaction}
+      \field{volume}{37}
+      \field{year}{1986}
+      \field{pages}{742\bibrangedash 753}
+      \range{pages}{12}
+    \endentry
+    \entry{Finch2006}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=7616a3ef8b2b3e32fabb51dac0c3ead9}{%
+           family={Finch‐Savage},
+           familyi={F\bibinitperiod},
+           given={W.\bibnamedelimi E.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b2e7a7ebb59f46da37bea41bbebf4a71}{%
+           family={Leubner‐Metzger},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da0fa7d6c162205cbae0f37476373b50}
+      \strng{fullhash}{da0fa7d6c162205cbae0f37476373b50}
+      \strng{bibnamehash}{da0fa7d6c162205cbae0f37476373b50}
+      \strng{authorbibnamehash}{da0fa7d6c162205cbae0f37476373b50}
+      \strng{authornamehash}{da0fa7d6c162205cbae0f37476373b50}
+      \strng{authorfullhash}{da0fa7d6c162205cbae0f37476373b50}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Phytologist}
+      \field{number}{3}
+      \field{title}{Seed dormancy and the control of germination}
+      \field{volume}{171}
+      \field{year}{2006}
+      \field{pages}{501\bibrangedash 523}
+      \range{pages}{23}
+    \endentry
+    \entry{Froese2003}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=a1fe97e869277d37de0c06b3a99d7475}{%
+           family={Froese},
+           familyi={F\bibinitperiod},
+           given={N.\bibnamedelimi T.},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d71848fd93301b39754e87208f8f8916}{%
+           family={Acker},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi C.\bibnamedelimi Van},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d70749f2fc0459bd0e5846cc67983d97}
+      \strng{fullhash}{d70749f2fc0459bd0e5846cc67983d97}
+      \strng{bibnamehash}{d70749f2fc0459bd0e5846cc67983d97}
+      \strng{authorbibnamehash}{d70749f2fc0459bd0e5846cc67983d97}
+      \strng{authornamehash}{d70749f2fc0459bd0e5846cc67983d97}
+      \strng{authorfullhash}{d70749f2fc0459bd0e5846cc67983d97}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Weed Sci}
+      \field{title}{Distribution and interference of dandelion (Taraxacum officinale) in spring canola}
+      \field{volume}{51}
+      \field{year}{2003}
+      \field{pages}{435\bibrangedash 442}
+      \range{pages}{8}
+    \endentry
+    \entry{Gelman2004}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f088783ee75f9f0908eeb4fa9571a31}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fd9cbf9e3046ffa6a7cecf24e1a46b03}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={Hal\bibnamedelima S},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=49a367b6280de8a239f8bbdd573f996f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall}%
+      }
+      \strng{namehash}{7b511f44eded88e08c98470ecd75568d}
+      \strng{fullhash}{94060b026e45baacbbd40733c715050d}
+      \strng{bibnamehash}{94060b026e45baacbbd40733c715050d}
+      \strng{authorbibnamehash}{94060b026e45baacbbd40733c715050d}
+      \strng{authornamehash}{7b511f44eded88e08c98470ecd75568d}
+      \strng{authorfullhash}{94060b026e45baacbbd40733c715050d}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Incorporating new and updated information, this second edition of THE bestselling text in Bayesian data analysis continues to emphasize practice over theory, describing how to conceptualize, perform, and critique statistical analyses from a Bayesian perspective. Its world-class authors provide guidance on all aspects of Bayesian data analysis and include examples of real statistical analyses, based on their own research, that demonstrate how to solve complicated problems. Changes in the new edition include: Stronger focus on MCMCRevision of the computational advice in Part IIINew chapters on nonlinear models and decision analysisSeveral additional applied examples from the authors' recent researchAdditional chapters on current models for Bayesian data analysis such as nonlinear models, generalized linear mixed models, and moreReorganization of chapters 6 and 7 on model checking and data collectionBayesian computation is currently at a stage where there are many reasonable ways to compute any given posterior distribution. However, the best approach is not always clear ahead of time. Reflecting this, the new edition offers a more pluralistic presentation, giving advice on performing computations from many perspectives while making clear the importance of being aware that there are different ways to implement any given iterative simulation computation. The new approach, additional examples, and updated information make Bayesian Data Analysis an excellent introductory text and a reference that working scientists will use throughout their professional life.}
+      \field{booktitle}{Chapman Texts in Statistical Science Series}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{978-1-4398-9820-8}
+      \field{issn}{1467-9280}
+      \field{title}{{Bayesian Data Analysis}}
+      \field{year}{2004}
+      \field{pages}{696}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s13398-014-0173-7.2
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1011.1669v3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Gelman et al. - 2004 - Chapman Texts in Statistical Science Series.pdf:pdf
+      \endverb
+      \keyw{Gelman}
+    \endentry
+    \entry{Gelman2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3adbd71397c0951dc1fa587d69882939}{%
+           family={Pardoe},
+           familyi={P\bibinitperiod},
+           given={Iain},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{fullhash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{bibnamehash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{authorbibnamehash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{authornamehash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{authorfullhash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a predictive model, what is the expected difference in the out- come associated with a unit difference in one of the inputs? In a linear regression model without interactions, this average predic- tive comparison is simply a regression coefficient (with associated uncertainty). In a model with nonlinearity or interactions, how- ever, the average predictive comparison in general depends on the values of the predictors. We consider various definitions based on averages over a population distribution of the predictors, and we compute standard errors based on uncertainty in model parame- ters. We illustrate with a study of criminal justice data for urban counties in the United States. The outcome of interest measures whether a convicted felon received a prison sentence rather than a}
+      \field{isbn}{00811750}
+      \field{issn}{00811750}
+      \field{journaltitle}{Sociological Methodology}
+      \field{number}{1}
+      \field{title}{{Average predictive comparisons for models with nonlinearity, interactions, and variance components}}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{pages}{23\bibrangedash 51}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1111/j.1467-9531.2007.00181.x
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/ape17.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Guilioni2003}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d1e573e275dc028257fc10f300e32055}{%
+           family={Guilioni},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=991c4a4d01587ea01d349fb67f5167e7}{%
+           family={Wéry},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=918a7745780191ab7e5881fac45e4673}{%
+           family={Lecoeur},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f7c7f35a9502202a22c35ca7f069504a}
+      \strng{fullhash}{050607cbf2ffa9d194c0145eb1db51a2}
+      \strng{bibnamehash}{050607cbf2ffa9d194c0145eb1db51a2}
+      \strng{authorbibnamehash}{050607cbf2ffa9d194c0145eb1db51a2}
+      \strng{authornamehash}{f7c7f35a9502202a22c35ca7f069504a}
+      \strng{authorfullhash}{050607cbf2ffa9d194c0145eb1db51a2}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Functional Plant Biology}
+      \field{number}{11}
+      \field{title}{High temperature and water deficit may reduce seed number in field pea purely by decreasing plant growth rate}
+      \field{volume}{30}
+      \field{year}{2003}
+      \field{pages}{1151\bibrangedash 1164}
+      \range{pages}{14}
+    \endentry
+    \entry{Hartmann2010}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f08dd312f0dde3a73f0d194e63e800e4}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={H.\bibnamedelimi T.},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=26ec167ad9d3fabc64215e09d73339b6}{%
+           family={Kester},
+           familyi={K\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice-Hall}%
+      }
+      \strng{namehash}{be1e434b4e513f8b7704adde43a99b71}
+      \strng{fullhash}{be1e434b4e513f8b7704adde43a99b71}
+      \strng{bibnamehash}{be1e434b4e513f8b7704adde43a99b71}
+      \strng{authorbibnamehash}{be1e434b4e513f8b7704adde43a99b71}
+      \strng{authornamehash}{be1e434b4e513f8b7704adde43a99b71}
+      \strng{authorfullhash}{be1e434b4e513f8b7704adde43a99b71}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Plant propagation: principles and practices}
+      \field{year}{2010}
+    \endentry
+    \entry{Helmus2014}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c57bfa45b7d35a0a0da97087a78bbc11}{%
+           family={Helmus},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=62072d7d38d7062fa21e7d6721147a9d}{%
+           family={Mahler},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7cc1b2d0ae056d0db57dbc581df742f8}{%
+           family={Losos},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5e2624b68f93f4dfbce36cf15501e599}
+      \strng{fullhash}{49da6009735da34388b42f2ced1047f1}
+      \strng{bibnamehash}{49da6009735da34388b42f2ced1047f1}
+      \strng{authorbibnamehash}{49da6009735da34388b42f2ced1047f1}
+      \strng{authornamehash}{5e2624b68f93f4dfbce36cf15501e599}
+      \strng{authorfullhash}{49da6009735da34388b42f2ced1047f1}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Island biogeography of the Anthropocene}
+      \field{volume}{513}
+      \field{year}{2014}
+      \field{pages}{543\bibrangedash 546}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature13739
+      \endverb
+    \endentry
+    \entry{Holm1979}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=40739defdcc3c759a982b7aa36f2e10f}{%
+           family={Holm},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8b158ed8c6a49364bdf9969e4b5d95a5}{%
+           family={Pancho},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=be6ecd7cdb983b6ab0ac31438276759b}{%
+           family={Herberger},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b51a444b52c261fb9e78969018b932c}{%
+           family={Plucknett},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons}%
+      }
+      \strng{namehash}{393c5534ead69b2fb4e9d7ce1f8bad1e}
+      \strng{fullhash}{f0e69ae2675378f1c69d1f7a70e3a081}
+      \strng{bibnamehash}{f0e69ae2675378f1c69d1f7a70e3a081}
+      \strng{authorbibnamehash}{f0e69ae2675378f1c69d1f7a70e3a081}
+      \strng{authornamehash}{393c5534ead69b2fb4e9d7ce1f8bad1e}
+      \strng{authorfullhash}{f0e69ae2675378f1c69d1f7a70e3a081}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Geographical Atlas of World Weeds}
+      \field{year}{1979}
+    \endentry
+    \entry{Holm1977}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=40739defdcc3c759a982b7aa36f2e10f}{%
+           family={Holm},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b51a444b52c261fb9e78969018b932c}{%
+           family={Plucknett},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8b158ed8c6a49364bdf9969e4b5d95a5}{%
+           family={Pancho},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=be6ecd7cdb983b6ab0ac31438276759b}{%
+           family={Herberger},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Univ. Press of Hawaii, Honolulu, Hawaii}%
+      }
+      \list{publisher}{1}{%
+        {East-West Center Book}%
+      }
+      \strng{namehash}{393c5534ead69b2fb4e9d7ce1f8bad1e}
+      \strng{fullhash}{3ead4bb51cdb95b7cc229e05a881f00d}
+      \strng{bibnamehash}{3ead4bb51cdb95b7cc229e05a881f00d}
+      \strng{authorbibnamehash}{3ead4bb51cdb95b7cc229e05a881f00d}
+      \strng{authornamehash}{393c5534ead69b2fb4e9d7ce1f8bad1e}
+      \strng{authorfullhash}{3ead4bb51cdb95b7cc229e05a881f00d}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The world's worst weeds}
+      \field{year}{1977}
+    \endentry
+    \entry{Hulme2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=34493f43e40fa2f4fcac62686f8db3f5}{%
+           family={Hulme},
+           familyi={H\bibinitperiod},
+           given={P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d019c626b821f3d12b2e500b7216e431}{%
+           family={Pyšek},
+           familyi={P\bibinitperiod},
+           given={Jarošík},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           suffix={P.},
+           suffixi={P\bibinitperiod},
+           suffixun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b8869a783bb829ea81b6f2ecd7eafe96}{%
+           family={V.\bibnamedelimi C.},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Pergl},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e16e1be8e81f7bb2ed1a1742219faf1f}{%
+           family={J.},
+           familyi={J\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0,
+           suffix={Schaffner},
+           suffixi={S\bibinitperiod},
+           suffixun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6f19f6423c1966823e33ecc883b1e75b}{%
+           family={Vilà},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e732df3ae9bcba25c9ad776c2c19a65}
+      \strng{fullhash}{a1781111b2adac8aa242efcd7502e3b6}
+      \strng{bibnamehash}{a1781111b2adac8aa242efcd7502e3b6}
+      \strng{authorbibnamehash}{a1781111b2adac8aa242efcd7502e3b6}
+      \strng{authornamehash}{8e732df3ae9bcba25c9ad776c2c19a65}
+      \strng{authorfullhash}{a1781111b2adac8aa242efcd7502e3b6}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Ecology Evolution}
+      \field{title}{Bias and error in understanding plant invasion impacts}
+      \field{volume}{28}
+      \field{year}{2013}
+      \field{pages}{212\bibrangedash 218}
+      \range{pages}{7}
+    \endentry
+    \entry{Hutchinson1965}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4be5ca2d0ed9cef295b2e8e54fa51653}{%
+           family={Hutchinson},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4be5ca2d0ed9cef295b2e8e54fa51653}
+      \strng{fullhash}{4be5ca2d0ed9cef295b2e8e54fa51653}
+      \strng{bibnamehash}{4be5ca2d0ed9cef295b2e8e54fa51653}
+      \strng{authorbibnamehash}{4be5ca2d0ed9cef295b2e8e54fa51653}
+      \strng{authornamehash}{4be5ca2d0ed9cef295b2e8e54fa51653}
+      \strng{authorfullhash}{4be5ca2d0ed9cef295b2e8e54fa51653}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{he ecological theatre and the evolutionary play}
+      \field{title}{The niche: an abstractly inhabited hypervolume}
+      \field{year}{1965}
+      \field{pages}{26\bibrangedash 78}
+      \range{pages}{53}
+    \endentry
+    \entry{IUCN2008is}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c049da5f6649d6d3466b6c48405ba239}{%
+           family={{IUCN (International Union for Conservation of Nature)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Invasive Species Specialist Group, IUCN}%
+      }
+      \list{location}{1}{%
+        {Gland, Switzerland}%
+      }
+      \strng{namehash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{fullhash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{bibnamehash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{authorbibnamehash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{authornamehash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{authorfullhash}{c049da5f6649d6d3466b6c48405ba239}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{About invasive species}}
+      \field{type}{techreport}
+      \field{year}{2008}
+    \endentry
+    \entry{Knobloch1996}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d4f4318e10c124df410df2a72a16656b}{%
+           family={Knobloch},
+           familyi={K\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of North Carolina Press}%
+      }
+      \strng{namehash}{d4f4318e10c124df410df2a72a16656b}
+      \strng{fullhash}{d4f4318e10c124df410df2a72a16656b}
+      \strng{bibnamehash}{d4f4318e10c124df410df2a72a16656b}
+      \strng{authorbibnamehash}{d4f4318e10c124df410df2a72a16656b}
+      \strng{authornamehash}{d4f4318e10c124df410df2a72a16656b}
+      \strng{authorfullhash}{d4f4318e10c124df410df2a72a16656b}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The culture of wilderness: Agriculture as colonization in the American West}
+      \field{year}{1996}
+    \endentry
+    \entry{Lamarque2015}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=5ae3ffb7d3599c6d8ab5e525ac6d1e51}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=14f66328be2838cc38a72de954f73fa0}{%
+           family={Lortie},
+           familyi={L\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1a28588962c0d39da367aa47e259acd4}{%
+           family={Porté},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=06c0aa5ed82c790402b89a68c40f2afa}{%
+           family={Delzon},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3bf3eff55428d2358fe07c01043b920}
+      \strng{fullhash}{4344f75a572df0569f020c91e5ac697f}
+      \strng{bibnamehash}{4344f75a572df0569f020c91e5ac697f}
+      \strng{authorbibnamehash}{4344f75a572df0569f020c91e5ac697f}
+      \strng{authornamehash}{f3bf3eff55428d2358fe07c01043b920}
+      \strng{authorfullhash}{4344f75a572df0569f020c91e5ac697f}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Invasions}
+      \field{number}{4}
+      \field{title}{Genetic differentiation and phenotypic plasticity in life-history traits between native and introduced populations of invasive maple trees}
+      \field{volume}{17}
+      \field{year}{2015}
+      \field{pages}{1109\bibrangedash 1122}
+      \range{pages}{14}
+    \endentry
+    \entry{Lambrinos2004}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6ac06ffff401877ef918cb80512f153c}{%
+           family={Lambrinos},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6ac06ffff401877ef918cb80512f153c}
+      \strng{fullhash}{6ac06ffff401877ef918cb80512f153c}
+      \strng{bibnamehash}{6ac06ffff401877ef918cb80512f153c}
+      \strng{authorbibnamehash}{6ac06ffff401877ef918cb80512f153c}
+      \strng{authornamehash}{6ac06ffff401877ef918cb80512f153c}
+      \strng{authorfullhash}{6ac06ffff401877ef918cb80512f153c}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology}
+      \field{number}{8}
+      \field{title}{How interactions between ecology and evolution influence contemporary invasion dynamics}
+      \field{volume}{85}
+      \field{year}{2004}
+      \field{pages}{2061\bibrangedash 2070}
+      \range{pages}{10}
+    \endentry
+    \entry{Mark2001}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=183ff6670c431d8b2a44661cbfc7622c}{%
+           family={Mack},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima N},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=899a629e9bcf80cb7e3e3e7c911962b8}{%
+           family={Lonsdale},
+           familyi={L\bibinitperiod},
+           given={W\bibnamedelima Mark},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Biological Sciences}%
+      }
+      \strng{namehash}{ea0a3e51985debbb17834b9f32ef3be7}
+      \strng{fullhash}{ea0a3e51985debbb17834b9f32ef3be7}
+      \strng{bibnamehash}{ea0a3e51985debbb17834b9f32ef3be7}
+      \strng{authorbibnamehash}{ea0a3e51985debbb17834b9f32ef3be7}
+      \strng{authornamehash}{ea0a3e51985debbb17834b9f32ef3be7}
+      \strng{authorfullhash}{ea0a3e51985debbb17834b9f32ef3be7}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BioScience}
+      \field{number}{2}
+      \field{title}{Humans as Global Plant Dispersers: Getting More Than We Bargained For: Current introductions of species for aesthetic purposes present the largest single challenge for predicting which plant immigrants will become future pests}
+      \field{volume}{51}
+      \field{year}{2001}
+      \field{pages}{95\bibrangedash 102}
+      \range{pages}{8}
+    \endentry
+    \entry{McKinney1999}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=22f2deb992a912dcbcf558bc1a95faf7}{%
+           family={McKinney},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8940445abc9623afbfc28c8d7dc3e5fb}{%
+           family={Lockwood},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ebd707117271c56578e014fe9ce0d9e5}
+      \strng{fullhash}{ebd707117271c56578e014fe9ce0d9e5}
+      \strng{bibnamehash}{ebd707117271c56578e014fe9ce0d9e5}
+      \strng{authorbibnamehash}{ebd707117271c56578e014fe9ce0d9e5}
+      \strng{authornamehash}{ebd707117271c56578e014fe9ce0d9e5}
+      \strng{authorfullhash}{ebd707117271c56578e014fe9ce0d9e5}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends Ecology & Evolution}
+      \field{title}{Biotic homegenizaiton: a few winners replacing many losers in the next mass extinction}
+      \field{volume}{14}
+      \field{year}{1999}
+      \field{pages}{450\bibrangedash 3}
+      \range{pages}{4}
+    \endentry
+    \entry{Meekins1999}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=534bc3b0275e36d096d6a049512e38b9}{%
+           family={Meekins},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5daea02268442f36dbe89a398701d56b}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={B.\bibnamedelimi C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fadb74ffa5088d3916783b029e75129c}
+      \strng{fullhash}{fadb74ffa5088d3916783b029e75129c}
+      \strng{bibnamehash}{fadb74ffa5088d3916783b029e75129c}
+      \strng{authorbibnamehash}{fadb74ffa5088d3916783b029e75129c}
+      \strng{authornamehash}{fadb74ffa5088d3916783b029e75129c}
+      \strng{authorfullhash}{fadb74ffa5088d3916783b029e75129c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Plant Sciences}
+      \field{number}{4}
+      \field{title}{Competitive ability of Alliaria petiolata (garlic mustard, Brassicaceae), an invasive, nonindigenous forest herb}
+      \field{volume}{160}
+      \field{year}{1999}
+      \field{pages}{743\bibrangedash 752}
+      \range{pages}{10}
+    \endentry
+    \entry{Moser1996}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=cbb7977eb86317fa7a4be4364914e87a}{%
+           family={Moser},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8a23e9b575c98a97dd47a205a484dcb6}{%
+           family={Buxton},
+           familyi={B\bibinitperiod},
+           given={M.eds},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           suffix={D.\bibnamedelimi Casler},
+           suffixi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{eab01379a7f7f5c0cc49b1fe5078928a}
+      \strng{fullhash}{eab01379a7f7f5c0cc49b1fe5078928a}
+      \strng{bibnamehash}{eab01379a7f7f5c0cc49b1fe5078928a}
+      \strng{authorbibnamehash}{eab01379a7f7f5c0cc49b1fe5078928a}
+      \strng{authornamehash}{eab01379a7f7f5c0cc49b1fe5078928a}
+      \strng{authorfullhash}{eab01379a7f7f5c0cc49b1fe5078928a}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Society of Agronomy, Crop Science Society of America, Soil Science Society of America}
+      \field{title}{Cool-Season Forage Grasses. Agronomy Monograph No. 34}
+      \field{year}{1996}
+      \field{pages}{503\bibrangedash 534}
+      \range{pages}{32}
+    \endentry
+    \entry{Munro2019}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=b29cf439cffd25c780b97a0e4307c481}{%
+           family={Munro},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=57f44c2981f213f894e5bf38beae63a1}{%
+           family={Steer},
+           familyi={S\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=41d990f85b90d56e5ba7e477a32b8b66}{%
+           family={Linklater},
+           familyi={L\bibinitperiod},
+           given={Wayne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6b89707787ddf8301c3bc7a736039a9}
+      \strng{fullhash}{08680a7213d2c973324bc4765a47f7df}
+      \strng{bibnamehash}{08680a7213d2c973324bc4765a47f7df}
+      \strng{authorbibnamehash}{08680a7213d2c973324bc4765a47f7df}
+      \strng{authornamehash}{d6b89707787ddf8301c3bc7a736039a9}
+      \strng{authorfullhash}{08680a7213d2c973324bc4765a47f7df}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Science denialism retards evidenced-based policy and practice and should be challenged. It has been a particular concern for mitigating global environmental issues, like anthropogenic climate change. But allegations of science denialism must also be well founded and evidential or they risk eroding public-trust in science and scientists. Recently, 67 scholars, scientists and science writers were accused of „invasive species denialism‟ (ISD) – the rejection of well-supported facts about invasive species, particularly the global scientific consensus about their negative impacts. We re-evaluated the ISD literature but could find no examples where scientific facts were refuted and just five articles with text perhaps consistent with one of the five characteristics of science denialism. We found, therefore, that allegations of ISD were misplaced. To understand why these accusations of science denialism have occurred we make two observations. First, invasion biology defines its subjects – invasive species – using multiple subjective and normative judgements. Thus, more than other applied sciences its consensus is one of shared values as much as agreed knowledge. Second, criticisms of invasion biology have largely targeted those subjective and normative judgments and their global imposition, not the discipline‟s knowledge. Regrettably, a few invasion biologists have misinterpreted the critique of their values-based consensus as a denial of their science when it is not. We provide some recommendations for making invasion biology a more robust and widely accepted, conservation science. A key recommendation is that invasion biology could avoid unnecessary misunderstandings and conflicts by being more accepting of perspectives originating from other disciplines, and more open to values-based critique from other scholars and scientists. This recommendation applies to all conservation sciences, especially those addressing global challenges, because they must serve and be relevant to communities with an extraordinary diversity of cultures and values.}
+      \field{issn}{15231739}
+      \field{journaltitle}{Conservation Biology}
+      \field{number}{4}
+      \field{title}{{On allegations of invasive species denialism}}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{pages}{797\bibrangedash 802}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1111/cobi.13278
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Munro{\_}et{\_}al-2019-Conservation{\_}Biology.pdf:pdf
+      \endverb
+      \keyw{biolog{í}a de la invasi{ó}n,datos,discourse,discurso,facts,invasion biology,negaci{ó}n de la ciencia,normative,normativo,science denialism,subjective,subjetivo,valores,values,否定科学主义,入侵生物学,价值观,事实,论述,规范性,主观性}
+    \endentry
+    \entry{AOSA1960}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=da8935ee69f7058d59f1220d91337ec5}{%
+           family={Official\bibnamedelimb Seed\bibnamedelima Analysts.},
+           familyi={O\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Association},
+           giveni={A\bibinitperiod},
+           givenun=0,
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Proc. Assoc. Off. Seed Anal.}%
+      }
+      \strng{namehash}{da8935ee69f7058d59f1220d91337ec5}
+      \strng{fullhash}{da8935ee69f7058d59f1220d91337ec5}
+      \strng{bibnamehash}{da8935ee69f7058d59f1220d91337ec5}
+      \strng{authorbibnamehash}{da8935ee69f7058d59f1220d91337ec5}
+      \strng{authornamehash}{da8935ee69f7058d59f1220d91337ec5}
+      \strng{authorfullhash}{da8935ee69f7058d59f1220d91337ec5}
+      \field{sortinit}{o}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rules for testing seeds}
+      \field{type}{techreport}
+      \field{year}{1960}
+    \endentry
+    \entry{Ogle2011}{report}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=700e3fa7771dbad33ca3c6099747d5fa}{%
+           family={Ogle},
+           familyi={O\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=791e0d8d3549dc5373ea2a688975007b}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={L.\bibnamedelimi St.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=10bdfd31f9c60c212d89cf3f46a06546}{%
+           family={Stannard},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=157e8056ae1680d67ed9956166feb074}{%
+           family={Holzworth},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {USDA-Natural Resources Conservation Service. Boise, ID.}%
+      }
+      \strng{namehash}{b551481147412ca3fed138792d97953f}
+      \strng{fullhash}{b9c78c2d1eb92f57edf1ec18ea402aec}
+      \strng{bibnamehash}{b9c78c2d1eb92f57edf1ec18ea402aec}
+      \strng{authorbibnamehash}{b9c78c2d1eb92f57edf1ec18ea402aec}
+      \strng{authornamehash}{b551481147412ca3fed138792d97953f}
+      \strng{authorfullhash}{b9c78c2d1eb92f57edf1ec18ea402aec}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Technical Note 24.}
+      \field{title}{Conservation Plant Materials for the Intermountain West}
+      \field{type}{techreport}
+      \field{year}{2011}
+    \endentry
+    \entry{OTA1993}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1087bec7ef12911010976d203f36fd7f}{%
+           family={OTA},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Office of Technology Assessment, United States Congress, Washington, DC.}%
+      }
+      \strng{namehash}{1087bec7ef12911010976d203f36fd7f}
+      \strng{fullhash}{1087bec7ef12911010976d203f36fd7f}
+      \strng{bibnamehash}{1087bec7ef12911010976d203f36fd7f}
+      \strng{authorbibnamehash}{1087bec7ef12911010976d203f36fd7f}
+      \strng{authornamehash}{1087bec7ef12911010976d203f36fd7f}
+      \strng{authorfullhash}{1087bec7ef12911010976d203f36fd7f}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Harmful Non-Indigenous Species in the United States}
+      \field{type}{techreport}
+      \field{year}{1993}
+    \endentry
+    \entry{Pejchar2009}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=415dc612352c8a63611816fe89a3c6aa}{%
+           family={Pejchar},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=14d00c65722d5e56712eebe028074101}{%
+           family={Mooney},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12259d58b818d7c6b860af89b62967d3}
+      \strng{fullhash}{12259d58b818d7c6b860af89b62967d3}
+      \strng{bibnamehash}{12259d58b818d7c6b860af89b62967d3}
+      \strng{authorbibnamehash}{12259d58b818d7c6b860af89b62967d3}
+      \strng{authornamehash}{12259d58b818d7c6b860af89b62967d3}
+      \strng{authorfullhash}{12259d58b818d7c6b860af89b62967d3}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Ecology and Evolution}
+      \field{title}{Invasive species, ecosystem services and human well-being}
+      \field{volume}{24}
+      \field{year}{2009}
+      \field{pages}{497\bibrangedash 504}
+      \range{pages}{8}
+    \endentry
+    \entry{Pimentel2005}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=74f193d4e6fe116c5788695a9bf0bb9b}{%
+           family={Pimentel},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b23b1abeba629f5cf53b883be1069be2}{%
+           family={Zuniga},
+           familyi={Z\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=71cbc056d9a0e43f9eed2ae5e55c1e60}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{26ae0c8db5dd300ef6ee8242fdd67961}
+      \strng{fullhash}{df180834d1ce9160592c978956c2bbf4}
+      \strng{bibnamehash}{df180834d1ce9160592c978956c2bbf4}
+      \strng{authorbibnamehash}{df180834d1ce9160592c978956c2bbf4}
+      \strng{authornamehash}{26ae0c8db5dd300ef6ee8242fdd67961}
+      \strng{authorfullhash}{df180834d1ce9160592c978956c2bbf4}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological economics}
+      \field{number}{3}
+      \field{title}{Update on the environmental and economic costs associated with alien-invasive species in the United States}
+      \field{volume}{52}
+      \field{year}{2005}
+      \field{pages}{273\bibrangedash 288}
+      \range{pages}{16}
+    \endentry
+    \entry{Pons1991}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=daa2be86db44deab9df879e500f50468}{%
+           family={Pons},
+           familyi={P\bibinitperiod},
+           given={T.\bibnamedelimi L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{daa2be86db44deab9df879e500f50468}
+      \strng{fullhash}{daa2be86db44deab9df879e500f50468}
+      \strng{bibnamehash}{daa2be86db44deab9df879e500f50468}
+      \strng{authorbibnamehash}{daa2be86db44deab9df879e500f50468}
+      \strng{authornamehash}{daa2be86db44deab9df879e500f50468}
+      \strng{authorfullhash}{daa2be86db44deab9df879e500f50468}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Functional Ecology}
+      \field{title}{Induction of dark-dormancy in seeds: its importance for the seed bank in the soil}
+      \field{volume}{5}
+      \field{year}{1991}
+      \field{pages}{669\bibrangedash 675}
+      \range{pages}{7}
+    \endentry
+    \entry{Pons2000}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=daa2be86db44deab9df879e500f50468}{%
+           family={Pons},
+           familyi={P\bibinitperiod},
+           given={T.\bibnamedelimi L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{daa2be86db44deab9df879e500f50468}
+      \strng{fullhash}{daa2be86db44deab9df879e500f50468}
+      \strng{bibnamehash}{daa2be86db44deab9df879e500f50468}
+      \strng{authorbibnamehash}{daa2be86db44deab9df879e500f50468}
+      \strng{authornamehash}{daa2be86db44deab9df879e500f50468}
+      \strng{authorfullhash}{daa2be86db44deab9df879e500f50468}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Seeds: the ecology of regeneration in plant communities}
+      \field{title}{Seed responses to light}
+      \field{year}{2000}
+      \field{pages}{237\bibrangedash 260}
+      \range{pages}{24}
+    \endentry
+    \entry{Popay1970}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6663fea55ee8a8bcd7b7719a6bde113c}{%
+           family={Popay},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=504ccfe44a6497f2bb5243785392b618}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={E.\bibnamedelimi H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{92993f2fd82e7794ec42bb27e3136098}
+      \strng{fullhash}{92993f2fd82e7794ec42bb27e3136098}
+      \strng{bibnamehash}{92993f2fd82e7794ec42bb27e3136098}
+      \strng{authorbibnamehash}{92993f2fd82e7794ec42bb27e3136098}
+      \strng{authornamehash}{92993f2fd82e7794ec42bb27e3136098}
+      \strng{authorfullhash}{92993f2fd82e7794ec42bb27e3136098}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Ecology}
+      \field{title}{Factors involved in the dormancy and germination of Capsella bursa-pastoris (L.) Medik. and Senecio vulgaris L}
+      \field{year}{1970}
+      \field{pages}{103\bibrangedash 122}
+      \range{pages}{20}
+    \endentry
+    \entry{Probert2000}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bdf605bdd0332db6c55473a7c939657b}{%
+           family={Probert},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bdf605bdd0332db6c55473a7c939657b}
+      \strng{fullhash}{bdf605bdd0332db6c55473a7c939657b}
+      \strng{bibnamehash}{bdf605bdd0332db6c55473a7c939657b}
+      \strng{authorbibnamehash}{bdf605bdd0332db6c55473a7c939657b}
+      \strng{authornamehash}{bdf605bdd0332db6c55473a7c939657b}
+      \strng{authorfullhash}{bdf605bdd0332db6c55473a7c939657b}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Seeds: the ecology of regeneration in plant communities}
+      \field{title}{The role of temperature in the regulation of seed dormancy and germination}
+      \field{volume}{2}
+      \field{year}{2000}
+      \field{pages}{261\bibrangedash 292}
+      \range{pages}{32}
+    \endentry
+    \entry{Probert1986}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=bdf605bdd0332db6c55473a7c939657b}{%
+           family={Probert},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a104dfbc28c6d967b6dc0a7f9ab58034}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=96ee1913775380f517237d729c862193}{%
+           family={Birch},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f8acd5f88666b954bd620646909e79d}
+      \strng{fullhash}{2c824710524db29bbc9ca3e20d2b608d}
+      \strng{bibnamehash}{2c824710524db29bbc9ca3e20d2b608d}
+      \strng{authorbibnamehash}{2c824710524db29bbc9ca3e20d2b608d}
+      \strng{authornamehash}{2f8acd5f88666b954bd620646909e79d}
+      \strng{authorfullhash}{2c824710524db29bbc9ca3e20d2b608d}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Phytologists}
+      \field{title}{Germination response to light and alternating temperatures in European populations of Dactylis glomerata L}
+      \field{volume}{99}
+      \field{year}{1986}
+      \field{pages}{305\bibrangedash 316}
+      \range{pages}{12}
+    \endentry
+    \entry{Pysek2002}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=db322a73ce89d75cca55862f5c1243b7}{%
+           family={Py{š}ek},
+           familyi={P\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0ea6c858e3bde805c52dc84c3a701814}{%
+           family={Jaro{š}{í}k},
+           familyi={J\bibinitperiod},
+           given={Vojt{ě}ch},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c7a21b15af77e604160740ec2c981ef5}{%
+           family={Ku{č}era},
+           familyi={K\bibinitperiod},
+           given={Tom{á}{š}},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7ab1e0d9df2a5f21d87f39c6fae6f07a}
+      \strng{fullhash}{2d98e8e06f820dd87476a789c798dc3a}
+      \strng{bibnamehash}{2d98e8e06f820dd87476a789c798dc3a}
+      \strng{authorbibnamehash}{2d98e8e06f820dd87476a789c798dc3a}
+      \strng{authornamehash}{7ab1e0d9df2a5f21d87f39c6fae6f07a}
+      \strng{authorfullhash}{2d98e8e06f820dd87476a789c798dc3a}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Conservation}
+      \field{number}{1}
+      \field{title}{Patterns of invasion in temperate nature reserves}
+      \field{volume}{104}
+      \field{year}{2002}
+      \field{pages}{13\bibrangedash 24}
+      \range{pages}{12}
+    \endentry
+    \entry{Pysek2010}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=db322a73ce89d75cca55862f5c1243b7}{%
+           family={Py{š}ek},
+           familyi={P\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=2,uniquepart=given,hash=e0c4599f48086a3f274ec10fa7b91ccf}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{562c01826bab58d49f6305d1e3cdfe9f}
+      \strng{fullhash}{562c01826bab58d49f6305d1e3cdfe9f}
+      \strng{bibnamehash}{562c01826bab58d49f6305d1e3cdfe9f}
+      \strng{authorbibnamehash}{562c01826bab58d49f6305d1e3cdfe9f}
+      \strng{authornamehash}{562c01826bab58d49f6305d1e3cdfe9f}
+      \strng{authorfullhash}{562c01826bab58d49f6305d1e3cdfe9f}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Invasive species are a major element of global change and are contributing to biodiversity loss, ecosystem degradation, and impairment of ecosystem services worldwide. Research is shedding new light on the ecological and economic consequences of invasions. New approaches are emerging for describing and evaluating impacts of invasive species, and for translating these impacts into monetary terms. The harmful effects of invasions are now widely recognized, and multiscale programs are in place in many parts of the world to reduce current and future impacts. There has been an upsurge in scientific research aimed at guiding management interventions. Among the activities that are receiving the most attention and that have the most promise for reducing problems are risk assessment, pathway and vector management, early detection, rapid response, and new approaches to mitigation and restoration. Screening protocols to reduce new introductions are becoming more accurate and have been shown cost-effective.}
+      \field{journaltitle}{Ssrn}
+      \field{title}{{Invasive Species, Environmental Change and Management, and Health}}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1146/annurev-environ-033009-095548
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/annurev-environ-033009-095548.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Richards2006}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=23bbbb9cf1dbe46a9a92a1684a5394cb}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3955141c9b0ff9770808cedc7fc71af1}{%
+           family={Bossdorf},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0fc4dd659a5eed7aafb053889e4568a4}{%
+           family={Muth},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a82f1d68e3a2f8a49984f16688dfa959}{%
+           family={Z.},
+           familyi={Z\bibinitperiod},
+           given={Gurevitch\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=02fa0880f24d190d21366de8aae2b594}{%
+           family={Pigliucci},
+           familyi={P\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44abb6770d53145646bf79148bbaa51e}
+      \strng{fullhash}{2f34d0097e8e27102ba9d2098af8011b}
+      \strng{bibnamehash}{2f34d0097e8e27102ba9d2098af8011b}
+      \strng{authorbibnamehash}{2f34d0097e8e27102ba9d2098af8011b}
+      \strng{authornamehash}{44abb6770d53145646bf79148bbaa51e}
+      \strng{authorfullhash}{2f34d0097e8e27102ba9d2098af8011b}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology Letters}
+      \field{title}{Jack of all trades, master of some? On the role of phenotypic plasticity in plant invasions}
+      \field{volume}{9}
+      \field{year}{2006}
+      \field{pages}{981\bibrangedash 993}
+      \range{pages}{13}
+    \endentry
+    \entry{Richardson2011}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=2,uniquepart=given,hash=1349d69667ad1cd653a01ec90b9f7025}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+        {{uniquename=0,uniquepart=base,hash=ed8d66491dd908df494a22281d8cf4d7}{%
+           family={Pyšek},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2feb6cdb572ef4b98483b2c568dab067}{%
+           family={Carlton},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20c341ea9bc629763a821cb9dc87c778}
+      \strng{fullhash}{8c2698187bc149286efa18148d129820}
+      \strng{bibnamehash}{8c2698187bc149286efa18148d129820}
+      \strng{authorbibnamehash}{8c2698187bc149286efa18148d129820}
+      \strng{authornamehash}{20c341ea9bc629763a821cb9dc87c778}
+      \strng{authorfullhash}{8c2698187bc149286efa18148d129820}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fifty years of invasion ecology: the legacy of Charles Elton}
+      \field{title}{A compendium of essential concepts and terminology in invasion ecology}
+      \field{year}{2011}
+      \field{pages}{409\bibrangedash 420}
+      \range{pages}{12}
+    \endentry
+    \entry{Richardson2000}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=2,uniquepart=given,hash=1349d69667ad1cd653a01ec90b9f7025}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+        {{uniquename=0,uniquepart=base,hash=ed8d66491dd908df494a22281d8cf4d7}{%
+           family={Pyšek},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9d40ac156345854a2c40cff263baccec}{%
+           family={Rejmánek},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e591c9d813888b5cfa2b09dd1087bb2f}{%
+           family={Barbour},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=65870a8091c39b7345c0fd0e149c901c}{%
+           family={Panetta},
+           familyi={P\bibinitperiod},
+           given={F.\bibnamedelimi D.},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7d460e7482060dcefbf0c73730c9040f}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20c341ea9bc629763a821cb9dc87c778}
+      \strng{fullhash}{8af3370605f9da6d4dd353adf0e710d0}
+      \strng{bibnamehash}{8af3370605f9da6d4dd353adf0e710d0}
+      \strng{authorbibnamehash}{8af3370605f9da6d4dd353adf0e710d0}
+      \strng{authornamehash}{20c341ea9bc629763a821cb9dc87c778}
+      \strng{authorfullhash}{8af3370605f9da6d4dd353adf0e710d0}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diversity and distributions}
+      \field{number}{2}
+      \field{title}{Naturalization and invasion of alien plants: concepts and definitions}
+      \field{volume}{6}
+      \field{year}{2000}
+      \field{pages}{93\bibrangedash 107}
+      \range{pages}{15}
+    \endentry
+    \entry{Roberts1987}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=504ccfe44a6497f2bb5243785392b618}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={E.\bibnamedelimi H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=872746191eba209224346d0d9f92316d}{%
+           family={Murdoch},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ba120c134797f51bc243a3d7b3093932}{%
+           family={Ellis},
+           familyi={E\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aa0faff17680fed686e03b43754bc630}
+      \strng{fullhash}{a5fbe9eea178ea23d06cdd16e412c76a}
+      \strng{bibnamehash}{a5fbe9eea178ea23d06cdd16e412c76a}
+      \strng{authorbibnamehash}{a5fbe9eea178ea23d06cdd16e412c76a}
+      \strng{authornamehash}{aa0faff17680fed686e03b43754bc630}
+      \strng{authorfullhash}{a5fbe9eea178ea23d06cdd16e412c76a}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British crop protection conference weeds}
+      \field{number}{1}
+      \field{title}{The interaction of environmental factors on seed dormancy}
+      \field{volume}{7C}
+      \field{year}{1987}
+      \field{pages}{687\bibrangedash 694}
+      \range{pages}{8}
+    \endentry
+    \entry{Roberts1981}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=504ccfe44a6497f2bb5243785392b618}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={E.\bibnamedelimi H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f191bbd9569522b7c38071fd3ae305db}{%
+           family={Totterdell},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{60fca02f0c66a258c94c40fc0be9922f}
+      \strng{fullhash}{60fca02f0c66a258c94c40fc0be9922f}
+      \strng{bibnamehash}{60fca02f0c66a258c94c40fc0be9922f}
+      \strng{authorbibnamehash}{60fca02f0c66a258c94c40fc0be9922f}
+      \strng{authornamehash}{60fca02f0c66a258c94c40fc0be9922f}
+      \strng{authorfullhash}{60fca02f0c66a258c94c40fc0be9922f}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plant, Cell & Environment}
+      \field{number}{2}
+      \field{title}{Seed dormancy in Rumex species in response to environmental factors}
+      \field{volume}{4}
+      \field{year}{1981}
+      \field{pages}{97\bibrangedash 106}
+      \range{pages}{10}
+    \endentry
+    \entry{Sakai2001}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,uniquepart=base,hash=731866011a051d22190a8d623d3ebd8b}{%
+           family={Sakai},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0b2b0e358aa5ad9835624a0c444c8f55}{%
+           family={Allendorf},
+           familyi={A\bibinitperiod},
+           given={F.\bibnamedelimi W.},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=559bb5d8c84658bbe07a438177132b6b}{%
+           family={Holt},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2a6105295b78ffe2d4cfe5b0799b7a8a}{%
+           family={Lodge},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c81a1a39d6b752fda294f4621f232e89}{%
+           family={Molofsky},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=adb389fd1c8c5b2bd61e20997a5be341}{%
+           family={With},
+           familyi={W\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=40784c6a956497b36fe28856c9f8fe32}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{78d39220f25b3f4599b3c048fdf3ab1c}
+      \strng{fullhash}{492cf9811a9b0a887f4bdffaa3f332d4}
+      \strng{bibnamehash}{492cf9811a9b0a887f4bdffaa3f332d4}
+      \strng{authorbibnamehash}{492cf9811a9b0a887f4bdffaa3f332d4}
+      \strng{authornamehash}{78d39220f25b3f4599b3c048fdf3ab1c}
+      \strng{authorfullhash}{492cf9811a9b0a887f4bdffaa3f332d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The population biology of invasive specie}
+      \field{title}{Annual Review of Ecology and Systematics}
+      \field{year}{2001}
+      \field{pages}{305\bibrangedash 332}
+      \range{pages}{28}
+    \endentry
+    \entry{Samuelsen2000}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=185eaf63b24ba07f61363597e62a9717}{%
+           family={Samuelsen},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{185eaf63b24ba07f61363597e62a9717}
+      \strng{fullhash}{185eaf63b24ba07f61363597e62a9717}
+      \strng{bibnamehash}{185eaf63b24ba07f61363597e62a9717}
+      \strng{authorbibnamehash}{185eaf63b24ba07f61363597e62a9717}
+      \strng{authornamehash}{185eaf63b24ba07f61363597e62a9717}
+      \strng{authorfullhash}{185eaf63b24ba07f61363597e62a9717}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Ethnopharmacology}
+      \field{number}{1}
+      \field{title}{The traditional uses, chemical constituents and biological activities of Plantago major L. A review}
+      \field{volume}{71}
+      \field{year}{2000}
+      \field{pages}{1\bibrangedash 21}
+      \range{pages}{21}
+    \endentry
+    \entry{Schwartz1994}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=69ab0ff222b673c3383a7fa4f76eadd4}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69ab0ff222b673c3383a7fa4f76eadd4}
+      \strng{fullhash}{69ab0ff222b673c3383a7fa4f76eadd4}
+      \strng{bibnamehash}{69ab0ff222b673c3383a7fa4f76eadd4}
+      \strng{authorbibnamehash}{69ab0ff222b673c3383a7fa4f76eadd4}
+      \strng{authornamehash}{69ab0ff222b673c3383a7fa4f76eadd4}
+      \strng{authorfullhash}{69ab0ff222b673c3383a7fa4f76eadd4}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of biometeorology}
+      \field{number}{1}
+      \field{title}{Monitoring global change with phenology: the case of the spring green wave}
+      \field{volume}{38}
+      \field{year}{1994}
+      \field{pages}{18\bibrangedash 22}
+      \range{pages}{5}
+    \endentry
+    \entry{Steinbauer1957}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1b8aa8b16a226dff7a9c0a394f53d7a5}{%
+           family={Steinbauer},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1eb846e3dff046afd4ff0c3a3090b8ac}{%
+           family={Grigsby},
+           familyi={G\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0bd6d4e6f82855e1db2ad4419d2e1d0f}
+      \strng{fullhash}{0bd6d4e6f82855e1db2ad4419d2e1d0f}
+      \strng{bibnamehash}{0bd6d4e6f82855e1db2ad4419d2e1d0f}
+      \strng{authorbibnamehash}{0bd6d4e6f82855e1db2ad4419d2e1d0f}
+      \strng{authornamehash}{0bd6d4e6f82855e1db2ad4419d2e1d0f}
+      \strng{authorfullhash}{0bd6d4e6f82855e1db2ad4419d2e1d0f}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Weeds}
+      \field{title}{Interaction of temperature, light, and moistening agent in the germination of weed seeds}
+      \field{volume}{5}
+      \field{year}{1957}
+      \field{pages}{175\bibrangedash 182}
+      \range{pages}{8}
+    \endentry
+    \entry{Team2015}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3bc9f9fface5de5e971d4ab4a4e5823f}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={R\bibnamedelima Core},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {R Foundation for Statistical Computing, Vienna, Austria. URL}%
+      }
+      \strng{namehash}{3bc9f9fface5de5e971d4ab4a4e5823f}
+      \strng{fullhash}{3bc9f9fface5de5e971d4ab4a4e5823f}
+      \strng{bibnamehash}{3bc9f9fface5de5e971d4ab4a4e5823f}
+      \strng{authorbibnamehash}{3bc9f9fface5de5e971d4ab4a4e5823f}
+      \strng{authornamehash}{3bc9f9fface5de5e971d4ab4a4e5823f}
+      \strng{authorfullhash}{3bc9f9fface5de5e971d4ab4a4e5823f}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A language and environment for statistical computing}
+      \field{type}{techreport}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb http://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{Tester1987}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=9ac353bab74c06cc24122504a50a641a}{%
+           family={Tester},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e11f1ea4af9bb079d3cbf6b245d29703}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6860570025bb9f37a35cc7d8f386ac4b}
+      \strng{fullhash}{6860570025bb9f37a35cc7d8f386ac4b}
+      \strng{bibnamehash}{6860570025bb9f37a35cc7d8f386ac4b}
+      \strng{authorbibnamehash}{6860570025bb9f37a35cc7d8f386ac4b}
+      \strng{authornamehash}{6860570025bb9f37a35cc7d8f386ac4b}
+      \strng{authorfullhash}{6860570025bb9f37a35cc7d8f386ac4b}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plant, Cell, and Environment}
+      \field{title}{The penetration of light through soil}
+      \field{volume}{10}
+      \field{year}{1987}
+      \field{pages}{281\bibrangedash 286}
+      \range{pages}{6}
+    \endentry
+    \entry{Tilman2001}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3da35fed4a265c73f0e81cf8c316746f}{%
+           family={Tilman},
+           familyi={T\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cd65a8e70889ecd4420ac3c1c4306841}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7cd6bcf8887495458c8299fcb0b31815}
+      \strng{fullhash}{7cd6bcf8887495458c8299fcb0b31815}
+      \strng{bibnamehash}{7cd6bcf8887495458c8299fcb0b31815}
+      \strng{authorbibnamehash}{7cd6bcf8887495458c8299fcb0b31815}
+      \strng{authornamehash}{7cd6bcf8887495458c8299fcb0b31815}
+      \strng{authorfullhash}{7cd6bcf8887495458c8299fcb0b31815}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{10}
+      \field{title}{Human-caused environmental change: impacts on plant diversity and evolution}
+      \field{volume}{98}
+      \field{year}{2001}
+      \field{pages}{5433\bibrangedash 5440}
+      \range{pages}{8}
+    \endentry
+    \entry{Toole1963}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=332be56b97cc9acec826f1511c781470}{%
+           family={Toole},
+           familyi={T\bibinitperiod},
+           given={V.\bibnamedelimi K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{332be56b97cc9acec826f1511c781470}
+      \strng{fullhash}{332be56b97cc9acec826f1511c781470}
+      \strng{bibnamehash}{332be56b97cc9acec826f1511c781470}
+      \strng{authorbibnamehash}{332be56b97cc9acec826f1511c781470}
+      \strng{authornamehash}{332be56b97cc9acec826f1511c781470}
+      \strng{authorfullhash}{332be56b97cc9acec826f1511c781470}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Association of Official Seed Analysts}
+      \field{title}{Light control of seed germination}
+      \field{volume}{53}
+      \field{year}{1963}
+      \field{pages}{124\bibrangedash 143}
+      \range{pages}{20}
+    \endentry
+    \entry{USDA1971}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c0d1476491291b763a4fe320b14a2776}{%
+           family={USDA},
+           familyi={U\bibinitperiod},
+           given={Agricultural\bibnamedelimb Research\bibnamedelima Service},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications, Inc.}%
+      }
+      \strng{namehash}{c0d1476491291b763a4fe320b14a2776}
+      \strng{fullhash}{c0d1476491291b763a4fe320b14a2776}
+      \strng{bibnamehash}{c0d1476491291b763a4fe320b14a2776}
+      \strng{authorbibnamehash}{c0d1476491291b763a4fe320b14a2776}
+      \strng{authornamehash}{c0d1476491291b763a4fe320b14a2776}
+      \strng{authorfullhash}{c0d1476491291b763a4fe320b14a2776}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Common weeds of the United States}
+      \field{year}{1971}
+    \endentry
+    \entry{USDA2010}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae801e548999c7f26070fc3c32933630}{%
+           family={Usda},
+           familyi={U\bibinitperiod},
+           given={NRCS.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Baton Rouge, LA, USA}%
+      }
+      \list{publisher}{1}{%
+        {National Plant Data Center}%
+      }
+      \strng{namehash}{ae801e548999c7f26070fc3c32933630}
+      \strng{fullhash}{ae801e548999c7f26070fc3c32933630}
+      \strng{bibnamehash}{ae801e548999c7f26070fc3c32933630}
+      \strng{authorbibnamehash}{ae801e548999c7f26070fc3c32933630}
+      \strng{authornamehash}{ae801e548999c7f26070fc3c32933630}
+      \strng{authorfullhash}{ae801e548999c7f26070fc3c32933630}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The PLANTS Database}
+      \field{year}{2010}
+    \endentry
+    \entry{Uva1997}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f5481b8f70130a87cda51b9941973783}{%
+           family={Uva},
+           familyi={U\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8fbf7622660bc3556f2da005977d21be}{%
+           family={Neal},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f1862f8330ce4c33e233eb6aa3d7df00}{%
+           family={DiTomaso},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Ithaca, NY}%
+      }
+      \list{publisher}{1}{%
+        {Cornell University Press}%
+      }
+      \strng{namehash}{6a73c36228b8bc38c7153aad144419ff}
+      \strng{fullhash}{dc513552fc66603624391eef6c605288}
+      \strng{bibnamehash}{dc513552fc66603624391eef6c605288}
+      \strng{authorbibnamehash}{dc513552fc66603624391eef6c605288}
+      \strng{authornamehash}{6a73c36228b8bc38c7153aad144419ff}
+      \strng{authorfullhash}{dc513552fc66603624391eef6c605288}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Weeds of the Northeast}
+      \field{year}{1997}
+    \endentry
+    \entry{Vitasse2009}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=753a8c1c9889519a074a77af4b348a53}{%
+           family={Vitasse},
+           familyi={V\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d9759b63f5bf41eb637d5f34928e4c7d}{%
+           family={Delzon},
+           familyi={D\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f9804a34bc2151050e3e81eefcda0a1e}{%
+           family={Bresson},
+           familyi={B\bibinitperiod},
+           given={Caroline\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e164d8e5347f27275499c9d5f966efa5}{%
+           family={Michalet},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d61424888d3da29eea6df5bdae92df05}{%
+           family={Kremer},
+           familyi={K\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fab7b6b096286f978abbf8614736b0e}
+      \strng{fullhash}{a382fee0e588f6a33443e47f0befe81e}
+      \strng{bibnamehash}{a382fee0e588f6a33443e47f0befe81e}
+      \strng{authorbibnamehash}{a382fee0e588f6a33443e47f0befe81e}
+      \strng{authornamehash}{5fab7b6b096286f978abbf8614736b0e}
+      \strng{authorfullhash}{a382fee0e588f6a33443e47f0befe81e}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of the study was to determine whether there are genetic variations in growth and leaf phenology (flushing and senescence) among populations of six woody species (Abies alba Mill., Acer pseudoplatanus L., Fagus sylvatica L., Fraxinus excelsior L., Ilex aquifolium L., and Quercus petraea (Matt.) Liebl.) along altitudinal gradients, using a common-garden experiment. We found (i) significant differences in phenology and growth among provenances for most species and (ii) evidence that these among-population differences in phenology were related to the annual temperature at the provenance sites for ash, beech, and oak. It is noteworthy that along the same climatic gradient, species can exhibit opposing genetic clines: beech populations from high elevations flushed earlier than those from low elevations, whereas we observed the opposite trend for ash and oak. For most species, significant altitudinal clines for growth were also revealed. Finally, we highlighted the fact that both phenology timing and growth rate were highly consistent from year to year. The results demonstrated that despite the proximity of the populations in their natural area, differences in altitude led to genetic differentiation in their phenology and growth. These adaptive capacities acting along a natural climatic gradient could allow populations to cope with current climate change.}
+      \field{issn}{00455067}
+      \field{journaltitle}{Canadian Journal of Forest Research}
+      \field{number}{7}
+      \field{title}{{Altitudinal differentiation in growth and phenology among populations of temperate-zone tree species growing in a common garden}}
+      \field{volume}{39}
+      \field{year}{2009}
+      \field{pages}{1259\bibrangedash 1269}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1139/X09-054
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/vitasse2009.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Vitousek1996}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=de67747b1bc0f694a15bd608fb37ff74}{%
+           family={Vitousek},
+           familyi={V\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b0d88f0d6478b6c16e5576b6769a3fde}{%
+           family={D'Antonio},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5bdc5230c88734cc70fb58af5d105e40}{%
+           family={Loope},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=efeefd462c6f098341e64ffac816b2e4}{%
+           family={Westbrooks},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a2909d9866abdb4a55c652d3cbc910f5}
+      \strng{fullhash}{04a28c314acd5019f12853c303833f20}
+      \strng{bibnamehash}{04a28c314acd5019f12853c303833f20}
+      \strng{authorbibnamehash}{04a28c314acd5019f12853c303833f20}
+      \strng{authornamehash}{a2909d9866abdb4a55c652d3cbc910f5}
+      \strng{authorfullhash}{04a28c314acd5019f12853c303833f20}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Am. Sci}
+      \field{title}{Biological invasions as global environmental change}
+      \field{volume}{84}
+      \field{year}{1996}
+      \field{pages}{468\bibrangedash 478}
+      \range{pages}{11}
+    \endentry
+    \entry{Walker1997}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=112ad68923fa37a2b54ab69f5e034139}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=33b4a85468b37942e8b6b6b55e3d7182}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c0dbb2acce9e6844fa663818138bc50}
+      \strng{fullhash}{3c0dbb2acce9e6844fa663818138bc50}
+      \strng{bibnamehash}{3c0dbb2acce9e6844fa663818138bc50}
+      \strng{authorbibnamehash}{3c0dbb2acce9e6844fa663818138bc50}
+      \strng{authornamehash}{3c0dbb2acce9e6844fa663818138bc50}
+      \strng{authorfullhash}{3c0dbb2acce9e6844fa663818138bc50}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Conservation Ecology}
+      \field{number}{2}
+      \field{title}{An overview of the implications of global change for natural and managed terrestrial ecosystems}
+      \field{volume}{1}
+      \field{year}{1997}
+      \field{pages}{2}
+      \range{pages}{1}
+    \endentry
+    \entry{Westphal2008}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=78c8b21486c2522be02ed5956d41c243}{%
+           family={Westphal},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0154afd00e73904a873d82690757f607}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=efbed91c8c54d3396d68fe1eb6421afc}{%
+           family={MacKinnon},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=df4b7b78c70084e7dd1831ce11bb071b}{%
+           family={Noble},
+           familyi={N\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{337030f1840191e297b1fea67e97611c}
+      \strng{fullhash}{5582a86210b28b03112b0eb346106ad4}
+      \strng{bibnamehash}{5582a86210b28b03112b0eb346106ad4}
+      \strng{authorbibnamehash}{5582a86210b28b03112b0eb346106ad4}
+      \strng{authornamehash}{337030f1840191e297b1fea67e97611c}
+      \strng{authorfullhash}{5582a86210b28b03112b0eb346106ad4}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Invasions}
+      \field{number}{4}
+      \field{title}{The link between international trade and the global distribution of invasive alien species}
+      \field{volume}{10}
+      \field{year}{2008}
+      \field{pages}{391\bibrangedash 398}
+      \range{pages}{8}
+    \endentry
+    \entry{Westrich1989}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=76bfcd3f57c1977b9cd427506becab76}{%
+           family={Westrich},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Houston}%
+      }
+      \list{publisher}{1}{%
+        {Gulf Publishing}%
+      }
+      \strng{namehash}{76bfcd3f57c1977b9cd427506becab76}
+      \strng{fullhash}{76bfcd3f57c1977b9cd427506becab76}
+      \strng{bibnamehash}{76bfcd3f57c1977b9cd427506becab76}
+      \strng{authorbibnamehash}{76bfcd3f57c1977b9cd427506becab76}
+      \strng{authornamehash}{76bfcd3f57c1977b9cd427506becab76}
+      \strng{authorfullhash}{76bfcd3f57c1977b9cd427506becab76}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{California Herbal Remedies}
+      \field{year}{1989}
+    \endentry
+    \entry{Wilcove1998}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=9096cc92466164c245a1c9c60b689478}{%
+           family={Wilcove},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1cc3a7a64d35d6129aa5cbab1f008aa5}{%
+           family={Rothstein},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a39c22e5cef9a3bb79798cfb92556e9b}{%
+           family={Dubow},
+           familyi={D\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bb6f49f48927dc5384709dcc1845024}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ffcffa8930dab187a8002c52d9272dd2}{%
+           family={Losos},
+           familyi={L\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1c9a98c2d0d287f714cacd2388450608}
+      \strng{fullhash}{1c7e81635e1af18d1047795dc4361927}
+      \strng{bibnamehash}{1c7e81635e1af18d1047795dc4361927}
+      \strng{authorbibnamehash}{1c7e81635e1af18d1047795dc4361927}
+      \strng{authornamehash}{1c9a98c2d0d287f714cacd2388450608}
+      \strng{authorfullhash}{1c7e81635e1af18d1047795dc4361927}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Habitat loss is the single greatest threat to biodiversity, followed by the spread of alien species}
+      \field{issn}{00063568}
+      \field{journaltitle}{BioScience}
+      \field{number}{8}
+      \field{title}{{Quantifying Threats to Imperiled Species in the United States}}
+      \field{volume}{48}
+      \field{year}{1998}
+      \field{pages}{607\bibrangedash 615}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.2307/1313420
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Wilcove{\_}et{\_}al{\_}1998.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/bioscience/article-lookup/doi/10.2307/1313420
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/bioscience/article-lookup/doi/10.2307/1313420
+      \endverb
+    \endentry
+    \entry{Wittenberg2001}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=97153fd348ef678daa5b0611c2004400}{%
+           family={Wittenberg},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=78706b2260ee578599577ff3c7ad9279}{%
+           family={Cock},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi J.\bibnamedelimi (Eds.)},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim (\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CABI}%
+      }
+      \strng{namehash}{bc9873a443108ea8ff2db21493557bf4}
+      \strng{fullhash}{bc9873a443108ea8ff2db21493557bf4}
+      \strng{bibnamehash}{bc9873a443108ea8ff2db21493557bf4}
+      \strng{authorbibnamehash}{bc9873a443108ea8ff2db21493557bf4}
+      \strng{authornamehash}{bc9873a443108ea8ff2db21493557bf4}
+      \strng{authorfullhash}{bc9873a443108ea8ff2db21493557bf4}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Invasive alien species: a toolkit of best prevention and management practices}
+      \field{year}{2001}
+    \endentry
+    \entry{Wolfe2008}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=f77c1d4ffd5ba5771dfc8159400cadbd}{%
+           family={Wolfe},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8c231846d738363e18fcefb5ef29e2f6}{%
+           family={Rodgers},
+           familyi={R\bibinitperiod},
+           given={V.\bibnamedelimi L.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=650e823dd77b523395a1d79dfbdbbbd6}{%
+           family={Stinson},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b25d75f4a640bbe85869de21c32e58e7}{%
+           family={Pringle},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21dba4c5a9f051398cbab357fe03e5cf}
+      \strng{fullhash}{034483fc740732ffaf8b7f581af3af3e}
+      \strng{bibnamehash}{034483fc740732ffaf8b7f581af3af3e}
+      \strng{authorbibnamehash}{034483fc740732ffaf8b7f581af3af3e}
+      \strng{authornamehash}{21dba4c5a9f051398cbab357fe03e5cf}
+      \strng{authorfullhash}{034483fc740732ffaf8b7f581af3af3e}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Ecology}
+      \field{number}{4}
+      \field{title}{The invasive plant Alliaria petiolata (garlic mustard) inhibits ectomycorrhizal fungi in its introduced range}
+      \field{volume}{96}
+      \field{year}{2008}
+      \field{pages}{777\bibrangedash 783}
+      \range{pages}{7}
+    \endentry
+    \entry{Wolkovich2014}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=9383fa78befb9e0d589d926f1dd7a1f3}{%
+           family={Wolkovich},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b394f67919447f834a44be050e87a498}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={E.\bibnamedelimi E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{fullhash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{bibnamehash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{authorbibnamehash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{authornamehash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{authorfullhash}{6df9ae0473768ed5192b95cf7e38323f}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AoB plants}
+      \field{title}{Phenological niches and the future of invaded ecosystems with climate change}
+      \field{volume}{6}
+      \field{year}{2014}
+    \endentry
+    \entry{Wolkovich2013}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,uniquepart=base,hash=9383fa78befb9e0d589d926f1dd7a1f3}{%
+           family={Wolkovich},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c70ca0acaa23be6bc7050ef6a23f4b66}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={T.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b0d0a24f383a60892e254453086844de}{%
+           family={Schaefer},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b394f67919447f834a44be050e87a498}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={E.\bibnamedelimi E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=39a0ddb8507133622a806882c975d409}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi I.},
+           giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cbdaf957d0f4a5a325f59f9026595865}{%
+           family={Travers},
+           familyi={T\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9ffd420a3d775e44d3432b0561cca5f3}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={C.\bibnamedelimi G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f22aaf937f2b4a7cf0c4ba50b5dcfb76}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a23b778860dbda45c4111d9353e9aed}
+      \strng{fullhash}{40a03584e3f7f19cb24b93ac32694e01}
+      \strng{bibnamehash}{15e884b73893a51dfb388304c6659f64}
+      \strng{authorbibnamehash}{15e884b73893a51dfb388304c6659f64}
+      \strng{authornamehash}{6a23b778860dbda45c4111d9353e9aed}
+      \strng{authorfullhash}{40a03584e3f7f19cb24b93ac32694e01}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Botany}
+      \field{number}{7}
+      \field{title}{Temperature-dependent shifts in phenology contribute to the success of exotic species with climate change}
+      \field{volume}{100}
+      \field{year}{2013}
+      \field{pages}{1407\bibrangedash 1421}
+      \range{pages}{15}
+    \endentry
+    \entry{Wulff1994}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=210f6e3e9336a1f0c26060d44df93d75}{%
+           family={Wulff},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=85a5ce9aed49e9ecae56c11c1b1c76ed}{%
+           family={Caceres},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d4943eccd9802292ee793df76e46320f}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e17c3fed8bf0074b77482c3dc3365360}
+      \strng{fullhash}{e5e86fdc16193fd2bede71409ad099f4}
+      \strng{bibnamehash}{e5e86fdc16193fd2bede71409ad099f4}
+      \strng{authorbibnamehash}{e5e86fdc16193fd2bede71409ad099f4}
+      \strng{authornamehash}{e17c3fed8bf0074b77482c3dc3365360}
+      \strng{authorfullhash}{e5e86fdc16193fd2bede71409ad099f4}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Functional Ecology}
+      \field{title}{Seed and seedling responses to maternal and offspring environments in Plantago lanceolata}
+      \field{year}{1994}
+      \field{pages}{763\bibrangedash 769}
+      \range{pages}{7}
+    \endentry
+  \enddatalist
+  \missing{Gelman1992}
+  \missing{Goodrich2018}
+  \missing{Matinsanz2010}
+  \missing{Williams2012}
+\endrefsection
+\endinput
+
