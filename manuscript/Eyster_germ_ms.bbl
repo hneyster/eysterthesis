@@ -85,6 +85,69 @@
       \field{pages}{3\bibrangedash 79}
       \range{pages}{77}
     \endentry
+    \entry{Barker2017}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=381f4713cbc70fb400be79496f66af52}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Brittany\bibnamedelima S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=326142d319562065d9e7febd1eaef191}{%
+           family={Andonian},
+           familyi={A\bibinitperiod},
+           given={Krikor},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dcf4963fd65bfb1d992c49e83ca8c933}{%
+           family={Swope},
+           familyi={S\bibinitperiod},
+           given={Sarah\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fc862af95f9dbf7238980806020fc623}{%
+           family={Luster},
+           familyi={L\bibinitperiod},
+           given={Douglas\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=80b9aab2cae0f2af2cd67aa4f06e5646}{%
+           family={Dlugosch},
+           familyi={D\bibinitperiod},
+           given={Katrina\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0355425f7bb5c5720261343b2fa8105b}
+      \strng{fullhash}{13f1f47b2856ac8ee83957b3cd1f0fd4}
+      \strng{bibnamehash}{13f1f47b2856ac8ee83957b3cd1f0fd4}
+      \strng{authorbibnamehash}{13f1f47b2856ac8ee83957b3cd1f0fd4}
+      \strng{authornamehash}{0355425f7bb5c5720261343b2fa8105b}
+      \strng{authorfullhash}{13f1f47b2856ac8ee83957b3cd1f0fd4}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Identifying sources of genetic variation and reconstructing invasion routes for non-native introduced species is central to understanding the circumstances under which they may evolve increased invasiveness. In this study, we used genome-wide single nucleotide polymorphisms to study the colonization history of Centaurea solstitialis in its native range in Eurasia and invasions into the Americas. We leveraged this information to pinpoint key evolutionary shifts in plant size, a focal trait associated with invasiveness in this species. Our analyses revealed clear population genomic structure of potential source populations in Eurasia, including deep differentiation of a lineage found in the southern Apennine and Balkan Peninsulas and divergence among populations in Asia, eastern Europe and western Europe. We found strongest support for an evolutionary scenario in which western European populations were derived from an ancient admixture event between populations from eastern Europe and Asia, and subsequently served as the main genetic ‘bridgehead' for introductions to the Americas. Introductions to California appear to be from a single source region, and multiple, independent introductions of divergent genotypes likely occurred into the Pacific Northwest. Plant size has evolved significantly at three points during range expansion, including a large size increase in the lineage responsible for the aggressive invasion of the California interior. These results reveal a long history of colonization, admixture and trait evolution in C. solstitialis, and suggest routes for improving evidence-based management decisions for one of the most ecologically and economically damaging invasive species in the western United States.}
+      \field{issn}{1365294X}
+      \field{journaltitle}{Molecular Ecology}
+      \field{number}{4}
+      \field{title}{{Population genomic analyses reveal a history of range expansion and trait evolution across the native and invaded range of yellow starthistle (Centaurea solstitialis)}}
+      \field{volume}{26}
+      \field{year}{2017}
+      \field{pages}{1131\bibrangedash 1147}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/mec.13998
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Barker{\_}et{\_}al-2017-Molecular{\_}Ecology.pdf:pdf
+      \endverb
+      \keyw{admixture,biological invasion,invasion routes,phylogeography,rapid evolution,restriction site-associated sequencing}
+    \endentry
     \entry{Baskin1998}{book}{}
       \name{author}{2}{}{%
         {{uniquename=1,uniquepart=given,hash=95b49686ba24433650373bab3e48eee5}{%
@@ -163,6 +226,288 @@
       \field{year}{2016}
       \field{pages}{20150623}
       \range{pages}{1}
+    \endentry
+    \entry{Blois2013}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=a04b04b2c59aa530e3e20a8782e8541b}{%
+           family={Blois},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6c5594b200a13f90ba780dfc54ba167f}{%
+           family={Zarnetske},
+           familyi={Z\bibinitperiod},
+           given={P.\bibnamedelimi L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=065ad0c797b5c5fc5f18f5671e0097c3}{%
+           family={Fitzpatrick},
+           familyi={F\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f7b47a5ceedb2f1f7e3d4c1d3d457797}{%
+           family={Finnegan},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{483366d62659de53895aeb0b84c7f10e}
+      \strng{fullhash}{96c8b5243814a1f7e7b05363d54ae657}
+      \strng{bibnamehash}{96c8b5243814a1f7e7b05363d54ae657}
+      \strng{authorbibnamehash}{96c8b5243814a1f7e7b05363d54ae657}
+      \strng{authornamehash}{483366d62659de53895aeb0b84c7f10e}
+      \strng{authorfullhash}{96c8b5243814a1f7e7b05363d54ae657}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6145}
+      \field{title}{Climate change and the past, present, and future of biotic interactions}
+      \field{volume}{341}
+      \field{year}{2013}
+      \field{pages}{499\bibrangedash 504}
+      \range{pages}{6}
+    \endentry
+    \entry{Blossey1995}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ce62e5e32ad77a1206780f3e3d79661e}{%
+           family={Blossey},
+           familyi={B\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a742844fc19c062c7b40638c8cd98891}{%
+           family={Notzold},
+           familyi={N\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df03bd90c3b63935d4406ebfd7e13f56}
+      \strng{fullhash}{df03bd90c3b63935d4406ebfd7e13f56}
+      \strng{bibnamehash}{df03bd90c3b63935d4406ebfd7e13f56}
+      \strng{authorbibnamehash}{df03bd90c3b63935d4406ebfd7e13f56}
+      \strng{authornamehash}{df03bd90c3b63935d4406ebfd7e13f56}
+      \strng{authorfullhash}{df03bd90c3b63935d4406ebfd7e13f56}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00220477}
+      \field{journaltitle}{The Journal of Ecology}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{{Evolution of Increased Competitive Ability in Invasive Nonindigenous Plants: A Hypothesis}}
+      \field{volume}{83}
+      \field{year}{1995}
+      \field{pages}{887\bibrangedash 889}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.2307/2261425
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2261425?origin=crossref
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2261425?origin=crossref
+      \endverb
+    \endentry
+    \entry{Bock2015}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,uniquepart=base,hash=ab790a0fc1163546b555f4a877ef3fe2}{%
+           family={Bock},
+           familyi={B\bibinitperiod},
+           given={Dan\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=814b176ed0702bc1905b66cbb54ff2ed}{%
+           family={Caseys},
+           familyi={C\bibinitperiod},
+           given={Celine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f4e02427d876b8d2190b223d3f00998}{%
+           family={Cousens},
+           familyi={C\bibinitperiod},
+           given={Roger\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f8db40ea75342527500ad1a7e1b3d2d1}{%
+           family={Hahn},
+           familyi={H\bibinitperiod},
+           given={Min\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=17852d80b698c9a3b6c2712726b5df5e}{%
+           family={Heredia},
+           familyi={H\bibinitperiod},
+           given={Sylvia\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f3fd25e55c991217f25fc10501d5b8cc}{%
+           family={H{ü}bner},
+           familyi={H\bibinitperiod},
+           given={Sariel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2ca004baea1429b9d682b73a7f69bd51}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Kathryn\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ea64aff131bce677f82e8ea495406819}{%
+           family={Whitney},
+           familyi={W\bibinitperiod},
+           given={Kenneth\bibnamedelima D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=13de7cc6b41132d7da18f032683e264b}{%
+           family={Rieseberg},
+           familyi={R\bibinitperiod},
+           given={Loren\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0016bd52a940acf185cd75585a91f8fa}
+      \strng{fullhash}{0ceef3d6b2ddf8ee7f253334aaa34a34}
+      \strng{bibnamehash}{ef4639ec573a2e66adb2b5750e5c898b}
+      \strng{authorbibnamehash}{ef4639ec573a2e66adb2b5750e5c898b}
+      \strng{authornamehash}{0016bd52a940acf185cd75585a91f8fa}
+      \strng{authorfullhash}{0ceef3d6b2ddf8ee7f253334aaa34a34}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Publication of The Genetics of Colonizing Species in 1965 launched the field of invasion genetics and highlighted the value of biological invasions as natural ecological and evolutionary experiments. Here, we review the past 50 years of invasion genetics to assess what we have learned and what we still don't know, focusing on the genetic changes associated with invasive lineages and the evolutionary processes driving these changes. We also suggest potential studies to address still-unanswered questions. We now know, for example, that rapid adaptation of invaders is common and generally not limited by genetic variation. On the other hand, and contrary to prevailing opinion 50 years ago, the balance of evidence indicates that population bottlenecks and genetic drift typically have negative effects on invasion success, despite their potential to increase additive genetic variation and the frequency of peak shifts. Numerous unknowns remain, such as the sources of genetic variation, the role of so-called expansion load and the relative importance of propagule pressure vs. genetic diversity for successful establishment. While many such unknowns can be resolved by genomic studies, other questions may require manipulative experiments in model organisms. Such studies complement classical reciprocal transplant and field-based selection experiments, which are needed to link trait variation with components of fitness and population growth rates. We conclude by discussing the potential for studies of invasion genetics to reveal the limits to evolution and to stimulate the development of practical strategies to either minimize or maximize evolutionary responses to environmental change.}
+      \field{issn}{1365294X}
+      \field{journaltitle}{Molecular Ecology}
+      \field{number}{9}
+      \field{title}{{What we still don't know about invasion genetics}}
+      \field{volume}{24}
+      \field{year}{2015}
+      \field{pages}{2277\bibrangedash 2297}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1111/mec.13032
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Bock{\_}etal{\_}2015.pdf:pdf
+      \endverb
+      \keyw{adaptation,colonization,hybridization,invasion,rapid evolution,weeds}
+    \endentry
+    \entry{Bonan2003}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6962ac9f876d9f1f843d2bc6cafe0850}{%
+           family={Bonan},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{6962ac9f876d9f1f843d2bc6cafe0850}
+      \strng{fullhash}{6962ac9f876d9f1f843d2bc6cafe0850}
+      \strng{bibnamehash}{6962ac9f876d9f1f843d2bc6cafe0850}
+      \strng{authorbibnamehash}{6962ac9f876d9f1f843d2bc6cafe0850}
+      \strng{authornamehash}{6962ac9f876d9f1f843d2bc6cafe0850}
+      \strng{authorfullhash}{6962ac9f876d9f1f843d2bc6cafe0850}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ecological Climatology}
+      \field{year}{2003}
+    \endentry
+    \entry{Bossdorf2005}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=23eacb7c91d8345fd0c318137b4634f3}{%
+           family={Bossdorf},
+           familyi={B\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=91f4d6400c03d031f7df125f8c8536a8}{%
+           family={Auge},
+           familyi={A\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb4ea9401905dbd50f419eae9758e6a2}{%
+           family={Lafuma},
+           familyi={L\bibinitperiod},
+           given={Lucile},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=53f5b636b828fdf45f9289621c27bd33}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima E.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f57595a28c55f5ad8ca83d837566c5c0}{%
+           family={Siemann},
+           familyi={S\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6743cb6aae3e77cdb8505349c29f182b}{%
+           family={Prati},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5338e2a18760d02526cef2567b4c6f37}
+      \strng{fullhash}{b6510b567aadf44dd6f0d594814c9260}
+      \strng{bibnamehash}{b6510b567aadf44dd6f0d594814c9260}
+      \strng{authorbibnamehash}{b6510b567aadf44dd6f0d594814c9260}
+      \strng{authornamehash}{5338e2a18760d02526cef2567b4c6f37}
+      \strng{authorfullhash}{b6510b567aadf44dd6f0d594814c9260}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plant invasions often involve rapid evolutionary change. Founder effects, hybridization, and adaptation to novel environments cause genetic differentiation between native and introduced populations and may contribute to the success of invaders. An influential idea in this context has been the Evolution of Increased Competitive Ability (EICA) hypothesis. It proposes that after enemy release plants rapidly evolve to be less defended but more competitive, thereby increasing plant vigour in introduced populations. To detect evolutionary change in invaders, comparative studies of native versus introduced populations are needed. Here, we review the current empirical evidence from: (1) comparisons of phenotypic variation in natural populations; (2) comparisons of molecular variation with neutral genetic markers; (3) comparisons of quantitative genetic variation in a common environment; and (4) comparisons of phenotypic plasticity across different environments. Field data suggest that increased vigour and reduced herbivory are common in introduced plant populations. In molecular studies, the genetic diversity of introduced populations was not consistently different from that of native populations. Multiple introductions of invasive plants appear to be the rule rather than the exception. In tests of the EICA hypothesis in a common environment, several found increased growth or decreased resistance in introduced populations. However, few provided a full test of the EICA hypothesis by addressing growth and defence in the same species. Overall, there is reasonable empirical evidence to suggest that genetic differentiation through rapid evolutionary change is important in plant invasions. We discuss conceptual and methodological issues associated with cross-continental comparisons and make recommendations for future research. When testing for EICA, greater emphasis should be put on competitive ability and plant tolerance. Moreover, it is important to address evolutionary change in characteristics other than defence and growth that could play a role in plant invasions. {©} Springer-Verlag 2005.}
+      \field{issn}{00298549}
+      \field{journaltitle}{Oecologia}
+      \field{number}{1}
+      \field{title}{{Phenotypic and genetic differentiation between native and introduced plant populations}}
+      \field{volume}{144}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s00442-005-0070-z
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Bossdorf2005{\_}Article{\_}PhenotypicAndGeneticDifferenti.pdf:pdf
+      \endverb
+      \keyw{Biological invasions,Ecological genetics,Microevolution,Molecular markers,Phenotypic plasticity}
     \endentry
     \entry{Bush2012}{report}{}
       \name{author}{5}{}{%
@@ -422,12 +767,12 @@
     \endentry
     \entry{Colautti2004}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=4fbc716c61816a5119ba1b8151cc1a5b}{%
+        {{uniquename=2,uniquepart=given,hash=4fbc716c61816a5119ba1b8151cc1a5b}{%
            family={Colautti},
            familyi={C\bibinitperiod},
            given={R.\bibnamedelimi I.},
            giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{uniquename=0,uniquepart=base,hash=a30d78f32230fdce7287364730b2fa0b}{%
            family={MacIsaac},
            familyi={M\bibinitperiod},
@@ -445,7 +790,6 @@
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Diversity and Distributions}
@@ -455,6 +799,50 @@
       \field{year}{2004}
       \field{pages}{135\bibrangedash 141}
       \range{pages}{7}
+    \endentry
+    \entry{Colautti2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=2,uniquepart=given,hash=791a295654e98e378916e073fbbd9bdf}{%
+           family={Colautti},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=2}}%
+        {{uniquename=0,uniquepart=base,hash=2c79f273b8a5b5da06f2f5a8f8097b85}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Jennifer\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d9c85b10a00a82a692a3297a0558952}
+      \strng{fullhash}{4d9c85b10a00a82a692a3297a0558952}
+      \strng{bibnamehash}{4d9c85b10a00a82a692a3297a0558952}
+      \strng{authorbibnamehash}{4d9c85b10a00a82a692a3297a0558952}
+      \strng{authornamehash}{4d9c85b10a00a82a692a3297a0558952}
+      \strng{authorfullhash}{4d9c85b10a00a82a692a3297a0558952}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Biological invasions are 'natural' experiments that can improve our understanding of contemporary evolution. We evaluate evidence for population differentiation, natural selection and adaptive evolution of invading plants and animals at two nested spatial scales: (i) among introduced populations (ii) between native and introduced genotypes. Evolution during invasion is frequently inferred, but rarely confirmed as adaptive. In common garden studies, quantitative trait differentiation is only marginally lower ({\~{}}3.5{\%}) among introduced relative to native populations, despite genetic bottlenecks and shorter timescales (i.e. millennia vs. decades). However, differentiation between genotypes from the native vs. introduced range is less clear and confounded by nonrandom geographic sampling; simulations suggest this causes a high false-positive discovery rate ({>}50{\%}) in geographically structured populations. Selection differentials (s) are stronger in introduced than in native species, although selection gradients ($\beta$) are not, consistent with introduced species experiencing weaker genetic constraints. This could facilitate rapid adaptation, but evidence is limited. For example, rapid phenotypic evolution often manifests as geographical clines, but simulations demonstrate that nonadaptive trait clines can evolve frequently during colonization ({\~{}}two-thirds of simulations). Additionally, Q{<}inf{>}ST{<}/inf{>}-F{<}inf{>}ST{<}/inf{>} studies may often misrepresent the strength and form of natural selection acting during invasion. Instead, classic approaches in evolutionary ecology (e.g. selection analysis, reciprocal transplant, artificial selection) are necessary to determine the frequency of adaptive evolution during invasion and its influence on establishment, spread and impact of invasive species. These studies are rare but crucial for managing biological invasions in the context of global change.}
+      \field{issn}{1365294X}
+      \field{journaltitle}{Molecular Ecology}
+      \field{number}{9}
+      \field{title}{{Contemporary evolution during invasion: Evidence for differentiation, natural selection, and local adaptation}}
+      \field{volume}{24}
+      \field{year}{2015}
+      \field{pages}{1999\bibrangedash 2017}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1111/mec.13162
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/mec.13162.pdf:pdf
+      \endverb
+      \keyw{Q{<}inf{>}ST{<}/inf{>} vs. F{<}inf{>}ST{<}/inf{>},colonization,common garden,invasive species,latitudinal clines,meta-analysis,quantitative traits,rapid evolution,selection differentials,selection gradients}
     \endentry
     \entry{Conner2004}{book}{}
       \name{author}{2}{}{%
@@ -488,6 +876,37 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A primer of ecological genetics}
+      \field{year}{2004}
+    \endentry
+    \entry{Cox2004}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d517107b4e0ec438ec6152cf66f9da4f}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={GW},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \list{publisher}{1}{%
+        {Island Press}%
+      }
+      \strng{namehash}{d517107b4e0ec438ec6152cf66f9da4f}
+      \strng{fullhash}{d517107b4e0ec438ec6152cf66f9da4f}
+      \strng{bibnamehash}{d517107b4e0ec438ec6152cf66f9da4f}
+      \strng{authorbibnamehash}{d517107b4e0ec438ec6152cf66f9da4f}
+      \strng{authornamehash}{d517107b4e0ec438ec6152cf66f9da4f}
+      \strng{authorfullhash}{d517107b4e0ec438ec6152cf66f9da4f}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Alien species and evolution: The evolutionary ecology of exotic plants, animals, microbes, and interacting native species}}
       \field{year}{2004}
     \endentry
     \entry{Daehler2003}{article}{}
@@ -787,6 +1206,125 @@
       \field{pages}{742\bibrangedash 753}
       \range{pages}{12}
     \endentry
+    \entry{Elton1958}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3813b16a9ff1f2866b7cee53e1c63c66}{%
+           family={Elton},
+           familyi={E\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago, Illinois, USA}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{3813b16a9ff1f2866b7cee53e1c63c66}
+      \strng{fullhash}{3813b16a9ff1f2866b7cee53e1c63c66}
+      \strng{bibnamehash}{3813b16a9ff1f2866b7cee53e1c63c66}
+      \strng{authorbibnamehash}{3813b16a9ff1f2866b7cee53e1c63c66}
+      \strng{authornamehash}{3813b16a9ff1f2866b7cee53e1c63c66}
+      \strng{authorfullhash}{3813b16a9ff1f2866b7cee53e1c63c66}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The ecology of invasions by animals and plants, 2000th ed}
+      \field{year}{1958}
+    \endentry
+    \entry{Fenollosa2019}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=c95336e38f154e9a587a9020e865b3c1}{%
+           family={Fenollosa},
+           familyi={F\bibinitperiod},
+           given={Erola},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8f53ab3cc49714553efce9cc245a93c9}{%
+           family={Munn{é}-Bosch},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Sergi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=693266c38c489e8980a33496ada3dc60}{%
+           family={Hultine},
+           familyi={H\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd90c33e211ab36b675033c50676764d}
+      \strng{fullhash}{cd90c33e211ab36b675033c50676764d}
+      \strng{bibnamehash}{cd90c33e211ab36b675033c50676764d}
+      \strng{authorbibnamehash}{cd90c33e211ab36b675033c50676764d}
+      \strng{authornamehash}{cd90c33e211ab36b675033c50676764d}
+      \strng{authorfullhash}{cd90c33e211ab36b675033c50676764d}
+      \strng{editorbibnamehash}{693266c38c489e8980a33496ada3dc60}
+      \strng{editornamehash}{693266c38c489e8980a33496ada3dc60}
+      \strng{editorfullhash}{693266c38c489e8980a33496ada3dc60}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{<}p{>}Invasive plants are expanding their geographical distribution across new regions. Expansion modeling is crucial for geographic prioritization in management policies. However, the assumption of niche conservatism and the lack of information of the species physiological response to the environmental factors determining species presence may hinder predictions. In this study, we aimed to understand the expansion of the widely distributed plant Carpobrotus edulis in Europe. We contrasted introduced and native C. edulis ecological niches and explored the experimental response to temperature, a major determining factor for species distribution, of native and invasive individuals in terms of different biochemical markers. Niche analysis revealed an expansion of the introduced niche to occupy colder climates. Introduced and native individuals showed differential mechanisms facing low temperatures. Individuals from the native range showed an increased sensitivity to chilling, as reflected by photosynthetic pigment degradation, increased de-epoxidation of xanthophylls and the accumulation of the lipophilic antioxidant alpha-tocopherol. The found physiological differentiation towards an increased invasive chilling tolerance of invasive C. edulis individuals together with a high propagule pressure may explain the introduced climatic niche shift to colder climates observed, allowing the extensive expansion of this species in Europe.{<}/p{>}}
+      \field{issn}{2051-1434}
+      \field{journaltitle}{Conservation Physiology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Increased chilling tolerance of the invasive species Carpobrotus edulis may explain its expansion across new territories}}
+      \field{volume}{7}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1093/conphys/coz075
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/conphys/article/doi/10.1093/conphys/coz075/5618807
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/conphys/article/doi/10.1093/conphys/coz075/5618807
+      \endverb
+    \endentry
+    \entry{Fick2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=acfec66ed4909e8880df846c757df253}{%
+           family={Fick},
+           familyi={F\bibinitperiod},
+           given={S.\bibnamedelimi E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=482e440210f48557e088d3c2752a36d7}{%
+           family={Hijmans},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4edff543a08e3d6edfb86cfa53a2b476}
+      \strng{fullhash}{4edff543a08e3d6edfb86cfa53a2b476}
+      \strng{bibnamehash}{4edff543a08e3d6edfb86cfa53a2b476}
+      \strng{authorbibnamehash}{4edff543a08e3d6edfb86cfa53a2b476}
+      \strng{authornamehash}{4edff543a08e3d6edfb86cfa53a2b476}
+      \strng{authorfullhash}{4edff543a08e3d6edfb86cfa53a2b476}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Climatology}
+      \field{title}{{Worldclim 2: New 1-km spatial resolution climate surfaces for global land areas}}
+      \field{year}{2017}
+    \endentry
     \entry{Finch2006}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=7616a3ef8b2b3e32fabb51dac0c3ead9}{%
@@ -823,6 +1361,48 @@
       \field{pages}{501\bibrangedash 523}
       \range{pages}{23}
     \endentry
+    \entry{Franks2007}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d155f40f92027760782d2566407b3b3d}{%
+           family={Franks},
+           familyi={F\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1224bf0a317a415147a7f97fb9a398c6}{%
+           family={Sim},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=15c86f1488dca93bed407f9f1ce3aa90}{%
+           family={Weis},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7c4de664be2bdc047fc2d00da2eedba4}
+      \strng{fullhash}{1b6f39edb9c09123503a3cc476f97633}
+      \strng{bibnamehash}{1b6f39edb9c09123503a3cc476f97633}
+      \strng{authorbibnamehash}{1b6f39edb9c09123503a3cc476f97633}
+      \strng{authornamehash}{7c4de664be2bdc047fc2d00da2eedba4}
+      \strng{authorfullhash}{1b6f39edb9c09123503a3cc476f97633}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{4}
+      \field{title}{Rapid evolution of flowering time by an annual plant in response to a climate fluctuation}
+      \field{volume}{104}
+      \field{year}{2007}
+      \field{pages}{1278\bibrangedash 1282}
+      \range{pages}{5}
+    \endentry
     \entry{Froese2003}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=a1fe97e869277d37de0c06b3a99d7475}{%
@@ -858,14 +1438,48 @@
       \field{pages}{435\bibrangedash 442}
       \range{pages}{8}
     \endentry
+    \entry{Gelman1992}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=2,uniquepart=given,hash=ba82e2f52cafc6076f0de4ae6be66db0}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=2}}%
+        {{uniquename=0,uniquepart=base,hash=fa537601df11ba114c0c74ca6806de99}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi B.\bibnamedelimi .},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim .\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e85fab4470276197aa15a5fc7543569}
+      \strng{fullhash}{3e85fab4470276197aa15a5fc7543569}
+      \strng{bibnamehash}{3e85fab4470276197aa15a5fc7543569}
+      \strng{authorbibnamehash}{3e85fab4470276197aa15a5fc7543569}
+      \strng{authornamehash}{3e85fab4470276197aa15a5fc7543569}
+      \strng{authorfullhash}{3e85fab4470276197aa15a5fc7543569}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical Science}
+      \field{title}{{Inference from Iterative Simulation Using Multiple Sequences.}}
+      \field{volume}{7}
+      \field{year}{1992}
+      \field{pages}{457\bibrangedash 511}
+      \range{pages}{55}
+    \endentry
     \entry{Gelman2004}{book}{}
       \name{author}{4}{}{%
-        {{uniquename=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+        {{uniquename=2,uniquepart=given,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
            family={Gelman},
            familyi={G\bibinitperiod},
            given={Andrew},
            giveni={A\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{uniquename=0,uniquepart=base,hash=5f088783ee75f9f0908eeb4fa9571a31}{%
            family={Carlin},
            familyi={C\bibinitperiod},
@@ -926,12 +1540,12 @@
     \endentry
     \entry{Gelman2007}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+        {{uniquename=2,uniquepart=given,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
            family={Gelman},
            familyi={G\bibinitperiod},
            given={Andrew},
            giveni={A\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{uniquename=0,uniquepart=base,hash=3adbd71397c0951dc1fa587d69882939}{%
            family={Pardoe},
            familyi={P\bibinitperiod},
@@ -966,6 +1580,56 @@
       \endverb
       \verb{file}
       \verb :C$\backslash$:/Users/Owner/Documents/Literature/ape17.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Goodrich2018}{misc}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=9cc812cde8c441e79dfaab4955a72c2c}{%
+           family={Goodrich},
+           familyi={G\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d22d0f2897624075bcba3f2195a96094}{%
+           family={Gabry},
+           familyi={G\bibinitperiod},
+           given={Jonah},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4ff90ac039e7a8c4e841a59e2ae4525c}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Imad},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=08c82207ef92413ee4aba1cef965a090}{%
+           family={Brilleman},
+           familyi={B\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{94c0f6de989b78e43fa3db2b160d5b13}
+      \strng{fullhash}{0636a4e54e7ace449d345b0bbf58061e}
+      \strng{bibnamehash}{0636a4e54e7ace449d345b0bbf58061e}
+      \strng{authorbibnamehash}{0636a4e54e7ace449d345b0bbf58061e}
+      \strng{authornamehash}{94c0f6de989b78e43fa3db2b160d5b13}
+      \strng{authorfullhash}{0636a4e54e7ace449d345b0bbf58061e}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{R package version 2.17.4}
+      \field{title}{{rstanarm: {\{}Bayesian{\}} applied regression modeling via {\{}Stan{\}}.}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://mc-stan.org/
+      \endverb
+      \verb{url}
+      \verb http://mc-stan.org/
       \endverb
     \endentry
     \entry{Guilioni2003}{article}{}
@@ -1009,6 +1673,48 @@
       \field{year}{2003}
       \field{pages}{1151\bibrangedash 1164}
       \range{pages}{14}
+    \endentry
+    \entry{Harte2015}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=7dc4b93c23be7566fccfb6c8d437c5a0}{%
+           family={Harte},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f90afb6cb310f55ff9d2f57897ed08c0}{%
+           family={Saleska},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c5c4a6d70ccd3d929bc6ee28fcd8f4b7}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c791faae243e6750d1bc932990810ae4}
+      \strng{fullhash}{cd95662306608d452e5807fa5c846861}
+      \strng{bibnamehash}{cd95662306608d452e5807fa5c846861}
+      \strng{authorbibnamehash}{cd95662306608d452e5807fa5c846861}
+      \strng{authornamehash}{c791faae243e6750d1bc932990810ae4}
+      \strng{authorfullhash}{cd95662306608d452e5807fa5c846861}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global change biology}
+      \field{number}{6}
+      \field{title}{Convergent ecosystem responses to 23‐year ambient and manipulated warming link advancing snowmelt and shrub encroachment to transient and long‐term climate–soil carbon feedback}
+      \field{volume}{21}
+      \field{year}{2015}
+      \field{pages}{2349\bibrangedash 2356}
+      \range{pages}{8}
     \endentry
     \entry{Hartmann2010}{book}{}
       \name{author}{2}{}{%
@@ -1086,6 +1792,68 @@
       \range{pages}{4}
       \verb{doi}
       \verb 10.1038/nature13739
+      \endverb
+    \endentry
+    \entry{Hendry2000}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=df50caca7964ce2535d5d7c005b24668}{%
+           family={Hendry},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9ec80d6d844a3b2d6f63d5918978683d}{%
+           family={Wenburg},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0a73537cf5a84d4fa1946641dd000bf4}{%
+           family={Bentzen},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ce3f8816a9889008c6249176e2c6e19f}{%
+           family={Volk},
+           familyi={V\bibinitperiod},
+           given={E.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=34271d22108155a2250f19f7efcf28cf}{%
+           family={Quinn},
+           familyi={Q\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a08e4be767a8ef4de07b550d15b49d9}
+      \strng{fullhash}{b07c1ff8efc1c3ebe3d777e6d02f3bd3}
+      \strng{bibnamehash}{b07c1ff8efc1c3ebe3d777e6d02f3bd3}
+      \strng{authorbibnamehash}{b07c1ff8efc1c3ebe3d777e6d02f3bd3}
+      \strng{authornamehash}{3a08e4be767a8ef4de07b550d15b49d9}
+      \strng{authorfullhash}{b07c1ff8efc1c3ebe3d777e6d02f3bd3}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Colonization of new environments should promote rapid speciation as a by-product of adaptation to divergent selective regimes. Although this process of ecological speciation is known to have occurred over millennia or centuries, nothing is known about how quickly reproductive isolation actually evolves when new environments are first colonized. Using DNA microsatellites, population-specific natural tags, and phenotypic variation, we tested for reproductive isolation between two adjacent salmon populations of a common ancestry that colonized divergent reproductive environments (a river and a lake beach). We found evidence for the evolution of reproductive isolation after fewer than 13 generations.}
+      \field{issn}{00368075}
+      \field{journaltitle}{Science}
+      \field{number}{5491}
+      \field{title}{{Rapid evolution of reproductive isolation in the wild: Evidence from introduced salmon}}
+      \field{volume}{290}
+      \field{year}{2000}
+      \field{pages}{516\bibrangedash 518}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1126/science.290.5491.516
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/516.full.pdf:pdf
       \endverb
     \endentry
     \entry{Holm1979}{book}{}
@@ -1187,92 +1955,35 @@
       \field{title}{The world's worst weeds}
       \field{year}{1977}
     \endentry
-    \entry{Hulme2013}{article}{}
-      \name{author}{5}{}{%
-        {{uniquename=0,uniquepart=base,hash=34493f43e40fa2f4fcac62686f8db3f5}{%
-           family={Hulme},
-           familyi={H\bibinitperiod},
-           given={P.\bibnamedelimi E.},
-           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=d019c626b821f3d12b2e500b7216e431}{%
-           family={Pyšek},
-           familyi={P\bibinitperiod},
-           given={Jarošík},
-           giveni={J\bibinitperiod},
-           givenun=0,
-           suffix={P.},
-           suffixi={P\bibinitperiod},
-           suffixun=0}}%
-        {{uniquename=0,uniquepart=base,hash=b8869a783bb829ea81b6f2ecd7eafe96}{%
-           family={V.\bibnamedelimi C.},
-           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Pergl},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=e16e1be8e81f7bb2ed1a1742219faf1f}{%
-           family={J.},
-           familyi={J\bibinitperiod},
-           given={U.},
-           giveni={U\bibinitperiod},
-           givenun=0,
-           suffix={Schaffner},
-           suffixi={S\bibinitperiod},
-           suffixun=0}}%
-        {{uniquename=0,uniquepart=base,hash=6f19f6423c1966823e33ecc883b1e75b}{%
-           family={Vilà},
-           familyi={V\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8e732df3ae9bcba25c9ad776c2c19a65}
-      \strng{fullhash}{a1781111b2adac8aa242efcd7502e3b6}
-      \strng{bibnamehash}{a1781111b2adac8aa242efcd7502e3b6}
-      \strng{authorbibnamehash}{a1781111b2adac8aa242efcd7502e3b6}
-      \strng{authornamehash}{8e732df3ae9bcba25c9ad776c2c19a65}
-      \strng{authorfullhash}{a1781111b2adac8aa242efcd7502e3b6}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Trends in Ecology Evolution}
-      \field{title}{Bias and error in understanding plant invasion impacts}
-      \field{volume}{28}
-      \field{year}{2013}
-      \field{pages}{212\bibrangedash 218}
-      \range{pages}{7}
-    \endentry
-    \entry{Hutchinson1965}{article}{}
+    \entry{Inouye2008}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=4be5ca2d0ed9cef295b2e8e54fa51653}{%
-           family={Hutchinson},
-           familyi={H\bibinitperiod},
-           given={G.\bibnamedelimi E.},
-           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+        {{uniquename=0,uniquepart=base,hash=b20514e5fdb7187ec63cecc97fee7853}{%
+           family={Inouye},
+           familyi={I\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{4be5ca2d0ed9cef295b2e8e54fa51653}
-      \strng{fullhash}{4be5ca2d0ed9cef295b2e8e54fa51653}
-      \strng{bibnamehash}{4be5ca2d0ed9cef295b2e8e54fa51653}
-      \strng{authorbibnamehash}{4be5ca2d0ed9cef295b2e8e54fa51653}
-      \strng{authornamehash}{4be5ca2d0ed9cef295b2e8e54fa51653}
-      \strng{authorfullhash}{4be5ca2d0ed9cef295b2e8e54fa51653}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \strng{namehash}{b20514e5fdb7187ec63cecc97fee7853}
+      \strng{fullhash}{b20514e5fdb7187ec63cecc97fee7853}
+      \strng{bibnamehash}{b20514e5fdb7187ec63cecc97fee7853}
+      \strng{authorbibnamehash}{b20514e5fdb7187ec63cecc97fee7853}
+      \strng{authornamehash}{b20514e5fdb7187ec63cecc97fee7853}
+      \strng{authorfullhash}{b20514e5fdb7187ec63cecc97fee7853}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{he ecological theatre and the evolutionary play}
-      \field{title}{The niche: an abstractly inhabited hypervolume}
-      \field{year}{1965}
-      \field{pages}{26\bibrangedash 78}
-      \range{pages}{53}
+      \field{journaltitle}{Ecology}
+      \field{number}{2}
+      \field{title}{Effects of climate change on phenology, frost damage, and floral abundance of montane wildflowers}
+      \field{volume}{89}
+      \field{year}{2008}
+      \field{pages}{353\bibrangedash 362}
+      \range{pages}{10}
     \endentry
     \entry{IUCN2008is}{report}{}
       \name{author}{1}{}{%
@@ -1333,37 +2044,37 @@
     \endentry
     \entry{Lamarque2015}{article}{}
       \name{author}{4}{}{%
-        {{uniquename=0,uniquepart=base,hash=5ae3ffb7d3599c6d8ab5e525ac6d1e51}{%
+        {{uniquename=0,uniquepart=base,hash=a2eb07f283c3980f51f16b2ef9205dbd}{%
            family={Lamarque},
            familyi={L\bibinitperiod},
-           given={L.\bibnamedelimi J.},
+           given={Laurent\bibnamedelima J.},
            giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=14f66328be2838cc38a72de954f73fa0}{%
+        {{uniquename=0,uniquepart=base,hash=100f5c57754a90a62098afa16431a831}{%
            family={Lortie},
            familyi={L\bibinitperiod},
-           given={C.\bibnamedelimi J.},
+           given={Christopher\bibnamedelima J.},
            giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=1a28588962c0d39da367aa47e259acd4}{%
-           family={Porté},
+        {{uniquename=0,uniquepart=base,hash=c9367aa63fa4035faad7d62b3217d91b}{%
+           family={Port{é}},
            familyi={P\bibinitperiod},
-           given={A.\bibnamedelimi J.},
+           given={Annabel\bibnamedelima J.},
            giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=06c0aa5ed82c790402b89a68c40f2afa}{%
+        {{uniquename=0,uniquepart=base,hash=d9759b63f5bf41eb637d5f34928e4c7d}{%
            family={Delzon},
            familyi={D\bibinitperiod},
-           given={S.},
+           given={Sylvain},
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{f3bf3eff55428d2358fe07c01043b920}
-      \strng{fullhash}{4344f75a572df0569f020c91e5ac697f}
-      \strng{bibnamehash}{4344f75a572df0569f020c91e5ac697f}
-      \strng{authorbibnamehash}{4344f75a572df0569f020c91e5ac697f}
-      \strng{authornamehash}{f3bf3eff55428d2358fe07c01043b920}
-      \strng{authorfullhash}{4344f75a572df0569f020c91e5ac697f}
+      \strng{namehash}{02dab8193e02876329c97eeebd82ee7c}
+      \strng{fullhash}{7ab95402e2acfd0a3e1bef9507413b5a}
+      \strng{bibnamehash}{7ab95402e2acfd0a3e1bef9507413b5a}
+      \strng{authorbibnamehash}{7ab95402e2acfd0a3e1bef9507413b5a}
+      \strng{authornamehash}{02dab8193e02876329c97eeebd82ee7c}
+      \strng{authorfullhash}{7ab95402e2acfd0a3e1bef9507413b5a}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{extradatescope}{labelyear}
@@ -1371,13 +2082,22 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{Genetically based phenotypic differentiation between native and invasive populations of exotic plants has been increasingly documented and commonly invoked to explain the success of some invasive species. Nonetheless, this basic information is lacking for invasive trees although they currently represent a major concern worldwide. Reciprocal common gardens were therefore set up in both native and introduced ranges of two exotic maple trees to assess the contribution of genetic differentiation and phenotypic plasticity to tree invasiveness. Almost 3,000 native and invasive seedlings of Acer negundo and Acer platanoides were planted in Canada and in France and their performances were compared in various life-history traits related to growth, leaf phenology and ecophysiology over 2 and 3 year periods. Invasive populations of A. negundo exhibited strong genetic differentiation in all the traits examined. Compared to their native conspecifics, they grew significantly larger in the introduced range and showed lower survival, reduced maximum assimilation rate and increased leaf area in the two gardens. They also expressed greater plasticity for growth and greater phenological sensitivity to temperature. Native and invasive populations of A. platanoides were plastic across environments but in contrast did not exhibit any genetic differentiation. This cross-continental comparison provides evidence that both genetic differentiation and phenotypic plasticity contribute synergistically to tree invasiveness. The influence of these respective processes depends on stage of invasion and the life-history strategy of each species. Plastic effects are likely more important during colonization and establishment whilst genetic effects may contribute more significantly during the spread of established populations.}
+      \field{issn}{13873547}
       \field{journaltitle}{Biological Invasions}
       \field{number}{4}
-      \field{title}{Genetic differentiation and phenotypic plasticity in life-history traits between native and introduced populations of invasive maple trees}
+      \field{title}{{Genetic differentiation and phenotypic plasticity in life-history traits between native and introduced populations of invasive maple trees}}
       \field{volume}{17}
       \field{year}{2015}
       \field{pages}{1109\bibrangedash 1122}
       \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s10530-014-0781-3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/8Lamarqueet2015BI.pdf:pdf
+      \endverb
+      \keyw{Acer negundo,Acer platanoides,Genetic differentiation,Phenotypic plasticity,Reciprocal common gardens,Tree invasion}
     \endentry
     \entry{Lambrinos2004}{article}{}
       \name{author}{1}{}{%
@@ -1409,30 +2129,213 @@
       \field{pages}{2061\bibrangedash 2070}
       \range{pages}{10}
     \endentry
-    \entry{Mark2001}{article}{}
-      \name{author}{2}{}{%
+    \entry{Lee2002invasion}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7d998e0f897d458aa3d3ab1a627ced2d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Carol\bibnamedelima Eunmi},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7d998e0f897d458aa3d3ab1a627ced2d}
+      \strng{fullhash}{7d998e0f897d458aa3d3ab1a627ced2d}
+      \strng{bibnamehash}{7d998e0f897d458aa3d3ab1a627ced2d}
+      \strng{authorbibnamehash}{7d998e0f897d458aa3d3ab1a627ced2d}
+      \strng{authornamehash}{7d998e0f897d458aa3d3ab1a627ced2d}
+      \strng{authorfullhash}{7d998e0f897d458aa3d3ab1a627ced2d}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The evolutionary genetics of invasive species has been relatively unexplored, but could offer insights into mechanisms of invasions. Recent studies suggest that the invasion success of many species might depend more heavily on their ability to respond to natural selection than on broad physiological tolerance or plasticity. Thus, these studies stress the importance of genetic architecture, selection upon which could result in evolutionary adaptations and possibly speciation. For instance, epistatic interactions and the action of a few genes could facilitate invasion success. These findings emphasize the utility of genomic approaches for determining invasion mechanisms, through analysis of gene expression, gene interactions, and genomic rearrangements that are associated with invasion events.}
+      \field{issn}{01695347}
+      \field{journaltitle}{Trends in Ecology and Evolution}
+      \field{number}{8}
+      \field{title}{{Evolutionary genetics of invasive species}}
+      \field{volume}{17}
+      \field{year}{2002}
+      \field{pages}{386\bibrangedash 391}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/S0169-5347(02)02554-5
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/1-s2.0-S0169534702025545-main.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Levine2003}{misc}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=a6f6200cbdeb7199ab19c202aedf6eff}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c47c898063f1b160a27edd73c36131d0}{%
+           family={Vil{à}},
+           familyi={V\bibinitperiod},
+           given={Montserrat},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1f470f503aafcab4fe8a1b5a00df6968}{%
+           family={D'Antonio},
+           familyi={D\bibinitperiod},
+           given={Carla\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8a614dfe8afb4eb1231f86c8bd551aad}{%
+           family={Dukes},
+           familyi={D\bibinitperiod},
+           given={Jeffrey\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
+           family={Grigulis},
+           familyi={G\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society}%
+      }
+      \strng{namehash}{c1ae905a4638936b05904bfbc16a06fb}
+      \strng{fullhash}{6addc7f4e20d63ddee69dbaa5647389e}
+      \strng{bibnamehash}{6addc7f4e20d63ddee69dbaa5647389e}
+      \strng{authorbibnamehash}{6addc7f4e20d63ddee69dbaa5647389e}
+      \strng{authornamehash}{c1ae905a4638936b05904bfbc16a06fb}
+      \strng{authorfullhash}{6addc7f4e20d63ddee69dbaa5647389e}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although the impacts of exotic plant invasions on community structure and ecosystem processes are well appreciated, the pathways or mechanisms that underlie these impacts are poorly understood. Better exploration of these processes is essential to understanding why exotic plants impact only certain systems, and why only some invaders have large impacts. Here, we review over 150 studies to evaluate the mechanisms underlying the impacts of exotic plant invasions on plant and animal community structure, nutrient cycling, hydrology and fire regimes. We find that, while numerous studies have examined the impacts of invasions on plant diversity and composition, less than 5{\%} test whether these effects arise through competition, allelopathy, alteration of ecosystem variables or other processes. Nonetheless, competition was often hypothesized, and nearly all studies competing native and alien plants against each other found strong competitive effects of exotic species. In contrast to studies of the impacts on plant community structure and higher trophic levels, research examining impacts on nitrogen cycling, hydrology and fire regimes is generally highly mechanistic, often motivated by specific invader traits. We encourage future studies that link impacts on community structure to ecosystem processes, and relate the controls over invasibility to the controls over impact.}
+      \field{booktitle}{Proceedings of the Royal Society B: Biological Sciences}
+      \field{issn}{14712970}
+      \field{month}{4}
+      \field{number}{1517}
+      \field{title}{{Mechanisms underlying the impacts of exotic plant invasions}}
+      \field{volume}{270}
+      \field{year}{2003}
+      \field{pages}{775\bibrangedash 781}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1098/rspb.2003.2327
+      \endverb
+      \keyw{Biological invasions,Community structure,Ecosystem processes,Exotic plants,Impact}
+    \endentry
+    \entry{Linde2001}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8545b1e288eeb5df1a49f0284c352a7c}{%
+           family={Linde},
+           familyi={L\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=832b99a5e9cf5c6ba6ecaf1f2f9daa28}{%
+           family={Diel},
+           familyi={D\bibinitperiod},
+           given={Susanne},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e05ae11006c48328b950e28399c20142}{%
+           family={Neuffer},
+           familyi={N\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bf2ae97d152d191393aae69835468073}
+      \strng{fullhash}{4aec47bdfebe1b1ac5c5912006492c65}
+      \strng{bibnamehash}{4aec47bdfebe1b1ac5c5912006492c65}
+      \strng{authorbibnamehash}{4aec47bdfebe1b1ac5c5912006492c65}
+      \strng{authornamehash}{bf2ae97d152d191393aae69835468073}
+      \strng{authorfullhash}{4aec47bdfebe1b1ac5c5912006492c65}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Capsella bursa-pastoris (Brassicaceae) is an annual to biennial predominantly autogamous species distributed worldwide. Using a linkage map with RAPDs and isozymes we studied quantitative trait loci (QTL) controlling phenotypic traits in this invasive species. To obtain a mapping population we crossed two plants occurring in different climatic regions in California, USA (Central Valley and Sierra Nevada) with the most diverse ecotypes (phenotypic parameters) and genotypes (isozyme multilocus genotypes). A hundred and thirteen F2 individuals were raised and analysed for segregation at 107 RAPDs, six isozyme loci, and one locus determining leaf type. The number, location and magnitude of genes underlying 13 traits were determined by using both interval and composite interval mapping. Two to five QTL affecting one character have been detected. Altogether the 13 quantitative traits produced 48 QTL. The inheritance patterns of traits ranged from those controlled by one QTL with a major effect to those controlled by several QTL with only minor effects. Closely linked QTL, e.g. onset of flowering with rosette leaf number, were interpreted as pleiotropic. Three major QTL account for onset of flowering. These loci were linked to at least three isozyme loci and several other QTL responsible for developmental traits like rosette leaf number. Heritability of quantitative traits, segregation of the leaf type, and segregation of the allozymes was tested in the F3 generation. We conclude that historical events alone are insufficient to explain the distribution pattern of isozyme multilocus genotypes during the colonization of new regions and habitats. The present evidence indicates that ecotypic adaptation and genetic linkage of isozyme loci with adaptive characters are involved. {©} 2000 Annals of Botany Company.}
+      \field{issn}{03057364}
+      \field{journaltitle}{Annals of Botany}
+      \field{number}{1}
+      \field{title}{{Flowering ecotypes of Capsella bursa-pastoris (L.) Medik. (Brassicaceae) analysed by a cosegregation of phenotypic characters (QTL) and molecular markers}}
+      \field{volume}{87}
+      \field{year}{2001}
+      \field{pages}{91\bibrangedash 99}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1006/anbo.2000.1308
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/1-s2.0-S0305736400913088-main.pdf:pdf
+      \endverb
+      \keyw{Allozymes,Brassicaceae,Capsella bursa-pastoris,Cosegregation analysis,Flowering ecotypes,Fruit dimensions,Leaf type,Mediterranean multilocus genotype,Plant invasions,QTL,RAPDs,Shepherd's purse}
+    \endentry
+    \entry{Mack2000}{article}{}
+      \name{author}{6}{}{%
         {{uniquename=0,uniquepart=base,hash=183ff6670c431d8b2a44661cbfc7622c}{%
            family={Mack},
            familyi={M\bibinitperiod},
-           given={Richard\bibnamedelima N},
+           given={Richard\bibnamedelima N.},
            giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6574409da7678a25bb6d2ab63311321e}{%
+           family={Simberloff},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
            givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=899a629e9bcf80cb7e3e3e7c911962b8}{%
            family={Lonsdale},
            familyi={L\bibinitperiod},
-           given={W\bibnamedelima Mark},
+           given={W.\bibnamedelimi Mark},
            giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=26f491a446dbfcb9aa70ae4247eb7964}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=69b8a05358c777d62718b0ff73ef6a46}{%
+           family={Clout},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=31c859e6cd90872fc0b354929277ed42}{%
+           family={Bazzaz},
+           familyi={B\bibinitperiod},
+           given={Fakhri\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {American Institute of Biological Sciences}%
+        {Ecological Society of America}%
       }
-      \strng{namehash}{ea0a3e51985debbb17834b9f32ef3be7}
-      \strng{fullhash}{ea0a3e51985debbb17834b9f32ef3be7}
-      \strng{bibnamehash}{ea0a3e51985debbb17834b9f32ef3be7}
-      \strng{authorbibnamehash}{ea0a3e51985debbb17834b9f32ef3be7}
-      \strng{authornamehash}{ea0a3e51985debbb17834b9f32ef3be7}
-      \strng{authorfullhash}{ea0a3e51985debbb17834b9f32ef3be7}
+      \strng{namehash}{ad916051d872aa867e9bd9881ea4be28}
+      \strng{fullhash}{5305041897c1819ff674350001601881}
+      \strng{bibnamehash}{5305041897c1819ff674350001601881}
+      \strng{authorbibnamehash}{5305041897c1819ff674350001601881}
+      \strng{authornamehash}{ad916051d872aa867e9bd9881ea4be28}
+      \strng{authorfullhash}{5305041897c1819ff674350001601881}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradatescope}{labelyear}
@@ -1440,13 +2343,64 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{BioScience}
-      \field{number}{2}
-      \field{title}{Humans as Global Plant Dispersers: Getting More Than We Bargained For: Current introductions of species for aesthetic purposes present the largest single challenge for predicting which plant immigrants will become future pests}
-      \field{volume}{51}
-      \field{year}{2001}
-      \field{pages}{95\bibrangedash 102}
-      \range{pages}{8}
+      \field{abstract}{Biotic invaders are species that establish a new range in which they proliferate, spread, and persist to the detriment of the environment. They are the most important ecological outcomes from the unprecedented alterations in the distribution of the earth's biota brought about largely through human transport and commerce. In a world without borders, few if any areas remain sheltered from these immigrations. The fate of immigrants is decidedly mixed. Few survive the hazards of chronic and stochastic forces, and only a small fraction become naturalized. In turn, some naturalized species do become invasive. There are several potential reasons why some immigrant species prosper: some escape from the constraints of their native predators or parasites; others are aided by human-caused disturbance that disrupts native communities. Ironically, many biotic invasions are apparently facilitated by cultivation and husbandry, unintentional actions that foster immigrant populations until they are self-perpetuating and uncontrollable. Whatever the cause, biotic invaders can in many cases inflict enormous environmental damage: (1) Animal invaders can cause extinctions of vulnerable native species through predation, grazing, competition, and habitat alteration. (2) Plant invaders can completely alter the fire regime, nutrient cycling, hydrology, and energy budgets in a native ecosystem and can greatly diminish the abundance or survival of native species. (3) In agriculture, the principal pests of temperate crops are nonindigenous, and the combined expenses of pest control and crop losses constitute an onerous "tax" on food, fiber, and forage production. (4) The global cost of virulent plant and animal diseases caused by parasites transported to new ranges and presented with susceptible new hosts is currently incalculable. Identifying future invaders and taking effective steps to prevent their dispersal and establishment constitutes an enormous challenge to both conservation and international commerce. Detection and management when exclusion fails have proved daunting for varied reasons: (1) Efforts to identify general attributes of future invaders have often been inconclusive. (2) Predicting susceptible locales for future invasions seems even more problematic, given the enormous differences in the rates of arrival among potential invaders. (3) Eradication of an established invader is rare, and control efforts vary enormously in their efficacy. Successful control, however, depends more on commitment and continuing diligence than on the efficacy of specific tools themselves. (4) Control of biotic invasions is most effective when it employs a long-term, ecosystemwide strategy rather than a tactical approach focused on battling individual invaders. (5) Prevention of invasions is much less costly than post-entry control. Revamping national and international quarantine laws by adopting a "guilty until proven innocent" approach would be a productive first step. Failure to address the issue of biotic invasions could effectively result in severe global consequences, including wholesale loss of agricultural, forestry, and fishery resources in some regions, disruption of the ecological processes that supply natural services on which human enterprise depends, and the creation of homogeneous, impoverished ecosystems composed of cosmopolitan species. Given their current scale, biotic invasions have taken their place alongside human-driven atmospheric and oceanic alterations as major agents of global change. Left unchecked, they will influence these other forces in profound but still unpredictable ways.}
+      \field{issn}{10510761}
+      \field{journaltitle}{Ecological Applications}
+      \field{number}{3}
+      \field{title}{{Biotic invasions: Causes, epidemiology, global consequences, and control}}
+      \field{volume}{10}
+      \field{year}{2000}
+      \field{pages}{689\bibrangedash 710}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1890/1051-0761(2000)010[0689:BICEGC]2.0.CO;2
+      \endverb
+      \keyw{Alien species,Biological control,Biotic invaders,Eradication,Global change,Immigration,Invasion,Naturalization,Nonindigenous,Pests,We eds}
+    \endentry
+    \entry{Maillet2000}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5399ecc49761eb576c498fd590b352f0}{%
+           family={Maillet},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0b66429712b1f136ada722dd1289fa54}{%
+           family={Lopez-Garcia},
+           familyi={L\bibinithyphendelim G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{415606e967c79c7692379294207d0b6f}
+      \strng{fullhash}{415606e967c79c7692379294207d0b6f}
+      \strng{bibnamehash}{415606e967c79c7692379294207d0b6f}
+      \strng{authorbibnamehash}{415606e967c79c7692379294207d0b6f}
+      \strng{authornamehash}{415606e967c79c7692379294207d0b6f}
+      \strng{authorfullhash}{415606e967c79c7692379294207d0b6f}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In Europe, exotic species are assessed for their potential threat only after they have already become weeds. To test hypotheses underlying risk assessment procedures, 274 North and South American exotic species naturalized in France were compared to differentiate environmental from agricultural weeds and to characterize weeds of several crops. Most agricultural exotic weeds belonged to the Asteraceae and the Poaceae, but proportionally to the total number of invasive species from a family the most successful families were the Amaranthaceae, Euphorbiaceae and Poaceae. Weed status in North and South America was the best predictor of agricultural weed status in France, and a pre-1900 date of introduction was associated with a greater likelihood of having become a major weed. The characteristics of 78 species present in field crops were examined in relation to management practices. In annual crops, the life-cycle compatibility of weeds appeared to be the main factor of selection. Exotic species differed in their C4 photosynthesis pathway in maize and rice. In vineyards, many ecological strategies are possible because the habitat is heterogeneous. Intrageneric comparison of exotic and native species showed a superior relative growth rate and higher biomass production under nutrient-rich conditions for exotics. However, it is still difficult to find a predictive function that fits well with all observed cases of weed invasion.}
+      \field{issn}{00431737}
+      \field{journaltitle}{Weed Research}
+      \field{number}{1}
+      \field{title}{{What criteria are relevant for predicting the invasive capacity of a new agricultural weed? The case of invasive American species in France}}
+      \field{volume}{40}
+      \field{year}{2000}
+      \field{pages}{11\bibrangedash 26}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1046/j.1365-3180.2000.00171.x
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Maillet{\_}et{\_}al-2000-Weed{\_}Research.pdf:pdf
+      \endverb
+      \keyw{Agricultural weed,Decision tree,Invasion,N and S American exotics,Risk assessment}
     \endentry
     \entry{McKinney1999}{article}{}
       \name{author}{2}{}{%
@@ -1880,6 +2834,68 @@
       \field{pages}{103\bibrangedash 122}
       \range{pages}{20}
     \endentry
+    \entry{Prentis2008}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=dbfda34a1afa7d09b7187062e3ab2553}{%
+           family={Prentis},
+           familyi={P\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=78ddb6592a67b99a5b097f97c160f584}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima R.U.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=55457dfde3e4d2c0caabdd36b547c886}{%
+           family={Dormontt},
+           familyi={D\bibinitperiod},
+           given={Eleanor\bibnamedelima E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e0c4599f48086a3f274ec10fa7b91ccf}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4c8e82ed9db81a463912e48d2ac4763e}{%
+           family={Lowe},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5154eb7275b2dcf961f4be8db596f422}
+      \strng{fullhash}{2a582bf9f8667ebd025f74908705d5d0}
+      \strng{bibnamehash}{2a582bf9f8667ebd025f74908705d5d0}
+      \strng{authorbibnamehash}{2a582bf9f8667ebd025f74908705d5d0}
+      \strng{authornamehash}{5154eb7275b2dcf961f4be8db596f422}
+      \strng{authorfullhash}{2a582bf9f8667ebd025f74908705d5d0}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many emerging invasive species display evidence of rapid adaptation. Contemporary genetic studies demonstrate that adaptation to novel environments can occur within 20 generations or less, indicating that evolutionary processes can influence invasiveness. However, the source of genetic or epigenetic variation underlying these changes remains uncharacterised. Here, we review the potential for rapid adaptation from standing genetic variation and from new mutations, and examine four types of evolutionary change that might promote or constrain rapid adaptation during the invasion process. Understanding the source of variation that contributes to adaptive evolution in invasive plants is important for predicting future invasion scenarios, identifying candidate genes involved in invasiveness, and, more generally, for understanding how populations can evolve rapidly in response to novel and changing environments. {©} 2008 Elsevier Ltd. All rights reserved.}
+      \field{issn}{13601385}
+      \field{journaltitle}{Trends in Plant Science}
+      \field{number}{6}
+      \field{title}{{Adaptive evolution in invasive species}}
+      \field{volume}{13}
+      \field{year}{2008}
+      \field{pages}{288\bibrangedash 294}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.tplants.2008.03.004
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Adaptive{\_}evolution{\_}in{\_}invasive{\_}species.pdf:pdf
+      \endverb
+    \endentry
     \entry{Probert2000}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=bdf605bdd0332db6c55473a7c939657b}{%
@@ -2030,45 +3046,48 @@
       \verb :C$\backslash$:/Users/Owner/Documents/Literature/annurev-environ-033009-095548.pdf:pdf
       \endverb
     \endentry
-    \entry{Richards2006}{article}{}
-      \name{author}{5}{}{%
-        {{uniquename=0,uniquepart=base,hash=23bbbb9cf1dbe46a9a92a1684a5394cb}{%
-           family={Richards},
+    \entry{Reznick2001}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=aba832804503e2ddf4f7f8d1e45afadb}{%
+           family={Reznick},
            familyi={R\bibinitperiod},
-           given={C.\bibnamedelimi L.},
-           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={D.\bibnamedelimi N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=3955141c9b0ff9770808cedc7fc71af1}{%
-           family={Bossdorf},
-           familyi={B\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=0fc4dd659a5eed7aafb053889e4568a4}{%
-           family={Muth},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=a82f1d68e3a2f8a49984f16688dfa959}{%
-           family={Z.},
-           familyi={Z\bibinitperiod},
-           given={Gurevitch\bibnamedelima J.},
-           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=02fa0880f24d190d21366de8aae2b594}{%
-           family={Pigliucci},
-           familyi={P\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod},
+        {{uniquename=0,uniquepart=base,hash=eee2520166243394357434e42c474bd9}{%
+           family={Ghalambor},
+           familyi={G\bibinitperiod},
+           given={C.\bibnamedelimi K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{44abb6770d53145646bf79148bbaa51e}
-      \strng{fullhash}{2f34d0097e8e27102ba9d2098af8011b}
-      \strng{bibnamehash}{2f34d0097e8e27102ba9d2098af8011b}
-      \strng{authorbibnamehash}{2f34d0097e8e27102ba9d2098af8011b}
-      \strng{authornamehash}{44abb6770d53145646bf79148bbaa51e}
-      \strng{authorfullhash}{2f34d0097e8e27102ba9d2098af8011b}
+      \name{editor}{2}{}{%
+        {{hash=df50caca7964ce2535d5d7c005b24668}{%
+           family={Hendry},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f2ca00ad4d97c3752b717251abbaf967}{%
+           family={Kinnison},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8a9bd7a1f538f1f8431e297cc224de4e}
+      \strng{fullhash}{8a9bd7a1f538f1f8431e297cc224de4e}
+      \strng{bibnamehash}{8a9bd7a1f538f1f8431e297cc224de4e}
+      \strng{authorbibnamehash}{8a9bd7a1f538f1f8431e297cc224de4e}
+      \strng{authornamehash}{8a9bd7a1f538f1f8431e297cc224de4e}
+      \strng{authorfullhash}{8a9bd7a1f538f1f8431e297cc224de4e}
+      \strng{editorbibnamehash}{d5eefe5090d77400e4068caca3286107}
+      \strng{editornamehash}{d5eefe5090d77400e4068caca3286107}
+      \strng{editorfullhash}{d5eefe5090d77400e4068caca3286107}
       \field{sortinit}{R}
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{extradatescope}{labelyear}
@@ -2076,12 +3095,72 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{booktitle}{Microevolution Rate, pattern, Process}
+      \field{title}{{The population ecology of contemporary adaptations: What empirical studies reveal about the condiitions that promote adaptive evolution}}
+      \field{year}{2001}
+    \endentry
+    \entry{Richards2006}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=e7cedf927ddfbaaa7d16009fcce3ade2}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Christina\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=23eacb7c91d8345fd0c318137b4634f3}{%
+           family={Bossdorf},
+           familyi={B\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cdac85b1f680cc078028a5fd20d3fd9a}{%
+           family={Muth},
+           familyi={M\bibinitperiod},
+           given={Norris\bibnamedelima Z.},
+           giveni={N\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7227829f95f2788fdef5a756d916fb54}{%
+           family={Gurevitch},
+           familyi={G\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=15d8848b32b6155fc1c195489fdff0ff}{%
+           family={Pigliucci},
+           familyi={P\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{61a2c9ef4785dce1f798e26a901703d7}
+      \strng{fullhash}{e1b56dd71620abeb77a0cfc8a516e259}
+      \strng{bibnamehash}{e1b56dd71620abeb77a0cfc8a516e259}
+      \strng{authorbibnamehash}{e1b56dd71620abeb77a0cfc8a516e259}
+      \strng{authornamehash}{61a2c9ef4785dce1f798e26a901703d7}
+      \strng{authorfullhash}{e1b56dd71620abeb77a0cfc8a516e259}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Invasion biologists often suggest that phenotypic plasticity plays an important role in successful plant invasions. Assuming that plasticity enhances ecological niche breadth and therefore confers a fitness advantage, recent studies have posed two main hypotheses: (1) invasive species are more plastic than non-invasive or native ones; (2) populations in the introduced range of an invasive species have evolved greater plasticity than populations in the native range. These two hypotheses largely reflect the disparate interests of ecologists and evolutionary biologists. Because these sciences are typically interested in different temporal and spatial scales, we describe what is required to assess phenotypic plasticity at different levels. We explore the inevitable tradeoffs of experiments conducted at the genotype vs. species level, outline components of experimental design required to identify plasticity at different levels, and review some examples from the recent literature. Moreover, we suggest that a successful invader may benefit from plasticity as either (1) a Jack-of-all-trades, better able to maintain fitness in unfavourable environments; (2) a Master-of-some, better able to increase fitness in favourable environments; or (3) a Jack-and-master that combines some level of both abilities. This new framework can be applied when testing both ecological or evolutionary oriented hypotheses, and therefore promises to bridge the gap between the two perspectives. {©} 2006 Blackwell Publishing Ltd/CNRS.}
+      \field{issn}{1461023X}
       \field{journaltitle}{Ecology Letters}
-      \field{title}{Jack of all trades, master of some? On the role of phenotypic plasticity in plant invasions}
+      \field{number}{8}
+      \field{title}{{Jack of all trades, master of some? On the role of phenotypic plasticity in plant invasions}}
       \field{volume}{9}
       \field{year}{2006}
       \field{pages}{981\bibrangedash 993}
       \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/j.1461-0248.2006.00950.x
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Richards{\_}et{\_}al-2006-Ecology{\_}Letters.pdf:pdf
+      \endverb
+      \keyw{Adaptive evolution,Adaptive phenotypic plasticity,Ecological genetics,Experimental design,Fitness homeostasis,General-purpose genotype,Genetic assimilation,Genotype-environment interaction,Invasiveness,Molecular markers}
     \endentry
     \entry{Richardson2011}{article}{}
       \name{author}{3}{}{%
@@ -2488,6 +3567,44 @@
       \field{pages}{281\bibrangedash 286}
       \range{pages}{6}
     \endentry
+    \entry{Thompson1998}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bb0c07bcae1444d1fefb82253691431f}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bb0c07bcae1444d1fefb82253691431f}
+      \strng{fullhash}{bb0c07bcae1444d1fefb82253691431f}
+      \strng{bibnamehash}{bb0c07bcae1444d1fefb82253691431f}
+      \strng{authorbibnamehash}{bb0c07bcae1444d1fefb82253691431f}
+      \strng{authornamehash}{bb0c07bcae1444d1fefb82253691431f}
+      \strng{authorfullhash}{bb0c07bcae1444d1fefb82253691431f}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rapid evolution of interspecific interactions (during a timespan of about 100 years) has the potential to be an important influence on the ecological dynamics of communities. However, despite the growing number of examples, rapid evolution is still not a standard working hypothesis for many ecological studies on the dynamics of population structure or the organization of communities. Analysis of rapid evolution as an ecological process has the potential to make evolutionary ecology one of the most central of applied biological sciences.}
+      \field{issn}{01695347}
+      \field{journaltitle}{Trends in Ecology and Evolution}
+      \field{number}{8}
+      \field{title}{{Rapid evolution as an ecological process}}
+      \field{volume}{13}
+      \field{year}{1998}
+      \field{pages}{329\bibrangedash 332}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/s0169-5347(98)01378-0
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Thompson{\_}1998.pdf:pdf
+      \endverb
+    \endentry
     \entry{Tilman2001}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=3da35fed4a265c73f0e81cf8c316746f}{%
@@ -2803,39 +3920,27 @@
       \field{pages}{2}
       \range{pages}{1}
     \endentry
-    \entry{Westphal2008}{article}{}
-      \name{author}{4}{}{%
-        {{uniquename=0,uniquepart=base,hash=78c8b21486c2522be02ed5956d41c243}{%
-           family={Westphal},
+    \entry{Weber1998}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ed67f22473c362ecb16f0a9435d6347c}{%
+           family={Weber},
            familyi={W\bibinitperiod},
-           given={M.\bibnamedelimi I.},
-           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=0154afd00e73904a873d82690757f607}{%
-           family={Browne},
-           familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=efbed91c8c54d3396d68fe1eb6421afc}{%
-           family={MacKinnon},
-           familyi={M\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=df4b7b78c70084e7dd1831ce11bb071b}{%
-           family={Noble},
-           familyi={N\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
+        {{uniquename=0,uniquepart=base,hash=739c7d3d55b1aee910d61ed26bba81f1}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{337030f1840191e297b1fea67e97611c}
-      \strng{fullhash}{5582a86210b28b03112b0eb346106ad4}
-      \strng{bibnamehash}{5582a86210b28b03112b0eb346106ad4}
-      \strng{authorbibnamehash}{5582a86210b28b03112b0eb346106ad4}
-      \strng{authornamehash}{337030f1840191e297b1fea67e97611c}
-      \strng{authorfullhash}{5582a86210b28b03112b0eb346106ad4}
+      \strng{namehash}{f6232d5af23782edf605c10b9a8acb1e}
+      \strng{fullhash}{f6232d5af23782edf605c10b9a8acb1e}
+      \strng{bibnamehash}{f6232d5af23782edf605c10b9a8acb1e}
+      \strng{authorbibnamehash}{f6232d5af23782edf605c10b9a8acb1e}
+      \strng{authornamehash}{f6232d5af23782edf605c10b9a8acb1e}
+      \strng{authorfullhash}{f6232d5af23782edf605c10b9a8acb1e}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{extradatescope}{labelyear}
@@ -2843,13 +3948,22 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Biological Invasions}
-      \field{number}{4}
-      \field{title}{The link between international trade and the global distribution of invasive alien species}
-      \field{volume}{10}
-      \field{year}{2008}
-      \field{pages}{391\bibrangedash 398}
-      \range{pages}{8}
+      \field{abstract}{Solidago altissima and S. gigantea were introduced from North America to Europe {\~{}}250 yr ago and are now considered aggressive weeds in abandoned fields and conservation areas. We studied patterns of genetic differentiation in these two species along their present latitudinal range in Europe (44°-61°N). Two generations of clonally propagated ramets from randomly selected genets of 24 populations of each species were grown in a common-garden experiment at latitude 47°N from 1991 to 1992. Both species showed significant variation among populations in morphological and life-history characters: at this southern location, plants from northern populations were smaller and flowered earlier than plants from southern populations. The gradient of clinal variation was more pronounced in the second year of cultivation than in the first and was steeper in S. altissima than in S. gigantea. Within-population variation among genotypes was significant for most characters in the case of S. altissima. Phenological rate (reciprocal of days to flowering) and size at maturity showed a significant negative correlation among populations but not among genotypes within populations, indicating that genetic trade-offs may occur at one but not another infraspecific level. We suggest that the pattern of among-population variation reflects rapid adaptive population differentiation after introduction of the species to Europe.}
+      \field{issn}{00029122}
+      \field{journaltitle}{American Journal of Botany}
+      \field{number}{8}
+      \field{title}{{Latitudinal population differentiation in two species of Solidago (Asteraceae) introduced into Europe}}
+      \field{volume}{85}
+      \field{year}{1998}
+      \field{pages}{1110\bibrangedash 1121}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.2307/2446344
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Weber{\_}et{\_}al-1998-American{\_}Journal{\_}of{\_}Botany.pdf:pdf
+      \endverb
+      \keyw{Age/size trade-off,Biological invasion,Clinal variation,Compositae,Genetic differentiation,Life-history evolution,Solidago}
     \endentry
     \entry{Westrich1989}{book}{}
       \name{author}{1}{}{%
@@ -2950,6 +4064,125 @@
       \verb https://academic.oup.com/bioscience/article-lookup/doi/10.2307/1313420
       \endverb
     \endentry
+    \entry{Williams2008}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,uniquepart=given,hash=d576b17bab77f3e50daf5de2aea40c89}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Jennifer\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=91f4d6400c03d031f7df125f8c8536a8}{%
+           family={Auge},
+           familyi={A\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f1c96ef96581f093e2a7d13e49b1c7d3}{%
+           family={Maron},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6cde85eb160400c96ec52339531b2cb}
+      \strng{fullhash}{a1488d7fc075b91edbe97bb94ac796a9}
+      \strng{bibnamehash}{a1488d7fc075b91edbe97bb94ac796a9}
+      \strng{authorbibnamehash}{a1488d7fc075b91edbe97bb94ac796a9}
+      \strng{authornamehash}{a6cde85eb160400c96ec52339531b2cb}
+      \strng{authorfullhash}{a1488d7fc075b91edbe97bb94ac796a9}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Invasive plants may respond through adaptive evolution and/or phenotypic plasticity to new environmental conditions where they are introduced. Although many studies have focused on evolution of invaders particularly in the context of testing the evolution of increased competitive ability (EICA) hypothesis, few consistent patterns have emerged. Many tests of the EICA hypothesis have been performed in only one environment; such assessments may be misleading if plants that perform one way at a particular site respond differently across sites. Single common garden tests ignore the potential for important contributions of both genetic and environmental factors to affect plant phenotype. Using a widespread invader in North America, Cynoglossum officinale, we established reciprocal common gardens in the native range (Europe) and introduced range (North America) to assess genetically based differences in size, fecundity, flowering phenology and threshold flowering size between native and introduced genotypes as well as the magnitude of plasticity in these traits. In addition, we grew plants at three nutrient levels in a pot experiment in one garden to test for plasticity across a different set of conditions. We did not find significant genetically based differences between native and introduced populations in the traits we measured; in our experiments, introduced populations of C. officinale were larger and more fecund, but only in common garden experiments in the native range. We found substantial population-level plasticity for size, fecundity and date of first flowering, with plants performing better in a garden in Germany than in Montana. Differentiation of native populations in the magnitude of plasticity was much stronger than that of introduced populations, suggesting an important role for founder effects. We did not detect evidence of an evolutionary change in threshold flowering size. Our study demonstrates that detecting genetically based differences in traits may require measuring plant responses to more than one environment. {©} 2008 Springer-Verlag.}
+      \field{issn}{00298549}
+      \field{journaltitle}{Oecologia}
+      \field{number}{2}
+      \field{title}{{Different gardens, different results: Native and introduced populations exhibit contrasting phenotypes across common gardens}}
+      \field{volume}{157}
+      \field{year}{2008}
+      \field{pages}{239\bibrangedash 248}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s00442-008-1075-1
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Williams2008{\_}Article{\_}DifferentGardensDifferentResul.pdf:pdf
+      \endverb
+      \keyw{Cynoglossum officinale,Evolution of increased competitive ability (EICA),Founder effects,Native and introduced ranges,Phenotypic plasticity}
+    \endentry
+    \entry{Williams2012}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=1ee2e4eef5ee9c75bce83e35c84984e0}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{1ee2e4eef5ee9c75bce83e35c84984e0}
+      \strng{fullhash}{1ee2e4eef5ee9c75bce83e35c84984e0}
+      \strng{bibnamehash}{1ee2e4eef5ee9c75bce83e35c84984e0}
+      \strng{authorbibnamehash}{1ee2e4eef5ee9c75bce83e35c84984e0}
+      \strng{authornamehash}{1ee2e4eef5ee9c75bce83e35c84984e0}
+      \strng{authorfullhash}{1ee2e4eef5ee9c75bce83e35c84984e0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many researchers and journals place a strong emphasis on the sign and statistical significance of effects-but often there is very little emphasis on the substantive and practical significance of the findings. As Long and Freese (2006, Regression Models for Categorical Dependent Variables Using Stata [Stata Press]) show, results can often be made more tangible by computing predicted or expected values for hypothetical or prototypical cases. Stata 11 introduced new tools for making such calculations-factor variables and the margins command. These can do most of the things that were previously done by Stata's own adjust and mfx commands, and much more. Unfortunately, the complexity of the margins syntax, the daunting 50-page reference manual entry that describes it, and a lack of understanding about what margins offers over older commands that have been widely used for years may have dissuaded some researchers from examining how the margins command could benefit them. In this article, therefore, I explain what adjusted predictions and marginal effects are, and how they can contribute to the interpretation of results. I further explain why older commands, like adjust and mfx, can often produce incorrect results, and how factor variables and the margins command can avoid these errors. The relative merits of different methods for setting representative values for variables in the model (marginal effects at the means, average marginal effects, and marginal effects at representative values) are considered. I shows how the marginsplot command (introduced in Stata 12) provides a graphical and often much easier means for presenting and understanding the results from margins, and explain why margins does not present marginal effects for interaction terms. {©} 2012 StataCorp LP.}
+      \field{issn}{1536867X}
+      \field{journaltitle}{Stata Journal}
+      \field{number}{2}
+      \field{title}{{Using the margins command to estimate and interpret adjusted predictions and marginal effects}}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{pages}{308\bibrangedash 331}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1177/1536867x1201200209
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/1536867x1201200209.pdf:pdf
+      \endverb
+      \keyw{Adjusted predictions,Marginal effects,Margins,Marginsplot,St0260}
+    \endentry
+    \entry{Williamson1997}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=48ae220ea6fef31bc9592486e0314488}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Chapman {\&} Hall}%
+      }
+      \strng{namehash}{48ae220ea6fef31bc9592486e0314488}
+      \strng{fullhash}{48ae220ea6fef31bc9592486e0314488}
+      \strng{bibnamehash}{48ae220ea6fef31bc9592486e0314488}
+      \strng{authorbibnamehash}{48ae220ea6fef31bc9592486e0314488}
+      \strng{authornamehash}{48ae220ea6fef31bc9592486e0314488}
+      \strng{authorfullhash}{48ae220ea6fef31bc9592486e0314488}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Biological invasions}}
+      \field{year}{1997}
+    \endentry
     \entry{Wittenberg2001}{book}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=97153fd348ef678daa5b0611c2004400}{%
@@ -3032,38 +4265,6 @@
       \field{pages}{777\bibrangedash 783}
       \range{pages}{7}
     \endentry
-    \entry{Wolkovich2014}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=9383fa78befb9e0d589d926f1dd7a1f3}{%
-           family={Wolkovich},
-           familyi={W\bibinitperiod},
-           given={E.\bibnamedelimi M.},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=b394f67919447f834a44be050e87a498}{%
-           family={Cleland},
-           familyi={C\bibinitperiod},
-           given={E.\bibnamedelimi E.},
-           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6df9ae0473768ed5192b95cf7e38323f}
-      \strng{fullhash}{6df9ae0473768ed5192b95cf7e38323f}
-      \strng{bibnamehash}{6df9ae0473768ed5192b95cf7e38323f}
-      \strng{authorbibnamehash}{6df9ae0473768ed5192b95cf7e38323f}
-      \strng{authornamehash}{6df9ae0473768ed5192b95cf7e38323f}
-      \strng{authorfullhash}{6df9ae0473768ed5192b95cf7e38323f}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{AoB plants}
-      \field{title}{Phenological niches and the future of invaded ecosystems with climate change}
-      \field{volume}{6}
-      \field{year}{2014}
-    \endentry
     \entry{Wolkovich2013}{article}{}
       \name{author}{8}{}{%
         {{uniquename=0,uniquepart=base,hash=9383fa78befb9e0d589d926f1dd7a1f3}{%
@@ -3125,6 +4326,7 @@
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{American Journal of Botany}
@@ -3176,10 +4378,7 @@
       \range{pages}{7}
     \endentry
   \enddatalist
-  \missing{Gelman1992}
-  \missing{Goodrich2018}
-  \missing{Matinsanz2010}
-  \missing{Williams2012}
+  \missing{Lee2002invaions}
 \endrefsection
 \endinput
 

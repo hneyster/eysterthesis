@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.23)  15 NOV 2019 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.23)  6 FEB 2020 16:59
 entering extended mode
 **./Eyster_germ_ms.tex
 (Eyster_germ_ms.tex
@@ -516,6 +516,41 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
 cfg"))
+("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtool
+s.sty"
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+
+("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count310
+\calc@Bcount=\count311
+\calc@Adimen=\dimen132
+\calc@Bdimen=\dimen133
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count312
+\calc@Cskip=\skip73
+)
+("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.
+sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count313
+\l_MT_multwidth_dim=\dimen134
+\origjot=\skip74
+\l_MT_shortvdotswithinadjustabove_dim=\dimen135
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen136
+\l_MT_above_intertext_sep=\dimen137
+\l_MT_below_intertext_sep=\dimen138
+\l_MT_above_shortintertext_sep=\dimen139
+\l_MT_below_shortintertext_sep=\dimen140
+)
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
 sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -523,23 +558,23 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty
 "
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
-\c@tracingmulticols=\count310
+\c@tracingmulticols=\count314
 \mult@box=\box30
-\multicol@leftmargin=\dimen132
-\c@unbalance=\count311
-\c@collectmore=\count312
-\doublecol@number=\count313
-\multicoltolerance=\count314
-\multicolpretolerance=\count315
-\full@width=\dimen133
-\page@free=\dimen134
-\premulticols=\dimen135
-\postmulticols=\dimen136
-\multicolsep=\skip71
-\multicolbaselineskip=\skip72
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count315
+\c@collectmore=\count316
+\doublecol@number=\count317
+\multicoltolerance=\count318
+\multicolpretolerance=\count319
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip75
+\multicolbaselineskip=\skip76
 \partial@page=\box31
 \last@line=\box32
-\maxbalancingoverflow=\dimen137
+\maxbalancingoverflow=\dimen146
 \mult@rightbox=\box33
 \mult@grightbox=\box34
 \mult@gfirstbox=\box35
@@ -561,32 +596,32 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \@tempa=\box51
 \@tempa=\box52
 \@tempa=\box53
-\c@columnbadness=\count316
-\c@finalcolumnbadness=\count317
-\last@try=\dimen138
-\multicolovershoot=\dimen139
-\multicolundershoot=\dimen140
+\c@columnbadness=\count320
+\c@finalcolumnbadness=\count321
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
 \mult@nat@firstbox=\box54
 \colbreak@box=\box55
-\mc@col@check@num=\count318
+\mc@col@check@num=\count322
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
 y"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip73
-\LTright=\skip74
-\LTpre=\skip75
-\LTpost=\skip76
-\LTchunksize=\count319
-\LTcapwidth=\dimen141
+\LTleft=\skip77
+\LTright=\skip78
+\LTpre=\skip79
+\LTpost=\skip80
+\LTchunksize=\count323
+\LTcapwidth=\dimen150
 \LT@head=\box56
 \LT@firsthead=\box57
 \LT@foot=\box58
 \LT@lastfoot=\box59
-\LT@cols=\count320
-\LT@rows=\count321
-\c@LT@tables=\count322
-\c@LT@chunks=\count323
+\LT@cols=\count324
+\LT@rows=\count325
+\c@LT@tables=\count326
+\c@LT@chunks=\count327
 \LT@p@ftn=\toks23
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/makecell\makecell.
@@ -595,16 +630,16 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen142
+\col@sep=\dimen151
 \ar@mcellbox=\box60
-\extrarowheight=\dimen143
+\extrarowheight=\dimen152
 \NC@list=\toks24
-\extratabsurround=\skip77
-\backup@length=\skip78
+\extratabsurround=\skip81
+\backup@length=\skip82
 \ar@cellbox=\box61
 )
-\rotheadsize=\dimen144
-\c@nlinenum=\count324
+\rotheadsize=\dimen153
+\c@nlinenum=\count328
 \TeXr@lab=\toks25
 ) ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/breqn\breqn.sty"
 
@@ -615,130 +650,130 @@ Package: expl3 2019-04-21 L3 programming layer (loader)
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-cod
 e.tex"
 Package: expl3 2019-04-21 L3 programming layer (code)
-\c_max_int=\count325
-\l_tmpa_int=\count326
-\l_tmpb_int=\count327
-\g_tmpa_int=\count328
-\g_tmpb_int=\count329
-\g__kernel_prg_map_int=\count330
-\c__ior_term_ior=\count331
-\c_log_iow=\count332
-\l_iow_line_count_int=\count333
-\l__iow_line_target_int=\count334
-\l__iow_one_indent_int=\count335
-\l__iow_indent_int=\count336
-\c_zero_dim=\dimen145
-\c_max_dim=\dimen146
-\l_tmpa_dim=\dimen147
-\l_tmpb_dim=\dimen148
-\g_tmpa_dim=\dimen149
-\g_tmpb_dim=\dimen150
-\c_zero_skip=\skip79
-\c_max_skip=\skip80
-\l_tmpa_skip=\skip81
-\l_tmpb_skip=\skip82
-\g_tmpa_skip=\skip83
-\g_tmpb_skip=\skip84
+\c_max_int=\count329
+\l_tmpa_int=\count330
+\l_tmpb_int=\count331
+\g_tmpa_int=\count332
+\g_tmpb_int=\count333
+\g__kernel_prg_map_int=\count334
+\c__ior_term_ior=\count335
+\c_log_iow=\count336
+\l_iow_line_count_int=\count337
+\l__iow_line_target_int=\count338
+\l__iow_one_indent_int=\count339
+\l__iow_indent_int=\count340
+\c_zero_dim=\dimen154
+\c_max_dim=\dimen155
+\l_tmpa_dim=\dimen156
+\l_tmpb_dim=\dimen157
+\g_tmpa_dim=\dimen158
+\g_tmpb_dim=\dimen159
+\c_zero_skip=\skip83
+\c_max_skip=\skip84
+\l_tmpa_skip=\skip85
+\l_tmpb_skip=\skip86
+\g_tmpa_skip=\skip87
+\g_tmpb_skip=\skip88
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count337
-\l__intarray_loop_int=\count338
-\c__intarray_sp_dim=\dimen151
-\g__intarray_font_int=\count339
-\c__fp_leading_shift_int=\count340
-\c__fp_middle_shift_int=\count341
-\c__fp_trailing_shift_int=\count342
-\c__fp_big_leading_shift_int=\count343
-\c__fp_big_middle_shift_int=\count344
-\c__fp_big_trailing_shift_int=\count345
-\c__fp_Bigg_leading_shift_int=\count346
-\c__fp_Bigg_middle_shift_int=\count347
-\c__fp_Bigg_trailing_shift_int=\count348
-\c__kernel_randint_max_int=\count349
-\g__fp_array_int=\count350
-\l__fp_array_loop_int=\count351
-\l__sort_length_int=\count352
-\l__sort_min_int=\count353
-\l__sort_top_int=\count354
-\l__sort_max_int=\count355
-\l__sort_true_max_int=\count356
-\l__sort_block_int=\count357
-\l__sort_begin_int=\count358
-\l__sort_end_int=\count359
-\l__sort_A_int=\count360
-\l__sort_B_int=\count361
-\l__sort_C_int=\count362
-\l__tl_analysis_normal_int=\count363
-\l__tl_analysis_index_int=\count364
-\l__tl_analysis_nesting_int=\count365
-\l__tl_analysis_type_int=\count366
-\l__regex_internal_a_int=\count367
-\l__regex_internal_b_int=\count368
-\l__regex_internal_c_int=\count369
-\l__regex_balance_int=\count370
-\l__regex_group_level_int=\count371
-\l__regex_mode_int=\count372
-\c__regex_cs_in_class_mode_int=\count373
-\c__regex_cs_mode_int=\count374
-\l__regex_catcodes_int=\count375
-\l__regex_default_catcodes_int=\count376
-\c__regex_catcode_D_int=\count377
-\c__regex_catcode_S_int=\count378
-\c__regex_catcode_L_int=\count379
-\c__regex_catcode_O_int=\count380
-\c__regex_catcode_A_int=\count381
-\c__regex_all_catcodes_int=\count382
-\l__regex_show_lines_int=\count383
-\l__regex_min_state_int=\count384
-\l__regex_max_state_int=\count385
-\l__regex_left_state_int=\count386
-\l__regex_right_state_int=\count387
-\l__regex_capturing_group_int=\count388
-\l__regex_min_pos_int=\count389
-\l__regex_max_pos_int=\count390
-\l__regex_curr_pos_int=\count391
-\l__regex_start_pos_int=\count392
-\l__regex_success_pos_int=\count393
-\l__regex_curr_char_int=\count394
-\l__regex_curr_catcode_int=\count395
-\l__regex_last_char_int=\count396
-\l__regex_case_changed_char_int=\count397
-\l__regex_curr_state_int=\count398
-\l__regex_step_int=\count399
-\l__regex_min_active_int=\count400
-\l__regex_max_active_int=\count401
-\l__regex_replacement_csnames_int=\count402
-\l__regex_match_count_int=\count403
-\l__regex_min_submatch_int=\count404
-\l__regex_submatch_int=\count405
-\l__regex_zeroth_submatch_int=\count406
-\g__regex_trace_regex_int=\count407
+\l_keys_choice_int=\count341
+\l__intarray_loop_int=\count342
+\c__intarray_sp_dim=\dimen160
+\g__intarray_font_int=\count343
+\c__fp_leading_shift_int=\count344
+\c__fp_middle_shift_int=\count345
+\c__fp_trailing_shift_int=\count346
+\c__fp_big_leading_shift_int=\count347
+\c__fp_big_middle_shift_int=\count348
+\c__fp_big_trailing_shift_int=\count349
+\c__fp_Bigg_leading_shift_int=\count350
+\c__fp_Bigg_middle_shift_int=\count351
+\c__fp_Bigg_trailing_shift_int=\count352
+\c__kernel_randint_max_int=\count353
+\g__fp_array_int=\count354
+\l__fp_array_loop_int=\count355
+\l__sort_length_int=\count356
+\l__sort_min_int=\count357
+\l__sort_top_int=\count358
+\l__sort_max_int=\count359
+\l__sort_true_max_int=\count360
+\l__sort_block_int=\count361
+\l__sort_begin_int=\count362
+\l__sort_end_int=\count363
+\l__sort_A_int=\count364
+\l__sort_B_int=\count365
+\l__sort_C_int=\count366
+\l__tl_analysis_normal_int=\count367
+\l__tl_analysis_index_int=\count368
+\l__tl_analysis_nesting_int=\count369
+\l__tl_analysis_type_int=\count370
+\l__regex_internal_a_int=\count371
+\l__regex_internal_b_int=\count372
+\l__regex_internal_c_int=\count373
+\l__regex_balance_int=\count374
+\l__regex_group_level_int=\count375
+\l__regex_mode_int=\count376
+\c__regex_cs_in_class_mode_int=\count377
+\c__regex_cs_mode_int=\count378
+\l__regex_catcodes_int=\count379
+\l__regex_default_catcodes_int=\count380
+\c__regex_catcode_D_int=\count381
+\c__regex_catcode_S_int=\count382
+\c__regex_catcode_L_int=\count383
+\c__regex_catcode_O_int=\count384
+\c__regex_catcode_A_int=\count385
+\c__regex_all_catcodes_int=\count386
+\l__regex_show_lines_int=\count387
+\l__regex_min_state_int=\count388
+\l__regex_max_state_int=\count389
+\l__regex_left_state_int=\count390
+\l__regex_right_state_int=\count391
+\l__regex_capturing_group_int=\count392
+\l__regex_min_pos_int=\count393
+\l__regex_max_pos_int=\count394
+\l__regex_curr_pos_int=\count395
+\l__regex_start_pos_int=\count396
+\l__regex_success_pos_int=\count397
+\l__regex_curr_char_int=\count398
+\l__regex_curr_catcode_int=\count399
+\l__regex_last_char_int=\count400
+\l__regex_case_changed_char_int=\count401
+\l__regex_curr_state_int=\count402
+\l__regex_step_int=\count403
+\l__regex_min_active_int=\count404
+\l__regex_max_active_int=\count405
+\l__regex_replacement_csnames_int=\count406
+\l__regex_match_count_int=\count407
+\l__regex_min_submatch_int=\count408
+\l__regex_submatch_int=\count409
+\l__regex_zeroth_submatch_int=\count410
+\g__regex_trace_regex_int=\count411
 \c_empty_box=\box62
 \l_tmpa_box=\box63
 \l_tmpb_box=\box64
 \g_tmpa_box=\box65
 \g_tmpb_box=\box66
-\l__box_top_dim=\dimen152
-\l__box_bottom_dim=\dimen153
-\l__box_left_dim=\dimen154
-\l__box_right_dim=\dimen155
-\l__box_top_new_dim=\dimen156
-\l__box_bottom_new_dim=\dimen157
-\l__box_left_new_dim=\dimen158
-\l__box_right_new_dim=\dimen159
+\l__box_top_dim=\dimen161
+\l__box_bottom_dim=\dimen162
+\l__box_left_dim=\dimen163
+\l__box_right_dim=\dimen164
+\l__box_top_new_dim=\dimen165
+\l__box_bottom_new_dim=\dimen166
+\l__box_left_new_dim=\dimen167
+\l__box_right_new_dim=\dimen168
 \l__box_internal_box=\box67
 \l__coffin_internal_box=\box68
-\l__coffin_internal_dim=\dimen160
-\l__coffin_offset_x_dim=\dimen161
-\l__coffin_offset_y_dim=\dimen162
-\l__coffin_x_dim=\dimen163
-\l__coffin_y_dim=\dimen164
-\l__coffin_x_prime_dim=\dimen165
-\l__coffin_y_prime_dim=\dimen166
+\l__coffin_internal_dim=\dimen169
+\l__coffin_offset_x_dim=\dimen170
+\l__coffin_offset_y_dim=\dimen171
+\l__coffin_x_dim=\dimen172
+\l__coffin_y_dim=\dimen173
+\l__coffin_x_prime_dim=\dimen174
+\l__coffin_y_prime_dim=\dimen175
 \c_empty_coffin=\box69
 \l__coffin_aligned_coffin=\box70
 \l__coffin_aligned_internal_coffin=\box71
@@ -746,29 +781,29 @@ Package: expl3 2019-04-21 L3 programming layer (code)
 \l_tmpb_coffin=\box73
 \g_tmpa_coffin=\box74
 \g_tmpb_coffin=\box75
-\l__coffin_bounding_shift_dim=\dimen167
-\l__coffin_left_corner_dim=\dimen168
-\l__coffin_right_corner_dim=\dimen169
-\l__coffin_bottom_corner_dim=\dimen170
-\l__coffin_top_corner_dim=\dimen171
-\l__coffin_scaled_total_height_dim=\dimen172
-\l__coffin_scaled_width_dim=\dimen173
+\l__coffin_bounding_shift_dim=\dimen176
+\l__coffin_left_corner_dim=\dimen177
+\l__coffin_right_corner_dim=\dimen178
+\l__coffin_bottom_corner_dim=\dimen179
+\l__coffin_top_corner_dim=\dimen180
+\l__coffin_scaled_total_height_dim=\dimen181
+\l__coffin_scaled_width_dim=\dimen182
 \c__coffin_empty_coffin=\box76
 \l__coffin_display_coffin=\box77
 \l__coffin_display_coord_coffin=\box78
 \l__coffin_display_pole_coffin=\box79
-\l__coffin_display_offset_dim=\dimen174
-\l__coffin_display_x_dim=\dimen175
-\l__coffin_display_y_dim=\dimen176
+\l__coffin_display_offset_dim=\dimen183
+\l__coffin_display_x_dim=\dimen184
+\l__coffin_display_y_dim=\dimen185
 \g__file_internal_ior=\read2
-\l__seq_internal_a_int=\count408
-\l__seq_internal_b_int=\count409
-\c__deprecation_minus_one=\count410
+\l__seq_internal_a_int=\count412
+\l__seq_internal_b_int=\count413
+\c__deprecation_minus_one=\count414
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode
 .def"
 File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count411
+\l__driver_color_stack_int=\count415
 ))
 Package: breqn 2019/10/15 v0.98g Breaking equations
 
@@ -811,80 +846,68 @@ LaTeX Info: Redefining \textstyle on input line 95.
 LaTeX Info: Redefining \scriptstyle on input line 97.
 LaTeX Info: Redefining \scriptscriptstyle on input line 99.
 LaTeX Info: Redefining \genfrac on input line 145.
-)) ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count412
-\calc@Bcount=\count413
-\calc@Adimen=\dimen177
-\calc@Bdimen=\dimen178
-\calc@Askip=\skip85
-\calc@Bskip=\skip86
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count414
-\calc@Cskip=\skip87
-)
-\inf@bad=\count415
-\maxint=\count416
-\listwidth=\dimen179
-\eqnumsep=\dimen180
-\eqmargin=\dimen181
-\eqlinespacing=\skip88
-\eqlineskip=\skip89
-\eqlineskiplimit=\dimen182
+))
+\inf@bad=\count416
+\maxint=\count417
+\listwidth=\dimen186
+\eqnumsep=\dimen187
+\eqmargin=\dimen188
+\eqlinespacing=\skip89
+\eqlineskip=\skip90
+\eqlineskiplimit=\dimen189
 \eqbinoffset=\muskip18
 \eqdelimoffset=\muskip19
-\eqindentstep=\dimen183
+\eqindentstep=\dimen190
 \eqstyle=\toks26
-\eqbreakdepth=\count417
-\eqinterlinepenalty=\count418
-\intereqpenalty=\count419
-\intereqskip=\skip90
-\prerelpenalty=\count420
-\prebinoppenalty=\count421
+\eqbreakdepth=\count418
+\eqinterlinepenalty=\count419
+\intereqpenalty=\count420
+\intereqskip=\skip91
+\prerelpenalty=\count421
+\prebinoppenalty=\count422
 \Dmedmuskip=\muskip20
 \Dthickmuskip=\muskip21
-\eqleftskip=\skip91
-\eqrightskip=\skip92
-\eq@vspan=\skip93
+\eqleftskip=\skip92
+\eqrightskip=\skip93
+\eq@vspan=\skip94
 \eq@binoffset=\muskip22
 \EQ@box=\box80
 \EQ@copy=\box81
 \EQ@numbox=\box82
-\eq@wdNum=\dimen184
+\eq@wdNum=\dimen191
 \GRP@numbox=\box83
-\grp@wdNum=\dimen185
-\eq@lines=\count422
-\eq@curline=\count423
-\eq@badness=\count424
-\EQ@vims=\count425
-\eq@dp=\dimen186
-\eq@wdL=\dimen187
-\eq@wdT=\dimen188
-\eq@wdMin=\dimen189
-\grp@wdL=\dimen190
-\grp@wdR=\dimen191
-\grp@wdT=\dimen192
-\eq@wdRmax=\dimen193
-\eq@firstht=\dimen194
-\eq@wdCond=\dimen195
-\eq@indentstep=\dimen196
-\eq@linewidth=\dimen197
-\grp@linewidth=\dimen198
-\eq@hshift=\dimen199
-\eq@given@sidespace=\dimen256
-\mathindent=\dimen257
-\eq@final@linecount=\count426
-\eq@wdR=\dimen258
+\grp@wdNum=\dimen192
+\eq@lines=\count423
+\eq@curline=\count424
+\eq@badness=\count425
+\EQ@vims=\count426
+\eq@dp=\dimen193
+\eq@wdL=\dimen194
+\eq@wdT=\dimen195
+\eq@wdMin=\dimen196
+\grp@wdL=\dimen197
+\grp@wdR=\dimen198
+\grp@wdT=\dimen199
+\eq@wdRmax=\dimen256
+\eq@firstht=\dimen257
+\eq@wdCond=\dimen258
+\eq@indentstep=\dimen259
+\eq@linewidth=\dimen260
+\grp@linewidth=\dimen261
+\eq@hshift=\dimen262
+\eq@given@sidespace=\dimen263
+\mathindent=\dimen264
+\eq@final@linecount=\count427
+\eq@wdR=\dimen265
 \EQ@continue=\toks27
-\lr@level=\count427
+\lr@level=\count428
 \GRP@queue=\toks28
 \GRP@box=\box84
 \GRP@wholebox=\box85
-\darraycolsep=\skip94
-\cur@row=\count428
-\cur@col=\count429
-\conditionsep=\skip95
+\darraycolsep=\skip95
+\cur@row=\count429
+\cur@col=\count430
+\conditionsep=\skip96
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.
 sty"
@@ -898,8 +921,8 @@ Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 i.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 ))
-\AM@pagewidth=\dimen259
-\AM@pageheight=\dimen260
+\AM@pagewidth=\dimen266
+\AM@pageheight=\dimen267
 
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.
 def"
@@ -908,7 +931,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box86
 \AM@global@opts=\toks29
 \AM@toc@title=\toks30
-\c@AM@survey=\count430
+\c@AM@survey=\count431
 \AM@templatesizebox=\box87
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption
@@ -923,42 +946,42 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 ty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen261
-\captionmargin@=\dimen262
-\captionwidth=\dimen263
-\caption@tempdima=\dimen264
-\caption@indent=\dimen265
-\caption@parindent=\dimen266
-\caption@hangindent=\dimen267
+\captionmargin=\dimen268
+\captionmargin@=\dimen269
+\captionwidth=\dimen270
+\caption@tempdima=\dimen271
+\caption@indent=\dimen272
+\caption@parindent=\dimen273
+\caption@hangindent=\dimen274
 )
-\c@caption@flags=\count431
-\c@ContinuedFloat=\count432
+\c@caption@flags=\count432
+\c@ContinuedFloat=\count433
 Package caption Info: longtable package is loaded.
 
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.
 sty"
 Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 ))
-\c@subfigure=\count433
-\c@subtable=\count434
+\c@subfigure=\count434
+\c@subtable=\count435
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotating.
 sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count435
-\rotFPtop=\skip96
-\rotFPbot=\skip97
+\c@r@tfl@t=\count436
+\rotFPtop=\skip97
+\rotFPbot=\skip98
 \rot@float@box=\box88
 \rot@mess@toks=\toks31
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/preprint\authblk.s
 ty"
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip98
-\@affilsep=\skip99
-\c@Maxaffil=\count436
-\c@authors=\count437
-\c@affil=\count438
+\affilsep=\skip99
+\@affilsep=\skip100
+\c@Maxaffil=\count437
+\c@authors=\count438
+\c@affil=\count439
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upquote.st
 y"
@@ -1022,32 +1045,32 @@ Package csquotes Info: Redefining alias 'default' -> 'american'.
  (Eyster_germ_ms.aux)
 \openout1 = `Eyster_germ_ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
 
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count439
-\scratchdimen=\dimen268
+\scratchcounter=\count440
+\scratchdimen=\dimen275
 \scratchbox=\box89
-\nofMPsegments=\count440
-\nofMParguments=\count441
+\nofMPsegments=\count441
+\nofMParguments=\count442
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count442
-\MPscratchDim=\dimen269
-\MPnumerator=\count443
-\makeMPintoPDFobject=\count444
+\MPscratchCnt=\count443
+\MPscratchDim=\dimen276
+\MPnumerator=\count444
+\makeMPintoPDFobject=\count445
 \everyMPtoPDFconversion=\toks33
 )
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
@@ -1080,34 +1103,13 @@ Package biblatex Info: ... file 'Eyster_germ_ms.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Gelman1992
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Goodrich2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Matinsanz2010
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Williams2012
+(biblatex)                Lee2002invaions
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 101.
-Package biblatex Info: Reference segment=0 on input line 101.
+Package biblatex Info: Reference section=0 on input line 103.
+Package biblatex Info: Reference segment=0 on input line 103.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1161,625 +1163,50 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {C:/Users/Owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] [3] [4] [5] [6]
-<Europe_Collections.jpg, id=28, 582.67688pt x 469.00218pt>
-File: Europe_Collections.jpg Graphic file (type jpg)
-<use Europe_Collections.jpg>
-Package pdftex.def Info: Europe_Collections.jpg  used on input line 193.
-(pdftex.def)             Requested size: 469.75502pt x 378.12206pt.
-<Elevation-chart.png, id=29, 351.56343pt x 236.38312pt>
-File: Elevation-chart.png Graphic file (type png)
-<use Elevation-chart.png>
-Package pdftex.def Info: Elevation-chart.png  used on input line 200.
-(pdftex.def)             Requested size: 469.75502pt x 315.85pt.
-<US_collections.pdf, id=31, 320.19624pt x 268.00125pt>
-File: US_collections.pdf Graphic file (type pdf)
-<use US_collections.pdf>
-Package pdftex.def Info: US_collections.pdf  used on input line 208.
-(pdftex.def)             Requested size: 469.75502pt x 441.63904pt.
- [7] [8 <./Europe_Collections.jpg> <./Elevation-chart.png>]
-[9 <./US_collections.pdf>]
-Overfull \hbox (3.47641pt too wide) in paragraph at lines 223--224
+[2] [3] [4] [5]
+<sampling_sites.pdf, id=25, 578.16pt x 361.35pt>
+File: sampling_sites.pdf Graphic file (type pdf)
+<use sampling_sites.pdf>
+Package pdftex.def Info: sampling_sites.pdf  used on input line 180.
+(pdftex.def)             Requested size: 469.75502pt x 293.59616pt.
+ [6] [7 <./sampling_sites.pdf>]
+Overfull \hbox (3.47641pt too wide) in paragraph at lines 202--203
 [] []\OT1/cmr/bx/n/12 Ger-mi-na-tion Tem-per-a-ture:[] \OT1/cmr/m/n/12 Popay an
 d Roberts (1970) show that Capsella bursa-pastoris
  []
 
-[10] [11]
-
-! LaTeX Error: Environment multiple undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.246 	\begin{multiple}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.247 	\displaystyle
-                     y_i = N(\mu_i,\sigma) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.247 	\displaystyle y_i = N(\mu_i,\sigma) \\
-                                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.247 	\displaystyle y_i = N(\mu_i,\sigma) \\
-                                             
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.247 	\displaystyle y_i = N(\mu_i,\sigma) \\
-                                             
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.247 	\displaystyle y_i = N(\mu_i,\sigma) \\
-                                             
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.248 	\mu
-          _i = N(\alpha_{sp[pop[sfamily[i]]]} + \beta 1_{sp[pop[sfamily[i]]]...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[12]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 ...beta 2_{sp[pop[sfamily[i]]]} * strat + \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.248 ...beta 2_{sp[pop[sfamily[i]]]} * strat + \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.248 ...beta 2_{sp[pop[sfamily[i]]]} * strat + \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.248 ...beta 2_{sp[pop[sfamily[i]]]} * strat + \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.249 	\beta
-             3_{sp[pop[sfamily[i]]]}*temp1 + \beta 4_{sp[pop[sfamily[i]]]}*t...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 ... \beta 5_{sp[pop[sfamily[i]]]}*temp3 + \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.249 ... \beta 5_{sp[pop[sfamily[i]]]}*temp3 + \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.249 ... \beta 5_{sp[pop[sfamily[i]]]}*temp3 + \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.249 ... \beta 5_{sp[pop[sfamily[i]]]}*temp3 + \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.250 	\beta
-             6_{sp[pop[sfamily[i]]]}*origin\times strat  + \beta 7_{sp[pop[s...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 ...op[sfamily[i]]]}*orign \times temp1 +  \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.250 ...op[sfamily[i]]]}*orign \times temp1 +  \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.250 ...op[sfamily[i]]]}*orign \times temp1 +  \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.250 ...op[sfamily[i]]]}*orign \times temp1 +  \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.251 	\beta
-            _8{sp[pop[sfamily[i]]]}*origin \times temp2 + \beta 9_{sp[pop[sf...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.251 ...op[sfamily[i]]]}*origin \times temp3 + \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.251 ...op[sfamily[i]]]}*origin \times temp3 + \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.251 ...op[sfamily[i]]]}*origin \times temp3 + \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.251 ...op[sfamily[i]]]}*origin \times temp3 + \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.252 	\beta
-             10_{sp[pop[sfamily[i]]]}*strat\times temp1 +\beta 11_{sp[pop[sf...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 ...pop[sfamily[i]]]}*strat \times temp2 + \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.252 ...pop[sfamily[i]]]}*strat \times temp2 + \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.252 ...pop[sfamily[i]]]}*strat \times temp2 + \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.252 ...pop[sfamily[i]]]}*strat \times temp2 + \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.253 	\beta
-             12_{sp[pop[sfamily[i]]]}*strat \times temp3_ + \beta 13_{sp[pop...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253 ...]]]}*origin \times strat \times temp1_ \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.253 ...]]]}*origin \times strat \times temp1_ \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.253 ...]]]}*origin \times strat \times temp1_ \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.253 ...]]]}*origin \times strat \times temp1_ \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.253 ...]]]}*origin \times strat \times temp1_ \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.253 ...]]]}*origin \times strat \times temp1_ \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.254 	+ \beta
-               14_{sp[pop[sfamily[i]]]}*origin \times strat \times temp2 + \...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: \begin{center} on input line 245 ended by \end{multiple}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 	\end{multiple}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.255 	\end{multiple}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: Environment multiple undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260 \begin{multiple}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261 	\displaystyle
-                     \gamma_{sp[pop[sfamily[i]]]} = N(\mu_{\gamma_{sp[pop[j]...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 ...p[j]]}}, \sigma_{\gamma_{sp[pop[j]]}}) \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261 ...p[j]]}}, \sigma_{\gamma_{sp[pop[j]]}}) \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.261 ...p[j]]}}, \sigma_{\gamma_{sp[pop[j]]}}) \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.261 ...p[j]]}}, \sigma_{\gamma_{sp[pop[j]]}}) \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262 	\gamma
-             _{sp[pop[j]]} = N(\mu_{\gamma_{sp[k]}}, \sigma_{\gamma_{sp[k]}}...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 ...mma_{sp[k]}}, \sigma_{\gamma_{sp[k]}}) \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262 ...mma_{sp[k]}}, \sigma_{\gamma_{sp[k]}}) \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.262 ...mma_{sp[k]}}, \sigma_{\gamma_{sp[k]}}) \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.262 ...mma_{sp[k]}}, \sigma_{\gamma_{sp[k]}}) \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.263 	\gamma
-             _{sp[k]} = N(\mu_{\gamma}, \sigma_{\gamma})
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: \begin{center} on input line 259 ended by \end{multiple}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.264 	\end{multiple}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264 	\end{multiple}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[13]
-Underfull \vbox (badness 10000) detected at line 294
+[8] [9]
+Overfull \hbox (24.69601pt too wide) detected at line 236
+[]
  []
 
-<germ_figs_onepage.pdf, id=67, 1084.05pt x 614.295pt>
+[10] [11]
+Underfull \vbox (badness 10000) detected at line 274
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 292
+ []
+
+<germ_figs_onepage.pdf, id=62, 1084.05pt x 614.295pt>
 File: germ_figs_onepage.pdf Graphic file (type pdf)
 <use germ_figs_onepage.pdf>
-Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 296.
+Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 295.
 (pdftex.def)             Requested size: 542.02368pt x 307.14674pt.
-[14] [15 <./germ_figs_onepage.pdf>] [16] [17] [18] [19] [20]
+[12] [13 <./germ_figs_onepage.pdf>] [14] [15] [16] [17] [18]
 (Eyster_germ_ms.aux)
 Package logreq Info: Writing requests to 'Eyster_germ_ms.run.xml'.
 \openout1 = `Eyster_germ_ms.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23691 strings out of 492913
- 428668 string characters out of 3124260
- 887878 words of memory out of 3000000
- 27355 multiletter control sequences out of 15000+200000
+ 24311 strings out of 492913
+ 441409 string characters out of 3124260
+ 902334 words of memory out of 3000000
+ 27973 multiletter control sequences out of 15000+200000
  541471 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,16n,63p,2194b,3855s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,16n,63p,3747b,3855s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/f
@@ -1797,9 +1224,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/
 Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
 fb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on Eyster_germ_ms.pdf (20 pages, 10887752 bytes).
+Output written on Eyster_germ_ms.pdf (18 pages, 1675931 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 27 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

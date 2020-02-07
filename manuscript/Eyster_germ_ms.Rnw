@@ -1,3 +1,4 @@
+% !Rnw weave = knitr
 \documentclass[12pt]{article}
 \usepackage[backend=biber, sorting=nyt, maxcitenames=2, doi=false,url=false, style=apa]{biblatex} %add annotation=true and style=reading to print the annotations in the bibliography
 \usepackage[american]{babel}
@@ -10,6 +11,7 @@
 \usepackage{amsmath}
 %\usepackage[hyphens]{url}
 \usepackage[margin=1in]{geometry}
+\usepackage{mathtools}
 \setlength{\parskip}{.6em}
 \usepackage{setspace}
 \usepackage{multicol}
@@ -41,10 +43,12 @@
 \date{}                     %% if you don't need date to appear
 \setcounter{Maxaffil}{0}
 \renewcommand\Affilfont{\itshape\small}
-% !Rnw weave = Sweave
+
 
 <<echo=FALSE>>=
 opts_chunk$set(echo=FALSE, message=FALSE,warning=FALSE,results='asis')
+opts_knit$set(concordance = TRUE)
+
 @
 
 <<>>=
@@ -56,12 +60,12 @@ library(rstanarm)
 library(arm)
 load("C:/Users/Owner/Documents/Thesis/Stan/mod_gr.Rdata")
 load("C:/Users/Owner/Documents/Thesis/Stan/mod_rate.Rdata") 
+load("C:/Users/Owner/Documents/Thesis/Stan/mod_time_pois.Rdata")
 load("C:/Users/Owner/Documents/github/germination_stan/time_data.rdata") 
-
 @
 
 \begin{document}
-	\maketitle
+\maketitle
 %	\fbox{\includegraphics[width=1 \textwidth,trim=0cm 0cm 0cm 0cm, clip=true]{comps_overview}}
 
 \begin{spacing}{1} %1.9
@@ -70,93 +74,79 @@ load("C:/Users/Owner/Documents/github/germination_stan/time_data.rdata")
 	\end{abstract}
 \end{spacing}		
 	\section{Introduction}
-	Species that have originated elsewhere and recently arrived in a new region are important, often transformative, elements of ecosystems. Understanding these invasive species is becoming increasingly necessary in order to prudently manage both natural and agricultural systems. Exotic plant invasions are one of the foremost impactors of biodiversity \parencite{Bellard2016,Clavero2005,Walker1997}, ecosystem function, and ecosystem resilience \parencite{Daehler1999,Daehler1994,Ehrenfeld2003,Wilcove1998}. Further, these plants may disrupt the crucial services that ecosystems provide to people \parencite{Pejchar2009,Pimentel2005,Pysek2010}. For example, exotic plant populations impede transportation and recreational waterways and affect economically-important fish populations \parencite{OTA1993}. To successfully manage these invasive species, it is important for environmental managers to understand the mechanisms that render some plants successful colonizers \parencite{Hulme2013}. And while there have been great advances in the field of invasive plant ecology, the fundamental question of what makes a species a successful invader remains controversial.
+	As invasive species colonize new environments they have important, often transformative, effects on ecosystems \parencite{Mack2000,Levine2003}.  Exotic plant invasions have large impacts on biodiversity \parencite{Bellard2016,Clavero2005,Walker1997}, ecosystem function, services,and resilience \parencite{Daehler1999,Daehler1994,Ehrenfeld2003,Wilcove1998,Pejchar2009,Pimentel2005,Pysek2010,OTA1993}.  And invasions may only be increasing: globalization is making it easier for plants to disperse beyond their native ranges \parencite{Helmus2014,McKinney1999,Pysek2002,Vitousek1996,Wittenberg2001}. However, mere dispersal to a new environment is insufficient to entail invasiveness. Upon encountering a new environment, an invasive species must thrive, often by either filling vacant niches \parencite{Elton1958} or outperforming native plants in high-resource and variable environments \parencite{Davis2001,Daehler2003}. The availability of these invasible environments are likely to increase when ecosystems are altered \parencite{Tilman2001}. Anthropogenic greenhouse gas pollution and  habitat modification will likely disrupt communities and provide vacant niches and altered resource availability; such changes could provide major opportunities for invasive species to outperform native plants \parencite{Blois2013}. In particular, greenhouse gases are altering temperature and irradiance, which is shifting temporal niche space and disrupting communities \parencite{Inouye2008,Harte2015}. This changing environment could select for species that can take advantage of the newly created temporal niches and resources through shifts in the timing of flowering and fruiting, etc. \parencite{Franks2007}. Two contrasting mechanisms have been posited to give some plants the capacity to exploit invasible environments: 1) rapid evolution and 2) plastic or generalist traits.  This paper tests the importance of these two mechanisms. 
+
+	%To invade new The first factor for determining invasion potential is dispersal. To become invasive, a species first needs a dispersal mechanism to establish in a non-native habitat \parencite{Mark2001,Westphal2008}. Humans have played an important role in facilitating recent plant dispersals \parencite{McKinney1999,Pysek2002,Vitousek1996}, and with increased globalization the spread of species outside their respective native ranges will only increase \parencite{Helmus2014}. Once a species is introduced to a novel region, however, it must also be able to successfully disperse beyond the initial introduction location to be considered fully invasive. Thus species with greater dispersal ability may be more successful invaders.  Nonetheless, any intrinsic biological dispersal advantage can be wholly dominated by intentional introduction, e.g., for agricultural or ornamental purposes, or by accidental human-facilitated mechanisms, such as the transportation of invasive species within contaminated mulch or gravel \parencite{Wittenberg2001}. 	
+	%Managing this onrush of invasive species requires understanding the mechanisms that give some plants the capacity to exploit invasible environments \parencite{Hulme2013}
 	
-	One important factor for understanding invasion is dispersal. To become invasive, a species first needs a dispersal mechanism to establish in a non-native habitat \parencite{Mark2001,Westphal2008}. Humans have played an important role in facilitating recent plant dispersals \parencite{McKinney1999,Pysek2002,Vitousek1996}, and with increased globalization the spread of species outside their respective native ranges will only increase \parencite{Helmus2014}. Once a species is introduced to a novel region, however, it must also be able to successfully disperse beyond the initial introduction location to be considered fully invasive. Thus species with greater dispersal ability may be more successful invaders.  Nonetheless, any intrinsic biological dispersal advantage can be wholly dominated by intentional introduction, e.g., for agricultural or ornamental purposes, or by accidental human-facilitated mechanisms, such as the transportation of invasive species within contaminated mulch or gravel \parencite{Wittenberg2001}. 
+	A large body of literature suggests that rapid adaptive evolution is a key determinant of success in invading of new environments \parencite{Sakai2001,Reznick2001, Lambrinos2004,Williamson1997,Thompson1998, Cox2004, Prentis2008,Colautti2015,Lee2002invasion, Fenollosa2019,Clements2011}.  Rapid evolution can enable nonindigenous species to adapt to vacant niches and take advantage of variable and high-resource environments, for example by evolving greater competative ability  when released from natural enemies \parencite{Blossey1995,Bossdorf2005} or by evolving adaptive plasticity \parencite{Richards2006}. Many genetic characteristics have been identified to enable invasion, including additive genetic variation, epistasis, hybridization, genomic rearrangements, etc. \parencite[Reviewed in][]{Lee2002invasion}, while genetic drift and bottlenecks likely stifle invasion capacity \parencite{Bock2015}. 
 	
-	Beyond the role that dispersal, either natural or human-mediated, plays in driving invasion, there are other factors relevant to a species' potential to become invasive, including their ability to thrive and compete in a novel ecosystem. It is the relative influence of these factors that are the focus of this paper.
+	There are many clear examples of rapid evolution abetting plant invasions. For instance, genetic studies of two herbaceous goldenrods that invaded Europe from North America, \textit{Solidago altissima} and \textit{S. gigantea} (Asteraceae), showed post-introduction genetic changes in flowering time in response to temperature, due to selection on source-population genetic variation and development of new mutations \parencite{Weber1998}. Similarly, the invasive \textit{Centaurea solstitialis} (Asteraceae) in California evolved larger size from standing variation in the founding population \parencite{Barker2017}. Also in California, a similar study found that genetic adaptation was driving adaptive phenotypic variation in flowering time of high-altitude and desert populations of \textit{Capsella bursa-pastoris} \parencite{Linde2001}. Invasion may even produce evolution sufficient to establish reproductive isolation and trigger speciation, in as few as 13 generations \parencite{Hendry2000}. If rapid evolution is so central to invader success, then managers should treat invasives not as static, homogeneous species, but as constantly adapting populations \parencite{Lee2002invasion}. 
 	
-	There are two prominent models for understanding how invasive plants can thrive in novel environments: (1) by filling vacant niches (Elton, 1958) and (2) by outperforming native plants in high-resource environments \parencite{Davis2001,Daehler2003}. An ecological niche defines the set of multidimensional environmental conditions within which an organism can live \parencite{Hutchinson1965}. A simplified example of a niche for a particular tree species might be defined by a certain amount of light, adequate soil nutrients, and a long, frost-free growing season.  However, even if these environmental resources are present, the organism can still be excluded from this `fundamental niche' by a superior competitor. But in the vacant niche case, an introduced species can take full advantage of an empty niche, free from competition. In the high-resource model, the invader can take better advantage of resource-rich (e.g., high light and nutrient) environments and outcompete native species.  The availability of both vacant niches and high-resource environments are likely to increase when ecosystems are altered \parencite{Tilman2001}.
+	Yet, dispute the support for the importance of rapid evolution, a competing body of literature suggests that invaders need not evolve. Instead,  plasticity and generalist adaptations to human-dominated environments (i.e., weediness) within the source population may give invaders sufficient advantages, obviating the necessity of rapid evolution \parencite{Richards2006,Schwartz1994}. Species that are weedy and invasive in their native range are likely to be invasive in novel environments: a study of 274 plant species native to North and South America but naturalized in France showed that the best determinant of invasiveness was weediness in the home range \parencite{Maillet2000}.
 	
-	Anthropogenic greenhouse gas pollution and increased human-driven habitat modification will likely disrupt communities and provide vacant niches and altered resource availability; such changes could provide major opportunities for invasive species to outperform native plants (Blois et al., 2013). In particular, greenhouse gases are altering temperature and irradiance, which is shifting temporal niche space and disrupting communities (Inouye, 2008; Harte et al., 2015).  For example, as climate warms it extends the growing season, effectively expanding temporal niche space. This changing environment could select for species that can take advantage of the newly created temporal niches and resources through shifts in the timing of flowering and fruiting, etc. (Franks et al, 2007).
+	One reason why the importance of rapid evolution remains contested is because few experimental designs allow unambiguous discrimination between the two claims. Neither observational datasets (e.g., \parencite{Wolkovich2013} nor experimental common gardens \parencite{Conner2004,Vitasse2009} are sufficient to identify the importance of rapid evolution.   And while genetic studies can identify the existence of rapid evolution, they do not demonstrate the dominance of this invasion technique. Instead, reciprocal common garden or  growth chamber experiments with origin and invader populations are necessary to disentangle these competing theories. One such reciprocal common garden experiment of two invasive maple species (\textit{Acer}, Sapindaceae) demonstrated that rapid evolution was important for one species, but not the other \parencite{Lamarque2015}. Additional reciprocal common garden experiments have examined single species \parencite[e.g.,][]{Williams2008}. Due to the limited number of species tested with these methods, the overall necessity of rapid evolution for invaders remains hidden.
 	
-	Phenology is the study of recurring life cycle events, (e.g., leafing-out, flowering, and fruiting). Plant species that are able to shift their phenology in response to different local abiotic and biotic conditions are said to have high phenological flexibility. For example, a phenologically flexible plant species may produce fruit in September in a place where frosts do not occur until November, but produce fruit in July in a place with frequent fruit-damaging September frosts. This flexibility would make a species better able to both invade new environments, and flourish in a changing one.
-	
-	Plant phenological flexibility can be investigated by observing phenological responses to temperature over time \parencite[e.g.,][]{Schwartz1994,Wolkovich2014}.  Such observational studies have indeed shown that invasive species have flexible phenologies \parencite{Wolkovich2013}. However, Wolkovich et al's study (2013) left an important question unanswered: is this flexibility a feature of the species as a whole, or a recent feature of the invasive population that Wolkovich et al. (2013) analyzed? To address this question, we must understand the possible mechanisms behind phenological flexibility.
-	
-	There are two biological mechanisms that can impart phenological flexibility: (1) phenological plasticity \parencite{Matesanz2010,Williams2008,Richards2006,Pigliucci2001,Schwartz1994} and (2) rapid local evolution \parencite{Clements2011,Lambrinos2004,Sakai2001}. Phenological plasticity is the capacity for one genotype to exhibit diverse phenoogical responses to different environmental conditions. If a plant has greater phenological plasticity, it may be able to thrive in a wide variety of environments, giving it a broader niche without actually evolving (i.e., its genotype remains unchanged; see \textcite{Richards2006} for a discussion of phenotypic pl asticity more generally). Rapid local evolution, conversely, is the capacity for a genotype to adapt to respond most effectively to a local environment. Both of these mechanisms may contribute to the ability of invasive species to thrive in a novel and/or changing ecosystem. Note that plasticity is a trait, and can thus also evolve \parencite{Pigliucci2001}. But whereas plasticity evolves to make a species good at colonizing a vareity of environments, local adapatation, as used here, enables a species to excell in a single environment. 
-	
-	Previous studies have rarely  unable to discriminate between plasticity and local adaptation. Neither observational datasets (e.g., Wolkovich et al., 2013) nor experimental common gardens \parencite{Conner2004,Vitasse2009} are sufficient to differentiate between plasticity and local evolution. One recent study compared life history traits of two maple tree species (\textit{Acer negundo}, and \textit{A. platanoides}) in a reciprocal common garden and demonstrated that plasticity and local evolution were important in one species, while only plasticity was important in the other \parencite{Lamarque2015}. Other recripracol common garden experiments have experimented with single species \parencite[e.g.,][]{Williams2008}, but the overal importance of plasticity and local adaptation remain hidden.
-	
-	This study tested whether, across seven plant species, phenological local adaptation and/or plasticity give plants the capacity to invade new ecosystems. Our growth chamber experiment enabled us to test the degree to which phenologies in native and invasive populations differ in their response to climate.   Specifically, we measured germination rate, time to germination, and growth rate of invasive (American) and native (European) conspecific populations of seven invasive herbaceous species across an array of temperature and stratification treatments.
+	Seeking this more general appraisal of the importance of rapid evolution for invaders, this paper reports on a growth chamber experiment of the native and introduced ranges of seven highly invasive herbaceous plant species. We test the degree to which rapid evolution has occurred since the species colonized North America from Europe.  Our growth chamber experiment enabled us to test the degree to which phenologies in native and invasive populations differ in their response to climate.   Specifically, we measured how germination rate, time to germination, and growth rate of invasive (American) and native (European) conspecific populations responded to an array of temperature and stratification treatments.
 	
 	This study manipulates two key climate elements: temperature and stratification length. Temperature and stratification length act as important phenological cues for plants \parencite{Finch2006}. In temperate ecosystems, a cold stratification simulates winter. A minimum period of winter must often pass before seeds can germinate. This ensures that seeds will not germinate during a mid-winter warm period, but instead wait until a spring warm period when winter has fully passed. Thus, exposing dormant seeds to a variety of stratification lengths elucidates how they respond to different winter lengths. Once the necessary stratification length has been achieved, temperature can cue that it is the appropriate time for a seed or plant to break dormancy. Temperature also plays an important role in controlling plant growth rate \parencite{Egli1980,Guilioni2003}.
 	
-	Temperature and stratification length are appropriate variables for studying invasive vs. native plant phenology. These abiotic factors effectively trigger phenology, and can simulate diverse geographic environments. Additionally, temperature and stratification reflect different aspects of the seasonal environment: stratification length is associated with winter, while warmer temperatures are associated with the growing season. Including drivers such as stratification from the non-growing season is important, given that winter climate may change independently from summer climate, and that winter climate varies more spatially (Bonan, 2003). Thus, a range of temperature and stratification treatments will successfully simulate the driving features of the diverse environments in which invasive species thrive. 
+	Temperature and stratification length are appropriate variables for studying invasive vs. native plant phenology. These abiotic factors effectively trigger phenology, and can simulate diverse geographic environments. Additionally, temperature and stratification reflect different aspects of the seasonal environment: stratification length is associated with winter, while warmer temperatures are associated with the growing season. Including drivers such as stratification from the non-growing season is important, given that winter climate may change independently from summer climate, and that winter climate varies more spatially \parencite{Bonan2003}. Thus, a range of temperature and stratification treatments will simulate the driving features of the diverse environments in which invasive species thrive. 
 	
-	\subsection{Hypotheses and predictions}
-	\subsubsection{Local adaptation}
-	If both the European (native) and US (invasive) plants of a given species respond similarly (i.e., similar germination rates, timing of phenological events and growth rates) to the varying temperatures and stratification lengths, this is evidence that the European and US populations are quite similar, and local adaptation is likely minimal.  Conversely, if the European (native) and US (invasive) plants display significantly different responses to temperature and stratification, then the invasive plants have likely undergone post-introduction differentiation, and local adaptation may be key in shaping the invasive population’s traits related to phenology and growth rates.
-	
-	\subsubsection{Plasticity} 
-	Plant trait variability is related to plasticity: plants that are more plastic will be less sensitive to the environment. Thus we will compare the individual-level variability in phenological traits between the European (native) and US (invasive) populations. If US individuals display an equal or more variable phenological response than European individuals, then plasticity may be similar across both invasive and native populations.  However, if the US individuals show significantly more phenological variability than European individuals, this is evidence that invasives have evolved greater plasticity to successfully invade a diversity of climates. 
-	
-	Apart from understanding plasticity and local adaptation, learning how invasive populations differ phenologically from conspecific populations in the native range will also be valuable. Identifying how invaders have evolved from their native ancestral populations is essential for advancing our understanding of how some exotic species are able to invade new areas. This knowledge will facilitate the understanding of invasive populations within the context of the broader species, which will in turn enable us to judge the degree of independence with which conspecific invasive and native phenologies can be compared, estimated, and predicted. Further, we will be able to examine whether different species utilize the same mechanisms to invade. This study will provide an important investigation into what mechanistic factors drive invasion success in herbaceous plants. Furthermore, by including a diverse set of species in my experiments, this work will examine whether every plant uses unique mechanisms or if there are in fact general invasion strategies. 
-	
+	 If rapid evolution is of generalizable importance to invasive plants, we expect to find that seeds from the invading populations (North America) will respond very differently to temperature and stratification treatments than the indigenous populations (Europe) for all or nearly all species. Isolating the importance of rapid evolution in such a complex multispecies, multi-population design would be intractable with classic frequentest modeling  techniques. Fortunately, advances in Bayesian and hierarchical modeling have provided methods that enable interpretation of our data \parencite{Carpenter2017}.  These methods will provide a robust test of the claim that rapid evolution drives invader success.
+	 
 	\section{Methods}
 	\subsection{Study species}
-	There is no consensus on what terminology to employ in classifying invasive species.  \parencite{Colautti2004}. The most common terms include `exotic,' `introduced,' `naturalized,' `nonindigenous,' `established,' `alien,' `noxious,' `weedy,' and `invasive.' These terms can be grouped into those that describe the provenance of the species (e.g., exotic, introduced, alien, non-indigenous), those that describe its ability to grow and compete in the new ecosystem (e.g., naturalized, established), and those that describe its impact on the receiving ecosystem (e.g., noxious, weedy). The International Union for the Conservation of Nature (IUCN) describes invasive species as: ``organisms introduced by man [sic] into places out of their natural range of distribution, where they become established and disperse, generating a negative impact" \parencite{IUCN2008is}. However, this definition contains three subjective elements: what timepoint of a species' range is `natural,' whether humans are a natural part of nature, and what is defined as a negative impact \parencite{Munro2019}. To both acknowledge and allay some of these subjective elements, this paper will follow Richardson et al.'s \parencite{Richardson2000,Richardson2011} definition of invasive species. Invasive species are thus those that (1) are introduced across a previously unpenetrated barrier, (2) successfully reproduce in the place of introduction to create a stable local population, and finally (3) spread to produce fit offspring a substantial distance from the place of introduction.
+	%can probably cut: 
+	There is no consensus on what terminology to employ in classifying invasive species \parencite{Colautti2004}. The most common terms include `exotic,' `introduced,' `naturalized,' `nonindigenous,' `established,' `alien,' `noxious,' `weedy,' and `invasive.' These terms can be grouped into those that describe the provenance of the species (e.g., exotic, introduced, alien, non-indigenous), those that describe its ability to grow and compete in the new ecosystem (e.g., naturalized, established), and those that describe its impact on the receiving ecosystem (e.g., noxious, weedy, harmful). The International Union for the Conservation of Nature (IUCN) describes invasive species as: ``organisms introduced by man [sic] into places out of their natural range of distribution, where they become established and disperse, generating a negative impact" \parencite{IUCN2008is}. However, this definition contains three subjective elements: what timepoint of a species' range is `natural,' whether humans are a natural part of nature, and what is defined as a negative impact \parencite{Munro2019}. To both acknowledge and allay some of these subjective elements, this paper will follow Richardson et al.'s \parencite{Richardson2000,Richardson2011} definition of invasive species. Invasive species are thus those that (1) are introduced across a previously unpenetrated barrier, (2) successfully reproduce in the place of introduction to create a stable local population, and finally (3) spread to produce fit offspring a substantial distance from the place of introduction.
 	
-	Guided by this definition, seeds were collected from eight herbaceous species that originated in Europe but have recently been introduced to the US, where they have spread and produced significant populations:\textit{ Alliaria petiolata, Capsella bursa-pastoris, Chelidonium majus, Dactylis glomerata, Plantago major, Plantago lanceolata, Rumex crispus, and Taraxacum officinale}.\textit{A. petiolata} exhibited very low germination rates, and so was removed from the analysis.  All of these species have proven to effective invaders in the US, with many disrupting crop production and transforming ecosystems \parencite[e.g.,][]{Froese2003,Wolfe2008}. The study species (see Table \ref{tab:seeds}) were selected for their abundance in Europe and for their superior competitive ability in their introduced range \parencite{Uva1997}, since the most unambiguous response may be obtained by examining the most extreme invasive species, and may also be most useful for informing management. 
+	Guided by this definition, seeds were collected from eight herbaceous species that originated in Europe but have recently been introduced to the US, where they have spread and produced significant populations:\textit{ Alliaria petiolata, Capsella bursa-pastoris, Chelidonium majus, Dactylis glomerata, Plantago major, Plantago lanceolata, Rumex crispus, and Taraxacum officinale}.\textit{A. petiolata} exhibited very low germination rates, and so was removed from the analysis.  All of these species have proven prodigious invaders in the US, with many impacting crop production and transforming ecosystems \parencite[e.g.,][]{Froese2003,Wolfe2008}. The study species (see Table \ref{tab:seeds}) were selected for their occurrence in Europe and for their superior invasive capacity in their introduced range \parencite{Uva1997}, since the most unambiguous response may be obtained by examining the most extreme invasive species, and may also be most useful for informing management. 
 	\begin{center}
 		\begin{table}
 			\centering
-			\caption {Total number of individuals and populations from which seeds were collected. Species are coded as the first three letters of the genus plus the first three letters of the species epithet.} \label{tab:seeds}  
-			\begin{tabular}{|c | c|c|c|c|c|}
+			\caption {Total number of seed-producing individuals and populations from which seeds were collected. Species are coded as the first three letters of the genus plus the first three letters of the species epithet.} \label{tab:seeds}  
+			\begin{tabular}{|c|c|c|c|}
 				\hline 
-				\makecell{\textbf{Species}} & \makecell{\textbf{Species}\\ \textbf{Codes}} & \makecell{\textbf{US} \\ \textbf{pops.}} & \makecell{\textbf{US} \\  \textbf{individuals}} & \makecell{\textbf{European} \\ \textbf{pops.}} & \makecell{\textbf{European} \\ \textbf{individuals}} \\
+				\makecell{\textbf{US} \\ \textbf{populations}} & \makecell{\textbf{US} \\  \textbf{individuals}} & \makecell{\textbf{European} \\ \textbf{populations}} & \makecell{\textbf{European} \\ \textbf{individuals}} \\
 				\hline
-				\textit{Capsella bursa-pastoris}&	CAPBUR	&1&	4&	6&	12\\
-				\textit{Chelidonium majus}&	CHEMAJ&	2&	7&	8&	31\\
-				\textit{Dactylis glomerata}&	DACGLO&	2&	12&	10&	46\\
-				\textit{Plantago lanceolata}& PLALAN&	2&	13&	11&	75\\
-				\textit{Plantago major}&	PLAMAJ&	1&	10&	2&	11\\
-				\textit{Rumex crispus}&	RUMCRI& 	3&	15&	1&	10\\
-				\textit{Taraxacum officinale}&	TAROFF&	2&	17&	2&	12\\
-				\hline
-				\textbf{TOTALS}	& &	13&	78&	40&	187\\
+				3&	21&	13&	63\\
 				\hline
 			\end{tabular}
 		\end{table}
 	\end{center}
 	\subsubsection{Study species details}
-	\textit{Capsella bursa-pastoris} (Shepard’s Purse) is an annual or biennial herbaceous plant in the Brassicaceae family. It grows 10 to 80 cm tall, typically blooming in late spring \parencite{Defelice2001}. It originated in Europe, and was introduced to the New World as a medicinal herb – it is now found across Canada, the US, and Mexico \parencite{Westrich1989}.
+	\textit{Capsella bursa-pastoris} (CAPBUR;Shepard’s Purse) is an annual or biennial herbaceous plant in the Brassicaceae family. It grows 10 to 80 cm tall, typically blooming in late spring \parencite{Defelice2001}. It originated in Europe, and was introduced to the New World as a medicinal herb---it is now found across Canada, the US, and Mexico \parencite{Westrich1989}.
 	
-	\textit{Chelidonium majus} (Greater Celendine) is an herbaceous biennial member of the Papaveraceae family. It is native to Eurasia and North Africa and was introduced to the US by the 1670s as a medicinal. It is now found across the Eastern US and Canada and portions of the west \parencite{Holm1979}. 
+	\textit{Chelidonium majus} (CHEMAJ; Greater Celandine) is an herbaceous biennial member of Papaveraceae. It is native to Eurasia and North Africa and was introduced to the US by the 1670s as a medicinal. It is now found across the Eastern US and Canada and portions of the west \parencite{Holm1979}. 
 	
-	\textit{Dactylis glomerata} (Orchard Grass) is a cool-season, perennial grass (Poaceae). Plants grow up to 120 cm tall and have roots up to 60 cm long \parencite{Moser1996}. This plant originated in central and western Europe, and was intentionally introduced into the US in the 1750s \parencite{Bush2012} as a forage grass for pasture and hay \parencite{Ogle2011}.  
+	\textit{Dactylis glomerata} (DACGLO; Orchard Grass) is a cool-season, perennial grass (Poaceae). Plants grow up to 120 cm tall and have roots up to 60 cm long \parencite{Moser1996}. This plant originated in central and western Europe, and was intentionally introduced into the US in the 1750s \parencite{Bush2012} as a forage grass for pasture and hay \parencite{Ogle2011}.  
 	
-	\textit{Plantago lanceolata} (Narrow-leaved Plantain) is a perennial member of the Plantagináceae family. It has narrow, ribbed leaves and grows to 1m tall. It is native to Eurasia, and has successfully colonized the world’s mid-latitudes \parencite{Holm1977}.
+	\textit{Plantago lanceolata} (PLALAN; Narrow-leaved Plantain) is a perennial member of  Plantaginaceae. It has narrow, ribbed leaves and grows to 1m tall. It is native to Eurasia, and has successfully colonized the world’s mid-latitudes \parencite{Holm1977}.
 	
-	\textit{Plantago major} (Broad-leaved Plantain) is a perennial member of the Plantagináceae family. It has broad, smooth leaves, and grows to 15cm tall. Native to Europe, it was introduced into North America for its medicinal uses \parencite{Knobloch1996,Samuelsen2000}.
+	\textit{Plantago major} (PLAMAJ; Broad-leaved Plantain) is a perennial member of Plantaginaceae. It has broad, smooth leaves, and grows to 15cm tall. Native to Europe, it was introduced into North America for its medicinal uses \parencite{Knobloch1996,Samuelsen2000}.
 	
-	\textit{Rumex crispus} (Curly Dock) is a perennial herbaceous plant in the Polygonaceae family, and grows to 160 cm. It is native to Europe, Asia, and Africa, and was introduced for its medicinal uses into North America where it now found in much of the continent \parencite{USDA2010}. 
+	\textit{Rumex crispus} (RUMCRI; Curly Dock) is a perennial herbaceous plant in Polygonaceae, and grows to 160 cm. It is native to Europe, Asia, and Africa, and was introduced for its medicinal uses into North America where it now found across much of the continent \parencite{USDA2010}. 
 	
-	\textit{Taraxacum officinale} (Dandelion) is a perennial herbaceous plant in the Asteraceae family, and grows to 60 cm. It is native to Eurasia, but is now found in all 50 US states, much of Canada, and Mexico \parencite{USDA1971}.
+	\textit{Taraxacum officinale} (TAROFF; Dandelion) is a perennial herbaceous plant in the Asteraceae family, and grows to 60 cm. It is native to Eurasia, but is now found in all 50 US states, much of Canada, and Mexico \parencite{USDA1971}.
 	
 	\subsection{Seed collection}
-	
 	Seeds were collected from native populations in Europe and invasive populations in North America from June 15th to September 5th 2015. Mature seeds were collected from individual plants and placed into paper coin envelopes. The following data were recorded for each individual plant: species, date, name of site, notes on human disturbance at site, abundance of the species at the site, aspect, elevation, GPS coordinates, height of the individual, spread of the individual, photo of the site, photo of at least one individual/site, and soil type. The seeds were then stored at standard room temperature until early September 2015, at which time all of the seeds were cleaned and returned to envelopes. 
-	\subsubsection{European (native) seed collection} 
-	Species were collected in Europe from early-June to mid-July 2015 from 31 sites from 11 European countries: France, Belgium, The Netherlands, Germany, Denmark, Sweden, Norway, Austria, Slovenia, Liechtenstein, and Switzerland (see Figure \ref{fig:europe}). Seeds from European populations were collected from elevations ranging from 0-1202 m above sea level (see Figure 2). Plant seeds were imported into the United States with a USDA small seedlot permit, which required that no more than 50 seeds be collected per envelope. Thus, typically 50 seeds/individual were collected. See Table \ref{tab:seeds} for details about the number of populations and individuals sampled. 
+	\paragraph{European (native) seed collection} 
+	Seeds were collected in Europe from early-June to mid-July 2015 from 13 sites across 9 European countries: France, The Netherlands, Germany, Denmark, Norway, Austria, Slovenia, Liechtenstein, and Switzerland (see Figure \ref{fig:sites}). Seeds from European populations were collected from elevations ranging from 0-1202 m above sea level (see Figure 2). Plant seeds were imported into the United States with a USDA small seedlot permit, which required that no more than 50 seeds be collected per envelope. Thus, typically 50 seeds/individual were collected. See Table \ref{tab:seeds} for details about the number of populations and individuals sampled. 
+   \paragraph{North American (nonnative) seed collection} Seeds were collected in North America from June through early September from three sites in Massachusetts, United States:  Harvard Forest (N 42.53096, W -72.19085), Arnold Arboretum at Harvard University, Boston (N 42.30196, W -71.12448), and Walden Pond, Concord (N 42.43927, W -71.3441) (see Figure \ref{fig:sites}). These sites range in elevation from 20 meters to 300 meters. 
+	
+	\paragraph{Climate}
+	To examine how climate varied between populations and continents, the mean March, April, and May temperatures (~ 1 km$^2$ resolution) for 1970-2000 for each population location were downloaded from WorldClim Version 2 \parencite{Fick2017}  and plotted (see Figure \ref{fig:sites}). 
+	
 	
 	\begin{figure}
 		\centering
-		\fbox{\includegraphics[width=1 \textwidth,trim=0cm 0cm 0cm 0cm, angle=0, scale=.9, origin=c,clip=false]{Europe_Collections}}
+		\fbox{\includegraphics[width=1 \textwidth,trim=0cm 0cm 0cm 0cm, angle=0, scale=.9, origin=c,clip=false]{sampling_sites}}
 		%x x x lower right 
-		\caption{Map of Europe showing seed collection sites}
-		\label{fig:europe}
+		\caption{Map of collection sites of (A) invasive populations in New England and (B) native populations in Europe and (C) average Spring temperatures at each site}
+		\label{fig:sites}
 	\end{figure}
+
 %	\begin{figure}
 %		\centering
 %		\fbox{\includegraphics[width=1 \textwidth,trim=0cm 0cm 0cm 0cm, angle=0, scale=.7, origin=c,clip=false]{Elevation-chart}}
@@ -164,17 +154,8 @@ load("C:/Users/Owner/Documents/github/germination_stan/time_data.rdata")
 %		\caption{Count of European individuals collected at different altitudes. }
 %		\label{fig:elev}
 %	\end{figure}
-	\subsubsection{North American (nonnative) seed collection} Seeds were collected in North America from June through early September from three sites in Massachusetts, United States:  Harvard Forest (N 42.53096, W -72.19085), Arnold Arboretum at Harvard University (N 42.30196, W -71.12448), and Walden Pond (N 42.43927, W -71.3441) (see Figure \ref{fig:us}). These sites range in elevation from 20 meters to 300 meters. 
-	\begin{figure}
-		\centering
-		\fbox{\includegraphics[width=1 \textwidth,trim=2cm 1.3cm 2cm 1.3cm, angle=0, scale=.8, origin=c,clip=true]{US_collections.pdf}}
-		%x x x lower right 
-		\caption{Map of Massachusetts, USA, showing North American seed collection sites. }
-		\label{fig:us}
-	\end{figure}		
-	
 	\subsection{Experimental Design}
-	To test germination rates in response to climate, seeds were exposed to eight treatments representing varying climates. Seeds were first subjected to two stratification treatments (varying length of stratification), and then each stratification group was divided between four germination treatments (varying temperature). All treatments were carried out in growth chambers. For each treatment, ten representatives of each species (with seven invasive species this leads to 140 seeds per treatment) and an additional five representatives of each local population of Plantago lanceolata (the most heavily sampled species, which had a total of 13 populations, this leads to an additional 65 seeds per treatment) were planted in soil. Germination date, the percentage of seeds germinating, and plant linear height were recorded.  A total of 205 seeds were planted per treatment.  Local population representatives were drawn from the greatest variety of individuals, and the individual make-up was consistent across treatments. 
+	To test germination rates in response to climate, seeds were exposed to eight treatments representing varying climates. Seeds were first subjected to two stratification treatments (varying length of stratification), and then each stratification group was divided between four germination treatments (varying temperature). All treatments were carried out in growth chambers. For each treatment, ten representatives of each species (with seven invasive species this leads to 140 seeds per treatment) and an additional five representatives of each local population of \textit{Plantago lanceolata} (the most heavily sampled species, which had a total of 13 populations, this leads to an additional 65 seeds per treatment) were planted in soil. Germination date, the percentage of seeds germinating, and aboveground linear height were recorded.  A total of 205 seeds were planted per treatment.  Local population representatives were drawn from the greatest variety of individuals (seed families), and the individual make-up was consistent across treatments. 
 	
 	\subsection{Stratification}
 	Stratification is crucial for many species to break organic dormancy and germinate successfully \parencite{Baskin1998,Popay1970,Wulff1994} and how long winter cold lasts (in the form of snow) has been shown to be a key in driving ecological community shifts (Harte et al. 2015). Additionally, with changing climate, winter length is a key niche variable. Studies show stratification of these species vary from 16 days \parencite{Popay1970} to 120 days \parencite{Meekins1999}. This experiment thus used intermediate lengths of 30 and 60 days, respectively, for our two stratification treatments. Seeds in the longer stratification treatment were stratified in late September 2015, while the other seeds in the shorter treatment continued to be stored in paper envelopes at room temperature until they were in turn stratified in late October 2015. Stratification conditions were kept constant across treatments:  4$^\circ$C, 70\% humidity, 380 ppm of $CO_2$ (the standard, see e.g., \textcite{Meekins1999,Popay1970}), seeds were stratified on moistened Whatman 1 qualitative filter paper in Greiner bio-one 94x16 petri dishes (with vents, greiner light version, sterile) in the dark \parencite{Baskin1998,Popay1970}.  Water was added to petri dishes every 30 days. Seeds were stratified in a single Biochambers TPC-19 Reach-In Growth Chamber. 
@@ -195,57 +176,55 @@ load("C:/Users/Owner/Documents/github/germination_stan/time_data.rdata")
 	
 	\paragraph{Substrte and planting depth:} \textcite{Popay1970} show that \textit{C. bursa-pastoris} seeds germinated about equally on filter paper as on top of soil, but showed much decreased germination when inserted into soil. The effects of planting substrate and depth have not been studied in most of the study species. However, a study on a species related to \textit{D. glomerata} suggests that \textit{D. glomerata} may germinate better in soil \parencite{Andrews1974}. Additionally, a difference in depth of just a couple millimeters can result in extreme differences in light availability \parencite{Tester1987}. Thus each seed was placed on top of Fafard Growing Mix (a mixture of fine peat moss, fine perlite, and vermiculite) soil, with each seed in its own individual tray cell.
 	
-	\paragraph{Water:} Seeds were watered every two days. The seeds were watered until all of the soil had become wet \parencite{Steinbauer1957}; but not so much that a film of water covered the seeds \parencite{AOSA1960}.
+	\paragraph{Water:} Every two days, seeds were watered until all of the soil had become wet \parencite{Steinbauer1957}; but not so much that a film of water covered the seeds \parencite{AOSA1960}.
 	
-	\paragraph{Germination monitoring:} Seeds were checked during the light period for germination every two days. Germination success was defined as the growth of shoot or radical through the seed coat \parencite{Baskin1998,Popay1970}. Germination date for each seed was recorded. Data collection sheets only contained the tray location of the seeds, (not population or individual), so collection of germination data was blind to population.  Germination trials typically last two weeks, with most seeds germinating within 10 days \parencite{Baskin1998}. However, after 10 days, new germinations were still being observed so the observation time was extended \parencite{Wulff1994}.. 
+	\paragraph{Germination monitoring:} Seeds were checked during the light period for germination every two days. Germination success was defined as the growth of shoot or radical through the seed coat \parencite{Baskin1998,Popay1970}. Germination date for each seed was recorded. Data collection sheets only contained the tray location of the seeds, (not population or individual), so collection of germination data was blind to population.  Germination trials typically last two weeks, with most seeds germinating within 10 days \parencite{Baskin1998}. However, after 10 days, new germinations were still being observed so the observation time was extended \parencite{Wulff1994}.
 	
 	\subsection{Growth}
- 	Most of the study species are perennials or biennials. As such, they do not flower in the first year. Instead of floral state, the seeds in the cells growing on soil were analyzed post-germination for height. Linear height of each seedling was measured five times: on December 7, 2015, December 15, 2015, December 21, 2015, January 4, 2016, and January 29, 2016. On January 1, 2016, the plants were moved from the growth chambers to a greenhouse subject to the following conditions: natural photoperiod (approximately 10 hours of light/day), 20 to 25$^\circ$C, and 65\% humidity.  
+ 	Most of the study species are perennials or biennials. As such, they do not flower in the first year. Instead of floral state, the seeds in the cells growing on soil were analyzed post-germination for height. Aboveground linear height of each seedling was measured five times: on December 7, 2015, December 15, 2015, December 21, 2015, January 4, 2016, and January 29, 2016. On January 1, 2016, the plants were moved from the growth chambers to a greenhouse subject to the following conditions: natural photoperiod (approximately 10 hours of light/day), 20 to 25$^\circ$C, and 65\% humidity.  
  	
- 	\subsection{Climate analysis}
- 	Mean March, April, and May temperatures (~ 1 km$^2$ resolution) for each population location \parencite{Fick2017}. 
-	
-	\subsection{Statistical analysis}
-	Height was linearly associated with day, so growth rate (in cm/day) was defined as $\beta$ in the linear model: $height = \alpha + \beta*day $. This growth rate was calculated for each seed that germinated. Treatment effects on growth rate, germination rate, and germination timing were modeled with Bayesian hierachical mixed effects models \parencite{Gelman2004}. For all models, stratification length, continental origin, and temperature were treated as binary fixed effects. Europe and 30 days were reference levels for origin and stratification length, respectively; temperature was recoded as three dummy binary factors. The full suite of 2- and 3-way interactions were included for all fixed effects. Seed family was treated as a random effect, nested within sampling population, nested within species (with random slopes and intercepts). Growth rate was modeled with a normal error distribution: 
-	\begin{center}
-	\begin{multiple}
-	\displaystyle y_i = N(\mu_i,\sigma) \\
-	\mu_i = N(\alpha_{sp[pop[sfamily[i]]]} + \beta 1_{sp[pop[sfamily[i]]]}*origin + \beta 2_{sp[pop[sfamily[i]]]} * strat + \\ 
-	\beta 3_{sp[pop[sfamily[i]]]}*temp1 + \beta 4_{sp[pop[sfamily[i]]]}*temp2 + \beta 5_{sp[pop[sfamily[i]]]}*temp3 + \\
-	\beta 6_{sp[pop[sfamily[i]]]}*origin\times strat  + \beta 7_{sp[pop[sfamily[i]]]}*orign \times temp1 +  \\
-	\beta_8{sp[pop[sfamily[i]]]}*origin \times temp2 + \beta 9_{sp[pop[sfamily[i]]]}*origin \times temp3 + \\
-	\beta 10_{sp[pop[sfamily[i]]]}*strat\times temp1 +\beta 11_{sp[pop[sfamily[i]]]}*strat \times temp2 + \\
-	\beta 12_{sp[pop[sfamily[i]]]}*strat \times temp3_ + \beta 13_{sp[pop[sfamily[i]]]}*origin \times strat \times temp1_ \\
-	+ \beta 14_{sp[pop[sfamily[i]]]}*origin \times strat \times temp2 + \beta 15_{sp[pop[sfamily[i]]]}*origin \times strat \times temp3 )
-	\end{multiple}
-	\end{center}
- Where the $\alpha$ and each $\beta$ coefficient were specified with nested random effects. For each $\gamma$ in $[\alpha,\beta 1:\beta 15]$:
-\par 
-\begin{center}
-\begin{multiple}
-	\displaystyle \gamma_{sp[pop[sfamily[i]]]} = N(\mu_{\gamma_{sp[pop[j]]}}, \sigma_{\gamma_{sp[pop[j]]}}) \\
-	\gamma_{sp[pop[j]]} = N(\mu_{\gamma_{sp[k]}}, \sigma_{\gamma_{sp[k]}}) \\
-	\gamma_{sp[k]} = N(\mu_{\gamma}, \sigma_{\gamma})
-	\end{multiple}
-	\end{center}
 
-	 Where $sp = $ species, indexed with $k$, $pop =$ sampling population, indexed with $j$, $sfamily =$ seed family, indexed with $i$, and $strat$ = stratification. Germination rate was modeled similarly to growth rate, but using a binomial error distribution with logit link function. Germination timing was also similar, but with a Poisson error distribution with log link function.  
+	\subsection{Statistical analysis}
+	Height was linearly associated with day, so growth rate (in cm/day) was defined as $\beta$ in the linear model: $height = \alpha + \beta*day $ (see Figure SXX). This growth rate was calculated for each seed that germinated. Treatment effects on growth rate, germination rate, and germination timing were modeled with Bayesian hierachical mixed effects models \parencite{Gelman2004}. For all models, stratification length, continental origin, and temperature were treated as binary fixed effects. Europe and 30 days were reference levels for origin and stratification length, respectively; temperature was recoded as three dummy binary factors. The full suite of 2- and 3-way interactions were included for all fixed effects. Seed family was treated as a random effect, nested within sampling population, nested within species (with random slopes and intercepts). Growth rate was modeled with a normal error distribution: 
+
+\begin{align}
+y_i =&  N(\mu_i,\sigma)\\
+  \mu_i =&  N(\alpha_{sp[pop[sfamily[i]]]} + \beta 1_{sp[pop[sfamily[i]]]}*origin +  \beta 2_{sp[pop[sfamily[i]]]} * strat\\
+          & +\beta 3_{sp[pop[sfamily[i]]]}*temp1 +  \beta 4_{sp[pop[sfamily[i]]]}*temp2 + \beta 5_{sp[pop[sfamily[i]]]}*temp3 \notag \\
+          & 
+ 		 + \beta 6_{sp[pop[sfamily[i]]]}*origin\times strat  + \beta 7_{sp[pop[sfamily[i]]]}*orign \times temp1 \notag\\ &
+ 		 + \beta_8{sp[pop[sfamily[i]]]}*origin \times temp2 + \beta 9_{sp[pop[sfamily[i]]]}*origin \times temp3 \notag \\ &
+ 		 +\beta 10_{sp[pop[sfamily[i]]]}*strat\times temp1 +\beta 11_{sp[pop[sfamily[i]]]}*strat \times temp2 \notag \\ &
+ 		 + \beta 12_{sp[pop[sfamily[i]]]}*strat \times temp3_ + \beta 13_{sp[pop[sfamily[i]]]}*origin \times strat \times temp1 \notag\\ &
+ 		 +\beta 14_{sp[pop[sfamily[i]]]}*origin \times strat \times temp2 + \beta 15_{sp[pop[sfamily[i]]]}*origin \times strat \times temp3 )\notag
+ \end{align}
+ \begin{align}
+ 		 \intertext{Where the $\alpha$ and each $\beta$ coefficient were specified with nested random effects. For each $\gamma$ in $[\alpha,\beta 1:\beta 15]$:}
+ 		 \gamma_{sp[pop[sfamily[i]]]} =& N(\mu_{\gamma_{sp[pop[j]]}}, \sigma_{\gamma_{sp[pop[j]]}}) \\
+ 		 \gamma_{sp[pop[j]]} = & N(\mu_{\gamma_{sp[k]}}, \sigma_{\gamma_{sp[k]}}) \\
+ 		 \gamma_{sp[k]} = & N(\mu_{\gamma}, \sigma_{\gamma})
+\end{align}
+
+
+	 Where $sp = $ species, indexed with $k$, $pop =$ sampling population, indexed with $j$, $sfamily =$ seed family, indexed with $i$, and $strat$ = stratification. Germination rate was modeled similarly to growth rate, but using a binomial error distribution with logit link function. Germination timing was also similar, but with a Poisson error distribution with log link function. 
 	 	
 	All models were estimated using four chains, each with 2000 iterations (including 1000 devoted to warm-up), and wide priors. All models were built with Stan \parencite{Carpenter2017} using rstanarm version 2.17.4 \parencite{Goodrich2018} in R \parencite{Team2015}. Chain convergence was confirmed using the Gelman-Rubin statistic/$\hat{R}$ close to one \parencite{Gelman1992}. Models implementations were validated using simulated data; model fits were assessed using posterior predictive checks \parencite{Gelman2004}.  
 	
-	\paragraph{Average predictive comparisons} The interactions and random effects make this model complex, and frustrate clear interpretation of parameter estimates. Average predictive comparisons can increase interpretability of variables in complex (e.g., hierarchical, mixed-effects, and interactive) models \parencite{Gelman2007}. Acrosss interaction terms and mixed effects, this method is capable of providing a single point estimate and associated uncertainty of the impact of a given factor. Additionally, unlike model output from Poisson and Binomial models which are given in transformed units, average predictive comparisons yield estimates that are in the units of the dependent variable \parencite{Gelman2007}. However, despite being theoretically introduced more than a decade ago, average predictive comparisons remain complicated to implement. Average predictive comparisons are similar to average marginal effects. However, they differ in important ways. First, average marginal effects assume that all input variables are independent and uncorrelated \parencite{Williams2012}. Average predictive comparisons, on the other hand, weights each set of variable values according to their frequency in the data. Second, the methods used calculate uncertainty around the point estimates differently: average marginal effects use the Delta Method \parencite{Williams2012}, whereas average predictive comparisons merely translate the variability in model draws directly into uncertainty in estimates \parencite{Gelman2007}. This makes average predictive comparisons well-suited for complex Bayesian models. Additionally, Because the data come from a balanced experiment  (i.e., every combination of input values is equally likely to co-occur), we can ignore average predictive comparison's weighting requirement. Average predictive comparisons were calculated for the effects of temperature, stratification, and species on each of germination rate, germination timing, and growth rate. \color{red} include equations? \color{black}
-	
-	\paragraph{Coefficient of variation} The variability of the observed phenologies were calculated to infer information about plasticity. First, the coefficients of variation (standard deviation/mean) for germination rate, germination date, and growth rate were calculated separately for each seed family. Next, the undefined coefficients of variation (which resulted from dividing the standard deviation from a mean that equaled zero) were removed. Finally, the remaining coefficients of variation were averaged to obtain the mean and standard error for the European and US population origins of each species, for each response (i.e., germination rate, germination date, and growth rate). 
-	
-	\paragraph{Data, code and model output} 
-	\section{Results}
-	\paragraph{Germination rate} Germination rate is the proportion of seeds that germinated. Across all treatments, the overall modeled germination rate was \Sexpr{round(invlogit(mod_rate$stan_summary[1]),3)}. Overall, germination rate was unaffected by treatments (Figure \ref{fig:coef}). Howver, average predictive comparisons analysis shows that all treatment effects were ~ 40\% 
-	\paragraph{Germination timing} Germination timing is the number of days between removal from stratification and germination. Across all treatments, the overall modeled germination timing was \Sexpr{round(exp(mod_time_pois$stan_summary[1]),3)}. Globally, temperature had significant effects on germination timing, 
-	\subsection{Average Predictive Comparisons}
+	\paragraph{Average predictive comparisons} The interactions and random effects make this model complex, and frustrate clear interpretation of parameter estimates. Average predictive comparisons can increase interpretability of variables in complex (e.g., hierarchical, mixed-effects, and interactive) models \parencite{Gelman2007}. Across interaction terms and mixed effects, this method is capable of providing a single point estimate and associated uncertainty of the impact of a given parameter. Additionally, unlike model output from Poisson and Binomial models which are given in transformed units, average predictive comparisons yield estimates that are in the units of the dependent variable \parencite{Gelman2007}. However, despite being theoretically introduced more than a decade ago, average predictive comparisons remain complicated to implement. Average predictive comparisons are similar to average marginal effects, but differe in a few ways. First, average marginal effects assume that all input variables are independent and uncorrelated \parencite{Williams2012}. Average predictive comparisons, on the other hand, weights each set of variable values according to their frequency in the data. Second, the methods used calculate uncertainty around the point estimates differently: average marginal effects use the Delta Method \parencite{Williams2012}, whereas average predictive comparisons merely translate the variability in model draws directly into uncertainty in estimates \parencite{Gelman2007}. This makes average predictive comparisons well-suited for complex Bayesian models. Additionally, Because our data come from a balanced experiment  (i.e., every combination of input values is equally likely to co-occur), we can ignore average predictive comparison's weighting requirement for origin, temperature, and stratification. However, species and populations were not balanced. Thus, we calculated Average Predicitive Comparisons using both the frequency of species and populations found in the data, and using an even representation. Thus,  average predictive comparisons were calculated for the effects of temperature, stratification, species, and population on each of germination rate, germination timing, and growth rate. \color{red} include equations? \color{black}
 
+	\paragraph{Data, code} 
+	Data and R code is available on github at <> 
+	\section{Results}
+	\paragraph{Germination rate} Germination rate is the proportion of seeds that germinated. Across all treatments, the overall modeled germination rate was \Sexpr{round(invlogit(mod_rate$stan_summary[1]),3)}. Overall, germination rate was unaffected by treatments (Figure \ref{fig:coef}). Regardless of the climatic conditions that we presented the seeds with, they germinated at fairly constant, high rates. Furthermore, seeds from the invasive and native ranges germinated at similar rates. Furthermore, there was little inter-population variability (see Figure SXX). 
+	\paragraph{Germination timing} Germination timing is the number of days between removal from stratification and germination. Across all treatments, the overall modeled germination timing was \Sexpr{round(exp(mod_time_pois$stan_summary[1]),2)}.  Overal, all species germinated slower at the lowest temperature, but germinated at similar speeds at the three higher temperatures, showing that temperature response is non-linear. Overal,stratification and seed origin had no noticable effect; however, PLALAN did show faster germination in response to med-low temperature and stratification interaction.  Additionally, there was a significant positive interaction effect of origin, stratification and the highest temperature (see Figure \ref{fig:coef}). Populations showed fairly homogenous responses, though temperature--stratification interactions did show some inter-population variability (see Figure SXX). 
+	\paragraph{Growth rate} Overall, growth rate was the most sensitive to treatments, though still did not exhibit main-effects responses to stratification or origin.  (see Figure \ref{fig:coef}). Surprisingly, for all species, growth rate decreased at warmer temperatures. This response to temperature was more linear than the response expressed by germination timing to temperature. This decrease was the most pronounced in DACGLO. The decreases in growth rate were even more pronounced when high temperatures were combined with long stratification. However, this growth rate decrease was somewhat moderated in seeds originating in North America (the invasive range) 
+	\subsection{Average Predictive Comparisons}
+The Average predictive comparisons show similar patterns to the model coefficients. Average predictive comparisons  yielded similar results regardless of how sp and population were balanced (balanced according to frequency of the data, Table \ref{tab:apc} or balanced evenly, see Table SXX). However, some patterns are easier to see in this method. The Average predictive comparison clearly demonstrates how growth rate shows a much more linear response to temperature, with higher temperatures leading to greater effects on growth rate. In contrast, for germination timing, temperature effects plateau, with all higher temperatures showing similar effects. This comparison is made even more clear since the predictions are in the units of the predictors. The average predictive comparisons show significant effects of origin, stratification, and temperature on germination rate. This is likely due to the significant variability in the stratification, temperature 3, origin interaction effect. Because average predictive comparisons use squared differences, non-directional variation effects can create large values. 
 % latex table generated in R 3.5.1 by xtable 1.8-3 package
 % Mon Jan 20 11:15:45 2020
 \begin{longtable}{rlll}
+\caption{Average predictive comparisons provide an additional interpreation of the results. For species and populations, predictions relied on the frequency of the species and populations in the data. Using uniform frequency did not significantly affect the results (see Table SXX)}.
+\label{tab:apc}
 	\hline
 	& germination rate (\%) & germination date (days) & growth rate (cm/day) \\ 
 	\hline
@@ -260,120 +239,25 @@ load("C:/Users/Owner/Documents/github/germination_stan/time_data.rdata")
 	\hline
 \end{longtable}
 
-And now with balanced data correlates: 
-	% latex table generated in R 3.5.1 by xtable 1.8-3 package
-% Mon Jan 20 22:48:10 2020
-\begin{longtable}{rlll}
-	\hline
-	& germination rate (\%) & germination date (days) & growth rate (cm/day) \\ 
-	\hline
-	origin & 0.461 $\pm$ 0.037 & 12.836 $\pm$ 7.176 & 0.044 $\pm$ 0.007 \\ 
-	stratification & 0.436 $\pm$ 0.023 & 9.629 $\pm$ 0.52 & 0.042 $\pm$ 0.002 \\ 
-	temperature 1 & 0.388 $\pm$ 0.033 & 10.244 $\pm$ 0.343 & 0.029 $\pm$ 0.003 \\ 
-	temperature 2 & 0.394 $\pm$ 0.032 & 10.196 $\pm$ 0.347 & 0.079 $\pm$ 0.003 \\ 
-	temperature 3 & 0.38 $\pm$ 0.032 & 10.304 $\pm$ 0.337 & 0.091 $\pm$ 0.003 \\ 
-	species & 0.565 $\pm$ 0.013 & 16.025 $\pm$ 3.137 & 0.134 $\pm$ 0.003 \\ 
-	population & 0.593 $\pm$ 0.014 & 14.939 $\pm$ 4.158 & 0.12 $\pm$ 0.003 \\ 
-	\hline
-	\hline
-\end{longtable}
-
 \begin{figure}
 	\fbox{\includegraphics[scale=.5,angle=-90]{germ_figs_onepage.pdf}}
-	\caption{Hierachical mixed-effects model coefficients with 95\% credibility intervals, showing global fixed effects and species random effects. a) model of germination rate (plogit(\% germination)). b) model of germination day (log(day)) and c) model of growth rate (cm/day)}
+	\caption{Hierarchical mixed-effects model coefficients with 95\% credibility intervals, showing global average effects and species random effects. Intercept coefficients not shown.  a) model of germination rate, b) model of germination day and c) model of growth rate}
 	\label{fig:coef}
 \end{figure}
-	
-%	\includepdf[pages={2,1,3},width=\textwidth]{germ_figs.pdf}
-%	\begin{figure}
-%		\fbox{\includegraphics[page=2,scale=.8]{germ_figs.pdf}}
-%			\caption{Germination rate model coefficients}
-%			\label{fig:ratecoef}
-%	\end{figure}
-%\begin{figure}
-%	\fbox{\includegraphics[page=1,scale=.8]{germ_figs.pdf}}
-%	\caption{Germination day model coefficients}
-%	\label{fig:timecoef}
-%\end{figure}
-%
-%\begin{figure}
-%	\fbox{\includegraphics[page=3,scale=.8]{germ_figs.pdf}}
-%	\caption{Growth rate model coefficients}
-%	\label{fig:grcoef}
-%\end{figure}
-%	
-%	\begin{sidewaysfigure}[h!]
-%		\begin{subfigure}[b]{.5 \textheight}
-%			\caption{}
-%			\includegraphics[page=2,scale=.5,width=\textwidth]{germ_figs.pdf}
-%		\end{subfigure}
-%	\begin{subfigure}[b]{.5 \textheight}
-%			\caption{}
-%			\includegraphics[page=1,width=\textwidth]{germ_figs.pdf}
-%		\end{subfigure}
-%	\begin{subfigure}[b]{.5 \textheight}
-%			\caption{}
-%			\includegraphics[page=3,width=\textwidth]{germ_figs.pdf}
-%		\end{subfigure}
-%		\caption{Blah.}
-%	\end{sidewaysfigure}
-		
-		%,scale=.5,angle=90]{germ_figs.pdf}
-	%			\includegraphics[page=1,scale=.5,angle=90]{germ_figs.pdf}
-%				\includegraphics[page=3,scale=.5,angle=90]{germ_figs.pdf}}
-	%	%x x x lower right 
-	%	\caption{Model coefficients}
-	%	\label{fig:coef}
-	%\end{figure}		
+
 	\section{Discussion} 
 	
-	My study investigated key mechanisms that enable plants to invade new environments. My experiments tested for phenological local adaptation and plasticity across seven herbaceous species. We found no general patterns in adapted plasticity across phenologies or species.  However, We did find that invasive populations consistently showed evidence of local adaptation to the alien environment for germination timing and growth rate. Yet, sign of a local adaptation for germination rate was limited to two species.  Generally, my results show that invasive plants are able to adapt to novel climates, suggesting that they will become only more invasive in the face of global climate change. 
+	This study leveraged the power of bi-origin, multi-species growth chamber experiments to investigate the importance of rapid evolution for invasive success. Across seven highly invasive plant species, we found only isolated support for the prevalance of rapid evolution in post-colonizing populations of invasive plants. Instead, our results support the theory that species do not need to evolve to invade: weediness and generalist traits in the source populations provide sufficient capacity to exploit novel environments. Rapid evolution may provide a helping hand, but contrary to the many claims about the prevalence of rapid evolution in invasive species, it but may not be essential. 
 	
-	\subsection{Germination Rate} 
+	These findings are  especially pronounced in germination rate, where all species germinated well and with scant sensitivity to climatic conditions, suggesting that the source populations of invading species provided invaders with the capacity to germinate in any environment, without the need to evolve. Some have suggested that while initially species may not need to evolve, they may once they get a foot-hold \parencite{Lamarque2015}. However, we had many species that have occupied their invasive range for centuries, yet still show little sign of an evolving germination response. 
 	
+	Overall, germination timing and growth rate also showed that species have not evolved upon becoming invasive. However, there was some evidence that particular responses have evolved: North American (invasive) populations appear to have evolved to germinate later and grow faster under high-temperature/long stratification combinations. Taking the climate of our North American populations into account (Figure \ref{fig:sites}), this growth rate evolution may be adaptive. Overall, our North American populations experience climates with longer winter stratification  (lower mean March temperatures) and hotter growing temperatures (higher mean May temperature). Thus, the capacity to grow faster at high temperatures after being exposed to our long stratification treatment may provide fitness advantages. 
 	
-	Germination rate (i.e., the percent of seeds that successfully germinated) did not differ between population origins and across growing conditions for most species. For all species except Plantago major and Capsella bursa-pastoris, germination rate was not significantly affected by temperature, stratification length, or population origin. This suggests that germination rate is generally not sensitive to temperature or stratification length. Further, it suggests that, generally, the US and European populations have not diverged with regards to germination rate. 
+	These adaptations may not only benefit invaders in a stable climate, but may also render some species more invasive in a changing climate.  For example, since cold-stratification is a simulation of temperate winter, the evidence that species can adapt their germination timing in accordance with winter length and spring temperature suggests that they may have the capacity to adapt to a climate with shorter winters and warmer springs \parencite{IPCC2015}. These results also highlight the importance of varying both winter length and spring temperature in order to observe substantial responses. Future studies should be sure to include both of these environmnetal variables if they are to detect how plants respond to climate. 
 	
-	The lack of difference in germination rates between the European and US suggests that germination rate has not evolved post-introduction. Consequently, the contribution of germination rate adaptability to invasive success is likely quite small. 
+	The overal result that growth rates decreased at higher temperatures is counter-intuitive. CITE 
 	
-	Germination rate in two species, however, differed between the population origins. Germination rates of Plantago major and Capsella bursa-pastoris were dependent on population origin, while that of Plantago major was also dependent on stratification length. Stratification is an important determinant of germination rate, at least for the US Plantago major. This suggests that at least two invasive species have diverged from their native origins with respect to germination rate. 
-	
-	This divergence of germination rate in the US may be a result of adaptation to local environments.  The invasive US members of Plantago major and Capsella bursa-pastoris have equal or lower germination rates than their European conspecifics. So how does this adaptation for low germination rate possibly confer a fitness benefit? Perhaps there were stratification and temperature combinations that we did not measure at which the US would have performed much better (i.e. these species have adapted to very specific local conditions, which were not contained within our treatment conditions). Local adaptation may be important in giving these Plantago major and Capsella bursa-pastoris the ability to thrive in novel environments.
-	
-	Local adaptation, however, is not the only explanation for these observed differences between US and European populations. A higher germination rate may not in fact be beneficial to fitness—perhaps some seeds germinated at low rates because they have a long seedbank life and have adapted to only germinate under ideal conditions. Or perhaps the differences could be a result of nonadaptive genetic drift, aided by the initially small introduced population size. The differences could also be caused by the founder effect—e.g., the genotypes that happened to be introduced to the US already had the observed differentiated genotype, and hence all of their progeny did as well. However, an extensive diversity of native populations were sampled and local adaptation is known to have occurred in some invasive species (e.g., Lamarque et al., 2014). Thus, while acknowledging that there may be alternate explanations for the observed phenology differences, we will focus my discussion on local adaptation where appropriate.  
-	
-	Local adaptation may be important for the US population origins of these two species, but US populations actually display less plasticity. The US \textit{Capsella bursa-pastoris} and \textit{Plantago major} showed higher individual-level variation in germination rates than the European populations, while all the other species showed no significant difference between origins. This suggests that for germination rate, the US populations of some species are locally adapted and less plastic. This inverse relationship between plasticity and local adaptation of the invasive population makes sense. If these species have adapted to germinate well only in specific conditions, then it should follow that germination is less plastic. 
-	
-	
-	\subsection{Germination Timing}
-	
-	
-	Unlike germination rate, germination timing was significantly different across population origins and growing conditions for all species except Capsella bursa-pastoris. Germination timing for all of these species was significantly affected by each of temperature, stratification length, and population origin. This suggests that, unlike germination rate, germination timing is generally sensitive to temperature and stratification length. Further, the significance of origin effects suggests that the US and Europe have diverged with respect to germination timing. 
-	
-	Adaptation of germination timing may be a driver of invasion success for most species. The significant differences in germination timing between the European and US suggest that germination timing has possibly evolved since introduction of the invaders.  
-	
-	These adaptations could be proof that some species can adapt their phenologies. For example, in nearly all of the species in the shorter stratification, the US germination time was significantly different from that of Europe. This suggests that the US plants have evolved to respond differently to the shorter stratification—i.e., a shorter winter—than the European plants. These local adaptations display the ability of these plants to adapt their germination timing to altered winter lengths. 
-	
-	Further, this phenological adaptability could yield an invasive advantage. For example, in the shorter stratification, Chelidonium majus germinated significantly earlier in the US than in Europe. This flexibility to the short stratification could mean that the US Chelidonium majus is germinating earlier to taking advantage of a vacant niche or wealth of resources in the early spring. This ability to take advantage of resources could make it a more successful invader. 
-	
-	These adaptations may not only benefit invaders in a stable climate, but may also render some species more invasive in a changing climate.  For example, since cold-stratification is a simulation of temperate winter, the evidence that species can adapt their germination timing in accordance with a shorter stratification length, suggests that they may be well positioned to germinate in a climate with shorter winters. Winters are forecasted to get shorter due to climate change (IPCC, 2015), thus these already invasive species may become even more invasive as the climate changes. 
-	
-	There is no general result on the importance of plasticity in germination timing. Some species showed significantly higher variation in the US origin than the European origin, some showed lower, and some exhibited no significant difference. For example, the US origin of Chelidonium majus showed more variability in germination timing than the European origin, while Taraxacum officinale displayed the opposite. This implies that the US Taraxacum officinale may have greater plasticity those from Europe.  However, plasticity per se does not necessarily give a plant an invasive advantage. To impart invasiveness, the plastic trait must be a fitness trait (Richards et al., 2006). Generally, higher germination rates impart higher fitness. However fitness is not necessarily correlated with timing of germination. There may be some environments in which germinating earlier could be beneficial (e.g., there’s a short growing season or presence of upper-story trees that will shade understory plants) whereas other times germinating later may be beneficial (e.g., less risk from frost damage). Thus while plasticity has increased for some species in the US, it may not have directly increased their invasion potential. More work is needed to analyze how germination timing interacts with fitness for these species before germination timing variability and invasiveness can be clearly connected.  
-	
-	\subsection{Growth Rate}
-	
-	Like germination timing, growth rate was significantly different across population origins and growing conditions for nearly all species. Growth rate was significantly affected by temperature, stratification length, and population origin for all species except Dactylis glomerata (which was only affected by temperature). This suggests that, like germination timing, growth rate is generally sensitive to temperature and stratification length. 
-	
-	Growth rate is controlled by the interaction of stratification length and temperature. In general, growth rate decreased as temperature increased for all species. This could cause plants to grow more slowly as the planet warms due to anthropogenic forcing of the climate system. However, the decrease in growth rate was generally less severe for the shorter stratification. This suggests that warming temperatures will have a less dramatic effect on growth rate if they are accompanied by shorter winters. Understanding how plants will react to climate change requires taking both winter and summer climate effects into account. 
-	
-	
-	Growth rate is also significantly dependent on population origin for all species (except Dactylis glomerata), suggesting that the US and European growth rate have diverged. In nearly all of the species the effect of temperature and/or stratification varied by population origin. The US has evolved to respond differently to stratification and/or temperature. These local adaptations display the flexibility of growth rate to stratification length and temperature. 
-	
-	This phenological adaptability could yield an invasive advantage. For example, the US Plantago lanceolata grew significantly faster than those from Europe at mid-temperatures, but equal to or slower than at extreme temperatures. This adaptability to temperature could mean that the US Plantago lanceolata has locally adapted to grow faster at mid-range temperatures in our study. This could allow US populations to take advantage of a vacant niche for taller plants or wealth of resources only available to taller plants in and mid-temperature abiotic environment. This ability to take advantage of resources could make it a more successful invader. Additionally, these adaptations may make some species more invasive in a changing climate. For example, the evidence that the relationship between growth rate and temperature is flexible suggests that these species may be able to adapt their growth rate to changing temperatures. Thus these species may become even more invasive as the climate changes.
-	
-	As with plasticity of germination timing, we found no general answer on whether plasticity has increased in the US populations. Some species showed significantly higher normalized variation in the US than in Europe, some showed lower, and one exhibited no significant difference. For example, the US and European Plantago lanceolata showed no difference, whereas the US Chelidonium majus was significantly less variable than that from Europe. This suggests that the US Chelidonium majus has adapted to have a more plastic growth rate. However, as with germination timing, using trait plasticity to imply invasiveness is tricky if the trait is not clearly a fitness trait.  Nevertheless, a higher growth rate should typically yield a greater fitness, and so plasticity may play an important role in imparting invasiveness in US Chelidonium majus, Dactylis glomerata, Rumex crispus, and Taraxacum officinale.  
-	
-	
+
 	\section{Conclusion}
 	
 	
@@ -387,7 +271,7 @@ And now with balanced data correlates:
 	
 	
 	\section{Acknowledgments}
-	 The field work for this thesis was generously funded by the Harvard College Research Fund and the Harvard University Center for the Environment Undergraduate Summer Research Fund. Thanks to Beth Forrestel for mentorship to HNE throughout this entire project. Thanks also to Dan Flynn, Sally Gee, Jehane Samaha, and Tim Savas for help transplanting, sampling, and data collection. Thanks to Faye Rosin, Kea Woodruff, and Jess Gard for help with collection and growing logistics. Thanks to S. Fritz for help with data input. Thank you to M. Rucinski, C. Husic, N. Gilbert, A. Delgado, and A. Acosta for comments on earlier versions of this paper. Thanks to J. Eyter, S. Stalhandske, and G. Barbone for assistence with and camaraderie during field sampling. 
+	 The field work for this thesis was generously funded by the Harvard College Research Fund and the Harvard University Center for the Environment Undergraduate Summer Research Fund. Thanks to Beth Forrestel for mentorship to HNE. Thanks also to D. Flynn, S. Gee, J. Samaha, and T. Savas for help transplanting, sampling, and data collection. for Thanks to F. Rosin, K. Woodruff, and J. Gard for help with collection and growing logistics. Thanks to S. Fritz for help with data input. Thank you to M. Rucinski, C. Husic, N. Gilbert, A. Delgado, and A. Acosta for comments on earlier versions of this paper. Thanks to J. Eyster, S. Stalhandske, and G. Barbone for assistence with and camaraderie during field sampling. 
 
 	
 
