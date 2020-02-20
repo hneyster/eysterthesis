@@ -85,6 +85,55 @@
       \field{pages}{3\bibrangedash 79}
       \range{pages}{77}
     \endentry
+    \entry{Baker1965}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0c97c3c18f30d7195e617bb43e9c4d88}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=0c97c3c18f30d7195e617bb43e9c4d88}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=823f5c918e4a03ec8d33bfc003f29f72}{%
+           family={Stebbins},
+           familyi={S\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{0c97c3c18f30d7195e617bb43e9c4d88}
+      \strng{fullhash}{0c97c3c18f30d7195e617bb43e9c4d88}
+      \strng{bibnamehash}{0c97c3c18f30d7195e617bb43e9c4d88}
+      \strng{authorbibnamehash}{0c97c3c18f30d7195e617bb43e9c4d88}
+      \strng{authornamehash}{0c97c3c18f30d7195e617bb43e9c4d88}
+      \strng{authorfullhash}{0c97c3c18f30d7195e617bb43e9c4d88}
+      \strng{editorbibnamehash}{a474a0104fe8f48070bbadb73fd421cd}
+      \strng{editornamehash}{a474a0104fe8f48070bbadb73fd421cd}
+      \strng{editorfullhash}{a474a0104fe8f48070bbadb73fd421cd}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The genetics of colonizing species}
+      \field{title}{{Chareteristics and modes of origin of weeds}}
+      \field{year}{1965}
+      \field{pages}{147\bibrangedash 168}
+      \range{pages}{22}
+    \endentry
     \entry{Barker2017}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=381f4713cbc70fb400be79496f66af52}{%
@@ -226,6 +275,70 @@
       \field{year}{2016}
       \field{pages}{20150623}
       \range{pages}{1}
+    \endentry
+    \entry{Bernareggi2016}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=567d997790c1af1c821b618d7a6d5a75}{%
+           family={Bernareggi},
+           familyi={B\bibinitperiod},
+           given={Giulietta},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=923b99b12c865b161873f2bad8606970}{%
+           family={Carbognani},
+           familyi={C\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=abc6567b9de1570193e39a0f9d807939}{%
+           family={Mondoni},
+           familyi={M\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e17a95441f15e042cce2e6cb2cda392b}{%
+           family={Petraglia},
+           familyi={P\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{433740191ece6084033648d2b93ad37a}
+      \strng{fullhash}{a39d8f50da073e6bc13f94af2da15abe}
+      \strng{bibnamehash}{a39d8f50da073e6bc13f94af2da15abe}
+      \strng{authorbibnamehash}{a39d8f50da073e6bc13f94af2da15abe}
+      \strng{authornamehash}{433740191ece6084033648d2b93ad37a}
+      \strng{authorfullhash}{a39d8f50da073e6bc13f94af2da15abe}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background and Aims Climate warming has major impacts on seed germination of several alpine species, hence on their regeneration capacity. Most studies have investigated the effects of warming after seed dispersal, and little is known about the effects a warmer parental environment may have on germination and dormancy of the seed progeny. Nevertheless, temperatures during seed development and maturation could alter the state of dormancy, affecting the timing of emergence and seedling survival. Here, the interplay between pre-And post-dispersal temperatures driving seed dormancy release and germination requirements of alpine plants were investigated. Methods Three plant species inhabiting alpine snowbeds were exposed to an artificial warming treatment (i.e. 1.5 K) and to natural conditions in the field. Seeds produced were exposed to six different periods of cold stratification (0, 2, 4, 8, 12 and 20 weeks at 0 °C), followed by four incubation temperatures (5, 10, 15 and 20C) for germination testing. Key Results A warmer parental environment produced either no or a significant increase in germination, depending on the duration of cold stratification, incubation temperatures and their interaction. In contrast, the speed of germination was less sensitive to changes in the parental environment. Moreover, the effects of warming appeared to be linked to the level of (physiological) seed dormancy, with deeper dormant species showing major changes in response to incubation temperatures and less dormant species in response to cold stratification periods. Conclusions Plants developed under warmer climates will produce seeds with changed germination responses to temperature and/or cold stratification, but the extent of these changes across species could be driven by seed dormancy traits. Transgenerational plastic adjustments of seed germination and dormancy shown here may result from increased seed viability, reduced primary and secondary dormancy state, or both, and may play a crucial role in future plant adaptation to climate change.}
+      \field{issn}{0305-7364}
+      \field{journaltitle}{Annals of Botany}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{{Seed dormancy and germination changes of snowbed species under climate warming: the role of pre- and post-dispersal temperatures}}
+      \field{volume}{118}
+      \field{year}{2016}
+      \field{pages}{529\bibrangedash 539}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/aob/mcw125
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/aob/article-lookup/doi/10.1093/aob/mcw125
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/aob/article-lookup/doi/10.1093/aob/mcw125
+      \endverb
+      \keyw{Adaptation,Cerastium cerastoides,Climate warming,Leucanthemopsis alpina,Parental effects,Plastic responses,Seed dormancy,Seed germination,Seed phenology,Veronica alpina}
     \endentry
     \entry{Blois2013}{article}{}
       \name{author}{4}{}{%
@@ -992,7 +1105,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Biodiversity & Allelopathy: From Organisms to Ecosystems in the Pacific}
+      \field{booktitle}{Biodiversity \& Allelopathy: From Organisms to Ecosystems in the Pacific}
       \field{title}{Threats of invasive plants to the conservation of biodiversity}
       \field{year}{1999}
       \field{pages}{21\bibrangedash 7}
@@ -1097,6 +1210,63 @@
       \field{year}{2001}
       \field{pages}{892\bibrangedash 895}
       \range{pages}{4}
+    \endentry
+    \entry{Eckert1996}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=81221a89265541fecaa8b2deec086ddb}{%
+           family={Eckert},
+           familyi={E\bibinitperiod},
+           given={Christopher\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=07d188e71dfeede8ed6398731efc1276}{%
+           family={Manicacci},
+           familyi={M\bibinitperiod},
+           given={Domenica},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a32cfe0e237d063e8a1c8c57265ea622}{%
+           family={Barrett},
+           familyi={B\bibinitperiod},
+           given={Spencer\bibnamedelimb C.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{cd13a79040c11c583cb6b417a091cdb5}
+      \strng{fullhash}{7dadd19f2b3991bac305c7f94ec8048d}
+      \strng{bibnamehash}{7dadd19f2b3991bac305c7f94ec8048d}
+      \strng{authorbibnamehash}{7dadd19f2b3991bac305c7f94ec8048d}
+      \strng{authornamehash}{cd13a79040c11c583cb6b417a091cdb5}
+      \strng{authorfullhash}{7dadd19f2b3991bac305c7f94ec8048d}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00143820}
+      \field{journaltitle}{Evolution}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{{Genetic drift and founder effect in native versus introduced populations of an invading plant, Lythrum salicaria (Lythraceae)}}
+      \field{volume}{50}
+      \field{year}{1996}
+      \field{pages}{1512\bibrangedash 1519}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/j.1558-5646.1996.tb03924.x
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1111/j.1558-5646.1996.tb03924.x
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/j.1558-5646.1996.tb03924.x
+      \endverb
+      \keyw{Colonization,Lythrum salicaria,floral polymorphism,founder effect,frequency‐dependent selection,gene flow,genetic drift,metapopulations,purple loosestrife,tristyly}
     \endentry
     \entry{Egli1980}{article}{}
       \name{author}{2}{}{%
@@ -1985,6 +2155,32 @@
       \field{pages}{353\bibrangedash 362}
       \range{pages}{10}
     \endentry
+    \entry{IPCC2015}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=676f7b9b8e5bb30500c01e2385e59174}{%
+           family={IPCC},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Intergovernmental Panel on Climate Change, Geneva}%
+      }
+      \strng{namehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{fullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{bibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authorbibnamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authornamehash}{676f7b9b8e5bb30500c01e2385e59174}
+      \strng{authorfullhash}{676f7b9b8e5bb30500c01e2385e59174}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Climate Change 2014: Synthesis Report}
+      \field{type}{techreport}
+      \field{year}{2015}
+    \endentry
     \entry{IUCN2008is}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=c049da5f6649d6d3466b6c48405ba239}{%
@@ -2288,14 +2484,48 @@
       \endverb
       \keyw{Allozymes,Brassicaceae,Capsella bursa-pastoris,Cosegregation analysis,Flowering ecotypes,Fruit dimensions,Leaf type,Mediterranean multilocus genotype,Plant invasions,QTL,RAPDs,Shepherd's purse}
     \endentry
+    \entry{Mack1996}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,uniquepart=given,hash=841757f76f303586ac33ac33b01bffc2}{%
+           family={Mack},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi N.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{841757f76f303586ac33ac33b01bffc2}
+      \strng{fullhash}{841757f76f303586ac33ac33b01bffc2}
+      \strng{bibnamehash}{841757f76f303586ac33ac33b01bffc2}
+      \strng{authorbibnamehash}{841757f76f303586ac33ac33b01bffc2}
+      \strng{authornamehash}{841757f76f303586ac33ac33b01bffc2}
+      \strng{authorfullhash}{841757f76f303586ac33ac33b01bffc2}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Conservation}
+      \field{title}{{Predicting the identity and fate of plant invaders: emergent and emerging approaches}}
+      \field{volume}{78}
+      \field{year}{1996}
+      \field{pages}{107\bibrangedash 121}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0006320796000213
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0006320796000213
+      \endverb
+    \endentry
     \entry{Mack2000}{article}{}
       \name{author}{6}{}{%
-        {{uniquename=0,uniquepart=base,hash=183ff6670c431d8b2a44661cbfc7622c}{%
+        {{uniquename=2,uniquepart=given,hash=183ff6670c431d8b2a44661cbfc7622c}{%
            family={Mack},
            familyi={M\bibinitperiod},
            given={Richard\bibnamedelima N.},
            giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{uniquename=0,uniquepart=base,hash=6574409da7678a25bb6d2ab63311321e}{%
            family={Simberloff},
            familyi={S\bibinitperiod},
@@ -2340,7 +2570,6 @@
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Biotic invaders are species that establish a new range in which they proliferate, spread, and persist to the detriment of the environment. They are the most important ecological outcomes from the unprecedented alterations in the distribution of the earth's biota brought about largely through human transport and commerce. In a world without borders, few if any areas remain sheltered from these immigrations. The fate of immigrants is decidedly mixed. Few survive the hazards of chronic and stochastic forces, and only a small fraction become naturalized. In turn, some naturalized species do become invasive. There are several potential reasons why some immigrant species prosper: some escape from the constraints of their native predators or parasites; others are aided by human-caused disturbance that disrupts native communities. Ironically, many biotic invasions are apparently facilitated by cultivation and husbandry, unintentional actions that foster immigrant populations until they are self-perpetuating and uncontrollable. Whatever the cause, biotic invaders can in many cases inflict enormous environmental damage: (1) Animal invaders can cause extinctions of vulnerable native species through predation, grazing, competition, and habitat alteration. (2) Plant invaders can completely alter the fire regime, nutrient cycling, hydrology, and energy budgets in a native ecosystem and can greatly diminish the abundance or survival of native species. (3) In agriculture, the principal pests of temperate crops are nonindigenous, and the combined expenses of pest control and crop losses constitute an onerous "tax" on food, fiber, and forage production. (4) The global cost of virulent plant and animal diseases caused by parasites transported to new ranges and presented with susceptible new hosts is currently incalculable. Identifying future invaders and taking effective steps to prevent their dispersal and establishment constitutes an enormous challenge to both conservation and international commerce. Detection and management when exclusion fails have proved daunting for varied reasons: (1) Efforts to identify general attributes of future invaders have often been inconclusive. (2) Predicting susceptible locales for future invasions seems even more problematic, given the enormous differences in the rates of arrival among potential invaders. (3) Eradication of an established invader is rare, and control efforts vary enormously in their efficacy. Successful control, however, depends more on commitment and continuing diligence than on the efficacy of specific tools themselves. (4) Control of biotic invasions is most effective when it employs a long-term, ecosystemwide strategy rather than a tactical approach focused on battling individual invaders. (5) Prevention of invasions is much less costly than post-entry control. Revamping national and international quarantine laws by adopting a "guilty until proven innocent" approach would be a productive first step. Failure to address the issue of biotic invasions could effectively result in severe global consequences, including wholesale loss of agricultural, forestry, and fishery resources in some regions, disruption of the ecological processes that supply natural services on which human enterprise depends, and the creation of homogeneous, impoverished ecosystems composed of cosmopolitan species. Given their current scale, biotic invasions have taken their place alongside human-driven atmospheric and oceanic alterations as major agents of global change. Left unchecked, they will influence these other forces in profound but still unpredictable ways.}
@@ -2430,7 +2659,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Trends Ecology & Evolution}
+      \field{journaltitle}{Trends Ecology \& Evolution}
       \field{title}{Biotic homegenizaiton: a few winners replacing many losers in the next mass extinction}
       \field{volume}{14}
       \field{year}{1999}
@@ -2700,6 +2929,47 @@
       \field{year}{2009}
       \field{pages}{497\bibrangedash 504}
       \range{pages}{8}
+    \endentry
+    \entry{Perrins1992}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=9625bf0b1ef373c1f29658e63ba7500e}{%
+           family={Perrins},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=48ae220ea6fef31bc9592486e0314488}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d8d247c7d7c6fdc8d696135bdd0c28ef}{%
+           family={Fitter},
+           familyi={F\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{120b86302654f6f296fc8e01cf2174d6}
+      \strng{fullhash}{0d2746f7ab86afa16998ba1774e57be5}
+      \strng{bibnamehash}{0d2746f7ab86afa16998ba1774e57be5}
+      \strng{authorbibnamehash}{0d2746f7ab86afa16998ba1774e57be5}
+      \strng{authornamehash}{120b86302654f6f296fc8e01cf2174d6}
+      \strng{authorfullhash}{0d2746f7ab86afa16998ba1774e57be5}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Oecologica -- International Journal of Ecology}
+      \field{title}{{Do annual weeds have predictable characters?.}}
+      \field{volume}{13}
+      \field{year}{1992}
+      \field{pages}{517\bibrangedash 533}
+      \range{pages}{17}
     \endentry
     \entry{Pimentel2005}{article}{}
       \name{author}{3}{}{%
@@ -3046,6 +3316,56 @@
       \verb :C$\backslash$:/Users/Owner/Documents/Literature/annurev-environ-033009-095548.pdf:pdf
       \endverb
     \endentry
+    \entry{Rejmanek1996}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=a3257acf9ac91cf85ce7bff56cb7ee14}{%
+           family={Rejmanek},
+           familyi={R\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=2,uniquepart=given,hash=e0c4599f48086a3f274ec10fa7b91ccf}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Ecological Society of America}%
+      }
+      \strng{namehash}{cf6fdc60e59da3691443e441f163722c}
+      \strng{fullhash}{cf6fdc60e59da3691443e441f163722c}
+      \strng{bibnamehash}{cf6fdc60e59da3691443e441f163722c}
+      \strng{authorbibnamehash}{cf6fdc60e59da3691443e441f163722c}
+      \strng{authornamehash}{cf6fdc60e59da3691443e441f163722c}
+      \strng{authorfullhash}{cf6fdc60e59da3691443e441f163722c}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00129658}
+      \field{journaltitle}{Ecology}
+      \field{month}{9}
+      \field{number}{6}
+      \field{title}{{What Attributes Make Some Plant Species More Invasive?}}
+      \field{volume}{77}
+      \field{year}{1996}
+      \field{pages}{1655\bibrangedash 1661}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.2307/2265768
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.2307/2265768
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.2307/2265768
+      \endverb
+    \endentry
     \entry{Reznick2001}{incollection}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=aba832804503e2ddf4f7f8d1e45afadb}{%
@@ -3330,7 +3650,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Plant, Cell & Environment}
+      \field{journaltitle}{Plant, Cell and Environment}
       \field{number}{2}
       \field{title}{Seed dormancy in Rumex species in response to environmental factors}
       \field{volume}{4}
@@ -3461,6 +3781,66 @@
       \field{year}{1994}
       \field{pages}{18\bibrangedash 22}
       \range{pages}{5}
+    \endentry
+    \entry{Shirk2014}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=cbf14882cee1dbab26293457d9a91d56}{%
+           family={Shirk},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi Y.},
+           giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3bbf1011915540186c0f264b6f78a0ba}{%
+           family={Hamrick},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=08835018e7f90fcf262517bf88eb4d72}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7ea9cd315c0f8695e28e2d2bbfa04384}{%
+           family={Qiang},
+           familyi={Q\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{42c73888d0adbfac2f35516f19127a6c}
+      \strng{fullhash}{27283e4fab5a130c07716eefdf367d4d}
+      \strng{bibnamehash}{27283e4fab5a130c07716eefdf367d4d}
+      \strng{authorbibnamehash}{27283e4fab5a130c07716eefdf367d4d}
+      \strng{authornamehash}{42c73888d0adbfac2f35516f19127a6c}
+      \strng{authorfullhash}{27283e4fab5a130c07716eefdf367d4d}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Genetic diversity, and thus the adaptive potential of invasive populations, is largely based on three factors: patterns of genetic diversity in the species' native range, the number and location of introductions and the number of founding individuals per introduction. Specifically, reductions in genetic diversity ('founder effects') should be stronger for species with low within-population diversity in their native range and few introductions of few individuals to the invasive range. We test these predictions with Geranium carolinianum, a winter annual herb native to North America and invasive in China. We measure the extent of founder effects using allozymes and microsatellites, and ask whether this is consistent with its colonization history and patterns of diversity in the native range. In the native range, genetic diversity is higher and structure is lower than expected based on life history traits. In China, our results provide evidence for multiple introductions near Nanjing, Jiangsu province, with subsequent range expansion to the west and south. Patterns of genetic diversity across China reveal weak founder effects that are driven largely by low-diversity populations at the expansion front, away from the introduction location. This suggests that reduced diversity in China has resulted from successive founder events during range expansion, and that the loss of genetic diversity in the Nanjing area was mitigated by multiple introductions from diverse source populations. This has implications for the future of G. carolinianum in China, as continued gene flow among populations should eventually increase genetic diversity within the more recently founded populations.}
+      \field{issn}{13652540}
+      \field{journaltitle}{Heredity}
+      \field{number}{5}
+      \field{title}{{Patterns of genetic diversity reveal multiple introductions and recurrent founder effects during range expansion in invasive populations of Geranium carolinianum (Geraniaceae)}}
+      \field{volume}{112}
+      \field{year}{2014}
+      \field{pages}{497\bibrangedash 507}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/hdy.2013.132
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/hdy2013132.pdf:pdf
+      \endverb
+      \keyw{allozymes,founder effects,genetic structure,geranium carolinianum,invasive,microsatellites}
     \endentry
     \entry{Steinbauer1957}{article}{}
       \name{author}{2}{}{%
@@ -3774,6 +4154,59 @@
       \field{labeltitlesource}{title}
       \field{title}{Weeds of the Northeast}
       \field{year}{1997}
+    \endentry
+    \entry{VanKleunen2010}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=cf74ed59cc167e4b68ae62e8ab741e01}{%
+           family={Kleunen},
+           familyi={K\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=064e24c7875016503c22196d29c7d6e6}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Ewald},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fffddacc9de8cb6a519b6ce51ebdcd7e}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cbb7fc4473a38cc5246c0fc6629bda0d}
+      \strng{fullhash}{9c9613a758ffc7a12ec1afd84828d547}
+      \strng{bibnamehash}{9c9613a758ffc7a12ec1afd84828d547}
+      \strng{authorbibnamehash}{9c9613a758ffc7a12ec1afd84828d547}
+      \strng{authornamehash}{cbb7fc4473a38cc5246c0fc6629bda0d}
+      \strng{authorfullhash}{9c9613a758ffc7a12ec1afd84828d547}
+      \field{sortinit}{v}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A major aim in ecology is identifying determinants of invasiveness. We performed a meta-analysis of 117 field or experimental-garden studies that measured pair-wise trait differences of a total of 125 invasive and 196 non-invasive plant species in the invasive range of the invasive species. We tested whether invasiveness is associated with performance-related traits (physiology, leaf-area allocation, shoot allocation, growth rate, size and fitness), and whether such associations depend on type of study and on biogeographical or biological factors. Overall, invasive species had significantly higher values than non-invasive species for all six trait categories. More trait differences were significant for invasive vs. native comparisons than for invasive vs. non-invasive alien comparisons. Moreover, for comparisons between invasive species and native species that themselves are invasive elsewhere, no trait differences were significant. Differences in physiology and growth rate were larger in tropical regions than in temperate regions. Trait differences did not depend on whether the invasive alien species originates from Europe, nor did they depend on the test environment. We conclude that invasive alien species had higher values for those traits related to performance than non-invasive species. This suggests that it might become possible to predict future plant invasions from species traits. {©} 2009 Blackwell Publishing Ltd/CNRS.}
+      \field{issn}{1461023X}
+      \field{journaltitle}{Ecology Letters}
+      \field{number}{2}
+      \field{title}{{A meta-analysis of trait differences between invasive and non-invasive plant species}}
+      \field{volume}{13}
+      \field{year}{2010}
+      \field{pages}{235\bibrangedash 245}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/j.1461-0248.2009.01418.x
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Kleunen{\_}et{\_}al-2010-Ecology{\_}Letters.pdf:pdf
+      \endverb
+      \keyw{Comparative studies,Exotic species,Functional traits,Invasiveness,Literature review,Meta-analysis,Non-indigenous species,Non-native species}
     \endentry
     \entry{Vitasse2009}{article}{}
       \name{author}{5}{}{%
@@ -4378,7 +4811,6 @@
       \range{pages}{7}
     \endentry
   \enddatalist
-  \missing{Lee2002invaions}
 \endrefsection
 \endinput
 
