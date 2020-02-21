@@ -54,37 +54,6 @@
       \field{pages}{565\bibrangedash 571}
       \range{pages}{7}
     \endentry
-    \entry{ISTA1954}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=b6ba4a13e2009f20d28e862cb2ac817d}{%
-           family={Association},
-           familyi={A\bibinitperiod},
-           given={International\bibnamedelimb Seed\bibnamedelima Testing},
-           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {19}%
-      }
-      \strng{namehash}{b6ba4a13e2009f20d28e862cb2ac817d}
-      \strng{fullhash}{b6ba4a13e2009f20d28e862cb2ac817d}
-      \strng{bibnamehash}{b6ba4a13e2009f20d28e862cb2ac817d}
-      \strng{authorbibnamehash}{b6ba4a13e2009f20d28e862cb2ac817d}
-      \strng{authornamehash}{b6ba4a13e2009f20d28e862cb2ac817d}
-      \strng{authorfullhash}{b6ba4a13e2009f20d28e862cb2ac817d}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proc. International Seed Testing Assoc}
-      \field{title}{International rules for seed testing}
-      \field{year}{1954}
-      \field{pages}{3\bibrangedash 79}
-      \range{pages}{77}
-    \endentry
     \entry{Baker1965}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=0c97c3c18f30d7195e617bb43e9c4d88}{%
@@ -193,7 +162,7 @@
       \verb 10.1111/mec.13998
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Barker{\_}et{\_}al-2017-Molecular{\_}Ecology.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Barker et al. - 2017.pdf:pdf
       \endverb
       \keyw{admixture,biological invasion,invasion routes,phylogeography,rapid evolution,restriction site-associated sequencing}
     \endentry
@@ -618,7 +587,7 @@
       \verb 10.1007/s00442-005-0070-z
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Bossdorf2005{\_}Article{\_}PhenotypicAndGeneticDifferenti.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Bossdorf et al. - 2005.pdf:pdf
       \endverb
       \keyw{Biological invasions,Ecological genetics,Microevolution,Molecular markers,Phenotypic plasticity}
     \endentry
@@ -762,7 +731,7 @@
       \verb 10.18637/jss.v076.i01
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/v76i01.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Carpenter et al. - 2017.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://www.jstatsoft.org/v76/i01/
@@ -953,7 +922,7 @@
       \verb 10.1111/mec.13162
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/mec.13162.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Colautti, Lau - 2015.pdf:pdf
       \endverb
       \keyw{Q{<}inf{>}ST{<}/inf{>} vs. F{<}inf{>}ST{<}/inf{>},colonization,common garden,invasive species,latitudinal clines,meta-analysis,quantitative traits,rapid evolution,selection differentials,selection gradients}
     \endentry
@@ -1608,48 +1577,14 @@
       \field{pages}{435\bibrangedash 442}
       \range{pages}{8}
     \endentry
-    \entry{Gelman1992}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=2,uniquepart=given,hash=ba82e2f52cafc6076f0de4ae6be66db0}{%
-           family={Gelman},
-           familyi={G\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=2}}%
-        {{uniquename=0,uniquepart=base,hash=fa537601df11ba114c0c74ca6806de99}{%
-           family={Rubin},
-           familyi={R\bibinitperiod},
-           given={D.\bibnamedelimi B.\bibnamedelimi .},
-           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim .\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3e85fab4470276197aa15a5fc7543569}
-      \strng{fullhash}{3e85fab4470276197aa15a5fc7543569}
-      \strng{bibnamehash}{3e85fab4470276197aa15a5fc7543569}
-      \strng{authorbibnamehash}{3e85fab4470276197aa15a5fc7543569}
-      \strng{authornamehash}{3e85fab4470276197aa15a5fc7543569}
-      \strng{authorfullhash}{3e85fab4470276197aa15a5fc7543569}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Statistical Science}
-      \field{title}{{Inference from Iterative Simulation Using Multiple Sequences.}}
-      \field{volume}{7}
-      \field{year}{1992}
-      \field{pages}{457\bibrangedash 511}
-      \range{pages}{55}
-    \endentry
     \entry{Gelman2004}{book}{}
       \name{author}{4}{}{%
-        {{uniquename=2,uniquepart=given,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+        {{uniquename=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
            family={Gelman},
            familyi={G\bibinitperiod},
            given={Andrew},
            giveni={A\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=5f088783ee75f9f0908eeb4fa9571a31}{%
            family={Carlin},
            familyi={C\bibinitperiod},
@@ -1704,18 +1639,18 @@
       \verb arXiv:1011.1669v3
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Gelman et al. - 2004 - Chapman Texts in Statistical Science Series.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/AppData/Local/Mendeley Ltd/Mendeley Desktop/Downloaded/Gelman et al. - 2004.pdf:pdf
       \endverb
       \keyw{Gelman}
     \endentry
     \entry{Gelman2007}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=2,uniquepart=given,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+        {{uniquename=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
            family={Gelman},
            familyi={G\bibinitperiod},
            given={Andrew},
            giveni={A\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=3adbd71397c0951dc1fa587d69882939}{%
            family={Pardoe},
            familyi={P\bibinitperiod},
@@ -1749,8 +1684,91 @@
       \verb 10.1111/j.1467-9531.2007.00181.x
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/ape17.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Gelman, Pardoe - 2007.pdf:pdf
       \endverb
+    \endentry
+    \entry{Gelman1992}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fa537601df11ba114c0c74ca6806de99}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi B.\bibnamedelimi .},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim .\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b03e73d0b6c72b9cccf1d7f4c42f672b}
+      \strng{fullhash}{b03e73d0b6c72b9cccf1d7f4c42f672b}
+      \strng{bibnamehash}{b03e73d0b6c72b9cccf1d7f4c42f672b}
+      \strng{authorbibnamehash}{b03e73d0b6c72b9cccf1d7f4c42f672b}
+      \strng{authornamehash}{b03e73d0b6c72b9cccf1d7f4c42f672b}
+      \strng{authorfullhash}{b03e73d0b6c72b9cccf1d7f4c42f672b}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical Science}
+      \field{title}{{Inference from Iterative Simulation Using Multiple Sequences.}}
+      \field{volume}{7}
+      \field{year}{1992}
+      \field{pages}{457\bibrangedash 511}
+      \range{pages}{55}
+    \endentry
+    \entry{Germain2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=991556ea9df75d3b42c55fbb6c5379bc}{%
+           family={Germain},
+           familyi={G\bibinitperiod},
+           given={Rachel\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=55228a5add139429462457a06c6dafae}{%
+           family={Mayfield},
+           familyi={M\bibinitperiod},
+           given={Margaret\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e7edcb04a9aa862e00e76f5696c24757}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{684b39a3bac3749bed330c9723a5c662}
+      \strng{fullhash}{a9b534e39ab177c14cd621765913ac00}
+      \strng{bibnamehash}{a9b534e39ab177c14cd621765913ac00}
+      \strng{authorbibnamehash}{a9b534e39ab177c14cd621765913ac00}
+      \strng{authornamehash}{684b39a3bac3749bed330c9723a5c662}
+      \strng{authorfullhash}{a9b534e39ab177c14cd621765913ac00}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{‘Filtering', or the reduction in species diversity that occurs because not all species can persist in all locations, is thought to unfold hierarchically, controlled by the environment at large scales and competition at small scales. However, the ecological effects of competition and the environment are not independent, and observational approaches preclude investigation into their interplay. We use a demographic approach with 30 plant species to experimentally test: (i) the effect of competition on species persistence in two soil moisture environments, and (ii) the effect of environmental conditions on mechanisms underlying competitive coexistence. We find that competitors cause differential species persistence across environments even when effects are lacking in the absence of competition, and that the traits which determine persistence depend on the competitive environment. If our study had been observational and trait-based, we would have erroneously concluded that the environment filters species with low biomass, shallow roots and small seeds. Changing environmental conditions generated idiosyncratic effects on coexistence outcomes, increasing competitive exclusion of some species while promoting coexistence of others. Our results highlight the importance of considering environmental filtering in the light of, rather than in isolation from, competition, and challenge community assembly models and approaches to projecting future species distributions.}
+      \field{issn}{1744957X}
+      \field{journaltitle}{Biology Letters}
+      \field{number}{8}
+      \field{title}{{The ‘filtering' metaphor revisited: Competition and environment jointly structure invasibility and coexistence}}
+      \field{volume}{14}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1098/rsbl.2018.0460
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/rsbl.2018.0460.pdf:pdf
+      \endverb
+      \keyw{Annual plants,Competition,Fitness differences,Niche differences,Precipitation}
     \endentry
     \entry{Goodrich2018}{misc}{}
       \name{author}{4}{}{%
@@ -2023,7 +2041,7 @@
       \verb 10.1126/science.290.5491.516
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/516.full.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Hendry et al. - 2000.pdf:pdf
       \endverb
     \endentry
     \entry{Holm1979}{book}{}
@@ -2155,6 +2173,34 @@
       \field{pages}{353\bibrangedash 362}
       \range{pages}{10}
     \endentry
+    \entry{ISTA1954}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=49cd4c1b8dbf9dac1050b10c5fde15cd}{%
+           family={{International Seed Testing Association}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {19}%
+      }
+      \strng{namehash}{49cd4c1b8dbf9dac1050b10c5fde15cd}
+      \strng{fullhash}{49cd4c1b8dbf9dac1050b10c5fde15cd}
+      \strng{bibnamehash}{49cd4c1b8dbf9dac1050b10c5fde15cd}
+      \strng{authorbibnamehash}{49cd4c1b8dbf9dac1050b10c5fde15cd}
+      \strng{authornamehash}{49cd4c1b8dbf9dac1050b10c5fde15cd}
+      \strng{authorfullhash}{49cd4c1b8dbf9dac1050b10c5fde15cd}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. International Seed Testing Assoc}
+      \field{title}{International rules for seed testing}
+      \field{year}{1954}
+      \field{pages}{3\bibrangedash 79}
+      \range{pages}{77}
+    \endentry
     \entry{IPCC2015}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=676f7b9b8e5bb30500c01e2385e59174}{%
@@ -2209,6 +2255,7 @@
       \field{title}{{About invasive species}}
       \field{type}{techreport}
       \field{year}{2008}
+      \true{nocite}
     \endentry
     \entry{Knobloch1996}{book}{}
       \name{author}{1}{}{%
@@ -2291,7 +2338,7 @@
       \verb 10.1007/s10530-014-0781-3
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/8Lamarqueet2015BI.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Lamarque et al. - 2015.pdf:pdf
       \endverb
       \keyw{Acer negundo,Acer platanoides,Genetic differentiation,Phenotypic plasticity,Reciprocal common gardens,Tree invasion}
     \endentry
@@ -2360,7 +2407,7 @@
       \verb 10.1016/S0169-5347(02)02554-5
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/1-s2.0-S0169534702025545-main.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Lee - 2002.pdf:pdf
       \endverb
     \endentry
     \entry{Levine2003}{misc}{}
@@ -2480,7 +2527,7 @@
       \verb 10.1006/anbo.2000.1308
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/1-s2.0-S0305736400913088-main.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Linde, Diel, Neuffer - 2001.pdf:pdf
       \endverb
       \keyw{Allozymes,Brassicaceae,Capsella bursa-pastoris,Cosegregation analysis,Flowering ecotypes,Fruit dimensions,Leaf type,Mediterranean multilocus genotype,Plant invasions,QTL,RAPDs,Shepherd's purse}
     \endentry
@@ -2627,7 +2674,7 @@
       \verb 10.1046/j.1365-3180.2000.00171.x
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Maillet{\_}et{\_}al-2000-Weed{\_}Research.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Maillet, Lopez-Garcia - 2000.pdf:pdf
       \endverb
       \keyw{Agricultural weed,Decision tree,Invasion,N and S American exotics,Risk assessment}
     \endentry
@@ -2786,7 +2833,7 @@
       \verb 10.1111/cobi.13278
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Munro{\_}et{\_}al-2019-Conservation{\_}Biology.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Munro, Steer, Linklater - 2019.pdf:pdf
       \endverb
       \keyw{biolog{í}a de la invasi{ó}n,datos,discourse,discurso,facts,invasion biology,negaci{ó}n de la ciencia,normative,normativo,science denialism,subjective,subjetivo,valores,values,否定科学主义,入侵生物学,价值观,事实,论述,规范性,主观性}
     \endentry
@@ -3163,7 +3210,7 @@
       \verb 10.1016/j.tplants.2008.03.004
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Adaptive{\_}evolution{\_}in{\_}invasive{\_}species.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Prentis et al. - 2008.pdf:pdf
       \endverb
     \endentry
     \entry{Probert2000}{article}{}
@@ -3227,7 +3274,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{New Phytologists}
+      \field{journaltitle}{New Phytologist}
       \field{title}{Germination response to light and alternating temperatures in European populations of Dactylis glomerata L}
       \field{volume}{99}
       \field{year}{1986}
@@ -3313,7 +3360,39 @@
       \verb 10.1146/annurev-environ-033009-095548
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/annurev-environ-033009-095548.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Py{\v{s}}ek, Richardson - 2010.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Team2015}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=74eaa7e448f8b6680c1179aa0228bb13}{%
+           family={{R Development Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {R Foundation for Statistical Computing, Vienna, Austria. URL}%
+      }
+      \strng{namehash}{74eaa7e448f8b6680c1179aa0228bb13}
+      \strng{fullhash}{74eaa7e448f8b6680c1179aa0228bb13}
+      \strng{bibnamehash}{74eaa7e448f8b6680c1179aa0228bb13}
+      \strng{authorbibnamehash}{74eaa7e448f8b6680c1179aa0228bb13}
+      \strng{authornamehash}{74eaa7e448f8b6680c1179aa0228bb13}
+      \strng{authorfullhash}{74eaa7e448f8b6680c1179aa0228bb13}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A language and environment for statistical computing}
+      \field{type}{techreport}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb http://www.R-project.org/
       \endverb
     \endentry
     \entry{Rejmanek1996}{article}{}
@@ -3478,7 +3557,7 @@
       \verb 10.1111/j.1461-0248.2006.00950.x
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Richards{\_}et{\_}al-2006-Ecology{\_}Letters.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Richards et al. - 2006.pdf:pdf
       \endverb
       \keyw{Adaptive evolution,Adaptive phenotypic plasticity,Ecological genetics,Experimental design,Fitness homeostasis,General-purpose genotype,Genetic assimilation,Genotype-environment interaction,Invasiveness,Molecular markers}
     \endentry
@@ -3838,7 +3917,7 @@
       \verb 10.1038/hdy.2013.132
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/hdy2013132.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Shirk et al. - 2014.pdf:pdf
       \endverb
       \keyw{allozymes,founder effects,genetic structure,geranium carolinianum,invasive,microsatellites}
     \endentry
@@ -3876,41 +3955,6 @@
       \field{year}{1957}
       \field{pages}{175\bibrangedash 182}
       \range{pages}{8}
-    \endentry
-    \entry{Team2015}{report}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=3bc9f9fface5de5e971d4ab4a4e5823f}{%
-           family={Team},
-           familyi={T\bibinitperiod},
-           given={R\bibnamedelima Core},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {R Foundation for Statistical Computing, Vienna, Austria. URL}%
-      }
-      \strng{namehash}{3bc9f9fface5de5e971d4ab4a4e5823f}
-      \strng{fullhash}{3bc9f9fface5de5e971d4ab4a4e5823f}
-      \strng{bibnamehash}{3bc9f9fface5de5e971d4ab4a4e5823f}
-      \strng{authorbibnamehash}{3bc9f9fface5de5e971d4ab4a4e5823f}
-      \strng{authornamehash}{3bc9f9fface5de5e971d4ab4a4e5823f}
-      \strng{authorfullhash}{3bc9f9fface5de5e971d4ab4a4e5823f}
-      \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{R: A language and environment for statistical computing}
-      \field{type}{techreport}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb http://www.R-project.org/
-      \endverb
-      \verb{url}
-      \verb http://www.R-project.org/
-      \endverb
     \endentry
     \entry{Tester1987}{article}{}
       \name{author}{2}{}{%
@@ -3982,7 +4026,7 @@
       \verb 10.1016/s0169-5347(98)01378-0
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Thompson{\_}1998.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Thompson - 1998.pdf:pdf
       \endverb
     \endentry
     \entry{Tilman2001}{article}{}
@@ -4053,11 +4097,8 @@
     \entry{USDA1971}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=c0d1476491291b763a4fe320b14a2776}{%
-           family={USDA},
-           familyi={U\bibinitperiod},
-           given={Agricultural\bibnamedelimb Research\bibnamedelima Service},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
+           family={{USDA Agricultural Research Service}},
+           familyi={U\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {New York}%
@@ -4083,8 +4124,8 @@
     \endentry
     \entry{USDA2010}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=ae801e548999c7f26070fc3c32933630}{%
-           family={Usda},
+        {{uniquename=0,uniquepart=base,hash=f5dadb3f53bb7f239c43e934d0e6afe8}{%
+           family={USDA},
            familyi={U\bibinitperiod},
            given={NRCS.},
            giveni={N\bibinitperiod},
@@ -4096,12 +4137,12 @@
       \list{publisher}{1}{%
         {National Plant Data Center}%
       }
-      \strng{namehash}{ae801e548999c7f26070fc3c32933630}
-      \strng{fullhash}{ae801e548999c7f26070fc3c32933630}
-      \strng{bibnamehash}{ae801e548999c7f26070fc3c32933630}
-      \strng{authorbibnamehash}{ae801e548999c7f26070fc3c32933630}
-      \strng{authornamehash}{ae801e548999c7f26070fc3c32933630}
-      \strng{authorfullhash}{ae801e548999c7f26070fc3c32933630}
+      \strng{namehash}{f5dadb3f53bb7f239c43e934d0e6afe8}
+      \strng{fullhash}{f5dadb3f53bb7f239c43e934d0e6afe8}
+      \strng{bibnamehash}{f5dadb3f53bb7f239c43e934d0e6afe8}
+      \strng{authorbibnamehash}{f5dadb3f53bb7f239c43e934d0e6afe8}
+      \strng{authornamehash}{f5dadb3f53bb7f239c43e934d0e6afe8}
+      \strng{authorfullhash}{f5dadb3f53bb7f239c43e934d0e6afe8}
       \field{sortinit}{U}
       \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
       \field{extradatescope}{labelyear}
@@ -4204,7 +4245,7 @@
       \verb 10.1111/j.1461-0248.2009.01418.x
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Kleunen{\_}et{\_}al-2010-Ecology{\_}Letters.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/van Kleunen, Weber, Fischer - 2010.pdf:pdf
       \endverb
       \keyw{Comparative studies,Exotic species,Functional traits,Invasiveness,Literature review,Meta-analysis,Non-indigenous species,Non-native species}
     \endentry
@@ -4267,7 +4308,7 @@
       \verb 10.1139/X09-054
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/vitasse2009.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Vitasse et al. - 2009.pdf:pdf
       \endverb
     \endentry
     \entry{Vitousek1996}{article}{}
@@ -4394,7 +4435,7 @@
       \verb 10.2307/2446344
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Weber{\_}et{\_}al-1998-American{\_}Journal{\_}of{\_}Botany.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Weber, Schmid - 1998.pdf:pdf
       \endverb
       \keyw{Age/size trade-off,Biological invasion,Clinal variation,Compositae,Genetic differentiation,Life-history evolution,Solidago}
     \endentry
@@ -4488,7 +4529,7 @@
       \verb 10.2307/1313420
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Wilcove{\_}et{\_}al{\_}1998.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Wilcove et al. - 1998.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://academic.oup.com/bioscience/article-lookup/doi/10.2307/1313420
@@ -4499,12 +4540,12 @@
     \endentry
     \entry{Williams2008}{article}{}
       \name{author}{3}{}{%
-        {{uniquename=1,uniquepart=given,hash=d576b17bab77f3e50daf5de2aea40c89}{%
+        {{uniquename=0,uniquepart=base,hash=d576b17bab77f3e50daf5de2aea40c89}{%
            family={Williams},
            familyi={W\bibinitperiod},
            given={Jennifer\bibnamedelima L.},
            giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=91f4d6400c03d031f7df125f8c8536a8}{%
            family={Auge},
            familyi={A\bibinitperiod},
@@ -4528,6 +4569,7 @@
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Invasive plants may respond through adaptive evolution and/or phenotypic plasticity to new environmental conditions where they are introduced. Although many studies have focused on evolution of invaders particularly in the context of testing the evolution of increased competitive ability (EICA) hypothesis, few consistent patterns have emerged. Many tests of the EICA hypothesis have been performed in only one environment; such assessments may be misleading if plants that perform one way at a particular site respond differently across sites. Single common garden tests ignore the potential for important contributions of both genetic and environmental factors to affect plant phenotype. Using a widespread invader in North America, Cynoglossum officinale, we established reciprocal common gardens in the native range (Europe) and introduced range (North America) to assess genetically based differences in size, fecundity, flowering phenology and threshold flowering size between native and introduced genotypes as well as the magnitude of plasticity in these traits. In addition, we grew plants at three nutrient levels in a pot experiment in one garden to test for plasticity across a different set of conditions. We did not find significant genetically based differences between native and introduced populations in the traits we measured; in our experiments, introduced populations of C. officinale were larger and more fecund, but only in common garden experiments in the native range. We found substantial population-level plasticity for size, fecundity and date of first flowering, with plants performing better in a garden in Germany than in Montana. Differentiation of native populations in the magnitude of plasticity was much stronger than that of introduced populations, suggesting an important role for founder effects. We did not detect evidence of an evolutionary change in threshold flowering size. Our study demonstrates that detecting genetically based differences in traits may require measuring plant responses to more than one environment. {©} 2008 Springer-Verlag.}
@@ -4543,47 +4585,9 @@
       \verb 10.1007/s00442-008-1075-1
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Williams2008{\_}Article{\_}DifferentGardensDifferentResul.pdf:pdf
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Williams, Auge, Maron - 2008.pdf:pdf
       \endverb
       \keyw{Cynoglossum officinale,Evolution of increased competitive ability (EICA),Founder effects,Native and introduced ranges,Phenotypic plasticity}
-    \endentry
-    \entry{Williams2012}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=1,uniquepart=given,hash=1ee2e4eef5ee9c75bce83e35c84984e0}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{1ee2e4eef5ee9c75bce83e35c84984e0}
-      \strng{fullhash}{1ee2e4eef5ee9c75bce83e35c84984e0}
-      \strng{bibnamehash}{1ee2e4eef5ee9c75bce83e35c84984e0}
-      \strng{authorbibnamehash}{1ee2e4eef5ee9c75bce83e35c84984e0}
-      \strng{authornamehash}{1ee2e4eef5ee9c75bce83e35c84984e0}
-      \strng{authorfullhash}{1ee2e4eef5ee9c75bce83e35c84984e0}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Many researchers and journals place a strong emphasis on the sign and statistical significance of effects-but often there is very little emphasis on the substantive and practical significance of the findings. As Long and Freese (2006, Regression Models for Categorical Dependent Variables Using Stata [Stata Press]) show, results can often be made more tangible by computing predicted or expected values for hypothetical or prototypical cases. Stata 11 introduced new tools for making such calculations-factor variables and the margins command. These can do most of the things that were previously done by Stata's own adjust and mfx commands, and much more. Unfortunately, the complexity of the margins syntax, the daunting 50-page reference manual entry that describes it, and a lack of understanding about what margins offers over older commands that have been widely used for years may have dissuaded some researchers from examining how the margins command could benefit them. In this article, therefore, I explain what adjusted predictions and marginal effects are, and how they can contribute to the interpretation of results. I further explain why older commands, like adjust and mfx, can often produce incorrect results, and how factor variables and the margins command can avoid these errors. The relative merits of different methods for setting representative values for variables in the model (marginal effects at the means, average marginal effects, and marginal effects at representative values) are considered. I shows how the marginsplot command (introduced in Stata 12) provides a graphical and often much easier means for presenting and understanding the results from margins, and explain why margins does not present marginal effects for interaction terms. {©} 2012 StataCorp LP.}
-      \field{issn}{1536867X}
-      \field{journaltitle}{Stata Journal}
-      \field{number}{2}
-      \field{title}{{Using the margins command to estimate and interpret adjusted predictions and marginal effects}}
-      \field{volume}{12}
-      \field{year}{2012}
-      \field{pages}{308\bibrangedash 331}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1177/1536867x1201200209
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/1536867x1201200209.pdf:pdf
-      \endverb
-      \keyw{Adjusted predictions,Marginal effects,Margins,Marginsplot,St0260}
     \endentry
     \entry{Williamson1997}{book}{}
       \name{author}{1}{}{%
