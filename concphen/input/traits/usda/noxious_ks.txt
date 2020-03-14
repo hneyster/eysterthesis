@@ -1,0 +1,18 @@
+
+Symbol	Scientific Name	Noxious Common Name	State Noxious Status†	Native Status*
+ACRE3	 Acroptilon repens (L.) DC.			L48 (I), CAN (I)
+CERE6	 Centaurea repens L.	Russian knapweed	NW	
+AMGR5	 Ambrosia grayi (A. Nelson) Shinners	bur ragweed	NW	L48 (N)
+CADR	 Cardaria draba (L.) Desv.	hoary cress	NW	L48 (I), CAN (I)
+CANU4	 Carduus nutans L.	musk thistle, nodding thistle	NW	L48 (I), CAN (I)
+CIAR4	 Cirsium arvense (L.) Scop.	Canada thistle	NW	L48 (I), AK (I), CAN (I), GL (I), SPM (I)
+COAR4	 Convolvulus arvensis L.	field bindweed	NW	L48 (I), HI (I), CAN (I)
+ELRE4	 Elymus repens (L.) Gould			L48 (I), AK (I), CAN (I), GL (I), SPM (I)
+AGRE2	 Agropyron repens (L.) P. Beauv.	quackgrass	NW	
+EUES	 Euphorbia esula L.	leafy spurge	NW	L48 (I), CAN (I)
+HOGL2	 Hoffmannseggia glauca (Ortega) Eifert			L48 (N)
+HODE	 Hoffmannseggia densiflora Benth.	pignut	NW	
+LECU	 Lespedeza cuneata (Dum. Cours.) G. Don	sericea lespedeza	NW	L48 (I), HI (I), CAN (I?)
+PUMOL	 Pueraria montana (Lour.) Merr. var. lobata (Willd.) Maesen & S. Almeida			L48 (I), HI (I)
+PULO	 Pueraria lobata (Willd.) Ohwi	kudzu	NW	
+SOHA	 Sorghum halepense (L.) Pers.	johnsongrass	NW	L48 (I), HI (I), PR (I), CAN (I)

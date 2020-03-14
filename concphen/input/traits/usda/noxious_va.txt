@@ -1,0 +1,3 @@
+Symbol	Scientific Name	Noxious Common Name	State Noxious Status†	Native Status*
+LYSA2	 Lythrum salicaria L.	purple loosestrife	NW	L48 (I), CAN (I), SPM (I)
+LYVI3	 Lythrum virgatum L.	European wand loosestrife	NW	L48 (I)

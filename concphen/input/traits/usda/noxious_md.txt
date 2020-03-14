@@ -1,0 +1,7 @@
+Symbol	Scientific Name	Noxious Common Name	State Noxious Status†	Native Status*
+CAAC	 Carduus acanthoides L.	plumeless thistle	NW	L48 (I), CAN (I)
+CANU4	 Carduus nutans L.	musk thistle, nodding thistle	NW	L48 (I), CAN (I)
+CIAR4	 Cirsium arvense (L.) Scop.	Canada thistle	NW	L48 (I), AK (I), CAN (I), GL (I), SPM (I)
+CIVU	 Cirsium vulgare (Savi) Ten.	bull thistle	NW	L48 (I), AK (I), HI (I), CAN (I), SPM (I)
+SOBI2	 Sorghum bicolor (L.) Moench	shatter cane, wild cane	NW	L48 (I), HI (I), PR (I), VI (I), CAN (I)
+SOHA	 Sorghum halepense (L.) Pers.	johnsongrass	NW	L48 (I), HI (I), PR (I), CAN (I)

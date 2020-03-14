@@ -1,0 +1,18 @@
+Symbol	Scientific Name	Noxious Common Name	State Noxious Status†	Native Status*
+ACRE3	 Acroptilon repens (L.) DC.	Russian knapweed	NW	L48 (I), CAN (I)
+ARAB3	 Artemisia absinthium L.	absinth wormwood	NW	L48 (I), CAN (I)
+CANU4	 Carduus nutans L.	musk thistle	NW	L48 (I), CAN (I)
+CEDI3	 Centaurea diffusa Lam.	diffuse knapweed	NW	L48 (I), CAN (I)
+CESO3	 Centaurea solstitialis L.	yellow starthistle	NW	L48 (I), CAN (I)
+CESTM	 Centaurea stoebe L. ssp. micranthos (Gugler) Hayek			L48 (I), HI (I), CAN (I)
+CEMA4	 Centaurea maculosa auct. non Lam.	spotted knapweed	NW	
+CIAR4	 Cirsium arvense (L.) Scop.	Canada thistle	NW	L48 (I), AK (I), CAN (I), GL (I), SPM (I)
+COAR4	 Convolvulus arvensis L.	field bindweed	NW	L48 (I), HI (I), CAN (I)
+EUES	 Euphorbia esula L.	leafy spurge	NW	L48 (I), CAN (I)
+LIDAD	 Linaria dalmatica (L.) Mill. ssp. dalmatica			L48 (I), CAN (I)
+LIGED	 Linaria genistifolia (L.) Mill. ssp. dalmatica (L.) Maire & Petitm.	Dalmatian toadflax	NW	
+LYSA2	 Lythrum salicaria L.	purple loosestrife	NW	L48 (I), CAN (I), SPM (I)
+LYVI3	 Lythrum virgatum L.	purple loosestrife	NW	L48 (I)
+TACH2	 Tamarix chinensis Lour.	saltcedar	NW	L48 (I)
+TAPA4	 Tamarix parviflora DC.	saltcedar	NW	L48 (I)
+TARA	 Tamarix ramosissima Ledeb.	saltcedar	NW	L48 (I)

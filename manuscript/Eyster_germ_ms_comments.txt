@@ -1,0 +1,33 @@
+Notes on drafts
+
+<><><><><><><><><>
+14 March 2020
+
+Writing style is generally very good in terms of organization, logic and flow (real pleasure to read in these ways). I was also struck again by: (1) the amount of work done in the experiment, and (2) your literature review in justifying the choices of design etc. as well as the relevant background (rapid evolution etc.). You are so far ahead of many here, which is great. 
+
+I think the main challenge will be the delicate balance of selling the manuscript (and not underselling it) -- this is a cross-continental experiment that is generally fairly well designed and definitely well analyzed with interesting results -- and not overselling it. If we overstep what sort of novelty the average reviewer thinks we have we will quickly alienate reviewers (and eventually readers). [Side note: We may still end up with a reviewer who does not like the design or findings, we probably cannot make them happy, but we must aim for balance for the average reviewer.] With that in mind I have some overarching comments (below) and additional comments noted by %EMW-Mar2020 in the Rnw file. 
+
+I think you're spot-on that the discussion needs the most work and you'll see suggestions about that woven in below as I think the best way to adjust it is to adjust other things to make the discussion easier (with some changes I think it could more write-itself). 
+
+(a) I made some notes throughout about this -- my biggest suggestion (outside of length) would be balance the text more between rapid evolution/plasticity and the traits you examined. This will place the paper more where I think it belongs. If we really wanted to make big claims on rapid evolution/plasticity  across lots of species we'd need a meta-analysis or such, so we need to focus in on what we can make good claims about and I think that is rapid evolution/plasticity of germination (and growth) traits. *This is a super cool area* so I actually think we may win more readers and have more impact if we frame the paper more here. If we want to go bigger for rapid evolution/plasticity I think you hint at something you could develop in the discussion a little (perhaps close the discussion on this?) which is that this type of design: chambers + Bayesian models allows strong inference in a tractable design and could make it easy for many others to follow this type of study (versus a giant-giant collection study that feels really hard to muster without much, much money); if enough others follow suit we'd get data for better meta-analyses.  
+
+(b) Our design is weak in how many individuals we collected and in the range of collection sites in the home versus native range. We can deal with this in a couple ways:
+	(b1) I would add a short paragraph to the discussion addressing this issue head on. It could include the usual suggestion of more data, but also suggest extensions that more data could test (would you expect different origin x strat x temp results in other introduced sites? How so?). I would also note here that the Bayesian methods come in handy, as it allowed us to control for population and seed family.
+	(b2) In the methods I would stress that the model accounts for population and seed family and spell out a little more what that means (results are unlikely due strongly to population and seed family as those factors are accounted for, and overall estimates include these effects). I can help modify this language in a later draft.
+	(b3) I would add a table to the supp that lists # seeds and # of individuals for each species and maybe also what sites so that we are more up front about this.
+
+(c) Relating to (b) I spent a while tooling around the Concord phenology data to see where these species fell. You can see my efforts in haroldspp.R (new folder, re-organized all this as you like) ... and I think you could (perhaps) add these day-change numbers to the methods and maybe discuss any connections? I actually don't think it's critical (especially as it is FFD) so leave it to you as you see best. *I do think you should more fully introduce germination traits earlier in the intro and link these species at least a little somewhere to previous work on invaders and phenology.* One thing I was interested in that S. Franks said to me (Mr. Rapid Evolution of Flowering time) was that he does not see a lot of evolution in germination traits, like stratification and your paper made me think that seeing strat evolution may require realizing its complexity. I think this would be a really good point to hint at more in the intro and develop in the discussion more strongly. (Also, maybe that we should recognize/expect some trait x rapid evolution interactions: some traits evolve more than others and so our belief in how common rapid evolution is could be framed by that.)
+
+(d) Length! Length is fine for now but we should edit towards shorter. I made some suggestions but I will suggest more cuts in the future. I would check word length allowances for journals you're thinking of so we start aiming for the right length. 
+
+Latex formatting:
+- For citations in natbib you can write \citep[][]{eyster2020} and what you put in the first [] shows up before the citation and what you put in the second [] shows up after. So \citep[e.g.,][]{eyster2020} would show us as (e.g., Eyster 2020). I think it should work for \parencite but am not sure so did not make the changes. (Oh wait, now I see you have done that in some places, just need to fix throughout.)
+- You can cross-reference your supp and main text file using something like this in both:
+\usepackage{xr-hyper}
+\externaldocument{decsens}
+The first line loads the package, and the second references the other document. It's really great! You can then reference all your figures and tables across the documents. I am pretty sure I have notes on how to do this on my temporalecologylab GitHub page and/or you can ask Cat as she has successfully implemented it (or I can help if you sign up for a meeting and swing by). Note that it does not play well with hyperref (but has most of the hyperref commands). 
+
+
+
+
+<><><><><><><><><>

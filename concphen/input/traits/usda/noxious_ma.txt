@@ -1,0 +1,148 @@
+Symbol	Scientific Name	Noxious Common Name	State Noxious Status†	Native Status*
+ACPL	 Acer platanoides L.	Norway maple	P	L48 (I), CAN (I)
+ACPS	 Acer pseudoplatanus L.	sycamore maple	P	L48 (I), CAN (I)
+AEGIN	 Aeginetia L.		P	
+AEPO	 Aegopodium podagraria L.	Bishop's goutweed, bishop's weed, goutweed	P	L48 (I), CAN (I), SPM (I)
+AGAD2	 Ageratina adenophora (Spreng.) King & H. Rob.	crofton weed	P	L48 (I), HI (I)
+AIAL	 Ailanthus altissima (Mill.) Swingle	tree of heaven	P	L48 (I), HI (I), CAN (I)
+ALECT2	 Alectra Thunb.		P	
+ALPE4	 Alliaria petiolata (M. Bieb.) Cavara & Grande	garlic mustard	P	L48 (I), AK (I), CAN (I)
+ALSE4	 Alternanthera sessilis (L.) R. Br. ex DC.	sessile joyweed	P	L48 (I), HI (I), PR (N), VI (N)
+AMBR7	 Ampelopsis brevipedunculata (Maxim.) Trautv.	porcelain-berry, Amur peppervine	P	L48 (I)
+ANSY	 Anthriscus sylvestris (L.) Hoffm.	wild chervil	P	L48 (I), CAN (I), GL (I)
+ARHI3	 Arthraxon hispidus (Thunb.) Makino	hairy joint grass, jointhead, small carpetgrass	P	L48 (I), HI (I)
+ASFI2	 Asphodelus fistulosus L.	onionweed	P	L48 (I)
+AVST	 Avena sterilis L.	animated oat	P	L48 (I), CAN (W)
+AZPI	 Azolla pinnata R. Br.	mosquito fern	P	L48 (I)
+BETH	 Berberis thunbergii DC.	Japanese barberry	P	L48 (I), CAN (I)
+BEVU	 Berberis vulgaris L.	common barberry, European barberry	P	L48 (I), CAN (I)
+CACA	 Cabomba caroliniana A. Gray	Carolina fanwort, fanwort	P	L48 (N), CAN (N)
+CAIM	 Cardamine impatiens L.	bushy rock-cress, narrowleaf bittercress	P	L48 (I), CAN (I)
+CAKO2	 Carex kobomugi Ohwi	Japanese sedge, Asiatic sand sedge	P	L48 (I)
+CAOX6	 Carthamus oxyacanthus M. Bieb.			L48 (I)
+CAOX2	 Carthamus oxyacantha M. Bieb., orth. var.	wild safflower	P	
+CATA5	 Caulerpa taxifolia (Vahl) C. Agardh		P	L48 (I)
+CEOR7	 Celastrus orbiculatus Thunb.	Oriental bittersweet, Asian or Asiatic bittersweet	P	L48 (I), CAN (I)
+CESTM	 Centaurea stoebe L. ssp. micranthos (Gugler) Hayek			L48 (I), HI (I), CAN (I)
+CEBI2	 Centaurea biebersteinii DC.	spotted knapweed	P	
+CHAC	 Chrysopogon aciculatus (Retz.) Trin.	pilipiliula	P	HI (I)
+COBE2	 Commelina benghalensis L.	Benghal dayflower	P	L48 (I), HI (I), PR (I)
+CRVU2	 Crupina vulgaris Cass.	common crupina	P	L48 (I)
+CUSCU	 Cuscuta L.	dodder	P	
+CYLO11	 Cynanchum louiseae Kartesz & Gandhi	black swallow-wort, Louise's swallow-wart	P	L48 (I), CAN (I)
+CYRO8	 Cynanchum rossicum (Kleopow) Borhidi	European swallow-wort, pale swallow-wart	P	L48 (I), CAN (I)
+DIAB	 Digitaria abyssinica (Hochst. ex A. Rich.) Stapf		P	HI (I)
+DISC5	 Digitaria scalarum (Schweinf.) Chiov.	African couch grass	P	
+DIVE2	 Digitaria velutina (Forssk.) P. Beauv.	velvet fingergrass	P	L48 (I)
+DRAR7	 Drymaria arenarioides Humb. & Bonpl. ex Schult. [excluded]	alfombrilla	P	
+EGDE	 Egeria densa Planch.	Brazilian waterweed, Brazilian eloda	P	L48 (I), HI (I), PR (I), CAN (W)
+EIAZ2	 Eichhornia azurea (Sw.) Kunth	anchored waterhyacinth	P	L48 (I), PR (I)
+ELUM	 Elaeagnus umbellata Thunb.	autumn olive	P	L48 (I), HI (I), CAN (I)
+EMAU	 Emex australis Steinh.	three-cornered jack	P	L48 (I)
+EMSP	 Emex spinosa (L.) Campd.	devil's thorn	P	L48 (I), HI (I)
+EPHI	 Epilobium hirsutum L.	hairy willow-herb, codlins and cream	P	L48 (I), CAN (I)
+EUAL13	 Euonymus alatus (Thunb.) Siebold	winged euonymus, burning bush	P	L48 (I), CAN (I)
+EUCY2	 Euphorbia cyparissias L.	cypress spurge	P	L48 (I), CAN (I)
+EUES	 Euphorbia esula L.	leafy spurge, wolf's milk	P	L48 (I), CAN (I)
+FEFI	 Festuca filiformis Pourr.	gair fescue, fineleaf sheep fescue	P	L48 (I), CAN (I), SPM (I)
+FRAL4	 Frangula alnus Mill.	European buckthorn, glossy buckthorn	P	L48 (I), CAN (I)
+GAOF	 Galega officinalis L.	goatsrue	P	L48 (I), CAN (I)
+GLFL	 Glaucium flavum Crantz	sea or horned poppy, yellow horn poppy	P	L48 (I), CAN (W)
+GLMA3	 Glyceria maxima (Hartm.) Holmb.	tall mannagrass, reed mannagrass	P	L48 (I), CAN (I)
+HEMA17	 Heracleum mantegazzianum Sommier & Levier	giant hogweed	P	L48 (I), CAN (I)
+HEMA3	 Hesperis matronalis L.	dames Rocket	P	L48 (I), AK (I), CAN (I)
+HOMER	 Homeria Vent.	Cape tulip	P	
+HUJA	 Humulus japonicus Siebold & Zucc.	Japanese hops	P	L48 (I), CAN (I)
+HYVE3	 Hydrilla verticillata (L. f.) Royle	hydrilla	P	L48 (I)
+HYPO3	 Hygrophila polysperma (Roxb.) T. Anderson	Miramar weed	P	L48 (I)
+IMBR	 Imperata brasiliensis Trin.	Brazilian satintail	P	L48 (I), PR (I)
+IPAQ	 Ipomoea aquatica Forssk.	Chinese waterspinach	PR	L48 (I), HI (I), PR (I)
+IRPS	 Iris pseudacorus L.	Yellow Iris	P	L48 (I), CAN (I)
+ISRU	 Ischaemum rugosum Salisb.	murain-grass	P	L48 (I)
+LAMA15	 Lagarosiphon major (Ridley) Moss	oxygen weed	P	
+LELA2	 Lepidium latifolium L.	broad-leafed pepperweed, tall pepperweed	P	L48 (I), CAN (I)
+LECH2	 Leptochloa chinensis (L.) Nees [excluded]	Asian sprangletop	P	
+LIOB	 Ligustrum obtusifolium Siebold & Zucc.	border privet	P	L48 (I)
+LISE3	 Limnophila sessiliflora (Vahl) Blume	ambulia	P	L48 (I)
+LOBE	 Lonicera ×bella Zabel [morrowii × tatarica]	Bell's honeysuckle	P	L48 (I), CAN (I)
+LOJA	 Lonicera japonica Thunb.	Japanese honeysuckle	P	L48 (I), HI (I), PR (I), CAN (I)
+LOMA6	 Lonicera maackii (Rupr.) Herder	Amur honeysuckle	P	L48 (I), CAN (I)
+LOMO2	 Lonicera morrowii A. Gray	Morrow's honeysuckle	P	L48 (I), CAN (I)
+LOTA	 Lonicera tatarica L.	Tatarian honeysuckle	P	L48 (I), AK (I), CAN (I)
+LYFE4	 Lycium ferocissimum Miers			L48 (I)
+LYFE3	 Lycium ferrocissimum Miers, orth. var.	African boxthorn	P	
+LYNU	 Lysimachia nummularia L.	creeping jenny, moneywort	P	L48 (I), CAN (I)
+LYSA2	 Lythrum salicaria L.	purple loosestrife	P	L48 (I), CAN (I), SPM (I)
+MEQU	 Melaleuca quinquenervia (Cav.) S.F. Blake	melaleuca	P	L48 (I), HI (I), PR (I)
+MEMA	 Melastoma malabathricum L.		P	HI (I)
+MIVI	 Microstegium vimineum (Trin.) A. Camus	Japanese stilt grass, Nepalese browntop	P	L48 (I), PR (I)
+MICO16	 Mikania cordata (Burm. f.) B.L. Rob. [excluded]	mile-a-minute	P	
+MIMI5	 Mikania micrantha Kunth	mile-a-minute	P	L48 (I), PR (N)
+MIDI8	 Mimosa diplotricha C. Wright		P	HI (I), PR (I)
+MIIN80	 Mimosa invisa Mart., non Mart. ex Colla	giant sensitive plant	P	
+MIPE2	 Mimosa pellita Kunth ex Willd.			L48 (N), PR (N)
+MIPI	 Mimosa pigra auct. non L.	catclaw mimosa	P	
+MISA	 Miscanthus sacchariflorus (Maxim.) Franch.	plume grass, Amur silvergrass	P	L48 (I), CAN (I)
+MOHA2	 Monochoria hastata (L.) Solms [excluded]	monochoria	P	
+MOVA	 Monochoria vaginalis (Burm. f.) C. Presl ex Kunth	pickerel weed	P	L48 (I), HI (I)
+MYSC	 Myosotis scorpioides L.	forget-me-not	P	L48 (I), AK (I), CAN (I), SPM (I)
+MYAQ2	 Myriophyllum aquaticum (Vell.) Verdc.	parrot-feather, water-feather, Brazilian water-milfoil	P	L48 (I), HI (I), CAN (I)
+MYHE2	 Myriophyllum heterophyllum Michx.	variable water-milfoil, two-leaved water-milfoil	P	L48 (N), CAN (N)
+MYSP2	 Myriophyllum spicatum L.	Eurasian or European water-milfoil, spike water-milfoil	P	L48 (I), AK (I), CAN (I)
+NAMI	 Najas minor All.	brittle water-nymph, lesser naiad	P	L48 (I), CAN (I)
+NATR3	 Nassella trichotoma (Nees) Hack.	serrated tussock	P	L48 (I)
+NYPE	 Nymphoides peltata (S.G. Gmel.) Kuntze	Yellow floating heart	P	L48 (I), CAN (I)
+OPAU10	 Opuntia aurantiaca Lindl.	jointed prickly pear	P	
+OROBA	 Orobanche L.	broomrape	P	
+ORLO3	 Oryza longistaminata A. Chev. & Roehr.	red rice	P	
+ORPU13	 Oryza punctata Kotzchy ex Steud.	red rice	P	
+ORRU	 Oryza rufipogon Griffiths	red rice	P	L48 (I)
+OTAL	 Ottelia alismoides (L.) Pers.	duck-lettuce	P	L48 (I)
+PASC6	 Paspalum scrobiculatum L.	Kodo-millet	P	L48 (I), HI (I)
+PECL2	 Pennisetum clandestinum Hochst. ex Chiov.	kikuyugrass	P	L48 (I), HI (I), PR (I), VI (I)
+PEMA80	 Pennisetum macrourum Trin.	African feathergrass	P	L48 (I), HI (I)
+PEPE24	 Pennisetum pedicellatum Trin.	kyasuma-grass	P	L48 (I)
+PEPO14	 Pennisetum polystachion (L.) Schult.			L48 (I), HI (I), PR (I)
+PEPO4	 Pennisetum polystachyon (L.) Schult., orth. var.	missiongrass	P	
+PHAR3	 Phalaris arundinacea L.	reed canary-grass	P	L48 (N), AK (I), CAN (N), SPM (N)
+PHAM2	 Phellodendron amurense Rupr.	Amur cork-tree	P	L48 (I), CAN (I)
+PHAU7	 Phragmites australis (Cav.) Trin. ex Steud.	common reed	P	L48 (N), HI (I), PR (N), CAN (N)
+POCU6	 Polygonum cuspidatum Siebold & Zucc.	Japanese knotweed, Japanese arrowroot	P	L48 (I), AK (I), CAN (I)
+POPE10	 Polygonum perfoliatum L.	Mile-a-minute vine or weed, Asiatic tearthumb	P	L48 (I)
+POCR3	 Potamogeton crispus L.	crisped pondweed, curly pondweed	P	L48 (I), CAN (I)
+PRPA4	 Prosopis pallida (Humb. & Bonpl. ex Willd.) Kunth	kiawe	P	HI (I), PR (I), VI (I)
+PRRE2	 Prosopis reptans Benth.	tornillo	P	L48 (N)
+PRST3	 Prosopis strombulifera (Lam.) Benth.	Argentine screwbean	P	L48 (I)
+PRVE	 Prosopis velutina Woot.		P	L48 (N), HI (I)
+PUMO	 Pueraria montana (Lour.) Merr.	kudzu, Japanese arrowroot	P	L48 (I), HI (I)
+RAFI	 Ranunculus ficaria L.	lesser celandine, fig buttercup	P	L48 (I), CAN (I)
+RARE3	 Ranunculus repens L.	creeping buttercup	P	L48 (I), AK (I), HI (I), CAN (I), GL (I), SPM (I)
+RHCA3	 Rhamnus cathartica L.	common buckthorn	P	L48 (I), CAN (I)
+ROPS	 Robinia pseudoacacia L.	black locust	P	L48 (N), CAN (I)
+ROAM	 Rorippa amphibia (L.) Besser	water yellowcress, great yellowcress	P	L48 (I), CAN (I)
+ROMU	 Rosa multiflora Thunb.	multiflora rose	P	L48 (I), CAN (I)
+ROCO6	 Rottboellia cochinchinensis (Lour.) W.D. Clayton	itchgrass	P	L48 (I), PR (I)
+RUFR80	 Rubus fruticosus L. [excluded]	wild blackberry complex	P	
+RUMO4	 Rubus moluccanus L. [excluded]	wild blackberry	P	
+RUPH	 Rubus phoenicolasius Maxim.	wineberry, Japanese wineberry, wine raspberry	P	L48 (I)
+SASP	 Saccharum spontaneum L.	wild sugarcane	P	HI (I), PR (I)
+SASA7	 Sagittaria sagittifolia L. [excluded]	arrowhead	P	
+SAVE6	 Salsola vermiculata L.	wormleaf salsola	P	L48 (I)
+SAAU	 Salvinia auriculata Aubl.	giant salvinia	P	PR (I)
+SABI9	 Salvinia biloba Raddi	giant salvinia	P	
+SAHE7	 Salvinia herzogii de la Sota	giant salvinia	P	
+SAMO5	 Salvinia molesta Mitchell	giant salvinia	P	L48 (I), HI (I)
+SEJA	 Senecio jacobaea L.	tansy ragwort, stinking Willie	P	L48 (I), CAN (I), SPM (I)
+SEPU8	 Setaria pumila (Poir.) Roem. & Schult.		P	L48 (I), HI (I), CAN (I), SPM (W)
+SEPUP3	 Setaria pumila (Poir.) Roem. & Schult. ssp. pallidefusca (Schumach.) B.K. Simon			L48 (I)
+SEPA82	 Setaria pallidifusca (Schumach.) Stapf & C.E. Hubbard, orth. var.	cattail grass	P	
+SOTA3	 Solanum tampicense Dunal	wetland nightshade	P	L48 (I)
+SOTO4	 Solanum torvum Sw.	turkeyberry	P	L48 (I), HI (I), PR (I), VI (I)
+SOVI2	 Solanum viarum Dunal	tropical soda apple	P	L48 (I)
+SPER	 Sparganium erectum L.	exotic bur-reed	P	L48 (N)
+SPAL3	 Spermacoce alata Aubl. [excluded]	borreria	P	
+STRIG	 Striga Lour.	witchweed	P	
+TRNA	 Trapa natans L.	water-chestnut	P	L48 (I), CAN (I)
+TRPR5	 Tridax procumbens L.	coat buttons	P	L48 (I), HI (I), PR (I), VI (I)
+TUFA	 Tussilago farfara L.	coltsfoot	P	L48 (I), CAN (I), SPM (I)
+URPA	 Urochloa panicoides P. Beauv.	liverseed grass	P	L48 (I)
