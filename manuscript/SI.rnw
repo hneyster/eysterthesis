@@ -1,55 +1,5 @@
 % !Rnw weave = knitr
-\documentclass[12pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
-%% maxwidth is the original width if it is less than linewidth
-%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
-\makeatletter
-\def\maxwidth{ %
-  \ifdim\Gin@nat@width>\linewidth
-    \linewidth
-  \else
-    \Gin@nat@width
-  \fi
-}
-\makeatother
-
-\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
-\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
-\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
-\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
-\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
-\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
-\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
-\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
-\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
-\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
-\let\hlipl\hlkwb
-
-\usepackage{framed}
-\makeatletter
-\newenvironment{kframe}{%
- \def\at@end@of@kframe{}%
- \ifinner\ifhmode%
-  \def\at@end@of@kframe{\end{minipage}}%
-  \begin{minipage}{\columnwidth}%
- \fi\fi%
- \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
- \colorbox{shadecolor}{##1}\hskip-\fboxsep
-     % There is no \\@totalrightmargin, so:
-     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
- \MakeFramed {\advance\hsize-\width
-   \@totalleftmargin\z@ \linewidth\hsize
-   \@setminipage}}%
- {\par\unskip\endMakeFramed%
- \at@end@of@kframe}
-\makeatother
-
-\definecolor{shadecolor}{rgb}{.97, .97, .97}
-\definecolor{messagecolor}{rgb}{0, 0, 0}
-\definecolor{warningcolor}{rgb}{1, 0, 1}
-\definecolor{errorcolor}{rgb}{1, 0, 0}
-\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
-
-\usepackage{alltt}
+\documentclass[12pt]{article}
 \usepackage[backend=biber, sorting=nyt, maxcitenames=2, doi=false,url=false, style=apa]{biblatex} 
 \bibliography{/Users/Owner/Documents/Tex/all,/Users/Owner/Documents/Thesis/thesis_ref}
 \DeclareLanguageMapping{american}{american-apa}
@@ -71,13 +21,40 @@
 \title{\textbf{Supporting information for:}  \\ \bigskip Invader success and changing climate: Comparisons in the native and introduced range of seven plant species}\author{Harold N. Eyster* \&  Elizabeth Wolkovich}
 \date{*Corresponding author. Please direct any questions or comments to haroldeyster@gmail.com. }
 
-
+<<echo=FALSE>>=
+opts_chunk$set(echo=FALSE, message=FALSE,warning=FALSE,results='asis')
+opts_knit$set(concordance = TRUE)
+@
   
+  <<>>=
+library(ggplot2)
+library(texreg)
+library(xtable)
+library(plyr)
+library(dplyr)
+library(rstan)
+library(rstanarm)
+library(arm)
+library(here)
+high.color="#2165AC"
+low.color = "#B1182C"
+neutral.color="grey90"
+med.high.color<- "#90b3d5"
+med.med.high.color <- "#D1E5F0"
+med.med.low.color<- "#FBDCCA"
+med.low.color <- "#d88b95"
+#https://www.nature.com/scitable/knowledge/library/brook-trout-restoration-83031062/ trout
+@
 
+<<>>=
+load("C:/Users/Owner/Documents/Thesis/Stan/mod_gr.Rdata")
+load("C:/Users/Owner/Documents/Thesis/Stan/mod_rate.Rdata") 
+load("C:/Users/Owner/Documents/Thesis/Stan/mod_time_pois.Rdata") 
+load("C:/Users/Owner/Documents/github/germination_stan/rate_data.Rdata") 
+load("C:/Users/Owner/Documents/github/germination_stan/time_data.rdata") 
+load("C:/Users/Owner/Documents/github/germination_stan/datax.Rdata") 
+@
 
-
-
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
 \maketitle
 \tableofcontents
@@ -160,84 +137,32 @@ Some species have sufficient Pfr (the active form of phytochrome pigment, often 
 
 \section{Model Results}
 \subsection{Coefficient tables}
+<<echo=FALSE, results=FALSE>>=
+sum_mod_rate <- round(summary(mod_rate)[1:16,c(1,3,4,6,8,10)],digits=2)
+row.names(sum_mod_rate) <- gsub(":",row.names(sum_mod_rate), replacement = " $\\\\times$ ")
+sum_mod_rate <- as.data.frame(sum_mod_rate)
 
+sum_mod_time <- round(summary(mod_time_pois)[1:16,c(1,3,4,6,8,10)],digits=2)
+row.names(sum_mod_time) <- gsub(":",row.names(sum_mod_time), replacement = " $\\\\times$ ")
+sum_mod_time <- as.data.frame(sum_mod_time)
 
-% latex table generated in R 3.5.1 by xtable 1.8-3 package
-% Fri Mar 27 08:58:59 2020
-\begin{longtable}{rrrrrrr}
-\caption{Summary of multilevel model of germination rate. Output is in logit(fraction germinated)} \\ 
-  & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
-  \hline
-(Intercept) & 1.82 & 0.48 & 0.93 & 1.80 & 2.79 & 1.00 \\ 
-  origin & -0.10 & 0.72 & -1.50 & -0.09 & 1.33 & 1.00 \\ 
-  strat & 0.17 & 0.68 & -1.11 & 0.14 & 1.65 & 1.00 \\ 
-  temp1 & 0.20 & 0.54 & -0.78 & 0.17 & 1.31 & 1.00 \\ 
-  temp2 & -0.10 & 0.45 & -0.95 & -0.11 & 0.82 & 1.00 \\ 
-  temp3 & -0.18 & 0.43 & -1.03 & -0.18 & 0.68 & 1.00 \\ 
-  origin $\times$ strat & -0.01 & 0.84 & -1.63 & -0.03 & 1.72 & 1.00 \\ 
-  origin $\times$ temp1 & -0.41 & 0.71 & -1.78 & -0.42 & 0.97 & 1.00 \\ 
-  origin $\times$ temp2 & 0.76 & 0.85 & -0.82 & 0.74 & 2.50 & 1.00 \\ 
-  origin $\times$ temp3 & 0.88 & 0.75 & -0.54 & 0.87 & 2.36 & 1.00 \\ 
-  strat $\times$ temp1 & 0.61 & 0.73 & -0.85 & 0.60 & 2.05 & 1.00 \\ 
-  strat $\times$ temp2 & 0.45 & 0.71 & -0.86 & 0.41 & 1.98 & 1.00 \\ 
-  strat $\times$ temp3 & 0.59 & 0.76 & -0.82 & 0.55 & 2.22 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp1 & 0.53 & 1.09 & -1.59 & 0.52 & 2.72 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp2 & 0.11 & 1.00 & -1.82 & 0.11 & 2.11 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp3 & 0.80 & 1.36 & -1.65 & 0.73 & 3.63 & 1.00 \\ 
-  \hline
-\label{tab:mod_rate}
-\end{longtable}
-% latex table generated in R 3.5.1 by xtable 1.8-3 package
-% Fri Mar 27 08:58:59 2020
-\begin{longtable}{rrrrrrr}
-\caption{Summary of multilevel model of germination timing. Output is in log(days)} \\ 
-  & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
-  \hline
-(Intercept) & 2.75 & 0.25 & 2.28 & 2.75 & 3.26 & 1.00 \\ 
-  origin & -0.15 & 0.17 & -0.48 & -0.15 & 0.21 & 1.00 \\ 
-  strat & -0.11 & 0.19 & -0.50 & -0.10 & 0.22 & 1.00 \\ 
-  temp1 & -0.37 & 0.11 & -0.58 & -0.37 & -0.13 & 1.00 \\ 
-  temp2 & -0.47 & 0.16 & -0.75 & -0.47 & -0.14 & 1.00 \\ 
-  temp3 & -0.36 & 0.14 & -0.62 & -0.37 & -0.07 & 1.00 \\ 
-  origin $\times$ strat & 0.16 & 0.20 & -0.22 & 0.16 & 0.56 & 1.00 \\ 
-  origin $\times$ temp1 & 0.06 & 0.18 & -0.29 & 0.06 & 0.41 & 1.00 \\ 
-  origin $\times$ temp2 & 0.05 & 0.24 & -0.43 & 0.05 & 0.49 & 1.00 \\ 
-  origin $\times$ temp3 & -0.21 & 0.19 & -0.59 & -0.21 & 0.16 & 1.00 \\ 
-  strat $\times$ temp1 & 0.05 & 0.19 & -0.32 & 0.05 & 0.46 & 1.00 \\ 
-  strat $\times$ temp2 & -0.09 & 0.20 & -0.48 & -0.09 & 0.33 & 1.00 \\ 
-  strat $\times$ temp3 & -0.23 & 0.16 & -0.53 & -0.24 & 0.11 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp1 & 0.01 & 0.24 & -0.49 & 0.01 & 0.48 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp2 & -0.07 & 0.34 & -0.77 & -0.06 & 0.59 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp3 & 0.57 & 0.26 & 0.05 & 0.58 & 1.06 & 1.00 \\ 
-  \hline
-\label{tab:mod_time}
-\end{longtable}
-% latex table generated in R 3.5.1 by xtable 1.8-3 package
-% Fri Mar 27 08:58:59 2020
-\begin{longtable}{rrrrrrr}
-\caption{Summary of multilevel model of growth rate.  Output is in cm/day} \\ 
-  & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
-  \hline
-(Intercept) & 0.16 & 0.05 & 0.07 & 0.16 & 0.25 & 1.00 \\ 
-  origin & 0.01 & 0.01 & -0.02 & 0.01 & 0.03 & 1.00 \\ 
-  strat & 0.01 & 0.01 & -0.01 & 0.01 & 0.02 & 1.00 \\ 
-  temp1 & -0.02 & 0.01 & -0.04 & -0.02 & 0.01 & 1.00 \\ 
-  temp2 & -0.04 & 0.01 & -0.07 & -0.04 & -0.02 & 1.00 \\ 
-  temp3 & -0.04 & 0.02 & -0.08 & -0.04 & -0.01 & 1.00 \\ 
-  origin $\times$ strat & -0.01 & 0.01 & -0.03 & -0.01 & 0.02 & 1.00 \\ 
-  origin $\times$ temp1 & 0.01 & 0.01 & -0.02 & 0.01 & 0.03 & 1.00 \\ 
-  origin $\times$ temp2 & -0.02 & 0.02 & -0.05 & -0.02 & 0.01 & 1.00 \\ 
-  origin $\times$ temp3 & -0.03 & 0.02 & -0.06 & -0.03 & 0.01 & 1.00 \\ 
-  strat $\times$ temp1 & -0.00 & 0.01 & -0.03 & -0.00 & 0.02 & 1.00 \\ 
-  strat $\times$ temp2 & -0.06 & 0.02 & -0.11 & -0.06 & -0.03 & 1.00 \\ 
-  strat $\times$ temp3 & -0.06 & 0.02 & -0.11 & -0.06 & -0.02 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp1 & 0.01 & 0.02 & -0.03 & 0.01 & 0.04 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp2 & 0.07 & 0.03 & 0.02 & 0.07 & 0.13 & 1.00 \\ 
-  origin $\times$ strat $\times$ temp3 & 0.04 & 0.02 & -0.01 & 0.04 & 0.09 & 1.00 \\ 
-  \hline
-\label{tab:mod_gr}
-\end{longtable}
+sum_mod_gr <- round(summary(mod_gr)[1:16,c(1,3,4,6,8,10)],digits=2)
+row.names(sum_mod_gr) <- gsub(":",row.names(sum_mod_gr), replacement = " $\\\\times$ ")
+sum_mod_gr <- as.data.frame(sum_mod_gr)
 
+#options(xtable.sanitize.colnames = xtable::sanitize)
+options(xtable.sanitize.colnames.function = xtable::sanitize)
+options(xtable.sanitize.text.function = identity)
+options(xtable.sanitize.rownames.function = identity)
+@
+
+<<>>=
+print(xtable(sum_mod_rate,caption ="Summary of multilevel model of germination rate. Output is in logit(fraction germinated)",label="tab:mod_rate"),tabular.environment = "longtable",include.rownames = TRUE, floating = FALSE, hline.after= FALSE, caption.placement = "top", sanitize.rownames.function=identity, sanitize.text.function=identity, sanitize.colnames.function=NULL) 
+
+print(xtable(sum_mod_time,caption ="Summary of multilevel model of germination timing. Output is in log(days)",label="tab:mod_time"),tabular.environment = "longtable",include.rownames = TRUE, floating = FALSE, hline.after= FALSE, caption.placement = "top", sanitize.rownames.function=identity, sanitize.text.function=identity, sanitize.colnames.function=NULL)
+
+print(xtable(sum_mod_gr,caption ="Summary of multilevel model of growth rate.  Output is in cm/day",label="tab:mod_gr"),tabular.environment = "longtable",include.rownames = TRUE, floating = FALSE, hline.after= FALSE, caption.placement = "top", sanitize.rownames.function=identity, sanitize.text.function=identity, sanitize.colnames.function=NULL)
+@
 
 
 

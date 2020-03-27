@@ -7,8 +7,10 @@ options(stringsAsFactors=FALSE)
 
 library(car)
 library(ggplot2)
-
-setwd("~/Documents/git/projects/others/undergrads/harold/analyses/eysterthesis/concphen")
+library(dplyr)
+library(here)
+setwd(here::here("concphen"))
+#setwd("~/Documents/git/projects/others/undergrads/harold/analyses/eysterthesis/concphen")
 # source("/Users/Lizzie/Documents/R/fromNicolas/pglm.R")
 source("conctraits.R")
 source("phenNatExo_helperfxs.R")
@@ -41,3 +43,16 @@ ggplot(conc.doy, aes(x=doychange), xlab="flowering time shift") +
         fill="red", alpha = 0.8) + 
     geom_histogram(data=subset(conc.doy, native.exotic=="native"), 
         fill="blue", alpha = 0.5)
+
+ggplot(conc.doy, aes(x=doychange), xlab="flowering time shift") + 
+  geom_histogram(data=conc.doy[which(conc.doy$latbi %in% eysterspplow),], 
+                 fill="red", alpha = 0.8) + 
+  geom_histogram(data=subset(conc.doy, native.exotic=="native"), 
+                 fill="blue", alpha = 0.5)
+
+## My species have flowered on average XX days earlier: 
+conc.doy[which(conc.doy$latbi %in% eysterspplow),]$doychange %>% mean
+## compared to all species: 
+conc.doy$doychange %>% median
+# this includes x # of spp: 
+nrow(conc.doy)
