@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.26)  27 MAR 2020 00:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.26)  15 APR 2020 21:40
 entering extended mode
 **./Eyster_germ_ms.tex
 (Eyster_germ_ms.tex
@@ -1022,63 +1022,73 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {C:/Users/Owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] [3] [4] [5]
-<sampling_sites.pdf, id=25, 578.16pt x 361.35pt>
+[2] [3]
+
+Package biblatex Warning: Package option 'sortcites' enabled.
+(biblatex)                Verify postnote placement on input line 156.
+
+[4]
+<sampling_sites.pdf, id=22, 578.16pt x 361.35pt>
 File: sampling_sites.pdf Graphic file (type pdf)
 <use sampling_sites.pdf>
-Package pdftex.def Info: sampling_sites.pdf  used on input line 184.
+Package pdftex.def Info: sampling_sites.pdf  used on input line 172.
 (pdftex.def)             Requested size: 469.75502pt x 293.59616pt.
- [6] [7 <./sampling_sites.pdf>]
-Overfull \hbox (46.71844pt too wide) in paragraph at lines 208--209
+ [5 <./sampling_sites.pdf>]
+Overfull \hbox (46.71844pt too wide) in paragraph at lines 195--196
 [] []\OT1/cmr/bx/n/12 Ther-mope-ri-oc-ity:[] \OT1/cmr/m/n/12 Our treat-ments em
 -ployed daily fluc-tu-a-tions in temperature---thermoperiocity---
  []
 
 
-Overfull \hbox (7.63618pt too wide) in paragraph at lines 208--209
+Overfull \hbox (7.63618pt too wide) in paragraph at lines 195--196
 \OT1/cmr/m/n/12 Toole, 1963), trans-lat-ing to treat-ment tem-per-a-tures of: 1
 8/8$[]$C, 22.67/12.67$[]$C, 27.33/17.33$[]$C,
  []
 
-[8]
-Overfull \hbox (31.3627pt too wide) detected at line 242
+[6] [7]
+Overfull \hbox (31.3627pt too wide) detected at line 223
 []
  []
 
-[9] [10]
-Overfull \hbox (29.04869pt too wide) in alignment at lines 274--287
+[8]
+Overfull \hbox (29.04869pt too wide) in alignment at lines 253--265
  [] [] [] [] 
  []
 
-[11]
-<germ_figs_onepage.pdf, id=63, 1084.05pt x 614.295pt>
+[9]
+<germ_figs_onepage.pdf, id=57, 1084.05pt x 614.295pt>
 File: germ_figs_onepage.pdf Graphic file (type pdf)
 <use germ_figs_onepage.pdf>
-Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 290.
-(pdftex.def)             Requested size: 542.02368pt x 307.14674pt.
- [12] [13 <./germ_figs_onepage.pdf>] [14] [15] [16]
+Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 269.
+(pdftex.def)             Requested size: 758.82983pt x 430.00356pt.
+
+Overfull \hbox (108.39983pt too wide) in paragraph at lines 269--270
+ [][] 
+ []
+
+[10] [11 <./germ_figs_onepage.pdf>] [12] [13] [14]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-26.
+05.
 
 ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 326.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 305.
 
-[17] [18] [19] [20] [21] (Eyster_germ_ms.aux)
+[15] [16] [17] [18] [19] (Eyster_germ_ms.aux)
 Package logreq Info: Writing requests to 'Eyster_germ_ms.run.xml'.
 \openout1 = `Eyster_germ_ms.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16359 strings out of 480911
- 291623 string characters out of 2898775
- 1055595 words of memory out of 3000000
- 32009 multiletter control sequences out of 15000+200000
+ 16324 strings out of 480911
+ 290770 string characters out of 2898775
+ 1056417 words of memory out of 3000000
+ 31974 multiletter control sequences out of 15000+200000
  541640 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,60p,3747b,4915s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,9n,60p,3747b,4915s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/f
@@ -1097,9 +1107,9 @@ Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
 fb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmtt12.pfb>
-Output written on Eyster_germ_ms.pdf (21 pages, 1706198 bytes).
+Output written on Eyster_germ_ms.pdf (19 pages, 1689742 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
+ 168 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

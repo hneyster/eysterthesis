@@ -759,41 +759,6 @@
       \field{pages}{227\bibrangedash 240}
       \range{pages}{14}
     \endentry
-    \entry{Colautti2004}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=4fbc716c61816a5119ba1b8151cc1a5b}{%
-           family={Colautti},
-           familyi={C\bibinitperiod},
-           given={R.\bibnamedelimi I.},
-           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a30d78f32230fdce7287364730b2fa0b}{%
-           family={MacIsaac},
-           familyi={M\bibinitperiod},
-           given={H.\bibnamedelimi J.},
-           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6018da16910e0baca3b6c487b726708a}
-      \strng{fullhash}{6018da16910e0baca3b6c487b726708a}
-      \strng{bibnamehash}{6018da16910e0baca3b6c487b726708a}
-      \strng{authorbibnamehash}{6018da16910e0baca3b6c487b726708a}
-      \strng{authornamehash}{6018da16910e0baca3b6c487b726708a}
-      \strng{authorfullhash}{6018da16910e0baca3b6c487b726708a}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Diversity and Distributions}
-      \field{number}{2}
-      \field{title}{A neutral terminology to define ‘invasive’ species}
-      \field{volume}{10}
-      \field{year}{2004}
-      \field{pages}{135\bibrangedash 141}
-      \range{pages}{7}
-    \endentry
     \entry{Colautti2015}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=791a295654e98e378916e073fbbd9bdf}{%
@@ -819,6 +784,7 @@
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Biological invasions are 'natural' experiments that can improve our understanding of contemporary evolution. We evaluate evidence for population differentiation, natural selection and adaptive evolution of invading plants and animals at two nested spatial scales: (i) among introduced populations (ii) between native and introduced genotypes. Evolution during invasion is frequently inferred, but rarely confirmed as adaptive. In common garden studies, quantitative trait differentiation is only marginally lower ({\~}3.5{\%}) among introduced relative to native populations, despite genetic bottlenecks and shorter timescales (i.e. millennia vs. decades). However, differentiation between genotypes from the native vs. introduced range is less clear and confounded by nonrandom geographic sampling; simulations suggest this causes a high false-positive discovery rate (>50{\%}) in geographically structured populations. Selection differentials (s) are stronger in introduced than in native species, although selection gradients ($\beta$) are not, consistent with introduced species experiencing weaker genetic constraints. This could facilitate rapid adaptation, but evidence is limited. For example, rapid phenotypic evolution often manifests as geographical clines, but simulations demonstrate that nonadaptive trait clines can evolve frequently during colonization ({\~}two-thirds of simulations). Additionally, Q<inf>ST</inf>-F<inf>ST</inf> studies may often misrepresent the strength and form of natural selection acting during invasion. Instead, classic approaches in evolutionary ecology (e.g. selection analysis, reciprocal transplant, artificial selection) are necessary to determine the frequency of adaptive evolution during invasion and its influence on establishment, spread and impact of invasive species. These studies are rare but crucial for managing biological invasions in the context of global change.}
@@ -2020,36 +1986,6 @@
       \field{type}{techreport}
       \field{year}{2015}
     \endentry
-    \entry{IUCN2008is}{report}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c049da5f6649d6d3466b6c48405ba239}{%
-           family={{IUCN (International Union for Conservation of Nature)}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Invasive Species Specialist Group, IUCN}%
-      }
-      \list{location}{1}{%
-        {Gland, Switzerland}%
-      }
-      \strng{namehash}{c049da5f6649d6d3466b6c48405ba239}
-      \strng{fullhash}{c049da5f6649d6d3466b6c48405ba239}
-      \strng{bibnamehash}{c049da5f6649d6d3466b6c48405ba239}
-      \strng{authorbibnamehash}{c049da5f6649d6d3466b6c48405ba239}
-      \strng{authornamehash}{c049da5f6649d6d3466b6c48405ba239}
-      \strng{authorfullhash}{c049da5f6649d6d3466b6c48405ba239}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{About invasive species}}
-      \field{type}{techreport}
-      \field{year}{2008}
-      \true{nocite}
-    \endentry
     \entry{Lamarque2015}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=a2eb07f283c3980f51f16b2ef9205dbd}{%
@@ -2558,57 +2494,6 @@
       \field{year}{1999}
       \field{pages}{743\bibrangedash 752}
       \range{pages}{10}
-    \endentry
-    \entry{Munro2019}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b29cf439cffd25c780b97a0e4307c481}{%
-           family={Munro},
-           familyi={M\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=57f44c2981f213f894e5bf38beae63a1}{%
-           family={Steer},
-           familyi={S\bibinitperiod},
-           given={Jamie},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=41d990f85b90d56e5ba7e477a32b8b66}{%
-           family={Linklater},
-           familyi={L\bibinitperiod},
-           given={Wayne},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d6b89707787ddf8301c3bc7a736039a9}
-      \strng{fullhash}{08680a7213d2c973324bc4765a47f7df}
-      \strng{bibnamehash}{08680a7213d2c973324bc4765a47f7df}
-      \strng{authorbibnamehash}{08680a7213d2c973324bc4765a47f7df}
-      \strng{authornamehash}{d6b89707787ddf8301c3bc7a736039a9}
-      \strng{authorfullhash}{08680a7213d2c973324bc4765a47f7df}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Science denialism retards evidenced-based policy and practice and should be challenged. It has been a particular concern for mitigating global environmental issues, like anthropogenic climate change. But allegations of science denialism must also be well founded and evidential or they risk eroding public-trust in science and scientists. Recently, 67 scholars, scientists and science writers were accused of „invasive species denialism‟ (ISD) – the rejection of well-supported facts about invasive species, particularly the global scientific consensus about their negative impacts. We re-evaluated the ISD literature but could find no examples where scientific facts were refuted and just five articles with text perhaps consistent with one of the five characteristics of science denialism. We found, therefore, that allegations of ISD were misplaced. To understand why these accusations of science denialism have occurred we make two observations. First, invasion biology defines its subjects – invasive species – using multiple subjective and normative judgements. Thus, more than other applied sciences its consensus is one of shared values as much as agreed knowledge. Second, criticisms of invasion biology have largely targeted those subjective and normative judgments and their global imposition, not the discipline‟s knowledge. Regrettably, a few invasion biologists have misinterpreted the critique of their values-based consensus as a denial of their science when it is not. We provide some recommendations for making invasion biology a more robust and widely accepted, conservation science. A key recommendation is that invasion biology could avoid unnecessary misunderstandings and conflicts by being more accepting of perspectives originating from other disciplines, and more open to values-based critique from other scholars and scientists. This recommendation applies to all conservation sciences, especially those addressing global challenges, because they must serve and be relevant to communities with an extraordinary diversity of cultures and values.}
-      \field{issn}{15231739}
-      \field{journaltitle}{Conservation Biology}
-      \field{number}{4}
-      \field{title}{{On allegations of invasive species denialism}}
-      \field{volume}{33}
-      \field{year}{2019}
-      \field{pages}{797\bibrangedash 802}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1111/cobi.13278
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Munro, Steer, Linklater - 2019.pdf:pdf
-      \endverb
-      \keyw{biolog{í}a de la invasi{ó}n,datos,discourse,discurso,facts,invasion biology,negaci{ó}n de la ciencia,normative,normativo,science denialism,subjective,subjetivo,valores,values,否定科学主义,入侵生物学,价值观,事实,论述,规范性,主观性}
     \endentry
     \entry{AOSA1960}{report}{}
       \name{author}{1}{}{%

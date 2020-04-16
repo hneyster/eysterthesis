@@ -2,18 +2,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Additional methods}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Study species details}{1}%
+\contentsline {subsection}{\numberline {1.1}Defining Invasive Species}{1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Sampling details}{2}%
+\contentsline {subsection}{\numberline {1.2}Study species details}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Period/light luminance}{2}%
+\contentsline {subsection}{\numberline {1.3}Sampling details}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4}Substrate and planting depth:}{3}%
+\contentsline {subsection}{\numberline {1.4}Period/light luminance}{2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Raw Data Plots}{4}%
+\contentsline {subsection}{\numberline {1.5}Substrate and planting depth:}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Model Results}{9}%
+\contentsline {section}{\numberline {2}Raw Data Plots}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Coefficient tables}{9}%
+\contentsline {section}{\numberline {3}Model Results}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Inter-population variability}{10}%
+\contentsline {subsection}{\numberline {3.1}Coefficient tables}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Inter-population variability}{11}%

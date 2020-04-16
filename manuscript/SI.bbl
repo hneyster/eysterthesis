@@ -179,6 +179,42 @@
       \field{pages}{317\bibrangedash 329}
       \range{pages}{13}
     \endentry
+    \entry{Colautti2004}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4fbc716c61816a5119ba1b8151cc1a5b}{%
+           family={Colautti},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a30d78f32230fdce7287364730b2fa0b}{%
+           family={MacIsaac},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6018da16910e0baca3b6c487b726708a}
+      \strng{fullhash}{6018da16910e0baca3b6c487b726708a}
+      \strng{bibnamehash}{6018da16910e0baca3b6c487b726708a}
+      \strng{authorbibnamehash}{6018da16910e0baca3b6c487b726708a}
+      \strng{authornamehash}{6018da16910e0baca3b6c487b726708a}
+      \strng{authorfullhash}{6018da16910e0baca3b6c487b726708a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diversity and Distributions}
+      \field{number}{2}
+      \field{title}{A neutral terminology to define ‘invasive’ species}
+      \field{volume}{10}
+      \field{year}{2004}
+      \field{pages}{135\bibrangedash 141}
+      \range{pages}{7}
+    \endentry
     \entry{Defelice2001}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3f68c06c7c7315c394c6f1c5a5e2d6f4}{%
@@ -350,6 +386,36 @@
       \field{title}{The world's worst weeds}
       \field{year}{1977}
     \endentry
+    \entry{IUCN2008is}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c049da5f6649d6d3466b6c48405ba239}{%
+           family={{IUCN (International Union for Conservation of Nature)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Invasive Species Specialist Group, IUCN}%
+      }
+      \list{location}{1}{%
+        {Gland, Switzerland}%
+      }
+      \strng{namehash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{fullhash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{bibnamehash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{authorbibnamehash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{authornamehash}{c049da5f6649d6d3466b6c48405ba239}
+      \strng{authorfullhash}{c049da5f6649d6d3466b6c48405ba239}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{About invasive species}}
+      \field{type}{techreport}
+      \field{year}{2008}
+      \true{nocite}
+    \endentry
     \entry{Knobloch1996}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d4f4318e10c124df410df2a72a16656b}{%
@@ -414,6 +480,57 @@
       \field{year}{1996}
       \field{pages}{503\bibrangedash 534}
       \range{pages}{32}
+    \endentry
+    \entry{Munro2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b29cf439cffd25c780b97a0e4307c481}{%
+           family={Munro},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57f44c2981f213f894e5bf38beae63a1}{%
+           family={Steer},
+           familyi={S\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41d990f85b90d56e5ba7e477a32b8b66}{%
+           family={Linklater},
+           familyi={L\bibinitperiod},
+           given={Wayne},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6b89707787ddf8301c3bc7a736039a9}
+      \strng{fullhash}{08680a7213d2c973324bc4765a47f7df}
+      \strng{bibnamehash}{08680a7213d2c973324bc4765a47f7df}
+      \strng{authorbibnamehash}{08680a7213d2c973324bc4765a47f7df}
+      \strng{authornamehash}{d6b89707787ddf8301c3bc7a736039a9}
+      \strng{authorfullhash}{08680a7213d2c973324bc4765a47f7df}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Science denialism retards evidenced-based policy and practice and should be challenged. It has been a particular concern for mitigating global environmental issues, like anthropogenic climate change. But allegations of science denialism must also be well founded and evidential or they risk eroding public-trust in science and scientists. Recently, 67 scholars, scientists and science writers were accused of „invasive species denialism‟ (ISD) – the rejection of well-supported facts about invasive species, particularly the global scientific consensus about their negative impacts. We re-evaluated the ISD literature but could find no examples where scientific facts were refuted and just five articles with text perhaps consistent with one of the five characteristics of science denialism. We found, therefore, that allegations of ISD were misplaced. To understand why these accusations of science denialism have occurred we make two observations. First, invasion biology defines its subjects – invasive species – using multiple subjective and normative judgements. Thus, more than other applied sciences its consensus is one of shared values as much as agreed knowledge. Second, criticisms of invasion biology have largely targeted those subjective and normative judgments and their global imposition, not the discipline‟s knowledge. Regrettably, a few invasion biologists have misinterpreted the critique of their values-based consensus as a denial of their science when it is not. We provide some recommendations for making invasion biology a more robust and widely accepted, conservation science. A key recommendation is that invasion biology could avoid unnecessary misunderstandings and conflicts by being more accepting of perspectives originating from other disciplines, and more open to values-based critique from other scholars and scientists. This recommendation applies to all conservation sciences, especially those addressing global challenges, because they must serve and be relevant to communities with an extraordinary diversity of cultures and values.}
+      \field{issn}{15231739}
+      \field{journaltitle}{Conservation Biology}
+      \field{number}{4}
+      \field{title}{{On allegations of invasive species denialism}}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{pages}{797\bibrangedash 802}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1111/cobi.13278
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Owner/Documents/Literature/Munro, Steer, Linklater - 2019.pdf:pdf
+      \endverb
+      \keyw{biolog{í}a de la invasi{ó}n,datos,discourse,discurso,facts,invasion biology,negaci{ó}n de la ciencia,normative,normativo,science denialism,subjective,subjetivo,valores,values,否定科学主义,入侵生物学,价值观,事实,论述,规范性,主观性}
     \endentry
     \entry{Ogle2011}{report}{}
       \name{author}{4}{}{%
@@ -566,6 +683,106 @@
       \field{year}{1986}
       \field{pages}{305\bibrangedash 316}
       \range{pages}{12}
+    \endentry
+    \entry{Richardson2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1349d69667ad1cd653a01ec90b9f7025}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed8d66491dd908df494a22281d8cf4d7}{%
+           family={Pyšek},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2feb6cdb572ef4b98483b2c568dab067}{%
+           family={Carlton},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20c341ea9bc629763a821cb9dc87c778}
+      \strng{fullhash}{8c2698187bc149286efa18148d129820}
+      \strng{bibnamehash}{8c2698187bc149286efa18148d129820}
+      \strng{authorbibnamehash}{8c2698187bc149286efa18148d129820}
+      \strng{authornamehash}{20c341ea9bc629763a821cb9dc87c778}
+      \strng{authorfullhash}{8c2698187bc149286efa18148d129820}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fifty years of invasion ecology: the legacy of Charles Elton}
+      \field{title}{A compendium of essential concepts and terminology in invasion ecology}
+      \field{year}{2011}
+      \field{pages}{409\bibrangedash 420}
+      \range{pages}{12}
+    \endentry
+    \entry{Richardson2000}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1349d69667ad1cd653a01ec90b9f7025}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed8d66491dd908df494a22281d8cf4d7}{%
+           family={Pyšek},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d40ac156345854a2c40cff263baccec}{%
+           family={Rejmánek},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e591c9d813888b5cfa2b09dd1087bb2f}{%
+           family={Barbour},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65870a8091c39b7345c0fd0e149c901c}{%
+           family={Panetta},
+           familyi={P\bibinitperiod},
+           given={F.\bibnamedelimi D.},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d460e7482060dcefbf0c73730c9040f}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20c341ea9bc629763a821cb9dc87c778}
+      \strng{fullhash}{8af3370605f9da6d4dd353adf0e710d0}
+      \strng{bibnamehash}{8af3370605f9da6d4dd353adf0e710d0}
+      \strng{authorbibnamehash}{8af3370605f9da6d4dd353adf0e710d0}
+      \strng{authornamehash}{20c341ea9bc629763a821cb9dc87c778}
+      \strng{authorfullhash}{8af3370605f9da6d4dd353adf0e710d0}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diversity and distributions}
+      \field{number}{2}
+      \field{title}{Naturalization and invasion of alien plants: concepts and definitions}
+      \field{volume}{6}
+      \field{year}{2000}
+      \field{pages}{93\bibrangedash 107}
+      \range{pages}{15}
     \endentry
     \entry{Roberts1987}{article}{}
       \name{author}{3}{}{%
