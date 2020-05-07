@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.26)  15 APR 2020 21:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.29)  6 MAY 2020 17:57
 entering extended mode
-**./Eyster_germ_ms.tex
-(Eyster_germ_ms.tex
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Eyster_germ_ms.tex
+(./Eyster_germ_ms.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06>
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+L3 programming layer <2020-04-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -21,101 +23,90 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
-y"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
-ics.cfg"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
-x.def"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
-"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
-.cfg"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/framed\framed.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip49
 \fb@frw=\dimen137
 \fb@frh=\dimen138
 \FrameRule=\dimen139
 \FrameSep=\dimen140
-) ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\alltt.sty"
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexc
-mds.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwar
-err.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count175
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoption
-s.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetk
-eys.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count176
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
-"
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -170,23 +161,21 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip57
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language80
+\blx@langwohyphens=\language86
 \c@mincomprange=\count284
 \c@maxcomprange=\count285
 \c@mincompwidth=\count286
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.de
-f"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\apa.d
-bx"
-File: apa.dbx 2020/02/22 v9.6 APA biblatex style data model
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2020/04/26 v9.10 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
@@ -287,15 +276,13 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compa
-t.def"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
-def"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 \c@textcitecount=\count367
 \c@textcitetotal=\count368
@@ -314,14 +301,12 @@ File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\apa.b
-bx"
-File: apa.bbx 2020/02/22 v9.6 APA biblatex references style
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2020/04/26 v9.10 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stand
-ard.bbx"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count376
 \c@bbx:relatedtotal=\count377
@@ -329,9 +314,8 @@ File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\apa.c
-bx"
-File: apa.cbx 2020/02/22 v9.6 APA biblatex citation style
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2020/04/26 v9.10 APA biblatex citation style
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already 
@@ -355,50 +339,35 @@ Package biblatex Info: Redefining '\citeauthor'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
-cfg"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2020/02/28 3.41 The Babel package
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
-"
-File: switch.def 2020/02/28 3.41 Babel switching mechanism
-)
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\amer
-ican.ldf"
-Language: american 2017/06/06 v3.3r English support from the babel system
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/04/28 3.43 The Babel package
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\engl
-ish.ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
-
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2020/02/28 3.41 Babel common definitions
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/04/28 3.43 Babel common definitions
 \babel@savecnt=\count378
 \U@D=\dimen141
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
-ef")
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count379
 )
+\bbl@dirlevel=\count379
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/american.ldf
+Language: american 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language74) on input line 105.
+(babel)             (\language21) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language74) on input line 108.
+(babel)             (\language21) on input line 108.
 )))
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 \csq@reset=\count380
 \csq@gtype=\count381
@@ -408,19 +377,16 @@ Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 \csq@tshold=\count385
 \csq@ltx@everypar=\toks16
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
-def"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
-cfg"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box45
 \beforetitleunit=\skip72
@@ -432,30 +398,24 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen145
 \titlewidthfirst=\dimen146
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
-y"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip74
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
-y"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
-"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen147
 ))
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
-"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen148
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count386
@@ -496,12 +456,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
-"
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count398
@@ -516,14 +474,11 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen162
 \Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks23
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
-cfg"))
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtool
-s.sty"
-Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
-
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count401
 \calc@Bcount=\count402
@@ -536,14 +491,13 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count403
 \calc@Cskip=\skip79
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \g_MT_multlinerow_int=\count404
 \l_MT_multwidth_dim=\dimen166
 \origjot=\skip80
@@ -553,36 +507,35 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen170
 \l_MT_above_shortintertext_sep=\dimen171
 \l_MT_below_shortintertext_sep=\dimen172
+\xmathstrut@box=\box48
+\xmathstrut@dim=\dimen173
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty
-"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count405
-\mult@box=\box48
-\multicol@leftmargin=\dimen173
+\mult@box=\box49
+\multicol@leftmargin=\dimen174
 \c@unbalance=\count406
 \c@collectmore=\count407
 \doublecol@number=\count408
 \multicoltolerance=\count409
 \multicolpretolerance=\count410
-\full@width=\dimen174
-\page@free=\dimen175
-\premulticols=\dimen176
-\postmulticols=\dimen177
+\full@width=\dimen175
+\page@free=\dimen176
+\premulticols=\dimen177
+\postmulticols=\dimen178
 \multicolsep=\skip81
 \multicolbaselineskip=\skip82
-\partial@page=\box49
-\last@line=\box50
-\maxbalancingoverflow=\dimen178
-\mult@rightbox=\box51
-\mult@grightbox=\box52
-\mult@gfirstbox=\box53
-\mult@firstbox=\box54
-\@tempa=\box55
+\partial@page=\box50
+\last@line=\box51
+\maxbalancingoverflow=\dimen179
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
 \@tempa=\box56
 \@tempa=\box57
 \@tempa=\box58
@@ -619,72 +572,68 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box89
 \@tempa=\box90
 \@tempa=\box91
+\@tempa=\box92
 \c@minrows=\count411
 \c@columnbadness=\count412
 \c@finalcolumnbadness=\count413
-\last@try=\dimen179
-\multicolovershoot=\dimen180
-\multicolundershoot=\dimen181
-\mult@nat@firstbox=\box92
-\colbreak@box=\box93
+\last@try=\dimen180
+\multicolovershoot=\dimen181
+\multicolundershoot=\dimen182
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
 \mc@col@check@num=\count414
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
-y"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip83
 \LTright=\skip84
 \LTpre=\skip85
 \LTpost=\skip86
 \LTchunksize=\count415
-\LTcapwidth=\dimen182
-\LT@head=\box94
-\LT@firsthead=\box95
-\LT@foot=\box96
-\LT@lastfoot=\box97
+\LTcapwidth=\dimen183
+\LT@head=\box95
+\LT@firsthead=\box96
+\LT@foot=\box97
+\LT@lastfoot=\box98
 \LT@cols=\count416
 \LT@rows=\count417
 \c@LT@tables=\count418
 \c@LT@chunks=\count419
 \LT@p@ftn=\toks24
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/makecell\makecell.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen183
-\ar@mcellbox=\box98
-\extrarowheight=\dimen184
+\col@sep=\dimen184
+\ar@mcellbox=\box99
+\extrarowheight=\dimen185
 \NC@list=\toks25
 \extratabsurround=\skip87
 \backup@length=\skip88
-\ar@cellbox=\box99
+\ar@cellbox=\box100
 )
-\rotheadsize=\dimen185
+\rotheadsize=\dimen186
 \c@nlinenum=\count420
 \TeXr@lab=\toks26
-) ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/breqn\breqn.sty"
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/breqn.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-04-06 L3 programming layer (loader) 
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty
-"
-Package: expl3 2020-03-06 L3 programming layer (loader) 
-
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
-d-pdfmode.def"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count421
-\l__pdf_internal_box=\box100
+\l__pdf_internal_box=\box101
 ))
-Package: breqn 2020/02/18 v0.98i Breaking equations
-
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/breqn\flexisym.sty
-"
-Package: flexisym 2020/02/18 v0.98i Make math characters macros
+Package: breqn 2020/04/19 v0.98j Breaking equations
+(/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/flexisym.sty
+Package: flexisym 2020/04/19 v0.98j Make math characters macros
 LaTeX Info: Redefining \textprime on input line 298.
 LaTeX Info: Redefining \not on input line 356.
- ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/breqn\cmbase.sym"
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/cmbase.sym
 File: cmbase.sym 2007/12/19 v0.92
 LaTeX Info: Redefining \hbar on input line 323.
 LaTeX Info: Redefining \surd on input line 325.
@@ -710,26 +659,25 @@ LaTeX Info: Redefining \cdots on input line 356.
 LaTeX Info: Redefining \vdots on input line 359.
 LaTeX Info: Redefining \ddots on input line 364.
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/breqn\mathstyle.st
-y"
-Package: mathstyle 2020/02/18 v0.98i Tracking mathstyle implicitly
-LaTeX Info: Redefining \displaystyle on input line 93.
-LaTeX Info: Redefining \textstyle on input line 95.
-LaTeX Info: Redefining \scriptstyle on input line 97.
-LaTeX Info: Redefining \scriptscriptstyle on input line 99.
-LaTeX Info: Redefining \genfrac on input line 145.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/mathstyle.sty
+Package: mathstyle 2020/04/19 v0.98j Tracking mathstyle implicitly
+LaTeX Info: Redefining \displaystyle on input line 94.
+LaTeX Info: Redefining \textstyle on input line 96.
+LaTeX Info: Redefining \scriptstyle on input line 98.
+LaTeX Info: Redefining \scriptscriptstyle on input line 100.
+LaTeX Info: Redefining \genfrac on input line 148.
 ))
 \inf@bad=\count422
 \maxint=\count423
-\listwidth=\dimen186
-\eqnumsep=\dimen187
-\eqmargin=\dimen188
+\listwidth=\dimen187
+\eqnumsep=\dimen188
+\eqmargin=\dimen189
 \eqlinespacing=\skip89
 \eqlineskip=\skip90
-\eqlineskiplimit=\dimen189
+\eqlineskiplimit=\dimen190
 \eqbinoffset=\muskip22
 \eqdelimoffset=\muskip23
-\eqindentstep=\dimen190
+\eqindentstep=\dimen191
 \eqstyle=\toks27
 \eqbreakdepth=\count424
 \eqinterlinepenalty=\count425
@@ -743,117 +691,108 @@ LaTeX Info: Redefining \genfrac on input line 145.
 \eqrightskip=\skip93
 \eq@vspan=\skip94
 \eq@binoffset=\muskip26
-\EQ@box=\box101
-\EQ@copy=\box102
-\EQ@numbox=\box103
-\eq@wdNum=\dimen191
-\GRP@numbox=\box104
-\grp@wdNum=\dimen192
+\EQ@box=\box102
+\EQ@copy=\box103
+\EQ@numbox=\box104
+\eq@wdNum=\dimen192
+\GRP@numbox=\box105
+\grp@wdNum=\dimen193
 \eq@lines=\count429
 \eq@curline=\count430
 \eq@badness=\count431
 \EQ@vims=\count432
-\eq@dp=\dimen193
-\eq@wdL=\dimen194
-\eq@wdT=\dimen195
-\eq@wdMin=\dimen196
-\grp@wdL=\dimen197
-\grp@wdR=\dimen198
-\grp@wdT=\dimen199
-\eq@wdRmax=\dimen256
-\eq@firstht=\dimen257
-\eq@wdCond=\dimen258
-\eq@indentstep=\dimen259
-\eq@linewidth=\dimen260
-\grp@linewidth=\dimen261
-\eq@hshift=\dimen262
-\eq@given@sidespace=\dimen263
-\mathindent=\dimen264
+\eq@dp=\dimen194
+\eq@wdL=\dimen195
+\eq@wdT=\dimen196
+\eq@wdMin=\dimen197
+\grp@wdL=\dimen198
+\grp@wdR=\dimen199
+\grp@wdT=\dimen256
+\eq@wdRmax=\dimen257
+\eq@firstht=\dimen258
+\eq@wdCond=\dimen259
+\eq@indentstep=\dimen260
+\eq@linewidth=\dimen261
+\grp@linewidth=\dimen262
+\eq@hshift=\dimen263
+\eq@given@sidespace=\dimen264
+\mathindent=\dimen265
 \eq@final@linecount=\count433
-\eq@wdR=\dimen265
+\eq@wdR=\dimen266
 \EQ@continue=\toks28
 \lr@level=\count434
 \GRP@queue=\toks29
-\GRP@box=\box105
-\GRP@wholebox=\box106
+\GRP@box=\box106
+\GRP@wholebox=\box107
 \darraycolsep=\skip95
 \cur@row=\count435
 \cur@col=\count436
 \conditionsep=\skip96
-) ("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xr.sty"
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 2019/07/22 v5.05 eXternal References (DPC)
 )
 Package xr Info: IMPORTING LABELS FROM SI.aux on input line 81.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.st
-y"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegsh
-i.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 ))
-\AM@pagewidth=\dimen266
-\AM@pageheight=\dimen267
+\AM@pagewidth=\dimen267
+\AM@pageheight=\dimen268
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.
-def"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box107
+\AM@pagebox=\box108
 \AM@global@opts=\toks30
 \AM@pagecnt=\count437
 \AM@toc@title=\toks31
 \c@AM@survey=\count438
-\AM@templatesizebox=\box108
+\AM@templatesizebox=\box109
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption
-.sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
-y"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
-ty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen268
-\captionmargin@=\dimen269
-\captionwidth=\dimen270
-\caption@tempdima=\dimen271
-\caption@indent=\dimen272
-\caption@parindent=\dimen273
-\caption@hangindent=\dimen274
+\captionmargin=\dimen269
+\captionmargin@=\dimen270
+\captionwidth=\dimen271
+\caption@tempdima=\dimen272
+\caption@indent=\dimen273
+\caption@parindent=\dimen274
+\caption@hangindent=\dimen275
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count439
 \c@continuedfloat=\count440
 Package caption Info: longtable package is loaded.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 ))
 \c@subfigure=\count441
 \c@subtable=\count442
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotating.
-sty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count443
 \rotFPtop=\skip97
 \rotFPbot=\skip98
-\rot@float@box=\box109
+\rot@float@box=\box110
 \rot@mess@toks=\toks32
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/preprint\authblk.s
-ty"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip99
 \@affilsep=\skip100
@@ -861,8 +800,61 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count445
 \c@affil=\count446
 )
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upquote.st
-y"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count447
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box111
+)
+\tc@llx=\dimen276
+\tc@lly=\dimen277
+\tc@urx=\dimen278
+\tc@ury=\dimen279
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen280
+\adjbox@Height=\dimen281
+\adjbox@Depth=\dimen282
+\adjbox@Totalheight=\dimen283
+\adjbox@pwidth=\dimen284
+\adjbox@pheight=\dimen285
+\adjbox@pdepth=\dimen286
+\adjbox@ptotalheight=\dimen287
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count448
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box112
+\sift@deathcycles=\count449
+\@vwid@loff=\dimen288
+\@vwid@roff=\dimen289
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
@@ -870,93 +862,87 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
- (Eyster_germ_ms.aux)
+
+(./Eyster_germ_ms.aux)
 \openout1 = `Eyster_germ_ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
-df.mkii"
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count447
-\scratchdimen=\dimen275
-\scratchbox=\box110
-\nofMPsegments=\count448
-\nofMParguments=\count449
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count450
-\MPscratchDim=\dimen276
-\MPnumerator=\count451
-\makeMPintoPDFobject=\count452
-\everyMPtoPDFconversion=\toks34
-)
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
-pdf-base.sty"
+\scratchcounter=\count450
+\scratchdimen=\dimen290
+\scratchbox=\box113
+\nofMPsegments=\count451
+\nofMParguments=\count452
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count453
+\MPscratchDim=\dimen291
+\MPnumerator=\count454
+\makeMPintoPDFobject=\count455
+\everyMPtoPDFconversion=\toks36
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\ameri
-can-apa.lbx"
-File: american-apa.lbx 2020/02/22 v9.6 APA biblatex localisation
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
+File: american-apa.lbx 2020/04/26 v9.10 APA biblatex localisation
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\ameri
-can.lbx"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\engli
-sh-apa.lbx"
-File: english-apa.lbx 2020/02/22 v9.6 APA biblatex localisation
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2020/04/26 v9.10 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\engli
-sh.lbx"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )))
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\ameri
-can.lbx"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-apa\engli
-sh-apa.lbx"
-File: english-apa.lbx 2020/02/22 v9.6 APA biblatex localisation
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
+File: english-apa.lbx 2020/04/26 v9.10 APA biblatex localisation
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\ameri
-can.lbx"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\engli
-sh.lbx"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )))))
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -966,9 +952,10 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Eyster_germ_ms.bbl' found.
- (Eyster_germ_ms.bbl)
-Package biblatex Info: Reference section=0 on input line 105.
-Package biblatex Info: Reference segment=0 on input line 105.
+
+(./Eyster_germ_ms.bbl)
+Package biblatex Info: Reference section=0 on input line 106.
+Package biblatex Info: Reference segment=0 on input line 106.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1004,14 +991,11 @@ Package biblatex Info: Reference segment=0 on input line 105.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box111
-
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdflscape\pdflscap
-e.sty"
+\AtBeginShipoutBox=\box114
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.st
-y"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1021,95 +1005,93 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
  [1
 
-{C:/Users/Owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] [3]
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+
 
 Package biblatex Warning: Package option 'sortcites' enabled.
-(biblatex)                Verify postnote placement on input line 156.
+(biblatex)                Verify postnote placement on input line 144.
 
 [4]
-<sampling_sites.pdf, id=22, 578.16pt x 361.35pt>
+<sampling_sites.pdf, id=23, 578.16pt x 361.35pt>
 File: sampling_sites.pdf Graphic file (type pdf)
 <use sampling_sites.pdf>
-Package pdftex.def Info: sampling_sites.pdf  used on input line 172.
+Package pdftex.def Info: sampling_sites.pdf  used on input line 160.
 (pdftex.def)             Requested size: 469.75502pt x 293.59616pt.
  [5 <./sampling_sites.pdf>]
-Overfull \hbox (46.71844pt too wide) in paragraph at lines 195--196
+Overfull \hbox (46.71844pt too wide) in paragraph at lines 177--178
 [] []\OT1/cmr/bx/n/12 Ther-mope-ri-oc-ity:[] \OT1/cmr/m/n/12 Our treat-ments em
 -ployed daily fluc-tu-a-tions in temperature---thermoperiocity---
  []
 
 
-Overfull \hbox (7.63618pt too wide) in paragraph at lines 195--196
+Overfull \hbox (7.63618pt too wide) in paragraph at lines 177--178
 \OT1/cmr/m/n/12 Toole, 1963), trans-lat-ing to treat-ment tem-per-a-tures of: 1
 8/8$[]$C, 22.67/12.67$[]$C, 27.33/17.33$[]$C,
  []
 
 [6] [7]
-Overfull \hbox (31.3627pt too wide) detected at line 223
+Overfull \hbox (31.3627pt too wide) detected at line 203
 []
  []
 
 [8]
-Overfull \hbox (29.04869pt too wide) in alignment at lines 253--265
+Overfull \hbox (29.04869pt too wide) in alignment at lines 229--241
  [] [] [] [] 
  []
 
 [9]
-<germ_figs_onepage.pdf, id=57, 1084.05pt x 614.295pt>
+<germ_figs_onepage.pdf, id=58, 1084.05pt x 614.295pt>
 File: germ_figs_onepage.pdf Graphic file (type pdf)
 <use germ_figs_onepage.pdf>
-Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 269.
+Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 244.
 (pdftex.def)             Requested size: 758.82983pt x 430.00356pt.
 
-Overfull \hbox (108.39983pt too wide) in paragraph at lines 269--270
- [][] 
+Overfull \hbox (65.06027pt too wide) in paragraph at lines 244--245
+[][] 
  []
 
 [10] [11 <./germ_figs_onepage.pdf>] [12] [13] [14]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-05.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+75.
 
-("C:\Users\Owner\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 305.
-
-[15] [16] [17] [18] [19] (Eyster_germ_ms.aux)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 275.
+ [15] [16]
+[17] [18] (./Eyster_germ_ms.aux)
 Package logreq Info: Writing requests to 'Eyster_germ_ms.run.xml'.
 \openout1 = `Eyster_germ_ms.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16324 strings out of 480911
- 290770 string characters out of 2898775
- 1056417 words of memory out of 3000000
- 31974 multiletter control sequences out of 15000+200000
- 541640 words of font info for 56 fonts, out of 3000000 for 9000
+ 17374 strings out of 480682
+ 303573 string characters out of 5904648
+ 1075835 words of memory out of 5000000
+ 32937 multiletter control sequences out of 15000+600000
+ 541640 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,60p,3747b,4915s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Owner/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Owner/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Owne
-r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Owner/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Owner/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/
-Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
-fb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti12.pfb><C:/Users/Owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmtt12.pfb>
-Output written on Eyster_germ_ms.pdf (19 pages, 1689742 bytes).
+ 74i,9n,112p,3745b,5044s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Eyster_germ_ms.pdf (18 pages, 1666250 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

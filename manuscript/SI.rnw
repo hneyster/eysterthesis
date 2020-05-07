@@ -1,7 +1,7 @@
 % !Rnw weave = knitr
 \documentclass[12pt]{article}
 \usepackage[backend=biber, sorting=nyt, maxcitenames=2, doi=false,url=false, style=apa]{biblatex} 
-\bibliography{/Users/Owner/Documents/Tex/all,/Users/Owner/Documents/Thesis/thesis_ref}
+\bibliography{/home/harold/Dropbox/full,/home/harold/github/eysterthesis/manuscript/thesis_ref}
 \DeclareLanguageMapping{american}{american-apa}
 \usepackage{xr}
 \externaldocument{Eyster_germ_ms}
@@ -14,7 +14,7 @@
 \captionsetup[subfigure]{position=top}
 \usepackage[figuresleft]{rotating}
 \usepackage{longtable}
-\usepackage[margin=.5in]{geometry}
+\usepackage[margin=1in]{geometry}
 \usepackage{float}
 \usepackage{makecell}
 
@@ -47,12 +47,12 @@ med.low.color <- "#d88b95"
 @
 
 <<>>=
-load("C:/Users/Owner/Documents/Thesis/Stan/mod_gr.Rdata")
-load("C:/Users/Owner/Documents/Thesis/Stan/mod_rate.Rdata") 
-load("C:/Users/Owner/Documents/Thesis/Stan/mod_time_pois.Rdata") 
-load("C:/Users/Owner/Documents/github/germination_stan/rate_data.Rdata") 
-load("C:/Users/Owner/Documents/github/germination_stan/time_data.rdata") 
-load("C:/Users/Owner/Documents/github/germination_stan/datax.Rdata") 
+load(here("../../Dropbox/gitfiles/germ","mod_rate.rdata") )
+load(here("../../Dropbox/gitfiles/germ","mod_time_pois.rdata") )
+load(here("../../Dropbox/gitfiles/germ","mod_gr.rdata") )
+load(here("../../Dropbox/gitfiles/germ","rate_data.rdata") )
+load(here("../../Dropbox/gitfiles/germ","time_data.rdata") )
+load(here("../../Dropbox/gitfiles/germ","datax.rdata") )
 @
 
 \begin{document}
@@ -60,7 +60,7 @@ load("C:/Users/Owner/Documents/github/germination_stan/datax.Rdata")
 \tableofcontents
 \section{Additional general methods}
 \subsection{Defining Invasive Species}
-	There is no consensus on how to classify a species as invasive \parencite{Colautti2004}. The most common terms include `exotic,' `introduced,' `naturalized,' `nonindigenous,' `established,' `alien,' `noxious,' `weedy,' and `invasive.' These terms can be grouped into those that describe the provenance of the species (e.g., exotic, introduced, alien, non-indigenous), those that describe its ability to grow and compete in the new ecosystem (e.g., naturalized, established), and those that describe its impact on the receiving ecosystem (e.g., noxious, weedy, harmful). The International Union for the Conservation of Nature (IUCN, 2008) describes invasive species as: ``organisms introduced by man [sic] into places out of their natural range of distribution, where they become established and disperse, generating a negative impact." \nocite{IUCN2008is} However, this definition contains three subjective elements: what timepoint of a species' range is `natural,' whether humans are a natural part of nature, and what is defined as a negative impact \parencite{Munro2019}. To both acknowledge and allay some of these subjective elements, this paper follows Richardson et al.'s \parencite{Richardson2000,Richardson2011} definition of invasive species. Invasive species are thus those that (1) are introduced across a previously unpenetrated barrier, (2) successfully reproduce in the place of introduction to create a stable local population, and finally (3) spread to produce fit offspring a substantial distance from the place of introduction.
+There is no consensus on how to classify a species as invasive \parencite{Colautti2004}. The most common terms include `exotic,' `introduced,' `naturalized,' `nonindigenous,' `established,' `alien,' `noxious,' `weedy,' and `invasive.' These terms can be grouped into those that describe the provenance of the species (e.g., exotic, introduced, alien, non-indigenous), those that describe its ability to grow and compete in the new ecosystem (e.g., naturalized, established), and those that describe its impact on the receiving ecosystem (e.g., noxious, weedy, harmful). The International Union for the Conservation of Nature (IUCN, 2008) describes invasive species as: ``organisms introduced by man [sic] into places out of their natural range of distribution, where they become established and disperse, generating a negative impact." \nocite{IUCN2008is} However, this definition contains three subjective elements: what timepoint of a species' range is `natural,' whether humans are a natural part of nature, and what is defined as a negative impact \parencite{Munro2019}. To both acknowledge and allay some of these subjective elements, this paper follows Richardson \textit{et al.}'s \parencite{Richardson2000,Richardson2011} definition of invasive species. Invasive species are thus those that (1) are introduced across a previously unpenetrated barrier, (2) successfully reproduce in the place of introduction to create a stable local population, and finally (3) spread to produce fit offspring a substantial distance from the place of introduction.
 
 \subsection{Study species details}
 \textit{Capsella bursa-pastoris} (CAPBUR; Shepard's Purse) is an annual or biennial herbaceous plant in Brassicaceae. It grows 10 to 80 cm tall, typically blooming in late spring \parencite{Defelice2001}. It originated in Europe, and was introduced to the New World as a medicinal herb---it is now found across Canada, the US, and Mexico \parencite{Westrich1989}.
@@ -98,8 +98,8 @@ Some species have sufficient Pfr (the active form of phytochrome pigment, often 
 	The goal of these experiments was to create germination rates that are sufficient to observe variation in responses to treatments. Thus, we chose an intermediate light exposure at which all of the species would germinate at substantial levels, but which may not be ideal for any species. In selecting how much light to use, this experiment erred on the side of too much light rather than not enough, since at least one of our species is known to need large amounts of light \parencite[\textit{Plantago major}---][]{Pons1991}, and none are known to exhibit HIR (although a \textit{D. glomerata} subspecies in southern Europe does exhibit HIR \parencite{Probert1986}, but this subspecies is not thought to have been collected for this study). Thus this experiment used a length of eight hours at a luminance of 75 micromol/m\textsuperscript{2}/second to yield a daily photon dosage of 2.16 mol/m\textsuperscript{2}. \textcite{Baskin1998} recommend that the light period coincide with the high-temperature period. Thus, this experiment exposed seeds to eight hours of fluorescent light during the high-temperature thermoperiod. 
 	
 \subsection{Selecting substrate and planting depth} 
-\textcite{Popay1970} show that \textit{C. bursa-pastoris} seeds germinated about equally on filter paper as on top of soil, but showed much decreased germination when inserted into soil. The effects of planting substrate and depth have not been studied in most of the study species. However, a study on a species related to \textit{D. glomerata} suggests that \textit{D. glomerata} may germinate better in soil \parencite{Andrews1974}. Additionally, a difference in depth of just a couple millimeters can result in extreme differences in light availability \parencite{Tester1987}. Thus each seed was placed on top of Fafard Growing Mix (a mixture of fine peat moss, fine perlite, and vermiculite) soil, with each seed in its own individual tray cell.
-\printbibliography()
+Substrate and planting depth can affect germination. \textcite{Popay1970} show that \textit{C. bursa-pastoris} seeds germinated about equally on filter paper as on top of soil, but showed much decreased germination when inserted into soil. However, the effects of planting substrate and depth have not been studied in most of the study species. Nevertheless, a study on a species related to \textit{D. glomerata} suggests that \textit{D. glomerata} may germinate better in soil \parencite{Andrews1974}. Moreover, a difference in depth of just a couple millimeters can result in extreme differences in light availability, which can be essential for germination \parencite{Tester1987}. Thus each seed was placed on top of Fafard Growing Mix (a mixture of fine peat moss, fine perlite, and vermiculite) soil, with each seed in its own individual tray cell.
+\printbibliography
 \section{Raw Data Plots}
 
 \begin{figure}[H]
@@ -144,15 +144,16 @@ Some species have sufficient Pfr (the active form of phytochrome pigment, often 
 \section{Model Results}
 \subsection{Coefficient tables}
 <<echo=FALSE, results=FALSE>>=
-sum_mod_rate <- round(summary(mod_rate)[1:16,c(1,3,4,6,8,10)],digits=2)
+p<-c(0.025, 0.50, 0.975)
+sum_mod_rate <- round(summary(mod_rate, probs = p)[1:16,c(1,3,4:6,8)],digits=2)
 row.names(sum_mod_rate) <- gsub(":",row.names(sum_mod_rate), replacement = " $\\\\times$ ")
 sum_mod_rate <- as.data.frame(sum_mod_rate)
 
-sum_mod_time <- round(summary(mod_time_pois)[1:16,c(1,3,4,6,8,10)],digits=2)
+sum_mod_time <- round(summary(mod_time_pois, probs=p)[1:16,c(1,3,4:6,8)],digits=2)
 row.names(sum_mod_time) <- gsub(":",row.names(sum_mod_time), replacement = " $\\\\times$ ")
 sum_mod_time <- as.data.frame(sum_mod_time)
 
-sum_mod_gr <- round(summary(mod_gr)[1:16,c(1,3,4,6,8,10)],digits=2)
+sum_mod_gr <- round(summary(mod_gr, probs=p)[1:16,c(1,3,4:6,8)],digits=2)
 row.names(sum_mod_gr) <- gsub(":",row.names(sum_mod_gr), replacement = " $\\\\times$ ")
 sum_mod_gr <- as.data.frame(sum_mod_gr)
 
@@ -176,8 +177,64 @@ print(xtable(sum_mod_gr,caption ="Summary of multilevel model of growth rate.  O
 \pagebreak
 \begin{figure}[H]
 \centering
-\fbox{\includegraphics[scale=.67,angle=-90]{PLALAN_pops_plot.pdf}}
-\caption{Germination rate, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for PLALAN (\textit{Plantago Lanceolata}), showing main random effect of PLALAN, and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Table XX).}
+\fbox{\includegraphics[scale=.63,angle=-90]{PLALAN_pops_plot.pdf}}
+\caption{Germination rate, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for PLALAN (\textit{Plantago Lanceolata}), showing main random effect of PLALAN, and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Tables \ref{tab:mod_rate_intercept}, \ref{tab:mod_time_intercept}, \ref{tab:mod_gr_intercept}).}
 \label{fig:pops}
 \end{figure}
+
+<<echo=FALSE, results=FALSE>>=
+# PLALAN GERMINATION RATE: 
+plalan<-summary(mod_rate, pars= c("(Intercept)", "b[(Intercept) sp:4]" ,  "b[(Intercept) loc:sp:2:4]" , "b[(Intercept) loc:sp:3:4]" , "b[(Intercept) loc:sp:4:4]" , "b[(Intercept) loc:sp:5:4]" ,
+ "b[(Intercept) loc:sp:6:4]" , "b[(Intercept) loc:sp:7:4]", "b[(Intercept) loc:sp:8:4]" , "b[(Intercept) loc:sp:9:4]",  
+ "b[(Intercept) loc:sp:10:4]" , "b[(Intercept) loc:sp:12:4]" ,"b[(Intercept) loc:sp:13:4]" , "b[(Intercept) loc:sp:14:4]",
+ "b[(Intercept) loc:sp:16:4]" ), probs = c(0.025, 0.5, 0.975))
+ 
+plalan <- plalan[c(1,15,2:14),]
+sum_plalan <- round(plalan[,c(1,3,4:6,8)],digits=2)
+
+row.names(sum_plalan) <-c("global intercept" ,"PLALAN intercept", "N. France PLALAN intercept", "Denmark PLALAN intercept", "S. Slovenia PLALAN intercept", "S. France PLALAN intercept", "Austria (high altitude) PLALAN intercept", "Switzerland PLALAN intercept",
+                     "Germany PLALAN intercept", "N. Slovenia PLALAN intercept", "Liechtenstein PLALAN intercept", "The Netherlands PLALAN intercept", "Austria (low altitude) PLALAN intercept", "USA--Boston PLALAN intercept", "USA--Concord PLALAN intercept")
+@
+
+<<>>=
+print(xtable(sum_plalan,caption ="Germination rate model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in logit(fraction germinated)",label="tab:mod_rate_intercept"),tabular.environment = "longtable",include.rownames = TRUE, floating = FALSE, hline.after= FALSE, caption.placement = "top", sanitize.rownames.function=identity, sanitize.text.function=identity, sanitize.colnames.function=NULL) 
+@
+
+<<echo=FALSE, results=FALSE>>=
+
+## PLALAN GERMINATION TIMING 
+plalan<-summary(mod_time_pois, pars= c("(Intercept)", "b[(Intercept) sp:4]" ,  "b[(Intercept) loc:sp:2:4]" , "b[(Intercept) loc:sp:3:4]" , "b[(Intercept) loc:sp:4:4]" , "b[(Intercept) loc:sp:5:4]" ,
+ "b[(Intercept) loc:sp:6:4]" , "b[(Intercept) loc:sp:7:4]", "b[(Intercept) loc:sp:8:4]" , "b[(Intercept) loc:sp:9:4]",  
+ "b[(Intercept) loc:sp:10:4]" , "b[(Intercept) loc:sp:12:4]" ,"b[(Intercept) loc:sp:13:4]" , "b[(Intercept) loc:sp:14:4]",
+ "b[(Intercept) loc:sp:16:4]" ), probs = c(0.025, 0.5, 0.975))
+ 
+plalan <- plalan[c(1,15,2:14),]
+sum_plalan <- round(plalan[,c(1,3,4:6,8)],digits=2)
+
+row.names(sum_plalan) <-c("global intercept" ,"PLALAN intercept", "N. France PLALAN intercept", "Denmark PLALAN intercept", "S. Slovenia PLALAN intercept", "S. France PLALAN intercept", "Austria (high altitude) PLALAN intercept", "Switzerland PLALAN intercept",
+                     "Germany PLALAN intercept", "N. Slovenia PLALAN intercept", "Liechtenstein PLALAN intercept", "The Netherlands PLALAN intercept", "Austria (low altitude) PLALAN intercept", "USA--Boston PLALAN intercept", "USA--Concord PLALAN intercept")
+@
+
+<<>>=
+print(xtable(sum_plalan,caption ="Germination timing model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in log(days to germination)",label="tab:mod_time_intercept"),tabular.environment = "longtable",include.rownames = TRUE, floating = FALSE, hline.after= FALSE, caption.placement = "top", sanitize.rownames.function=identity, sanitize.text.function=identity, sanitize.colnames.function=NULL) 
+@
+
+<<echo=FALSE, results=FALSE>>=
+## PLALAN GROWTH RATE
+plalan<-summary(mod_gr, pars= c("(Intercept)", "b[(Intercept) sp:4]" ,  "b[(Intercept) loc:sp:2:4]" , "b[(Intercept) loc:sp:3:4]" , "b[(Intercept) loc:sp:4:4]" , "b[(Intercept) loc:sp:5:4]" ,
+ "b[(Intercept) loc:sp:6:4]" , "b[(Intercept) loc:sp:7:4]", "b[(Intercept) loc:sp:8:4]" , "b[(Intercept) loc:sp:9:4]",  
+ "b[(Intercept) loc:sp:10:4]" , "b[(Intercept) loc:sp:12:4]" ,"b[(Intercept) loc:sp:13:4]" , "b[(Intercept) loc:sp:14:4]",
+ "b[(Intercept) loc:sp:16:4]" ), probs = c(0.025, 0.5, 0.975))
+ 
+plalan <- plalan[c(1,15,2:14),]
+sum_plalan <- round(plalan[,c(1,3,4:6,8)],digits=2)
+
+row.names(sum_plalan) <-c("global intercept" ,"PLALAN intercept", "N. France PLALAN intercept", "Denmark PLALAN intercept", "S. Slovenia PLALAN intercept", "S. France PLALAN intercept", "Austria (high altitude) PLALAN intercept", "Switzerland PLALAN intercept",
+                     "Germany PLALAN intercept", "N. Slovenia PLALAN intercept", "Liechtenstein PLALAN intercept", "The Netherlands PLALAN intercept", "Austria (low altitude) PLALAN intercept", "USA--Boston PLALAN intercept", "USA--Concord PLALAN intercept")
+@
+
+<<>>=
+print(xtable(sum_plalan,caption ="Growth rate model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in cm/dat",label="tab:mod_gr_intercept"),tabular.environment = "longtable",include.rownames = TRUE, floating = FALSE, hline.after= FALSE, caption.placement = "top", sanitize.rownames.function=identity, sanitize.text.function=identity, sanitize.colnames.function=NULL) 
+@
+
 \end{document}

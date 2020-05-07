@@ -83,8 +83,8 @@
       <file>Eyster_germ_ms.bcf</file>
     </requires>
     <requires type="editable">
-      <file>/Users/Owner/Documents/Tex/all.bib</file>
-      <file>/Users/Owner/Documents/Thesis/thesis_ref.bib</file>
+      <file>/home/harold/Dropbox/full.bib</file>
+      <file>/home/harold/github/eysterthesis/manuscript/thesis_ref.bib</file>
     </requires>
   </external>
 </requests>

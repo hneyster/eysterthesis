@@ -1,7 +1,7 @@
 % !Rnw weave = knitr
 \documentclass[12pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
-%% maxwidth is the original width if it is less than linewidth
-%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
 \def\maxwidth{ %
   \ifdim\Gin@nat@width>\linewidth
@@ -51,7 +51,7 @@
 
 \usepackage{alltt}
 \usepackage[backend=biber, sorting=nyt, maxcitenames=2, doi=false,url=false, style=apa]{biblatex} 
-\bibliography{/Users/Owner/Documents/Tex/all,/Users/Owner/Documents/Thesis/thesis_ref}
+\bibliography{/home/harold/Dropbox/full,/home/harold/github/eysterthesis/manuscript/thesis_ref}
 \DeclareLanguageMapping{american}{american-apa}
 \usepackage{xr}
 \externaldocument{Eyster_germ_ms}
@@ -64,7 +64,7 @@
 \captionsetup[subfigure]{position=top}
 \usepackage[figuresleft]{rotating}
 \usepackage{longtable}
-\usepackage[margin=.5in]{geometry}
+\usepackage[margin=1in]{geometry}
 \usepackage{float}
 \usepackage{makecell}
 
@@ -81,9 +81,9 @@
 \begin{document}
 \maketitle
 \tableofcontents
-\section{Additional methods}
+\section{Additional general methods}
 \subsection{Defining Invasive Species}
-	There is no consensus on how to classify a species as invasive \parencite{Colautti2004}. The most common terms include `exotic,' `introduced,' `naturalized,' `nonindigenous,' `established,' `alien,' `noxious,' `weedy,' and `invasive.' These terms can be grouped into those that describe the provenance of the species (e.g., exotic, introduced, alien, non-indigenous), those that describe its ability to grow and compete in the new ecosystem (e.g., naturalized, established), and those that describe its impact on the receiving ecosystem (e.g., noxious, weedy, harmful). The International Union for the Conservation of Nature (IUCN, 2008) describes invasive species as: ``organisms introduced by man [sic] into places out of their natural range of distribution, where they become established and disperse, generating a negative impact." \nocite{IUCN2008is} However, this definition contains three subjective elements: what timepoint of a species' range is `natural,' whether humans are a natural part of nature, and what is defined as a negative impact \parencite{Munro2019}. To both acknowledge and allay some of these subjective elements, this paper will follow Richardson et al.'s \parencite{Richardson2000,Richardson2011} definition of invasive species. Invasive species are thus those that (1) are introduced across a previously unpenetrated barrier, (2) successfully reproduce in the place of introduction to create a stable local population, and finally (3) spread to produce fit offspring a substantial distance from the place of introduction.
+There is no consensus on how to classify a species as invasive \parencite{Colautti2004}. The most common terms include `exotic,' `introduced,' `naturalized,' `nonindigenous,' `established,' `alien,' `noxious,' `weedy,' and `invasive.' These terms can be grouped into those that describe the provenance of the species (e.g., exotic, introduced, alien, non-indigenous), those that describe its ability to grow and compete in the new ecosystem (e.g., naturalized, established), and those that describe its impact on the receiving ecosystem (e.g., noxious, weedy, harmful). The International Union for the Conservation of Nature (IUCN, 2008) describes invasive species as: ``organisms introduced by man [sic] into places out of their natural range of distribution, where they become established and disperse, generating a negative impact." \nocite{IUCN2008is} However, this definition contains three subjective elements: what timepoint of a species' range is `natural,' whether humans are a natural part of nature, and what is defined as a negative impact \parencite{Munro2019}. To both acknowledge and allay some of these subjective elements, this paper follows Richardson \textit{et al.}'s \parencite{Richardson2000,Richardson2011} definition of invasive species. Invasive species are thus those that (1) are introduced across a previously unpenetrated barrier, (2) successfully reproduce in the place of introduction to create a stable local population, and finally (3) spread to produce fit offspring a substantial distance from the place of introduction.
 
 \subsection{Study species details}
 \textit{Capsella bursa-pastoris} (CAPBUR; Shepard's Purse) is an annual or biennial herbaceous plant in Brassicaceae. It grows 10 to 80 cm tall, typically blooming in late spring \parencite{Defelice2001}. It originated in Europe, and was introduced to the New World as a medicinal herb---it is now found across Canada, the US, and Mexico \parencite{Westrich1989}.
@@ -92,7 +92,7 @@
 	
 	\textit{Dactylis glomerata} (DACGLO; Orchard Grass) is a cool-season, perennial grass (Poaceae). Plants grow up to 120 cm tall and have roots up to 60 cm long \parencite{Moser1996}. This plant originated in central and western Europe, and was intentionally introduced into the US in the 1750s \parencite{Bush2012} as a forage grass for pasture and hay \parencite{Ogle2011}.  
 	
-	\textit{Plantago lanceolata} (PLALAN; Narrow-leaved Plantain) is a perennial member of  Plantaginaceae. It has narrow, ribbed leaves and grows to 1m tall. It is native to Eurasia, and has successfully colonized the world's mid-latitudes \parencite{Holm1977}.
+	\textit{Plantago lanceolata} (PLALAN; Narrow-leaved Plantain) is a perennial member of  Plantaginaceae. It has narrow, ribbed leaves and grows to 1 m tall. It is native to Eurasia, and has successfully colonized the world's mid-latitudes \parencite{Holm1977}.
 	
 	\textit{Plantago major} (PLAMAJ; Broad-leaved Plantain) is a perennial member of Plantaginaceae. It has broad, smooth leaves, and grows to 15cm tall. Native to Europe, it was introduced into North America for its medicinal uses \parencite{Knobloch1996,Samuelsen2000}.
 	
@@ -101,7 +101,7 @@
 	\textit{Taraxacum officinale} (TAROFF; Dandelion) is a perennial herbaceous plant in the Asteraceae family, and grows to 60 cm. It is native to Eurasia, but is now found in all 50 US states, much of Canada, and Mexico \parencite{USDA1971}.
 
 \subsection{Sampling details}
-
+Numbers of sampled populations and individual plants from which we collected seeds are given in Table \ref{tab:seednum}. We used Bayesian hierarchical models to account and control for   greater sampling in the native range. % Additionally, we note that our results go in the opposite direction of this sampling bias---given the limited number of sampled populations in the introduced range we were more likely to find differences between the native and introduced ranges. 
 	\begin{center}
 		\begin{table}[H]
 			\centering
@@ -111,15 +111,18 @@
 				\hline
 				3&	21&	13&	63\\
 			\end{tabular}
+			\label{tab:seednum}
 		\end{table}
 	\end{center}
-\subsection{Period/light luminance}
+	
+\subsection{Selecting period/light luminance}
 Some species have sufficient Pfr (the active form of phytochrome pigment, often necessary to induce germination) and so do not need any light to break dormancy, others just need a pulse of red light to break dormancy (the red light converts the inactive phytochrome into Pfr) \parencite{Casal998}.  Other species, including \textit{Plantago major}, take much longer to build up the requisite Pfr, and so have much higher germination success when exposed to longer periods of light (with nearly 100\% germination after 48 hours of exposure for \textit{P. major}) \parencite{Pons1991}. Finally, some species have a high irradiance response (HIR), germinating poorly when exposed to high luminance light or prolonged light \parencite{Roberts1987}. Beyond interspecific variation, there is also intraspecific variation in the relationship between dormancy and light \parencite{Probert1986}. Across all populations, germination rate seems to be log-normally related to photon dosage \parencite{Ellis1986}. Light may begin inhibiting germination for HIR species at about 0.1 mol/m\textsuperscript{2}/day--1 mol/m\textsuperscript{2}/day \parencite{Baskin1998,Ellis1986}, while other species peak above 10 mol/m\textsuperscript{2}/day \parencite{Ellis1986}. The differing levels of light necessary to break dormancy means that any chosen light regime will be better for some species and worse for others. 
 	
-	The goal of these experiments is to create germination rates that are sufficient to observe variation in responses to treatments. Thus, we chose an intermediate light exposure at which all of the species should germinate at substantial levels, but which may not be ideal for any species. In selecting how much light to use, this experiment erred on the side of too much light rather than not enough, since at least one of our species is known to need large amounts of light (\textit{Plantago major}---\textcite{Pons1991}), and none are known to exhibit HIR (although a \textit{D. glomerata} subspecies in southern Europe does exhibit HIR \parencite{Probert1986}, but this subspecies is not thought to have been collected for this study). Thus this experiment used a length of eight hours at a luminance of 75 micromol/m\textsuperscript{2}/second to yield a daily photon dosage of 2.16 mol/m\textsuperscript{2}. \textcite{Baskin1998} recommend that the light period coincide with the high-temperature period. Thus, this experiment exposed the seeds to eight hours of fluorescent light during the high-temperature thermoperiod. 
+	The goal of these experiments was to create germination rates that are sufficient to observe variation in responses to treatments. Thus, we chose an intermediate light exposure at which all of the species would germinate at substantial levels, but which may not be ideal for any species. In selecting how much light to use, this experiment erred on the side of too much light rather than not enough, since at least one of our species is known to need large amounts of light \parencite[\textit{Plantago major}---][]{Pons1991}, and none are known to exhibit HIR (although a \textit{D. glomerata} subspecies in southern Europe does exhibit HIR \parencite{Probert1986}, but this subspecies is not thought to have been collected for this study). Thus this experiment used a length of eight hours at a luminance of 75 micromol/m\textsuperscript{2}/second to yield a daily photon dosage of 2.16 mol/m\textsuperscript{2}. \textcite{Baskin1998} recommend that the light period coincide with the high-temperature period. Thus, this experiment exposed seeds to eight hours of fluorescent light during the high-temperature thermoperiod. 
 	
-\subsection{Substrate and planting depth:} \textcite{Popay1970} show that \textit{C. bursa-pastoris} seeds germinated about equally on filter paper as on top of soil, but showed much decreased germination when inserted into soil. The effects of planting substrate and depth have not been studied in most of the study species. However, a study on a species related to \textit{D. glomerata} suggests that \textit{D. glomerata} may germinate better in soil \parencite{Andrews1974}. Additionally, a difference in depth of just a couple millimeters can result in extreme differences in light availability \parencite{Tester1987}. Thus each seed was placed on top of Fafard Growing Mix (a mixture of fine peat moss, fine perlite, and vermiculite) soil, with each seed in its own individual tray cell.
-\printbibliography()
+\subsection{Selecting substrate and planting depth} 
+Substrate and planting depth can affect germination. \textcite{Popay1970} show that \textit{C. bursa-pastoris} seeds germinated about equally on filter paper as on top of soil, but showed much decreased germination when inserted into soil. However, the effects of planting substrate and depth have not been studied in most of the study species. Nevertheless, a study on a species related to \textit{D. glomerata} suggests that \textit{D. glomerata} may germinate better in soil \parencite{Andrews1974}. Moreover, a difference in depth of just a couple millimeters can result in extreme differences in light availability, which can be essential for germination \parencite{Tester1987}. Thus each seed was placed on top of Fafard Growing Mix (a mixture of fine peat moss, fine perlite, and vermiculite) soil, with each seed in its own individual tray cell.
+\printbibliography
 \section{Raw Data Plots}
 
 \begin{figure}[H]
@@ -165,8 +168,8 @@ Some species have sufficient Pfr (the active form of phytochrome pigment, often 
 \subsection{Coefficient tables}
 
 
-% latex table generated in R 3.5.1 by xtable 1.8-3 package
-% Wed Apr 15 21:39:27 2020
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Wed May  6 17:07:19 2020
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of germination rate. Output is in logit(fraction germinated)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -190,8 +193,8 @@ Some species have sufficient Pfr (the active form of phytochrome pigment, often 
   \hline
 \label{tab:mod_rate}
 \end{longtable}
-% latex table generated in R 3.5.1 by xtable 1.8-3 package
-% Wed Apr 15 21:39:27 2020
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Wed May  6 17:07:19 2020
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of germination timing. Output is in log(days)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -215,8 +218,8 @@ Some species have sufficient Pfr (the active form of phytochrome pigment, often 
   \hline
 \label{tab:mod_time}
 \end{longtable}
-% latex table generated in R 3.5.1 by xtable 1.8-3 package
-% Wed Apr 15 21:39:27 2020
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Wed May  6 17:07:19 2020
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of growth rate.  Output is in cm/day} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -248,8 +251,93 @@ Some species have sufficient Pfr (the active form of phytochrome pigment, often 
 \pagebreak
 \begin{figure}[H]
 \centering
-\fbox{\includegraphics[scale=.67,angle=-90]{PLALAN_pops_plot.pdf}}
-\caption{Germinatio rate, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for PLALAN (\textit{Plantago Lanceolata}), showing main random effect of PLALAN, and random effects of each population. Zero represents the global mean fixed effect across all species. Intercept coefficients not shown.}
+\fbox{\includegraphics[scale=.63,angle=-90]{PLALAN_pops_plot.pdf}}
+\caption{Germination rate, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for PLALAN (\textit{Plantago Lanceolata}), showing main random effect of PLALAN, and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Tables \ref{tab:mod_rate_intercept}, \ref{tab:mod_time_intercept}, \ref{tab:mod_gr_intercept}).}
 \label{fig:pops}
 \end{figure}
+
+
+
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Wed May  6 17:07:19 2020
+\begin{longtable}{rrrrrrr}
+\caption{Germination rate model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in logit(fraction germinated)} \\ 
+  & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
+  \hline
+global intercept & 1.82 & 0.48 & 0.93 & 1.80 & 2.79 & 1.00 \\ 
+  PLALAN intercept & -0.15 & 0.39 & -1.08 & -0.06 & 0.54 & 1.00 \\ 
+  N. France PLALAN intercept & -1.41 & 0.69 & -2.79 & -1.40 & -0.11 & 1.00 \\ 
+  Denmark PLALAN intercept & -1.03 & 0.63 & -2.30 & -1.02 & 0.20 & 1.00 \\ 
+  S. Slovenia PLALAN intercept & 1.06 & 0.69 & -0.19 & 1.03 & 2.46 & 1.00 \\ 
+  S. France PLALAN intercept & 0.99 & 0.78 & -0.47 & 0.95 & 2.57 & 1.00 \\ 
+  Austria (high altitude) PLALAN intercept & 0.98 & 0.74 & -0.41 & 0.96 & 2.49 & 1.00 \\ 
+  Switzerland PLALAN intercept & 1.10 & 0.78 & -0.34 & 1.07 & 2.70 & 1.00 \\ 
+  Germany PLALAN intercept & -2.11 & 0.79 & -3.65 & -2.12 & -0.55 & 1.00 \\ 
+  N. Slovenia PLALAN intercept & 0.61 & 0.70 & -0.72 & 0.59 & 2.06 & 1.00 \\ 
+  Liechtenstein PLALAN intercept & -0.07 & 0.67 & -1.38 & -0.07 & 1.23 & 1.00 \\ 
+  The Netherlands PLALAN intercept & 0.05 & 0.66 & -1.25 & 0.04 & 1.34 & 1.00 \\ 
+  Austria (low altitude) PLALAN intercept & -1.33 & 0.68 & -2.68 & -1.30 & -0.05 & 1.00 \\ 
+  USA--Boston PLALAN intercept & -0.26 & 0.85 & -1.94 & -0.25 & 1.38 & 1.00 \\ 
+  USA--Concord PLALAN intercept & 0.02 & 0.86 & -1.66 & 0.01 & 1.79 & 1.00 \\ 
+  \hline
+\label{tab:mod_rate_intercept}
+\end{longtable}
+
+
+
+
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Wed May  6 17:07:19 2020
+\begin{longtable}{rrrrrrr}
+\caption{Germination timing model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in log(days to germination)} \\ 
+  & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
+  \hline
+global intercept & 2.75 & 0.25 & 2.28 & 2.75 & 3.26 & 1.00 \\ 
+  PLALAN intercept & -0.10 & 0.25 & -0.61 & -0.10 & 0.39 & 1.00 \\ 
+  N. France PLALAN intercept & -0.04 & 0.13 & -0.31 & -0.03 & 0.21 & 1.00 \\ 
+  Denmark PLALAN intercept & 0.13 & 0.13 & -0.08 & 0.12 & 0.42 & 1.00 \\ 
+  S. Slovenia PLALAN intercept & 0.10 & 0.12 & -0.11 & 0.09 & 0.37 & 1.00 \\ 
+  S. France PLALAN intercept & -0.01 & 0.12 & -0.25 & -0.01 & 0.22 & 1.00 \\ 
+  Austria (high altitude) PLALAN intercept & 0.14 & 0.14 & -0.08 & 0.12 & 0.44 & 1.00 \\ 
+  Switzerland PLALAN intercept & -0.05 & 0.12 & -0.31 & -0.04 & 0.18 & 1.00 \\ 
+  Germany PLALAN intercept & 0.07 & 0.14 & -0.20 & 0.05 & 0.37 & 1.00 \\ 
+  N. Slovenia PLALAN intercept & -0.15 & 0.14 & -0.47 & -0.14 & 0.07 & 1.00 \\ 
+  Liechtenstein PLALAN intercept & -0.19 & 0.15 & -0.52 & -0.18 & 0.05 & 1.00 \\ 
+  The Netherlands PLALAN intercept & 0.04 & 0.12 & -0.19 & 0.03 & 0.30 & 1.00 \\ 
+  Austria (low altitude) PLALAN intercept & -0.01 & 0.12 & -0.26 & -0.01 & 0.23 & 1.00 \\ 
+  USA--Boston PLALAN intercept & -0.00 & 0.15 & -0.30 & -0.00 & 0.30 & 1.00 \\ 
+  USA--Concord PLALAN intercept & -0.02 & 0.15 & -0.33 & -0.01 & 0.27 & 1.00 \\ 
+  \hline
+\label{tab:mod_time_intercept}
+\end{longtable}
+
+
+
+
+% latex table generated in R 3.6.3 by xtable 1.8-4 package
+% Wed May  6 17:07:20 2020
+\begin{longtable}{rrrrrrr}
+\caption{Growth rate model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in cm/dat} \\ 
+  & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
+  \hline
+global intercept & 0.16 & 0.05 & 0.07 & 0.16 & 0.25 & 1.00 \\ 
+  PLALAN intercept & -0.03 & 0.05 & -0.12 & -0.03 & 0.07 & 1.00 \\ 
+  N. France PLALAN intercept & -0.01 & 0.01 & -0.03 & -0.01 & 0.02 & 1.00 \\ 
+  Denmark PLALAN intercept & -0.03 & 0.01 & -0.05 & -0.03 & -0.01 & 1.00 \\ 
+  S. Slovenia PLALAN intercept & 0.01 & 0.01 & -0.01 & 0.01 & 0.03 & 1.00 \\ 
+  S. France PLALAN intercept & 0.00 & 0.01 & -0.02 & 0.00 & 0.02 & 1.00 \\ 
+  Austria (high altitude) PLALAN intercept & -0.01 & 0.01 & -0.02 & -0.01 & 0.01 & 1.00 \\ 
+  Switzerland PLALAN intercept & -0.01 & 0.01 & -0.02 & -0.01 & 0.01 & 1.00 \\ 
+  Germany PLALAN intercept & 0.02 & 0.01 & -0.01 & 0.02 & 0.04 & 1.00 \\ 
+  N. Slovenia PLALAN intercept & 0.02 & 0.01 & 0.00 & 0.02 & 0.04 & 1.00 \\ 
+  Liechtenstein PLALAN intercept & 0.01 & 0.01 & -0.01 & 0.01 & 0.03 & 1.00 \\ 
+  The Netherlands PLALAN intercept & 0.00 & 0.01 & -0.02 & 0.00 & 0.02 & 1.00 \\ 
+  Austria (low altitude) PLALAN intercept & -0.02 & 0.01 & -0.04 & -0.02 & 0.00 & 1.00 \\ 
+  USA--Boston PLALAN intercept & 0.01 & 0.01 & -0.02 & 0.01 & 0.04 & 1.00 \\ 
+  USA--Concord PLALAN intercept & -0.01 & 0.01 & -0.04 & -0.01 & 0.02 & 1.00 \\ 
+  \hline
+\label{tab:mod_gr_intercept}
+\end{longtable}
+
+
 \end{document}
