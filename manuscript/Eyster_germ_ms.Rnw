@@ -27,7 +27,7 @@
 %\usepackage{indentfirst} %This indents the pfaragraph following a heading 
 \setlength{\parindent}{0em}
 \usepackage{breqn}
-\usepackage{xr}
+\usepackage{xr} % run xelatex, then pdflatex.
 \externaldocument{SI}
 \usepackage{graphicx}
 \usepackage{pdfpages}
