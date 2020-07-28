@@ -129,69 +129,6 @@
       \field{pages}{147\bibrangedash 168}
       \range{pages}{22}
     \endentry
-    \entry{Barker2017}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=381f4713cbc70fb400be79496f66af52}{%
-           family={Barker},
-           familyi={B\bibinitperiod},
-           given={Brittany\bibnamedelima S.},
-           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=326142d319562065d9e7febd1eaef191}{%
-           family={Andonian},
-           familyi={A\bibinitperiod},
-           given={Krikor},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dcf4963fd65bfb1d992c49e83ca8c933}{%
-           family={Swope},
-           familyi={S\bibinitperiod},
-           given={Sarah\bibnamedelima M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fc862af95f9dbf7238980806020fc623}{%
-           family={Luster},
-           familyi={L\bibinitperiod},
-           given={Douglas\bibnamedelima G.},
-           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=80b9aab2cae0f2af2cd67aa4f06e5646}{%
-           family={Dlugosch},
-           familyi={D\bibinitperiod},
-           given={Katrina\bibnamedelima M.},
-           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{0355425f7bb5c5720261343b2fa8105b}
-      \strng{fullhash}{13f1f47b2856ac8ee83957b3cd1f0fd4}
-      \strng{bibnamehash}{13f1f47b2856ac8ee83957b3cd1f0fd4}
-      \strng{authorbibnamehash}{13f1f47b2856ac8ee83957b3cd1f0fd4}
-      \strng{authornamehash}{0355425f7bb5c5720261343b2fa8105b}
-      \strng{authorfullhash}{13f1f47b2856ac8ee83957b3cd1f0fd4}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Identifying sources of genetic variation and reconstructing invasion routes for non-native introduced species is central to understanding the circumstances under which they may evolve increased invasiveness. In this study, we used genome-wide single nucleotide polymorphisms to study the colonization history of Centaurea solstitialis in its native range in Eurasia and invasions into the Americas. We leveraged this information to pinpoint key evolutionary shifts in plant size, a focal trait associated with invasiveness in this species. Our analyses revealed clear population genomic structure of potential source populations in Eurasia, including deep differentiation of a lineage found in the southern Apennine and Balkan Peninsulas and divergence among populations in Asia, eastern Europe and western Europe. We found strongest support for an evolutionary scenario in which western European populations were derived from an ancient admixture event between populations from eastern Europe and Asia, and subsequently served as the main genetic ‘bridgehead' for introductions to the Americas. Introductions to California appear to be from a single source region, and multiple, independent introductions of divergent genotypes likely occurred into the Pacific Northwest. Plant size has evolved significantly at three points during range expansion, including a large size increase in the lineage responsible for the aggressive invasion of the California interior. These results reveal a long history of colonization, admixture and trait evolution in C. solstitialis, and suggest routes for improving evidence-based management decisions for one of the most ecologically and economically damaging invasive species in the western United States.}
-      \field{issn}{1365294X}
-      \field{journaltitle}{Molecular Ecology}
-      \field{number}{4}
-      \field{title}{{Population genomic analyses reveal a history of range expansion and trait evolution across the native and invaded range of yellow starthistle (Centaurea solstitialis)}}
-      \field{volume}{26}
-      \field{year}{2017}
-      \field{pages}{1131\bibrangedash 1147}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1111/mec.13998
-      \endverb
-      \verb{file}
-      \verb :/home/harold/Dropbox/Literature/Barker et al. - 2017.pdf:pdf
-      \endverb
-      \keyw{admixture,biological invasion,invasion routes,phylogeography,rapid evolution,restriction site-associated sequencing}
-    \endentry
     \entry{Baskin1998}{book}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=95b49686ba24433650373bab3e48eee5}{%
@@ -3595,6 +3532,7 @@
       \range{pages}{7}
     \endentry
   \enddatalist
+  \missing{Gioria2017}
 \endrefsection
 \endinput
 

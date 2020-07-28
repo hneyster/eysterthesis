@@ -12,7 +12,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5}Selecting substrate and planting depth}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Raw Data Plots}{6}%
+\contentsline {section}{\numberline {2}Raw Data Plots}{5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Model Results}{11}%
 \defcounter {refsection}{0}\relax 

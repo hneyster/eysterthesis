@@ -124,7 +124,7 @@ Some species have sufficient Pfr (the active form of phytochrome pigment, often 
 Substrate and planting depth can affect germination. \textcite{Popay1970} show that \textit{C. bursa-pastoris} seeds germinated about equally on filter paper as on top of soil, but showed much decreased germination when inserted into soil. However, the effects of planting substrate and depth have not been studied in most of the study species. Nevertheless, a study on a species related to \textit{D. glomerata} suggests that \textit{D. glomerata} may germinate better in soil \parencite{Andrews1974}. Moreover, a difference in depth of just a couple millimeters can result in extreme differences in light availability, which can be essential for germination \parencite{Tester1987}. Thus each seed was placed on top of Fafard Growing Mix (a mixture of fine peat moss, fine perlite, and vermiculite) soil, with each seed in its own individual tray cell.
 \printbibliography
 \section{Raw Data Plots}
-
+Here we show plots of the raw data. We omitted these raw data plots in the main text, and chose to focus on the model estiamtes---the model integrates over seed family, population, and species, thereby providing best estimtes that account for much the variance and pseudoreplication in the data. However, these effects may be obscured in the aggregate raw data plots shown here.
 \begin{figure}[H]
   \centering
   \subcaptionbox{CAPBUR\label{fig:grCAPBUR}}
@@ -169,7 +169,7 @@ Substrate and planting depth can affect germination. \textcite{Popay1970} show t
 
 
 % latex table generated in R 3.6.3 by xtable 1.8-4 package
-% Wed May  6 17:07:19 2020
+% Mon Jul 27 17:51:29 2020
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of germination rate. Output is in logit(fraction germinated)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -194,7 +194,7 @@ Substrate and planting depth can affect germination. \textcite{Popay1970} show t
 \label{tab:mod_rate}
 \end{longtable}
 % latex table generated in R 3.6.3 by xtable 1.8-4 package
-% Wed May  6 17:07:19 2020
+% Mon Jul 27 17:51:29 2020
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of germination timing. Output is in log(days)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -219,7 +219,7 @@ Substrate and planting depth can affect germination. \textcite{Popay1970} show t
 \label{tab:mod_time}
 \end{longtable}
 % latex table generated in R 3.6.3 by xtable 1.8-4 package
-% Wed May  6 17:07:19 2020
+% Mon Jul 27 17:51:29 2020
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of growth rate.  Output is in cm/day} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -246,20 +246,19 @@ Substrate and planting depth can affect germination. \textcite{Popay1970} show t
 
 
 
-
 \subsection{Inter-population variability}
 \pagebreak
 \begin{figure}[H]
 \centering
-\fbox{\includegraphics[scale=.63,angle=-90]{PLALAN_pops_plot.pdf}}
-\caption{Germination rate, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for PLALAN (\textit{Plantago Lanceolata}), showing main random effect of PLALAN, and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Tables \ref{tab:mod_rate_intercept}, \ref{tab:mod_time_intercept}, \ref{tab:mod_gr_intercept}).}
+\includegraphics[scale=1]{PLALAN_pops_plot.pdf}
+\caption{Germination rate, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for \textit{Plantago Lanceolata}, showing main random effect for the species and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Tables \ref{tab:mod_rate_intercept}, \ref{tab:mod_time_intercept}, \ref{tab:mod_gr_intercept}). The reference level for temperature is 18/8$^\circ$C, while temp1 = 22.67/12.67$^\circ$C, temp2 = 27.33/17.33$^\circ$C, and temp3 = 32/22$^\circ$C. Thirty days is the reference level for stratification (strat).}
 \label{fig:pops}
 \end{figure}
 
 
 
 % latex table generated in R 3.6.3 by xtable 1.8-4 package
-% Wed May  6 17:07:19 2020
+% Mon Jul 27 17:51:29 2020
 \begin{longtable}{rrrrrrr}
 \caption{Germination rate model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in logit(fraction germinated)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -287,7 +286,7 @@ global intercept & 1.82 & 0.48 & 0.93 & 1.80 & 2.79 & 1.00 \\
 
 
 % latex table generated in R 3.6.3 by xtable 1.8-4 package
-% Wed May  6 17:07:19 2020
+% Mon Jul 27 17:51:30 2020
 \begin{longtable}{rrrrrrr}
 \caption{Germination timing model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in log(days to germination)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -315,7 +314,7 @@ global intercept & 2.75 & 0.25 & 2.28 & 2.75 & 3.26 & 1.00 \\
 
 
 % latex table generated in R 3.6.3 by xtable 1.8-4 package
-% Wed May  6 17:07:20 2020
+% Mon Jul 27 17:51:30 2020
 \begin{longtable}{rrrrrrr}
 \caption{Growth rate model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in cm/dat} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
