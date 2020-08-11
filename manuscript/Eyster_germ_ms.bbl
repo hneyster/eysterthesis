@@ -450,7 +450,7 @@
       \verb 10.1111/mec.13032
       \endverb
       \verb{file}
-      \verb :/home/harold/Dropbox/Literature/Bock{\_}etal{\_}2015.pdf:pdf
+      \verb :/home/harold/Dropbox/Literature/Bock_etal_2015.pdf:pdf
       \endverb
       \keyw{adaptation,colonization,hybridization,invasion,rapid evolution,weeds}
     \endentry
@@ -1300,6 +1300,53 @@
       \endverb
       \keyw{Annual plants,Competition,Fitness differences,Niche differences,Precipitation}
     \endentry
+    \entry{Gioria2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=99ee3cf9aa78d8dd40a672ee5e4551d9}{%
+           family={Gioria},
+           familyi={G\bibinitperiod},
+           given={Margherita},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db322a73ce89d75cca55862f5c1243b7}{%
+           family={Py{š}ek},
+           familyi={P\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{32e4e873244540085ba26eb76d49ef7f}
+      \strng{fullhash}{32e4e873244540085ba26eb76d49ef7f}
+      \strng{bibnamehash}{32e4e873244540085ba26eb76d49ef7f}
+      \strng{authorbibnamehash}{32e4e873244540085ba26eb76d49ef7f}
+      \strng{authornamehash}{32e4e873244540085ba26eb76d49ef7f}
+      \strng{authorfullhash}{32e4e873244540085ba26eb76d49ef7f}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Invasions}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{Early bird catches the worm: germination as a critical step in plant invasion}
+      \field{volume}{19}
+      \field{year}{2017}
+      \field{pages}{1055\bibrangedash 1080}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s10530-016-1349-1
+      \endverb
+      \verb{file}
+      \verb :gioria2017.pdf:PDF
+      \endverb
+    \endentry
     \entry{Goodrich2018}{misc}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=9cc812cde8c441e79dfaab4955a72c2c}{%
@@ -1434,6 +1481,54 @@
       \field{year}{2003}
       \field{pages}{1151\bibrangedash 1164}
       \range{pages}{14}
+    \endentry
+    \entry{Haines2011}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7752ba3b217ec9299c756fa09b1b9409}{%
+           family={Haines},
+           familyi={H\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3dcd7314c8eb03cd6f3a883184cd153}{%
+           family={Farnsworth},
+           familyi={F\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39ec2a6752f2c38ae2076283306db314}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{0e9f4697ed82ec3eded74812719e3e54}
+      \strng{fullhash}{d9653128e3a769cc94da5a69dc306e5d}
+      \strng{bibnamehash}{d9653128e3a769cc94da5a69dc306e5d}
+      \strng{authorbibnamehash}{d9653128e3a769cc94da5a69dc306e5d}
+      \strng{authornamehash}{0e9f4697ed82ec3eded74812719e3e54}
+      \strng{authorfullhash}{d9653128e3a769cc94da5a69dc306e5d}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This comprehensive manual offers accurate, up-to-date, and clear information for identifying New England's remarkable array of tracheophytes (vascular plants, excluding mosses). With fully researched entries on some 3,500 native and nonnative species, the book is the first in decades to provide a complete and correct botanical reference for the region's noncultivated plants. The volume includes many new species not documented in New England before, while also excluding many species that have erroneously appeared in earlier manuals.Focusing on the taxonomy and distribution of New England plants, the manual is largely dedicated to identification keys and to species entries that provide scientific name, origin, regional conservation ranking, common name, synonyms, distribution, ecology, and other miscellaneous items of interest. Nearly one-third of the entries are accompanied by helpful black-and-white line illustrations.Additional special features: •Precise distribution information, accurate to the state level•Details on unusual plant groups not included in other sources•Reliable and versatile keys for identification•Tips on recognizing hybrid plants in the field•A companion interactive teaching Web site (under development)•Comprehensive glossary}
+      \field{isbn}{9780300171549}
+      \field{title}{New England Wild Flower Society's Flora Novae Angliae: A Manual for the Identification of Native and Naturalized Higher Vascular Plants of New England}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/j.ctt1np7h4
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/j.ctt1np7h4
+      \endverb
     \endentry
     \entry{Harte2015}{article}{}
       \name{author}{3}{}{%
@@ -2465,7 +2560,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Microevolution Rate, pattern, Process}
-      \field{title}{{The population ecology of contemporary adaptations: What empirical studies reveal about the condiitions that promote adaptive evolution}}
+      \field{title}{{The population ecology of contemporary adaptations: What empirical studies reveal about the conditions that promote adaptive evolution}}
       \field{year}{2001}
     \endentry
     \entry{Richards2006}{article}{}
@@ -2736,54 +2831,6 @@
       \field{year}{1994}
       \field{pages}{18\bibrangedash 22}
       \range{pages}{5}
-    \endentry
-    \entry{Seabloom:2003mg}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1161c35d55c1e0e63c18795258a0c921}{%
-           family={Seabloom},
-           familyi={S\bibinitperiod},
-           given={EW},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d5bc07cfb683efa269f3350db000d158}{%
-           family={Harpole},
-           familyi={H\bibinitperiod},
-           given={WS},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6103ca425bf2b8d344827431226e063a}{%
-           family={Reichman},
-           familyi={R\bibinitperiod},
-           given={OJ},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3da35fed4a265c73f0e81cf8c316746f}{%
-           family={Tilman},
-           familyi={T\bibinitperiod},
-           given={D},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5f08c94a26d4e9aa4d5af5115e6d3b36}
-      \strng{fullhash}{61b455bf53228b3c7436144c446e7a87}
-      \strng{bibnamehash}{61b455bf53228b3c7436144c446e7a87}
-      \strng{authorbibnamehash}{61b455bf53228b3c7436144c446e7a87}
-      \strng{authornamehash}{5f08c94a26d4e9aa4d5af5115e6d3b36}
-      \strng{authorfullhash}{61b455bf53228b3c7436144c446e7a87}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
-      \field{number}{23}
-      \field{title}{Invasion, competitive dominance, and resource use by exotic and native California grassland species}
-      \field{volume}{100}
-      \field{year}{2003}
-      \field{pages}{13384\bibrangedash 13389}
-      \range{pages}{6}
     \endentry
     \entry{Shirk2014}{article}{}
       \name{author}{4}{}{%
@@ -3532,7 +3579,6 @@
       \range{pages}{7}
     \endentry
   \enddatalist
-  \missing{Gioria2017}
 \endrefsection
 \endinput
 

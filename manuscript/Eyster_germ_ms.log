@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.29)  27 JUL 2020 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.29)  11 AUG 2020 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,15 +953,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Eyster_germ_ms.bbl' found.
 
-(./Eyster_germ_ms.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Gioria2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./Eyster_germ_ms.bbl)
 Package biblatex Info: Reference section=0 on input line 106.
 Package biblatex Info: Reference segment=0 on input line 106.
 
@@ -1017,60 +1009,53 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package biblatex Warning: Package option 'sortcites' enabled.
-(biblatex)                Verify postnote placement on input line 146.
+(biblatex)                Verify postnote placement on input line 148.
 
 [4]
 <sampling_sites.pdf, id=23, 578.16pt x 361.35pt>
 File: sampling_sites.pdf Graphic file (type pdf)
 <use sampling_sites.pdf>
-Package pdftex.def Info: sampling_sites.pdf  used on input line 162.
+Package pdftex.def Info: sampling_sites.pdf  used on input line 164.
 (pdftex.def)             Requested size: 469.75502pt x 293.59616pt.
- [5] [6 <./sampling_sites.pdf>] [7] [8]
-
-LaTeX Warning: Reference `tab:modrate' on page 9 undefined on input line 221.
-
-[9]
+ [5 <./sampling_sites.pdf>] [6] [7] [8] [9]
 <apc_fig.pdf, id=58, 289.08pt x 433.62pt>
 File: apc_fig.pdf Graphic file (type pdf)
 <use apc_fig.pdf>
-Package pdftex.def Info: apc_fig.pdf  used on input line 229.
+Package pdftex.def Info: apc_fig.pdf  used on input line 230.
 (pdftex.def)             Requested size: 289.07928pt x 433.61894pt.
 <germ_figs_onepage.pdf, id=59, 542.025pt x 596.2275pt>
 File: germ_figs_onepage.pdf Graphic file (type pdf)
 <use germ_figs_onepage.pdf>
-Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 255.
+Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 256.
 (pdftex.def)             Requested size: 542.02367pt x 596.22604pt.
 
-Overfull \hbox (72.26865pt too wide) in paragraph at lines 255--256
+Overfull \hbox (72.26865pt too wide) in paragraph at lines 256--257
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 56.79602pt on input line 260.
+LaTeX Warning: Float too large for page by 56.79602pt on input line 261.
 
 [10] [11 <./apc_fig.pdf>] [12 <./germ_figs_onepage.pdf>] [13] [14] [15]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-88.
+94.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 294.
  [16] [17]
 [18] [19] (./Eyster_germ_ms.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'Eyster_germ_ms.run.xml'.
 \openout1 = `Eyster_germ_ms.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17370 strings out of 480682
- 303403 string characters out of 5904648
- 1074726 words of memory out of 5000000
- 32932 multiletter control sequences out of 15000+600000
+ 17371 strings out of 480682
+ 303467 string characters out of 5904648
+ 1075018 words of memory out of 5000000
+ 32933 multiletter control sequences out of 15000+600000
  541640 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,9n,112p,3745b,5044s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1089,7 +1074,7 @@ e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Eyster_germ_ms.pdf (19 pages, 2136886 bytes).
+Output written on Eyster_germ_ms.pdf (19 pages, 2139129 bytes).
 PDF statistics:
  5138 PDF objects out of 5155 (max. 8388607)
  3410 compressed objects within 35 object streams
