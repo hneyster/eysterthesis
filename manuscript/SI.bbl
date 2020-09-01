@@ -287,6 +287,51 @@
       \field{pages}{742\bibrangedash 753}
       \range{pages}{12}
     \endentry
+    \entry{Gelman2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3adbd71397c0951dc1fa587d69882939}{%
+           family={Pardoe},
+           familyi={P\bibinitperiod},
+           given={Iain},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{fullhash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{bibnamehash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{authorbibnamehash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{authornamehash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \strng{authorfullhash}{0ab7eee131753d3b87d1188a5dcb676e}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a predictive model, what is the expected difference in the out- come associated with a unit difference in one of the inputs? In a linear regression model without interactions, this average predic- tive comparison is simply a regression coefficient (with associated uncertainty). In a model with nonlinearity or interactions, how- ever, the average predictive comparison in general depends on the values of the predictors. We consider various definitions based on averages over a population distribution of the predictors, and we compute standard errors based on uncertainty in model parame- ters. We illustrate with a study of criminal justice data for urban counties in the United States. The outcome of interest measures whether a convicted felon received a prison sentence rather than a}
+      \field{isbn}{00811750}
+      \field{issn}{00811750}
+      \field{journaltitle}{Sociological Methodology}
+      \field{number}{1}
+      \field{title}{{Average predictive comparisons for models with nonlinearity, interactions, and variance components}}
+      \field{volume}{37}
+      \field{year}{2007}
+      \field{pages}{23\bibrangedash 51}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1111/j.1467-9531.2007.00181.x
+      \endverb
+      \verb{file}
+      \verb :/home/harold/Dropbox/Literature/Gelman, Pardoe - 2007.pdf:pdf
+      \endverb
+    \endentry
     \entry{Holm1979}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=40739defdcc3c759a982b7aa36f2e10f}{%

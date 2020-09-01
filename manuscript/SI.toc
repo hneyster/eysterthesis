@@ -12,10 +12,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5}Selecting substrate and planting depth}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Raw Data Plots}{5}%
+\contentsline {subsection}{\numberline {1.6}Average predictive comparisons}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Model Results}{11}%
+\contentsline {section}{\numberline {2}Raw Data Plots}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Coefficient tables}{11}%
+\contentsline {section}{\numberline {3}Model Results}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Inter-population variability}{12}%
+\contentsline {subsection}{\numberline {3.1}Coefficient tables}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Inter-population variability}{13}%
