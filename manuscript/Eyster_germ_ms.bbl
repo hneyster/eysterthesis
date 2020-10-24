@@ -765,6 +765,40 @@
       \field{title}{A primer of ecological genetics}
       \field{year}{2004}
     \endentry
+    \entry{Cronk2001}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=997e45f21900f13daf3c77e64087e427}{%
+           family={Cronk},
+           familyi={C\bibinitperiod},
+           given={Quentin\bibnamedelima C.B.},
+           giveni={Q\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d269e15c190442009ab6731bb777557}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={Janice\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Earthscan}%
+      }
+      \strng{namehash}{0e90f4f4554e13b893dab543003833d4}
+      \strng{fullhash}{0e90f4f4554e13b893dab543003833d4}
+      \strng{bibnamehash}{0e90f4f4554e13b893dab543003833d4}
+      \strng{authorbibnamehash}{0e90f4f4554e13b893dab543003833d4}
+      \strng{authornamehash}{0e90f4f4554e13b893dab543003833d4}
+      \strng{authorfullhash}{0e90f4f4554e13b893dab543003833d4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Plant Invaders: The Threat to Natural Ecosystems}
+      \field{year}{2001}
+    \endentry
     \entry{Daehler2003}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f30e0d506d7aad68bb07b77dc1bceaa}{%
@@ -1107,6 +1141,43 @@
       \field{pages}{435\bibrangedash 442}
       \range{pages}{8}
     \endentry
+    \entry{Galloway2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f492c878c1fb749a830974dfa12fc8b}{%
+           family={Galloway},
+           familyi={G\bibinitperiod},
+           given={Laura\bibnamedelima F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{3f492c878c1fb749a830974dfa12fc8b}
+      \strng{fullhash}{3f492c878c1fb749a830974dfa12fc8b}
+      \strng{bibnamehash}{3f492c878c1fb749a830974dfa12fc8b}
+      \strng{authorbibnamehash}{3f492c878c1fb749a830974dfa12fc8b}
+      \strng{authornamehash}{3f492c878c1fb749a830974dfa12fc8b}
+      \strng{authorfullhash}{3f492c878c1fb749a830974dfa12fc8b}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Phytologist}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Maternal effects provide phenotypic adaptation to local environmental conditions}
+      \field{volume}{166}
+      \field{year}{2005}
+      \field{pages}{93\bibrangedash 100}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/j.1469-8137.2004.01314.x
+      \endverb
+    \endentry
     \entry{Gelman2004}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
@@ -1169,7 +1240,7 @@
       \verb arXiv:1011.1669v3
       \endverb
       \verb{file}
-      \verb :/home/harold/Dropbox/Gelman et al. - 2004.pdf:pdf
+      \verb :/home/harold/Dropbox/Literature/Gelman et al. - 2004.pdf:pdf
       \endverb
       \keyw{Gelman}
     \endentry
@@ -1987,40 +2058,6 @@
       \endverb
       \keyw{Allozymes,Brassicaceae,Capsella bursa-pastoris,Cosegregation analysis,Flowering ecotypes,Fruit dimensions,Leaf type,Mediterranean multilocus genotype,Plant invasions,QTL,RAPDs,Shepherd's purse}
     \endentry
-    \entry{Mack1996}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=841757f76f303586ac33ac33b01bffc2}{%
-           family={Mack},
-           familyi={M\bibinitperiod},
-           given={R.\bibnamedelimi N.},
-           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{841757f76f303586ac33ac33b01bffc2}
-      \strng{fullhash}{841757f76f303586ac33ac33b01bffc2}
-      \strng{bibnamehash}{841757f76f303586ac33ac33b01bffc2}
-      \strng{authorbibnamehash}{841757f76f303586ac33ac33b01bffc2}
-      \strng{authornamehash}{841757f76f303586ac33ac33b01bffc2}
-      \strng{authorfullhash}{841757f76f303586ac33ac33b01bffc2}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Biological Conservation}
-      \field{title}{{Predicting the identity and fate of plant invaders: emergent and emerging approaches}}
-      \field{volume}{78}
-      \field{year}{1996}
-      \field{pages}{107\bibrangedash 121}
-      \range{pages}{15}
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/0006320796000213
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/0006320796000213
-      \endverb
-    \endentry
     \entry{Mack2000}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=183ff6670c431d8b2a44661cbfc7622c}{%
@@ -2073,6 +2110,7 @@
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Biotic invaders are species that establish a new range in which they proliferate, spread, and persist to the detriment of the environment. They are the most important ecological outcomes from the unprecedented alterations in the distribution of the earth's biota brought about largely through human transport and commerce. In a world without borders, few if any areas remain sheltered from these immigrations. The fate of immigrants is decidedly mixed. Few survive the hazards of chronic and stochastic forces, and only a small fraction become naturalized. In turn, some naturalized species do become invasive. There are several potential reasons why some immigrant species prosper: some escape from the constraints of their native predators or parasites; others are aided by human-caused disturbance that disrupts native communities. Ironically, many biotic invasions are apparently facilitated by cultivation and husbandry, unintentional actions that foster immigrant populations until they are self-perpetuating and uncontrollable. Whatever the cause, biotic invaders can in many cases inflict enormous environmental damage: (1) Animal invaders can cause extinctions of vulnerable native species through predation, grazing, competition, and habitat alteration. (2) Plant invaders can completely alter the fire regime, nutrient cycling, hydrology, and energy budgets in a native ecosystem and can greatly diminish the abundance or survival of native species. (3) In agriculture, the principal pests of temperate crops are nonindigenous, and the combined expenses of pest control and crop losses constitute an onerous "tax" on food, fiber, and forage production. (4) The global cost of virulent plant and animal diseases caused by parasites transported to new ranges and presented with susceptible new hosts is currently incalculable. Identifying future invaders and taking effective steps to prevent their dispersal and establishment constitutes an enormous challenge to both conservation and international commerce. Detection and management when exclusion fails have proved daunting for varied reasons: (1) Efforts to identify general attributes of future invaders have often been inconclusive. (2) Predicting susceptible locales for future invasions seems even more problematic, given the enormous differences in the rates of arrival among potential invaders. (3) Eradication of an established invader is rare, and control efforts vary enormously in their efficacy. Successful control, however, depends more on commitment and continuing diligence than on the efficacy of specific tools themselves. (4) Control of biotic invasions is most effective when it employs a long-term, ecosystemwide strategy rather than a tactical approach focused on battling individual invaders. (5) Prevention of invasions is much less costly than post-entry control. Revamping national and international quarantine laws by adopting a "guilty until proven innocent" approach would be a productive first step. Failure to address the issue of biotic invasions could effectively result in severe global consequences, including wholesale loss of agricultural, forestry, and fishery resources in some regions, disruption of the ecological processes that supply natural services on which human enterprise depends, and the creation of homogeneous, impoverished ecosystems composed of cosmopolitan species. Given their current scale, biotic invasions have taken their place alongside human-driven atmospheric and oceanic alterations as major agents of global change. Left unchecked, they will influence these other forces in profound but still unpredictable ways.}
@@ -2170,6 +2208,132 @@
       \field{pages}{743\bibrangedash 752}
       \range{pages}{10}
     \endentry
+    \entry{Metz2020}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=c91c9b46cf7bf9a426da9bbe0c3f1e34}{%
+           family={Metz},
+           familyi={M\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dc13f0e95aa0df6ce6f3e09cb95839f}{%
+           family={Lampei},
+           familyi={L\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a16e9e4e868e6583106437cf374491d}{%
+           family={Bäumler},
+           familyi={B\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2faedb10bf4a7a4f9e307eb87a24cc52}{%
+           family={Bocherens},
+           familyi={B\bibinitperiod},
+           given={Herv{é}},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0873d88792586d37cb7e0898c5ff2365}{%
+           family={Dittberner},
+           familyi={D\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=229e7dc2be7a0605e240b221ce7f2415}{%
+           family={Henneberg},
+           familyi={H\bibinitperiod},
+           given={Lorenz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ba5b6bc97e65b98ba92f1c2c149bddf}{%
+           family={Meaux},
+           familyi={M\bibinitperiod},
+           given={Juliette},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9264fcbedb52a2b18a5f3789c00c6ee}{%
+           family={Tielbörger},
+           familyi={T\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9e82f385bc010433d8986ab449ba10d6}{%
+           family={Salguero-Gomez},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{399807d818818a96be48331d94cdcfba}
+      \strng{fullhash}{aacb64fefe7688fda093f0553dccc7a5}
+      \strng{bibnamehash}{aacb64fefe7688fda093f0553dccc7a5}
+      \strng{authorbibnamehash}{aacb64fefe7688fda093f0553dccc7a5}
+      \strng{authornamehash}{399807d818818a96be48331d94cdcfba}
+      \strng{authorfullhash}{aacb64fefe7688fda093f0553dccc7a5}
+      \strng{editorbibnamehash}{9e82f385bc010433d8986ab449ba10d6}
+      \strng{editornamehash}{9e82f385bc010433d8986ab449ba10d6}
+      \strng{editorfullhash}{9e82f385bc010433d8986ab449ba10d6}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology Letters}
+      \field{month}{8}
+      \field{number}{11}
+      \field{title}{Rapid adaptive evolution to drought in a subset of plant traits in a large-scale climate change experiment}
+      \field{volume}{23}
+      \field{year}{2020}
+      \field{pages}{1643\bibrangedash 1653}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/ele.13596
+      \endverb
+    \endentry
+    \entry{Paccagnella2011}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3e8ff7bc7acf415aeec18b7aabbb38f2}{%
+           family={Paccagnella},
+           familyi={P\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Hogrefe Publishing Group}%
+      }
+      \strng{namehash}{3e8ff7bc7acf415aeec18b7aabbb38f2}
+      \strng{fullhash}{3e8ff7bc7acf415aeec18b7aabbb38f2}
+      \strng{bibnamehash}{3e8ff7bc7acf415aeec18b7aabbb38f2}
+      \strng{authorbibnamehash}{3e8ff7bc7acf415aeec18b7aabbb38f2}
+      \strng{authornamehash}{3e8ff7bc7acf415aeec18b7aabbb38f2}
+      \strng{authorfullhash}{3e8ff7bc7acf415aeec18b7aabbb38f2}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methodology}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{Sample Size and Accuracy of Estimates in Multilevel Models}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{pages}{111\bibrangedash 120}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1027/1614-2241/a000029
+      \endverb
+    \endentry
     \entry{Pejchar2009}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=415dc612352c8a63611816fe89a3c6aa}{%
@@ -2204,47 +2368,6 @@
       \field{year}{2009}
       \field{pages}{497\bibrangedash 504}
       \range{pages}{8}
-    \endentry
-    \entry{Perrins1992}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=9625bf0b1ef373c1f29658e63ba7500e}{%
-           family={Perrins},
-           familyi={P\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=48ae220ea6fef31bc9592486e0314488}{%
-           family={Williamson},
-           familyi={W\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d8d247c7d7c6fdc8d696135bdd0c28ef}{%
-           family={Fitter},
-           familyi={F\bibinitperiod},
-           given={A},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{120b86302654f6f296fc8e01cf2174d6}
-      \strng{fullhash}{0d2746f7ab86afa16998ba1774e57be5}
-      \strng{bibnamehash}{0d2746f7ab86afa16998ba1774e57be5}
-      \strng{authorbibnamehash}{0d2746f7ab86afa16998ba1774e57be5}
-      \strng{authornamehash}{120b86302654f6f296fc8e01cf2174d6}
-      \strng{authorfullhash}{0d2746f7ab86afa16998ba1774e57be5}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Oecologica -- International Journal of Ecology}
-      \field{title}{{Do annual weeds have predictable characters?.}}
-      \field{volume}{13}
-      \field{year}{1992}
-      \field{pages}{517\bibrangedash 533}
-      \range{pages}{17}
     \endentry
     \entry{Pons1991}{article}{}
       \name{author}{1}{}{%
@@ -2458,6 +2581,65 @@
       \endverb
       \verb{url}
       \verb http://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{Reeb2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=4cde0d880c38cbe2c4aab85f9a044790}{%
+           family={Reeb},
+           familyi={R\bibinitperiod},
+           given={Rachel\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79b32193e6f7dcc1368590bdf0041a26}{%
+           family={Acevedo},
+           familyi={A\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=363f3ddaeb9d69dd5fe30bd76387da37}{%
+           family={Heberling},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi Mason},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aac9dfafeef6b90f9e43449656879dc7}{%
+           family={Isaac},
+           familyi={I\bibinitperiod},
+           given={Bonnie},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e65146ad8f679a273c5d5bba265b5299}{%
+           family={Kuebbing},
+           familyi={K\bibinitperiod},
+           given={Sara\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{db9f58409361b274755dddc3c8d3f44b}
+      \strng{fullhash}{55796472c1d56d7d00020529018ed82b}
+      \strng{bibnamehash}{55796472c1d56d7d00020529018ed82b}
+      \strng{authorbibnamehash}{55796472c1d56d7d00020529018ed82b}
+      \strng{authornamehash}{db9f58409361b274755dddc3c8d3f44b}
+      \strng{authorfullhash}{55796472c1d56d7d00020529018ed82b}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecosphere}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Nonnative old-field species inhabit early season phenological niches and exhibit unique sensitivity to climate}
+      \field{volume}{11}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1002/ecs2.3217
       \endverb
     \endentry
     \entry{Rejmanek1996}{article}{}
@@ -3577,6 +3759,67 @@
       \field{year}{1994}
       \field{pages}{763\bibrangedash 769}
       \range{pages}{7}
+    \endentry
+    \entry{Yoshida2007}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d5c56b3849e2711494ba5834e2d7aa3e}{%
+           family={Yoshida},
+           familyi={Y\bibinitperiod},
+           given={Takehito},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04ad214527310f9f907f9acf41f3790f}{%
+           family={Goka},
+           familyi={G\bibinitperiod},
+           given={Koichi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=626fd1fcc5f86da1080ff3e59d1d5482}{%
+           family={Ishihama},
+           familyi={I\bibinitperiod},
+           given={Fumiko},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d62b6df61013a135a4f34e1496b38738}{%
+           family={Ishihara},
+           familyi={I\bibinitperiod},
+           given={Michihiro},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4e1d04fc1176d0b992884e90520b0f1}{%
+           family={Kudo},
+           familyi={K\bibinitperiod},
+           given={Shin-ichi},
+           giveni={S\bibinithyphendelim i\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{2e2641570a018eda910cf044e648561e}
+      \strng{fullhash}{5b13bc00cd5ae9023259091f19da41d0}
+      \strng{bibnamehash}{5b13bc00cd5ae9023259091f19da41d0}
+      \strng{authorbibnamehash}{5b13bc00cd5ae9023259091f19da41d0}
+      \strng{authornamehash}{2e2641570a018eda910cf044e648561e}
+      \strng{authorfullhash}{5b13bc00cd5ae9023259091f19da41d0}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Research}
+      \field{month}{10}
+      \field{number}{6}
+      \field{title}{Biological invasion as a natural experiment of the evolutionary processes: introduction of the special feature}
+      \field{volume}{22}
+      \field{year}{2007}
+      \field{pages}{849\bibrangedash 854}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/s11284-007-0435-3
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
