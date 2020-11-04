@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\usepackage[backend=biber, sorting=nyt, maxcitenames=2, useprefix=false, doi=false,url=false, style=apa]{biblatex} %add annotation=true and style=reading to print the annotations in the bibliography
+\usepackage[american]{babel}
+\usepackage[T1]{fontenc}
+%\usepackage{newtxtext,newtxmath}
+\usepackage{csquotes}
+\bibliography{/home/harold/dropbox/full}
+\bibliography{/home/harold/github/troutgen/trout}
+\DeclareLanguageMapping{american}{american-apa}
+\renewbibmacro*{begentry}{\midsentence}
+\makeatletter
+\AtBeginDocument{\toggletrue{blx@useprefix}}
+\makeatother
+\usepackage[compact]{titlesec}
+\usepackage{lineno}
+\usepackage[nolists,nomarkers]{endfloat}
+\usepackage{longtable}
+\DeclareDelayedFloatFlavour*{longtable}{table}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{dcolumn}
+\usepackage{textcomp}
+\newcommand{\textapprox}{\raisebox{0.5ex}{\texttildelow}}
+%\usepackage[hyphens]{url}
+\usepackage[margin=1in]{geometry}
+\setlength{\parskip}{.6em}
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{makecell}
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+\renewcommand{\tablename}{Table}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+%\usepackage{sectsty}
+%\allsectionsfont{\singlespacing}
+%\usepackage{indentfirst} %This indents the pfaragraph following a heading 
+\setlength{\parindent}{0em}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx,grffile}
+\usepackage{pdfpages}
+\usepackage{subcaption}
+\usepackage[figuresleft]{rotating}
+\graphicspath{{figure/}} %make sure to include the slash after the colon at at the end 
+%Make sure Bibliography --> is set as biblatex 
+%Then run tools-->bibliography, then compile 
+\usepackage{authblk}
+\title{Comparisons in the native and introduced ranges reveal little evidence of climatic adaptation in germination traits}
+\author[a,b,c,*]{Harold N. Eyster}
+\author[b,c,d]{Elizabeth M. Wolkovich}
+\affil[a]{Institute for Resources, Environment, and Sustainability, University of British Columbia, 429-2202 Main Mall, Vancouver, BC, Canada V6T 1Z4}
+\affil[b]{Arnold Arboretum of Harvard University, 1300 Centre Street, Boston, MA 02130, USA}
+\affil[c]{Department of Organismic \& Evolutionary Biology, Harvard University, 26 Oxford Street, Cambridge, MA 02138,USA}
+\affil[d]{Department of Forest and Conservation Science, University of British Columbia, 3041-2424 Main Mall, Vancouver, BC, Canada V6T 1Z4 }
+\affil[*]{Corresponding author. haroldeyster@gmail.com}
+\date{}                     %% if you don't need date to appear
+\setcounter{Maxaffil}{0}
+\renewcommand\Affilfont{\itshape\small}
+             % if you don't need date to appear
+\renewcommand\Affilfont{\itshape\small}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+%\SweaveOpts{concordance=TRUE}
+\maketitle
+
+%\end{spacing}
+\end{document}

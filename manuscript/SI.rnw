@@ -20,9 +20,9 @@
 \usepackage{amsmath}
 \usepackage{mathtools}
 \usepackage{breqn}
-\usepackage{xurl}
+\usepackage{url}
 
-\title{\textbf{Supporting information for:}  \\ \bigskip Germination traits largely do not evolve post-invasion: Comparisons in the native and introduced range of seven herbaceous plant species}\author{Harold N. Eyster* \&  Elizabeth Wolkovich}
+\title{\textbf{Supporting information for:}  \\ \bigskip Comparisons in the native and introduced ranges reveal little evidence of climatic adaptation in germination traits}\author{Harold N. Eyster* \&  Elizabeth Wolkovich}
 \date{*Corresponding author. Please direct any questions or comments to haroldeyster@gmail.com. }
 
 <<echo=FALSE>>=

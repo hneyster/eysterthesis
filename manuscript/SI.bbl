@@ -153,7 +153,7 @@
            giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=56aabd4a8ab318d96e92b6ced9470bb1}{%
-           family={Sánchez},
+           family={S{á}nchez},
            familyi={S\bibinitperiod},
            given={R.\bibnamedelimi A.},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
@@ -209,7 +209,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Diversity and Distributions}
       \field{number}{2}
-      \field{title}{A neutral terminology to define ‘invasive’ species}
+      \field{title}{A neutral terminology to define `invasive' species}
       \field{volume}{10}
       \field{year}{2004}
       \field{pages}{135\bibrangedash 141}
@@ -738,7 +738,7 @@
            giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=ed8d66491dd908df494a22281d8cf4d7}{%
-           family={Pyšek},
+           family={Py{š}ek},
            familyi={P\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod},
@@ -778,13 +778,13 @@
            giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=ed8d66491dd908df494a22281d8cf4d7}{%
-           family={Pyšek},
+           family={Py{š}ek},
            familyi={P\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=9d40ac156345854a2c40cff263baccec}{%
-           family={Rejmánek},
+           family={Rejm{á}nek},
            familyi={R\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod},

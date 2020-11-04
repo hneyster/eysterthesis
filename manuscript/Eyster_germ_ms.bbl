@@ -765,40 +765,6 @@
       \field{title}{A primer of ecological genetics}
       \field{year}{2004}
     \endentry
-    \entry{Cronk2001}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=997e45f21900f13daf3c77e64087e427}{%
-           family={Cronk},
-           familyi={C\bibinitperiod},
-           given={Quentin\bibnamedelima C.B.},
-           giveni={Q\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6d269e15c190442009ab6731bb777557}{%
-           family={Fuller},
-           familyi={F\bibinitperiod},
-           given={Janice\bibnamedelima L.},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Earthscan}%
-      }
-      \strng{namehash}{0e90f4f4554e13b893dab543003833d4}
-      \strng{fullhash}{0e90f4f4554e13b893dab543003833d4}
-      \strng{bibnamehash}{0e90f4f4554e13b893dab543003833d4}
-      \strng{authorbibnamehash}{0e90f4f4554e13b893dab543003833d4}
-      \strng{authornamehash}{0e90f4f4554e13b893dab543003833d4}
-      \strng{authorfullhash}{0e90f4f4554e13b893dab543003833d4}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Plant Invaders: The Threat to Natural Ecosystems}
-      \field{year}{2001}
-    \endentry
     \entry{Daehler2003}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f30e0d506d7aad68bb07b77dc1bceaa}{%
@@ -1418,6 +1384,54 @@
       \verb :gioria2017.pdf:PDF
       \endverb
     \endentry
+    \entry{godoy2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4447b83dfbd0d6b5d830b2cd28d530b7}{%
+           family={Godoy},
+           familyi={G\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6f6200cbdeb7199ab19c202aedf6eff}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6bccfdac0076eebae17b85f8b0478a8c}
+      \strng{fullhash}{6bccfdac0076eebae17b85f8b0478a8c}
+      \strng{bibnamehash}{6bccfdac0076eebae17b85f8b0478a8c}
+      \strng{authorbibnamehash}{6bccfdac0076eebae17b85f8b0478a8c}
+      \strng{authornamehash}{6bccfdac0076eebae17b85f8b0478a8c}
+      \strng{authorfullhash}{6bccfdac0076eebae17b85f8b0478a8c}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecologists have identified a growing number of functional traits that promote invasion. However, whether trait differences between exotic and native species promote invasion success by enhancing niche differences or giving invaders competitive advantages is poorly understood. We explored the mechanisms by which phenology determines invasion success in a California annual plant community by quantifying how the seasonal timing of growth relates to niche differences that stabilize coexistence, and the competitive ability differences that drive dominance and exclusion. We parameterized models of community dynamics from experimentally assembled annual communities in which exotic plants displayed earlier, coincident, or later phenology than native residents. Using recent theoretical advances from the coexistence literature, we found that differences in phenology promote stabilizing niche differences between exotic and native species. However, phenology was more strongly related to competitive ability differences, allowing later invaders to outcompete earlier native competitors and native residents to outcompete earlier invaders in field experiments. Few of these insights could be inferred by comparing the competitive outcomes across invaders, highlighting the need to quantify niche and competitive ability differences when disentangling how species differences drive invasion success.}
+      \field{issn}{0012-9658}
+      \field{journaltitle}{Ecology}
+      \field{number}{3}
+      \field{title}{Phenology effects on invasion success: insights from coupling field experiments to coexistence theory}
+      \field{type}{Journal Article}
+      \field{volume}{95}
+      \field{year}{2014}
+      \field{pages}{726\bibrangedash 736}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1890/13-1157.1
+      \endverb
+      \verb{urlraw}
+      \verb <Go to ISI>://WOS:000332823100020
+      \endverb
+      \verb{url}
+      \verb %3CGo%20to%20ISI%3E://WOS:000332823100020
+      \endverb
+    \endentry
     \entry{Goodrich2018}{misc}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=9cc812cde8c441e79dfaab4955a72c2c}{%
@@ -1520,7 +1534,7 @@
            giveni={L\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=991c4a4d01587ea01d349fb67f5167e7}{%
-           family={Wéry},
+           family={W{é}ry},
            familyi={W\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod},
@@ -1637,7 +1651,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Global change biology}
       \field{number}{6}
-      \field{title}{Convergent ecosystem responses to 23‐year ambient and manipulated warming link advancing snowmelt and shrub encroachment to transient and long‐term climate–soil carbon feedback}
+      \field{title}{Convergent ecosystem responses to 23‐year ambient and manipulated warming link advancing snowmelt and shrub encroachment to transient and long‐term climate--soil carbon feedback}
       \field{volume}{21}
       \field{year}{2015}
       \field{pages}{2349\bibrangedash 2356}
@@ -2208,95 +2222,6 @@
       \field{pages}{743\bibrangedash 752}
       \range{pages}{10}
     \endentry
-    \entry{Metz2020}{article}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=c91c9b46cf7bf9a426da9bbe0c3f1e34}{%
-           family={Metz},
-           familyi={M\bibinitperiod},
-           given={Johannes},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7dc13f0e95aa0df6ce6f3e09cb95839f}{%
-           family={Lampei},
-           familyi={L\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8a16e9e4e868e6583106437cf374491d}{%
-           family={Bäumler},
-           familyi={B\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2faedb10bf4a7a4f9e307eb87a24cc52}{%
-           family={Bocherens},
-           familyi={B\bibinitperiod},
-           given={Herv{é}},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0873d88792586d37cb7e0898c5ff2365}{%
-           family={Dittberner},
-           familyi={D\bibinitperiod},
-           given={Hannes},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=229e7dc2be7a0605e240b221ce7f2415}{%
-           family={Henneberg},
-           familyi={H\bibinitperiod},
-           given={Lorenz},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ba5b6bc97e65b98ba92f1c2c149bddf}{%
-           family={Meaux},
-           familyi={M\bibinitperiod},
-           given={Juliette},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b9264fcbedb52a2b18a5f3789c00c6ee}{%
-           family={Tielbörger},
-           familyi={T\bibinitperiod},
-           given={Katja},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=9e82f385bc010433d8986ab449ba10d6}{%
-           family={Salguero-Gomez},
-           familyi={S\bibinithyphendelim G\bibinitperiod},
-           given={Roberto},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{399807d818818a96be48331d94cdcfba}
-      \strng{fullhash}{aacb64fefe7688fda093f0553dccc7a5}
-      \strng{bibnamehash}{aacb64fefe7688fda093f0553dccc7a5}
-      \strng{authorbibnamehash}{aacb64fefe7688fda093f0553dccc7a5}
-      \strng{authornamehash}{399807d818818a96be48331d94cdcfba}
-      \strng{authorfullhash}{aacb64fefe7688fda093f0553dccc7a5}
-      \strng{editorbibnamehash}{9e82f385bc010433d8986ab449ba10d6}
-      \strng{editornamehash}{9e82f385bc010433d8986ab449ba10d6}
-      \strng{editorfullhash}{9e82f385bc010433d8986ab449ba10d6}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecology Letters}
-      \field{month}{8}
-      \field{number}{11}
-      \field{title}{Rapid adaptive evolution to drought in a subset of plant traits in a large-scale climate change experiment}
-      \field{volume}{23}
-      \field{year}{2020}
-      \field{pages}{1643\bibrangedash 1653}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1111/ele.13596
-      \endverb
-    \endentry
     \entry{Paccagnella2011}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3e8ff7bc7acf415aeec18b7aabbb38f2}{%
@@ -2817,7 +2742,7 @@
            giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=ed8d66491dd908df494a22281d8cf4d7}{%
-           family={Pyšek},
+           family={Py{š}ek},
            familyi={P\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod},
@@ -2857,13 +2782,13 @@
            giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=ed8d66491dd908df494a22281d8cf4d7}{%
-           family={Pyšek},
+           family={Py{š}ek},
            familyi={P\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=9d40ac156345854a2c40cff263baccec}{%
-           family={Rejmánek},
+           family={Rejm{á}nek},
            familyi={R\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod},
@@ -3367,103 +3292,6 @@
       \verb :/home/harold/Dropbox/Literature/Vitasse et al. - 2009.pdf:pdf
       \endverb
     \endentry
-    \entry{Weber1998}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=ed67f22473c362ecb16f0a9435d6347c}{%
-           family={Weber},
-           familyi={W\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=739c7d3d55b1aee910d61ed26bba81f1}{%
-           family={Schmid},
-           familyi={S\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f6232d5af23782edf605c10b9a8acb1e}
-      \strng{fullhash}{f6232d5af23782edf605c10b9a8acb1e}
-      \strng{bibnamehash}{f6232d5af23782edf605c10b9a8acb1e}
-      \strng{authorbibnamehash}{f6232d5af23782edf605c10b9a8acb1e}
-      \strng{authornamehash}{f6232d5af23782edf605c10b9a8acb1e}
-      \strng{authorfullhash}{f6232d5af23782edf605c10b9a8acb1e}
-      \field{sortinit}{W}
-      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Solidago altissima and S. gigantea were introduced from North America to Europe {\~}250 yr ago and are now considered aggressive weeds in abandoned fields and conservation areas. We studied patterns of genetic differentiation in these two species along their present latitudinal range in Europe (44°-61°N). Two generations of clonally propagated ramets from randomly selected genets of 24 populations of each species were grown in a common-garden experiment at latitude 47°N from 1991 to 1992. Both species showed significant variation among populations in morphological and life-history characters: at this southern location, plants from northern populations were smaller and flowered earlier than plants from southern populations. The gradient of clinal variation was more pronounced in the second year of cultivation than in the first and was steeper in S. altissima than in S. gigantea. Within-population variation among genotypes was significant for most characters in the case of S. altissima. Phenological rate (reciprocal of days to flowering) and size at maturity showed a significant negative correlation among populations but not among genotypes within populations, indicating that genetic trade-offs may occur at one but not another infraspecific level. We suggest that the pattern of among-population variation reflects rapid adaptive population differentiation after introduction of the species to Europe.}
-      \field{issn}{00029122}
-      \field{journaltitle}{American Journal of Botany}
-      \field{number}{8}
-      \field{title}{{Latitudinal population differentiation in two species of Solidago (Asteraceae) introduced into Europe}}
-      \field{volume}{85}
-      \field{year}{1998}
-      \field{pages}{1110\bibrangedash 1121}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.2307/2446344
-      \endverb
-      \verb{file}
-      \verb :/home/harold/Dropbox/Literature/Weber, Schmid - 1998.pdf:pdf
-      \endverb
-      \keyw{Age/size trade-off,Biological invasion,Clinal variation,Compositae,Genetic differentiation,Life-history evolution,Solidago}
-    \endentry
-    \entry{Weiss-Lehman2017}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=8a7bd2fe7fcf7af0eb3ae8ac28257b04}{%
-           family={Weiss-Lehman},
-           familyi={W\bibinithyphendelim L\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e1daa27e1d4c9a22311307208307bed}{%
-           family={Hufbauer},
-           familyi={H\bibinitperiod},
-           given={Ruth\bibnamedelima A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77092fb577a1996ee801cc8f10852f61}{%
-           family={Melbourne},
-           familyi={M\bibinitperiod},
-           given={Brett\bibnamedelima A.},
-           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{f6de369255f935182301a2765fbf6bea}
-      \strng{fullhash}{f4bb7b8f67491e26f1cad1417dcf1fb4}
-      \strng{bibnamehash}{f4bb7b8f67491e26f1cad1417dcf1fb4}
-      \strng{authorbibnamehash}{f4bb7b8f67491e26f1cad1417dcf1fb4}
-      \strng{authornamehash}{f6de369255f935182301a2765fbf6bea}
-      \strng{authorfullhash}{f4bb7b8f67491e26f1cad1417dcf1fb4}
-      \field{sortinit}{W}
-      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Range expansions are central to two ecological issues reshaping patterns of global biodiversity: biological invasions and climate change. Traditional theory considers range expansion as the outcome of the demographic processes of birth, death and dispersal, while ignoring the evolutionary implications of such processes. Recent research suggests evolution could also play a critical role in determining expansion speed but controlled experiments are lacking. Here we use flour beetles (Tribolium castaneum) to show experimentally that mean expansion speed and stochastic variation in speed are both increased by rapid evolution of traits at the expansion edge. We find that higher dispersal ability and lower intrinsic growth rates evolve at the expansion edge compared with spatially nonevolving controls. Furthermore, evolution of these traits is variable, leading to enhanced variance in speed among replicate population expansions. Our results demonstrate that evolutionary processes must be considered alongside demographic ones to better understand and predict range expansions.}
-      \field{issn}{20411723}
-      \field{journaltitle}{Nature Communications}
-      \field{title}{{Rapid trait evolution drives increased speed and variance in experimental range expansions}}
-      \field{volume}{8}
-      \field{year}{2017}
-      \field{pages}{1\bibrangedash 7}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1038/ncomms14303
-      \endverb
-      \verb{file}
-      \verb :/home/harold/Dropbox/Literature/ncomms14303.pdf:pdf
-      \endverb
-    \endentry
     \entry{Williams2008}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d576b17bab77f3e50daf5de2aea40c89}{%
@@ -3617,6 +3445,42 @@
       \field{pages}{777\bibrangedash 783}
       \range{pages}{7}
     \endentry
+    \entry{Wolkovich2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9383fa78befb9e0d589d926f1dd7a1f3}{%
+           family={Wolkovich},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b394f67919447f834a44be050e87a498}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={E.\bibnamedelimi E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{fullhash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{bibnamehash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{authorbibnamehash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{authornamehash}{6df9ae0473768ed5192b95cf7e38323f}
+      \strng{authorfullhash}{6df9ae0473768ed5192b95cf7e38323f}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Ecology and the Environment}
+      \field{number}{5}
+      \field{title}{The phenology of plant invasions: a community ecology perspective}
+      \field{volume}{9}
+      \field{year}{2011}
+      \field{pages}{287\bibrangedash 294}
+      \range{pages}{8}
+    \endentry
     \entry{Wolkovich2014}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=9383fa78befb9e0d589d926f1dd7a1f3}{%
@@ -3638,6 +3502,7 @@
       \strng{authorbibnamehash}{6df9ae0473768ed5192b95cf7e38323f}
       \strng{authornamehash}{6df9ae0473768ed5192b95cf7e38323f}
       \strng{authorfullhash}{6df9ae0473768ed5192b95cf7e38323f}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{extradatescope}{labelyear}
@@ -3820,6 +3685,49 @@
       \verb{doi}
       \verb 10.1007/s11284-007-0435-3
       \endverb
+    \endentry
+    \entry{Zettlemoyer2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=372b8b34a65615622f45689458f426a1}{%
+           family={Zettlemoyer},
+           familyi={Z\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aedc0e2bfc26f6802395bd20ee0fee4b}{%
+           family={Schultheis},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cbebb8c5a4b92da76f24aefde699a96}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b79e904b290b6f61c4347b31d0a348ae}
+      \strng{fullhash}{645964d121916084ecfbc3813e9f7805}
+      \strng{bibnamehash}{645964d121916084ecfbc3813e9f7805}
+      \strng{authorbibnamehash}{645964d121916084ecfbc3813e9f7805}
+      \strng{authornamehash}{b79e904b290b6f61c4347b31d0a348ae}
+      \strng{authorfullhash}{645964d121916084ecfbc3813e9f7805}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology Letters}
+      \field{title}{Phenology in a warming world: differences between native and non‐native plant species}
+      \field{type}{Journal Article}
+      \field{year}{2019}
+      \verb{doi}
+      \verb https://doi.org/10.1111/ele.13290
+      \endverb
+      \keyw{minimeta}
     \endentry
   \enddatalist
 \endrefsection
