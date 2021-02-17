@@ -1,37 +1,37 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.29)  3 NOV 2020 23:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.27)  28 JAN 2021 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Eyster_germ_ms.tex
 (./Eyster_germ_ms.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-04-06>
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen138
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -42,13 +42,13 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen135
-\Gin@req@width=\dimen136
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -58,19 +58,19 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip49
-\fb@frw=\dimen137
-\fb@frh=\dimen138
-\FrameRule=\dimen139
-\FrameSep=\dimen140
+\fb@frw=\dimen141
+\fb@frh=\dimen142
+\FrameRule=\dimen143
+\FrameSep=\dimen144
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -80,25 +80,25 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count175
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count176
+\lrq@indent=\count186
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -110,47 +110,48 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count177
-\c@listtotal=\count178
-\c@listcount=\count179
-\c@liststart=\count180
-\c@liststop=\count181
-\c@citecount=\count182
-\c@citetotal=\count183
-\c@multicitecount=\count184
-\c@multicitetotal=\count185
-\c@instcount=\count186
-\c@maxnames=\count187
-\c@minnames=\count188
-\c@maxitems=\count189
-\c@minitems=\count190
-\c@citecounter=\count191
-\c@maxcitecounter=\count192
-\c@savedcitecounter=\count193
-\c@uniquelist=\count194
-\c@uniquename=\count195
-\c@refsection=\count196
-\c@refsegment=\count197
-\c@maxextratitle=\count198
-\c@maxextratitleyear=\count199
-\c@maxextraname=\count266
-\c@maxextradate=\count267
-\c@maxextraalpha=\count268
-\c@abbrvpenalty=\count269
-\c@highnamepenalty=\count270
-\c@lownamepenalty=\count271
-\c@maxparens=\count272
-\c@parenlevel=\count273
-\blx@tempcnta=\count274
-\blx@tempcntb=\count275
-\blx@tempcntc=\count276
-\blx@maxsection=\count277
-\blx@maxsegment@0=\count278
-\blx@notetype=\count279
-\blx@parenlevel@text=\count280
-\blx@parenlevel@foot=\count281
-\blx@sectionciteorder@0=\count282
-\blx@entrysetcounter=\count283
+\c@tabx@nest=\count187
+\c@listtotal=\count188
+\c@listcount=\count189
+\c@liststart=\count190
+\c@liststop=\count191
+\c@citecount=\count192
+\c@citetotal=\count193
+\c@multicitecount=\count194
+\c@multicitetotal=\count195
+\c@instcount=\count196
+\c@maxnames=\count197
+\c@minnames=\count198
+\c@maxitems=\count199
+\c@minitems=\count266
+\c@citecounter=\count267
+\c@maxcitecounter=\count268
+\c@savedcitecounter=\count269
+\c@uniquelist=\count270
+\c@uniquename=\count271
+\c@refsection=\count272
+\c@refsegment=\count273
+\c@maxextratitle=\count274
+\c@maxextratitleyear=\count275
+\c@maxextraname=\count276
+\c@maxextradate=\count277
+\c@maxextraalpha=\count278
+\c@abbrvpenalty=\count279
+\c@highnamepenalty=\count280
+\c@lownamepenalty=\count281
+\c@maxparens=\count282
+\c@parenlevel=\count283
+\blx@tempcnta=\count284
+\blx@tempcntb=\count285
+\blx@tempcntc=\count286
+\blx@maxsection=\count287
+\blx@maxsegment@0=\count288
+\blx@notetype=\count289
+\blx@parenlevel@text=\count290
+\blx@parenlevel@foot=\count291
+\blx@sectionciteorder@0=\count292
+\blx@entrysetcounter=\count293
+\blx@biblioinstance=\count294
 \labelnumberwidth=\skip50
 \labelalphawidth=\skip51
 \biblabelsep=\skip52
@@ -162,103 +163,103 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language86
-\c@mincomprange=\count284
-\c@maxcomprange=\count285
-\c@mincompwidth=\count286
+\c@mincomprange=\count295
+\c@maxcomprange=\count296
+\c@mincompwidth=\count297
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/apa.dbx
-File: apa.dbx 2020/04/26 v9.10 APA biblatex style data model
+File: apa.dbx 2020/08/28 v9.14 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count287
-\c@savedafterword=\count288
-\c@annotator=\count289
-\c@savedannotator=\count290
-\c@author=\count291
-\c@savedauthor=\count292
-\c@bookauthor=\count293
-\c@savedbookauthor=\count294
-\c@commentator=\count295
-\c@savedcommentator=\count296
-\c@editor=\count297
-\c@savededitor=\count298
-\c@editora=\count299
-\c@savededitora=\count300
-\c@editorb=\count301
-\c@savededitorb=\count302
-\c@editorc=\count303
-\c@savededitorc=\count304
-\c@foreword=\count305
-\c@savedforeword=\count306
-\c@holder=\count307
-\c@savedholder=\count308
-\c@introduction=\count309
-\c@savedintroduction=\count310
-\c@namea=\count311
-\c@savednamea=\count312
-\c@nameb=\count313
-\c@savednameb=\count314
-\c@namec=\count315
-\c@savednamec=\count316
-\c@translator=\count317
-\c@savedtranslator=\count318
-\c@shortauthor=\count319
-\c@savedshortauthor=\count320
-\c@shorteditor=\count321
-\c@savedshorteditor=\count322
-\c@groupauthor=\count323
-\c@savedgroupauthor=\count324
-\c@narrator=\count325
-\c@savednarrator=\count326
-\c@execproducer=\count327
-\c@savedexecproducer=\count328
-\c@execdirector=\count329
-\c@savedexecdirector=\count330
-\c@with=\count331
-\c@savedwith=\count332
-\c@labelname=\count333
-\c@savedlabelname=\count334
-\c@institution=\count335
-\c@savedinstitution=\count336
-\c@lista=\count337
-\c@savedlista=\count338
-\c@listb=\count339
-\c@savedlistb=\count340
-\c@listc=\count341
-\c@savedlistc=\count342
-\c@listd=\count343
-\c@savedlistd=\count344
-\c@liste=\count345
-\c@savedliste=\count346
-\c@listf=\count347
-\c@savedlistf=\count348
-\c@location=\count349
-\c@savedlocation=\count350
-\c@organization=\count351
-\c@savedorganization=\count352
-\c@origlocation=\count353
-\c@savedoriglocation=\count354
-\c@origpublisher=\count355
-\c@savedorigpublisher=\count356
-\c@publisher=\count357
-\c@savedpublisher=\count358
-\c@language=\count359
-\c@savedlanguage=\count360
-\c@origlanguage=\count361
-\c@savedoriglanguage=\count362
-\c@citation=\count363
-\c@savedcitation=\count364
-\c@pageref=\count365
-\c@savedpageref=\count366
+\c@afterword=\count298
+\c@savedafterword=\count299
+\c@annotator=\count300
+\c@savedannotator=\count301
+\c@author=\count302
+\c@savedauthor=\count303
+\c@bookauthor=\count304
+\c@savedbookauthor=\count305
+\c@commentator=\count306
+\c@savedcommentator=\count307
+\c@editor=\count308
+\c@savededitor=\count309
+\c@editora=\count310
+\c@savededitora=\count311
+\c@editorb=\count312
+\c@savededitorb=\count313
+\c@editorc=\count314
+\c@savededitorc=\count315
+\c@foreword=\count316
+\c@savedforeword=\count317
+\c@holder=\count318
+\c@savedholder=\count319
+\c@introduction=\count320
+\c@savedintroduction=\count321
+\c@namea=\count322
+\c@savednamea=\count323
+\c@nameb=\count324
+\c@savednameb=\count325
+\c@namec=\count326
+\c@savednamec=\count327
+\c@translator=\count328
+\c@savedtranslator=\count329
+\c@shortauthor=\count330
+\c@savedshortauthor=\count331
+\c@shorteditor=\count332
+\c@savedshorteditor=\count333
+\c@groupauthor=\count334
+\c@savedgroupauthor=\count335
+\c@narrator=\count336
+\c@savednarrator=\count337
+\c@execproducer=\count338
+\c@savedexecproducer=\count339
+\c@execdirector=\count340
+\c@savedexecdirector=\count341
+\c@with=\count342
+\c@savedwith=\count343
+\c@labelname=\count344
+\c@savedlabelname=\count345
+\c@institution=\count346
+\c@savedinstitution=\count347
+\c@lista=\count348
+\c@savedlista=\count349
+\c@listb=\count350
+\c@savedlistb=\count351
+\c@listc=\count352
+\c@savedlistc=\count353
+\c@listd=\count354
+\c@savedlistd=\count355
+\c@liste=\count356
+\c@savedliste=\count357
+\c@listf=\count358
+\c@savedlistf=\count359
+\c@location=\count360
+\c@savedlocation=\count361
+\c@organization=\count362
+\c@savedorganization=\count363
+\c@origlocation=\count364
+\c@savedoriglocation=\count365
+\c@origpublisher=\count366
+\c@savedorigpublisher=\count367
+\c@publisher=\count368
+\c@savedpublisher=\count369
+\c@language=\count370
+\c@savedlanguage=\count371
+\c@origlanguage=\count372
+\c@savedoriglanguage=\count373
+\c@citation=\count374
+\c@savedcitation=\count375
+\c@pageref=\count376
+\c@savedpageref=\count377
 \shorthandwidth=\skip58
 \shortjournalwidth=\skip59
 \shortserieswidth=\skip60
@@ -277,64 +278,66 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count367
-\c@textcitetotal=\count368
-\c@textcitemaxnames=\count369
-\c@biburlbigbreakpenalty=\count370
-\c@biburlbreakpenalty=\count371
-\c@biburlnumpenalty=\count372
-\c@biburlucpenalty=\count373
-\c@biburllcpenalty=\count374
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count378
+\c@textcitetotal=\count379
+\c@textcitemaxnames=\count380
+\c@biburlbigbreakpenalty=\count381
+\c@biburlbreakpenalty=\count382
+\c@biburlnumpenalty=\count383
+\c@biburlucpenalty=\count384
+\c@biburllcpenalty=\count385
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count375
+\c@smartand=\count386
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/apa.bbx
-File: apa.bbx 2020/04/26 v9.10 APA biblatex references style
+File: apa.bbx 2020/08/28 v9.14 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count376
-\c@bbx:relatedtotal=\count377
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count387
+\c@bbx:relatedtotal=\count388
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/apa.cbx
-File: apa.cbx 2020/04/26 v9.10 APA biblatex citation style
+File: apa.cbx 2020/08/28 v9.14 APA biblatex citation style
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already 
 defined, overwriting.
 Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
 , overwriting.
-Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
 Package biblatex Info: Redefining '\citeyear'.
 Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
 Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -343,17 +346,18 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/04/28 3.43 The Babel package
+Package: babel 2020/12/16 3.52 The Babel package
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/04/28 3.43 Babel common definitions
-\babel@savecnt=\count378
-\U@D=\dimen141
+File: babel.def 2020/12/16 3.52 Babel common definitions
+\babel@savecnt=\count389
+\U@D=\dimen145
+\l@babelnohyphens=\language87
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 )
-\bbl@dirlevel=\count379
+\bbl@dirlevel=\count390
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/american.ldf
 Language: american 2017/06/06 v3.3r English support from the babel system
@@ -368,17 +372,17 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (babel)             (\language21) on input line 108.
 )))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count380
-\csq@gtype=\count381
-\csq@glevel=\count382
-\csq@qlevel=\count383
-\csq@maxlvl=\count384
-\csq@tshold=\count385
+Package: csquotes 2021-01-04 v5.2k context-sensitive quotations (JAW)
+\csq@reset=\count391
+\csq@gtype=\count392
+\csq@glevel=\count393
+\csq@qlevel=\count394
+\csq@maxlvl=\count395
+\csq@tshold=\count396
 \csq@ltx@everypar=\toks16
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+File: csquotes.def 2021-01-04 v5.2k csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
@@ -388,18 +392,18 @@ File: csquotes.cfg
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box45
+\ttl@box=\box47
 \beforetitleunit=\skip72
 \aftertitleunit=\skip73
-\ttl@plus=\dimen142
-\ttl@minus=\dimen143
+\ttl@plus=\dimen146
+\ttl@minus=\dimen147
 \ttl@toksa=\toks17
-\titlewidth=\dimen144
-\titlewidthlast=\dimen145
-\titlewidthfirst=\dimen146
+\titlewidth=\dimen148
+\titlewidthlast=\dimen149
+\titlewidthfirst=\dimen150
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip74
 
 For additional information on amsmath, use the `?' option.
@@ -409,52 +413,52 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen147
+\ex@=\dimen151
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen148
+\pmbraise@=\dimen152
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count386
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count387
-\leftroot@=\count388
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count389
-\DOTSCASE@=\count390
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box46
-\strutbox@=\box47
-\big@size=\dimen149
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count391
-\c@MaxMatrixCols=\count392
+\inf@bad=\count397
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count398
+\leftroot@=\count399
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count400
+\DOTSCASE@=\count401
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count402
+\c@MaxMatrixCols=\count403
 \dotsspace@=\muskip21
-\c@parentequation=\count393
-\dspbrk@lvl=\count394
+\c@parentequation=\count404
+\dspbrk@lvl=\count405
 \tag@help=\toks19
-\row@=\count395
-\column@=\count396
-\maxfields@=\count397
+\row@=\count406
+\column@=\count407
+\maxfields@=\count408
 \andhelp@=\toks20
-\eqnshift@=\dimen150
-\alignsep@=\dimen151
-\tagshift@=\dimen152
-\tagwidth@=\dimen153
-\totwidth@=\dimen154
-\lineht@=\dimen155
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
 \@envbody=\toks21
 \multlinegap=\skip75
 \multlinetaggap=\skip76
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -462,17 +466,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count398
-\Gm@cntv=\count399
-\c@Gm@tempcnt=\count400
-\Gm@bindingoffset=\dimen156
-\Gm@wd@mp=\dimen157
-\Gm@odd@mp=\dimen158
-\Gm@even@mp=\dimen159
-\Gm@layoutwidth=\dimen160
-\Gm@layoutheight=\dimen161
-\Gm@layouthoffset=\dimen162
-\Gm@layoutvoffset=\dimen163
+\Gm@cnth=\count409
+\Gm@cntv=\count410
+\c@Gm@tempcnt=\count411
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
 \Gm@dimlist=\toks23
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
@@ -480,15 +484,15 @@ Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count401
-\calc@Bcount=\count402
-\calc@Adimen=\dimen164
-\calc@Bdimen=\dimen165
+\calc@Acount=\count412
+\calc@Bcount=\count413
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
 \calc@Askip=\skip77
 \calc@Bskip=\skip78
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count403
+\calc@Ccount=\count414
 \calc@Cskip=\skip79
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -498,46 +502,44 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count404
-\l_MT_multwidth_dim=\dimen166
+\g_MT_multlinerow_int=\count415
+\l_MT_multwidth_dim=\dimen170
 \origjot=\skip80
-\l_MT_shortvdotswithinadjustabove_dim=\dimen167
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen168
-\l_MT_above_intertext_sep=\dimen169
-\l_MT_below_intertext_sep=\dimen170
-\l_MT_above_shortintertext_sep=\dimen171
-\l_MT_below_shortintertext_sep=\dimen172
-\xmathstrut@box=\box48
-\xmathstrut@dim=\dimen173
+\l_MT_shortvdotswithinadjustabove_dim=\dimen171
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen172
+\l_MT_above_intertext_sep=\dimen173
+\l_MT_below_intertext_sep=\dimen174
+\l_MT_above_shortintertext_sep=\dimen175
+\l_MT_below_shortintertext_sep=\dimen176
+\xmathstrut@box=\box50
+\xmathstrut@dim=\dimen177
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count405
-\mult@box=\box49
-\multicol@leftmargin=\dimen174
-\c@unbalance=\count406
-\c@collectmore=\count407
-\doublecol@number=\count408
-\multicoltolerance=\count409
-\multicolpretolerance=\count410
-\full@width=\dimen175
-\page@free=\dimen176
-\premulticols=\dimen177
-\postmulticols=\dimen178
+\c@tracingmulticols=\count416
+\mult@box=\box51
+\multicol@leftmargin=\dimen178
+\c@unbalance=\count417
+\c@collectmore=\count418
+\doublecol@number=\count419
+\multicoltolerance=\count420
+\multicolpretolerance=\count421
+\full@width=\dimen179
+\page@free=\dimen180
+\premulticols=\dimen181
+\postmulticols=\dimen182
 \multicolsep=\skip81
 \multicolbaselineskip=\skip82
-\partial@page=\box50
-\last@line=\box51
-\maxbalancingoverflow=\dimen179
-\mult@rightbox=\box52
-\mult@grightbox=\box53
-\mult@gfirstbox=\box54
-\mult@firstbox=\box55
-\@tempa=\box56
-\@tempa=\box57
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen183
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@gfirstbox=\box56
+\mult@firstbox=\box57
 \@tempa=\box58
 \@tempa=\box59
 \@tempa=\box60
@@ -573,15 +575,17 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box90
 \@tempa=\box91
 \@tempa=\box92
-\c@minrows=\count411
-\c@columnbadness=\count412
-\c@finalcolumnbadness=\count413
-\last@try=\dimen180
-\multicolovershoot=\dimen181
-\multicolundershoot=\dimen182
-\mult@nat@firstbox=\box93
-\colbreak@box=\box94
-\mc@col@check@num=\count414
+\@tempa=\box93
+\@tempa=\box94
+\c@minrows=\count422
+\c@columnbadness=\count423
+\c@finalcolumnbadness=\count424
+\last@try=\dimen184
+\multicolovershoot=\dimen185
+\multicolundershoot=\dimen186
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\mc@col@check@num=\count425
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
@@ -589,225 +593,225 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip84
 \LTpre=\skip85
 \LTpost=\skip86
-\LTchunksize=\count415
-\LTcapwidth=\dimen183
-\LT@head=\box95
-\LT@firsthead=\box96
-\LT@foot=\box97
-\LT@lastfoot=\box98
-\LT@cols=\count416
-\LT@rows=\count417
-\c@LT@tables=\count418
-\c@LT@chunks=\count419
+\LTchunksize=\count426
+\LTcapwidth=\dimen187
+\LT@head=\box97
+\LT@firsthead=\box98
+\LT@foot=\box99
+\LT@lastfoot=\box100
+\LT@cols=\count427
+\LT@rows=\count428
+\c@LT@tables=\count429
+\c@LT@chunks=\count430
 \LT@p@ftn=\toks24
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen184
-\ar@mcellbox=\box99
-\extrarowheight=\dimen185
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen188
+\ar@mcellbox=\box101
+\extrarowheight=\dimen189
 \NC@list=\toks25
 \extratabsurround=\skip87
 \backup@length=\skip88
-\ar@cellbox=\box100
+\ar@cellbox=\box102
 )
-\rotheadsize=\dimen186
-\c@nlinenum=\count420
+\rotheadsize=\dimen190
+\c@nlinenum=\count431
 \TeXr@lab=\toks26
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/breqn.sty
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-04-06 L3 programming layer (loader) 
+Package: expl3 2021-01-09 L3 programming layer (loader) 
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count421
-\l__pdf_internal_box=\box101
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count432
+\l__pdf_internal_box=\box103
 ))
-Package: breqn 2020/04/19 v0.98j Breaking equations
+Package: breqn 2020/09/24 v0.98k Breaking equations
+
 (/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/flexisym.sty
-Package: flexisym 2020/04/19 v0.98j Make math characters macros
-LaTeX Info: Redefining \textprime on input line 298.
-LaTeX Info: Redefining \not on input line 356.
+Package: flexisym 2020/09/24 v0.98k Make math characters macros
+LaTeX Info: Redefining \textprime on input line 299.
+LaTeX Info: Redefining \not on input line 357.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/cmbase.sym
 File: cmbase.sym 2007/12/19 v0.92
-LaTeX Info: Redefining \hbar on input line 323.
-LaTeX Info: Redefining \surd on input line 325.
-LaTeX Info: Redefining \angle on input line 333.
-LaTeX Info: Redefining \neq on input line 334.
-LaTeX Info: Redefining \mapsto on input line 335.
-LaTeX Info: Redefining \cong on input line 336.
-LaTeX Info: Redefining \notin on input line 339.
-LaTeX Info: Redefining \rightleftharpoons on input line 340.
-LaTeX Info: Redefining \doteq on input line 341.
-LaTeX Info: Redefining \hookrightarrow on input line 342.
-LaTeX Info: Redefining \hookleftarrow on input line 343.
-LaTeX Info: Redefining \bowtie on input line 344.
-LaTeX Info: Redefining \models on input line 345.
-LaTeX Info: Redefining \Longrightarrow on input line 346.
-LaTeX Info: Redefining \longrightarrow on input line 347.
-LaTeX Info: Redefining \Longleftarrow on input line 348.
-LaTeX Info: Redefining \longleftarrow on input line 349.
-LaTeX Info: Redefining \longmapsto on input line 350.
-LaTeX Info: Redefining \longleftrightarrow on input line 351.
-LaTeX Info: Redefining \Longleftrightarrow on input line 352.
-LaTeX Info: Redefining \cdots on input line 356.
-LaTeX Info: Redefining \vdots on input line 359.
-LaTeX Info: Redefining \ddots on input line 364.
+LaTeX Info: Redefining \hbar on input line 324.
+LaTeX Info: Redefining \surd on input line 326.
+LaTeX Info: Redefining \angle on input line 334.
+LaTeX Info: Redefining \neq on input line 335.
+LaTeX Info: Redefining \mapsto on input line 336.
+LaTeX Info: Redefining \cong on input line 337.
+LaTeX Info: Redefining \notin on input line 340.
+LaTeX Info: Redefining \rightleftharpoons on input line 341.
+LaTeX Info: Redefining \doteq on input line 342.
+LaTeX Info: Redefining \hookrightarrow on input line 343.
+LaTeX Info: Redefining \hookleftarrow on input line 344.
+LaTeX Info: Redefining \bowtie on input line 345.
+LaTeX Info: Redefining \models on input line 346.
+LaTeX Info: Redefining \Longrightarrow on input line 347.
+LaTeX Info: Redefining \longrightarrow on input line 348.
+LaTeX Info: Redefining \Longleftarrow on input line 349.
+LaTeX Info: Redefining \longleftarrow on input line 350.
+LaTeX Info: Redefining \longmapsto on input line 351.
+LaTeX Info: Redefining \longleftrightarrow on input line 352.
+LaTeX Info: Redefining \Longleftrightarrow on input line 353.
+LaTeX Info: Redefining \cdots on input line 357.
+LaTeX Info: Redefining \vdots on input line 360.
+LaTeX Info: Redefining \ddots on input line 365.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/mathstyle.sty
-Package: mathstyle 2020/04/19 v0.98j Tracking mathstyle implicitly
-LaTeX Info: Redefining \displaystyle on input line 94.
-LaTeX Info: Redefining \textstyle on input line 96.
-LaTeX Info: Redefining \scriptstyle on input line 98.
-LaTeX Info: Redefining \scriptscriptstyle on input line 100.
-LaTeX Info: Redefining \genfrac on input line 148.
+Package: mathstyle 2020/09/24 v0.98k Tracking mathstyle implicitly
+LaTeX Info: Redefining \displaystyle on input line 95.
+LaTeX Info: Redefining \textstyle on input line 97.
+LaTeX Info: Redefining \scriptstyle on input line 99.
+LaTeX Info: Redefining \scriptscriptstyle on input line 101.
+LaTeX Info: Redefining \genfrac on input line 149.
 ))
-\inf@bad=\count422
-\maxint=\count423
-\listwidth=\dimen187
-\eqnumsep=\dimen188
-\eqmargin=\dimen189
+\inf@bad=\count433
+\maxint=\count434
+\listwidth=\dimen191
+\eqnumsep=\dimen192
+\eqmargin=\dimen193
 \eqlinespacing=\skip89
 \eqlineskip=\skip90
-\eqlineskiplimit=\dimen190
+\eqlineskiplimit=\dimen194
 \eqbinoffset=\muskip22
 \eqdelimoffset=\muskip23
-\eqindentstep=\dimen191
+\eqindentstep=\dimen195
 \eqstyle=\toks27
-\eqbreakdepth=\count424
-\eqinterlinepenalty=\count425
-\intereqpenalty=\count426
+\eqbreakdepth=\count435
+\eqinterlinepenalty=\count436
+\intereqpenalty=\count437
 \intereqskip=\skip91
-\prerelpenalty=\count427
-\prebinoppenalty=\count428
+\prerelpenalty=\count438
+\prebinoppenalty=\count439
 \Dmedmuskip=\muskip24
 \Dthickmuskip=\muskip25
 \eqleftskip=\skip92
 \eqrightskip=\skip93
 \eq@vspan=\skip94
 \eq@binoffset=\muskip26
-\EQ@box=\box102
-\EQ@copy=\box103
-\EQ@numbox=\box104
-\eq@wdNum=\dimen192
-\GRP@numbox=\box105
-\grp@wdNum=\dimen193
-\eq@lines=\count429
-\eq@curline=\count430
-\eq@badness=\count431
-\EQ@vims=\count432
-\eq@dp=\dimen194
-\eq@wdL=\dimen195
-\eq@wdT=\dimen196
-\eq@wdMin=\dimen197
-\grp@wdL=\dimen198
-\grp@wdR=\dimen199
-\grp@wdT=\dimen256
-\eq@wdRmax=\dimen257
-\eq@firstht=\dimen258
-\eq@wdCond=\dimen259
-\eq@indentstep=\dimen260
-\eq@linewidth=\dimen261
-\grp@linewidth=\dimen262
-\eq@hshift=\dimen263
-\eq@given@sidespace=\dimen264
-\mathindent=\dimen265
-\eq@final@linecount=\count433
-\eq@wdR=\dimen266
+\EQ@box=\box104
+\EQ@copy=\box105
+\EQ@numbox=\box106
+\eq@wdNum=\dimen196
+\GRP@numbox=\box107
+\grp@wdNum=\dimen197
+\eq@lines=\count440
+\eq@curline=\count441
+\eq@badness=\count442
+\EQ@vims=\count443
+\eq@dp=\dimen198
+\eq@wdL=\dimen199
+\eq@wdT=\dimen256
+\eq@wdMin=\dimen257
+\grp@wdL=\dimen258
+\grp@wdR=\dimen259
+\grp@wdT=\dimen260
+\eq@wdRmax=\dimen261
+\eq@firstht=\dimen262
+\eq@wdCond=\dimen263
+\eq@indentstep=\dimen264
+\eq@linewidth=\dimen265
+\grp@linewidth=\dimen266
+\eq@hshift=\dimen267
+\eq@given@sidespace=\dimen268
+\mathindent=\dimen269
+\eq@final@linecount=\count444
+\eq@wdR=\dimen270
 \EQ@continue=\toks28
-\lr@level=\count434
+\lr@level=\count445
 \GRP@queue=\toks29
-\GRP@box=\box106
-\GRP@wholebox=\box107
+\GRP@box=\box108
+\GRP@wholebox=\box109
 \darraycolsep=\skip95
-\cur@row=\count435
-\cur@col=\count436
+\cur@row=\count446
+\cur@col=\count447
 \conditionsep=\skip96
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xr.sty
-Package: xr 2019/07/22 v5.05 eXternal References (DPC)
+Package: xr 2020-05-10 v5.06 eXternal References (DPC)
 )
 Package xr Info: IMPORTING LABELS FROM SI.aux on input line 82.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+Package: pdfpages 2021/01/09 v0.5r Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
-))
-\AM@pagewidth=\dimen267
-\AM@pageheight=\dimen268
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen271
+\ESO@tempdimb=\dimen272
+)
+\AM@pagewidth=\dimen273
+\AM@pageheight=\dimen274
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2021/01/09 v0.5r Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box108
+\pdfpages@includegraphics@status=\count448
+\AM@pagebox=\box110
 \AM@global@opts=\toks30
-\AM@pagecnt=\count437
+\AM@pagecnt=\count449
 \AM@toc@title=\toks31
-\c@AM@survey=\count438
-\AM@templatesizebox=\box109
+\c@AM@survey=\count450
+\AM@templatesizebox=\box111
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen269
-\captionmargin@=\dimen270
-\captionwidth=\dimen271
-\caption@tempdima=\dimen272
-\caption@indent=\dimen273
-\caption@parindent=\dimen274
-\caption@hangindent=\dimen275
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen275
+\captionmargin@=\dimen276
+\captionwidth=\dimen277
+\caption@tempdima=\dimen278
+\caption@indent=\dimen279
+\caption@parindent=\dimen280
+\caption@hangindent=\dimen281
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count439
-\c@continuedfloat=\count440
+\c@caption@flags=\count451
+\c@continuedfloat=\count452
 Package caption Info: longtable package is loaded.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 ))
-\c@subfigure=\count441
-\c@subtable=\count442
+\c@subfigure=\count453
+\c@subtable=\count454
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count443
+\c@r@tfl@t=\count455
 \rotFPtop=\skip97
 \rotFPbot=\skip98
-\rot@float@box=\box110
+\rot@float@box=\box112
 \rot@mess@toks=\toks32
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count444
+\linenopenalty=\count456
 \output=\toks33
-\linenoprevgraf=\count445
-\linenumbersep=\dimen276
-\linenumberwidth=\dimen277
-\c@linenumber=\count446
-\c@pagewiselinenumber=\count447
-\c@LN@truepage=\count448
-\c@internallinenumber=\count449
-\c@internallinenumbers=\count450
-\quotelinenumbersep=\dimen278
-\bframerule=\dimen279
-\bframesep=\dimen280
-\bframebox=\box111
+\linenoprevgraf=\count457
+\linenumbersep=\dimen282
+\linenumberwidth=\dimen283
+\c@linenumber=\count458
+\c@pagewiselinenumber=\count459
+\c@LN@truepage=\count460
+\c@internallinenumber=\count461
+\c@internallinenumbers=\count462
+\quotelinenumbersep=\dimen284
+\bframerule=\dimen285
+\bframesep=\dimen286
+\bframebox=\box113
 
 
 LaTeX Warning: Command \@parboxrestore  has changed.
@@ -818,22 +822,22 @@ LaTeX Info: Redefining \\ on input line 3056.
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip99
 \@affilsep=\skip100
-\c@Maxaffil=\count451
-\c@authors=\count452
-\c@affil=\count453
+\c@Maxaffil=\count463
+\c@authors=\count464
+\c@affil=\count465
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
 )
-\XKV@depth=\count454
+\XKV@depth=\count466
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -841,40 +845,40 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box112
+\collectedbox=\box114
 )
-\tc@llx=\dimen281
-\tc@lly=\dimen282
-\tc@urx=\dimen283
-\tc@ury=\dimen284
+\tc@llx=\dimen287
+\tc@lly=\dimen288
+\tc@urx=\dimen289
+\tc@ury=\dimen290
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen285
-\adjbox@Height=\dimen286
-\adjbox@Depth=\dimen287
-\adjbox@Totalheight=\dimen288
-\adjbox@pwidth=\dimen289
-\adjbox@pheight=\dimen290
-\adjbox@pdepth=\dimen291
-\adjbox@ptotalheight=\dimen292
+\adjbox@Width=\dimen291
+\adjbox@Height=\dimen292
+\adjbox@Depth=\dimen293
+\adjbox@Totalheight=\dimen294
+\adjbox@pwidth=\dimen295
+\adjbox@pheight=\dimen296
+\adjbox@pdepth=\dimen297
+\adjbox@ptotalheight=\dimen298
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count455
+\c@checkoddpage=\count467
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box113
-\sift@deathcycles=\count456
-\@vwid@loff=\dimen293
-\@vwid@roff=\dimen294
+\@vwid@box=\box115
+\sift@deathcycles=\count468
+\@vwid@loff=\dimen299
+\@vwid@roff=\dimen300
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -905,16 +909,16 @@ LaTeX Font Info:    ... okay on input line 111.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count457
-\scratchdimen=\dimen295
-\scratchbox=\box114
-\nofMPsegments=\count458
-\nofMParguments=\count459
+\scratchcounter=\count469
+\scratchdimen=\dimen301
+\scratchbox=\box116
+\nofMPsegments=\count470
+\nofMParguments=\count471
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count460
-\MPscratchDim=\dimen296
-\MPnumerator=\count461
-\makeMPintoPDFobject=\count462
+\MPscratchCnt=\count472
+\MPscratchDim=\dimen302
+\MPnumerator=\count473
+\makeMPintoPDFobject=\count474
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -929,53 +933,66 @@ Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
-File: american-apa.lbx 2020/04/26 v9.10 APA biblatex localisation
+File: american-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
-File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-File: english-apa.lbx 2020/04/26 v9.10 APA biblatex localisation
+File: english-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )))
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
-File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-File: english-apa.lbx 2020/04/26 v9.10 APA biblatex localisation
+File: english-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/american.lbx
-File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )))))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-01-09 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex))
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
 \openout3 = `Eyster_germ_ms.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Eyster_germ_ms.bbl' found.
-
-(./Eyster_germ_ms.bbl)
+ (./Eyster_germ_ms.bbl)
 Package biblatex Info: Reference section=0 on input line 111.
 Package biblatex Info: Reference segment=0 on input line 111.
 
@@ -1013,12 +1030,11 @@ Package biblatex Info: Reference segment=0 on input line 111.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box115
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
@@ -1078,13 +1094,13 @@ Package logreq Info: Writing requests to 'Eyster_germ_ms.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17571 strings out of 480682
- 306585 string characters out of 5904648
- 1076630 words of memory out of 5000000
- 33132 multiletter control sequences out of 15000+600000
- 538391 words of font info for 45 fonts, out of 8000000 for 9000
+ 18205 strings out of 479304
+ 323322 string characters out of 5867266
+ 1162296 words of memory out of 5000000
+ 35131 multiletter control sequences out of 15000+600000
+ 409483 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,9n,112p,3745b,5044s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,9n,112p,3745b,5140s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -1098,7 +1114,7 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Eyster_germ_ms.pdf (25 pages, 2120591 bytes).
+Output written on Eyster_germ_ms.pdf (25 pages, 2120654 bytes).
 PDF statistics:
  5149 PDF objects out of 5155 (max. 8388607)
  3417 compressed objects within 35 object streams
