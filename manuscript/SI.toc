@@ -6,11 +6,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Study species details}{2}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Sampling details}{2}{}%
+\contentsline {subsection}{\numberline {1.3}Sampling details}{3}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4}Selecting period/light luminance}{3}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5}Selecting substrate and planting depth}{3}{}%
+\contentsline {subsection}{\numberline {1.5}Selecting substrate and planting depth}{4}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.6}Average predictive comparisons}{4}{}%
 \defcounter {refsection}{0}\relax 

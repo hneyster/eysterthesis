@@ -1,0 +1,23 @@
+"input/Height_Data_2-13-16.csv"
+"input/Germ_Data_2-9-16.csv"
+"input/id_Data-2-4-16.csv"
+"input/label.csv"
+
+--> germ_cleaning
+-->
+clean_dat: germs, hlms, gh
+--> unmodeled_plotsR
+--> Figure 5, 7, 9, supplement.pdf
+--> SI.Rnw
+
+--> germ_rate_rstan.r
+---> rate_data.rdata
+---> mod_rate.Rdata
+
+--> germ_timing_rstan_sp.R
+---> time_data.rdata
+---> mod_time_pois.rdata
+
+--> germ_growth_rstan.r
+---> datax.rdata
+---> mod_gr.Rdata

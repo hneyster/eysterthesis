@@ -68,13 +68,13 @@ There is no consensus on how to classify a species as invasive \parencite{Colaut
 \subsection{Study species details}
 \textit{Capsella bursa-pastoris} (CAPBUR; Shepard's Purse) is an annual or biennial herbaceous plant in Brassicaceae. It grows 10 to 80 cm tall, typically blooming in late spring \parencite{Defelice2001}. It originated in Europe, and was introduced to the New World as a medicinal herb---it is now found across Canada, the US, and Mexico \parencite{Westrich1989}.
 	
-	\textit{Chelidonium majus} (CHEMAJ; Greater Celandine) is an herbaceous biennial member of Papaveraceae. It is native to Eurasia and North Africa and was introduced to the US by the 1670s as a medicinal. It is now found across the Eastern US and Canada and portions of the west \parencite{Holm1979}. 
+	\textit{Chelidonium majus} (CHEMAJ; Greater Celandine) is an herbaceous biennial member of Papaveraceae. It is native to Europe, Asia, and North Africa and was introduced to the US by the 1670s as a medicinal. It is now found across the Eastern US and Canada and portions of the west \parencite{Holm1979}. 
 	
-	\textit{Dactylis glomerata} (DACGLO; Orchard Grass) is a cool-season, perennial grass (Poaceae). Plants grow up to 120 cm tall and have roots up to 60 cm long \parencite{Moser1996}. This plant originated in central and western Europe, and was intentionally introduced into the US in the 1750s \parencite{Bush2012} as a forage grass for pasture and hay \parencite{Ogle2011}.  
+	\textit{Dactylis glomerata} (DACGLO; Orchard Grass) is a cool-season, perennial grass (Poaceae). Plants grow up to 120 cm tall and have roots up to 60 cm long \parencite{Moser1996}. This plant originated in  Europe, Asia, and North Africa, and was intentionally introduced into the US in the 1750s \parencite{Bush2012} as a forage grass for pasture and hay \parencite{Ogle2011}.  It is now found across North America, stretching from Atlantic Canada to the Pacific coast.
 	
 	\textit{Plantago lanceolata} (PLALAN; Narrow-leaved Plantain) is a perennial member of  Plantaginaceae. It has narrow, ribbed leaves and grows to 1 m tall. It is native to Eurasia, and has successfully colonized the world's mid-latitudes \parencite{Holm1977}.
 	
-	\textit{Plantago major} (PLAMAJ; Broad-leaved Plantain) is a perennial member of Plantaginaceae. It has broad, smooth leaves, and grows to 15 cm tall. Native to Europe, it was introduced into North America for its medicinal uses \parencite{Knobloch1996,Samuelsen2000}.
+	\textit{Plantago major} (PLAMAJ; Broad-leaved Plantain) is a perennial member of Plantaginaceae. It has broad, smooth leaves, and grows to 15 cm tall. Native to Europe and Asia,  it was introduced into North America for its medicinal uses, and now is found across North America, from Florida to Alaska \parencite{Knobloch1996,Samuelsen2000}.
 	
 	\textit{Rumex crispus} (RUMCRI; Curly Dock) is a perennial herbaceous plant in Polygonaceae, and grows to 160 cm. It is native to Europe, Asia, and Africa, and was introduced for its medicinal uses into North America where it now found across much of the continent \parencite{USDA2010}. 
 	
@@ -161,18 +161,18 @@ Below we provide plots of the raw data. In the main text we show model estimates
 \begin{figure}[H]
   \centering
   \includegraphics[scale=.8]{figure5}  %EMWAug19: maybe try scale of 0.8 or lower so the caption shows up?
-  \caption{Unmodeled germination success by population origin, and across stratification length and temperature treatments for each species (mean +/- standard error). Note the variable y-axis scale.} \label{fig:rawrate}
+  \caption{Unmodeled germination success by population origin, and across stratification length and temperature treatments for each species (mean +/- standard error). Note the variable y-axis scale. Significant model parameters are noted. The reference level for temperature is a high of 18$^\circ$C, Sixty days (30 d) is the reference level for stratification (thus, strat=30 d), and Europe is the reference level for population origin.} \label{fig:rawrate}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[scale=.8]{figure7} %EMWAug19: maybe try scale of 0.8 or lower so the caption shows up?
-  \caption{Unmodeled germination timing by population origin, and across stratification length and temperature treatments for   each species (mean +/- standard error). Note the variable y-axis scale.} \label{fig:rawtime} 
+  \caption{Unmodeled germination timing by population origin, and across stratification length and temperature treatments for   each species (mean +/- standard error). Note the variable y-axis scale. Significant model parameters are noted. The reference level for temperature is a high of 18$^\circ$C, Sixty days (30 d) is the reference level for stratification (thus, strat=30 d), and Europe is the reference level for population origin.} \label{fig:rawtime} 
 \end{figure}
 \begin{figure}[H]
   \centering
   \includegraphics[scale=.8]{figure9} %EMWAug19: maybe try scale of 0.8 or lower so the caption shows up?
-  \caption{Unmodeled growth rate by population origin, and across stratification length and temperature treatments for each   species (mean +/- standard error). Note the variable y-axis scale.} \label{fig:rawgrowth} 
+  \caption{Unmodeled growth rate by population origin, and across stratification length and temperature treatments for each   species (mean +/- standard error). Note the variable y-axis scale. Significant model parameters are noted. The reference level for temperature is a high of 18$^\circ$C, Sixty days (30 d) is the reference level for stratification (thus, strat=30 d), and Europe is the reference level for population origin. } \label{fig:rawgrowth} 
 \end{figure}
 
 \section{Model Results}
@@ -181,14 +181,23 @@ Below we provide plots of the raw data. In the main text we show model estimates
 p<-c(0.025, 0.50, 0.975)
 sum_mod_rate <- round(summary(mod_rate, probs = p)[1:16,c(1,3,4:6,8)],digits=2)
 row.names(sum_mod_rate) <- gsub(":",row.names(sum_mod_rate), replacement = " $\\\\times$ ")
+row.names(sum_mod_rate) <- gsub("temp1", row.names(sum_mod_rate), replacement = "22.7$^\\\\circ C$")
+row.names(sum_mod_rate) <- gsub("temp2", row.names(sum_mod_rate), replacement = "27.3$^\\\\circ C$")
+row.names(sum_mod_rate) <- gsub("temp3", row.names(sum_mod_rate), replacement = "32$^\\\\circ C$")
 sum_mod_rate <- as.data.frame(sum_mod_rate)
 
 sum_mod_time <- round(summary(mod_time_pois, probs=p)[1:16,c(1,3,4:6,8)],digits=2)
 row.names(sum_mod_time) <- gsub(":",row.names(sum_mod_time), replacement = " $\\\\times$ ")
+row.names(sum_mod_time) <- gsub("temp1", row.names(sum_mod_time), replacement = "22.7$^\\\\circ C$")
+row.names(sum_mod_time) <- gsub("temp2", row.names(sum_mod_time), replacement = "27.3$^\\\\circ C$")
+row.names(sum_mod_time) <- gsub("temp3", row.names(sum_mod_time), replacement = "32$^\\\\circ C$")
 sum_mod_time <- as.data.frame(sum_mod_time)
 
 sum_mod_gr <- round(summary(mod_gr, probs=p)[1:16,c(1,3,4:6,8)],digits=2)
 row.names(sum_mod_gr) <- gsub(":",row.names(sum_mod_gr), replacement = " $\\\\times$ ")
+row.names(sum_mod_gr) <- gsub("temp1", row.names(sum_mod_gr), replacement = "22.7$^\\\\circ C$")
+row.names(sum_mod_gr) <- gsub("temp2", row.names(sum_mod_gr), replacement = "27.3$^\\\\circ C$")
+row.names(sum_mod_gr) <- gsub("temp3", row.names(sum_mod_gr), replacement = "32$^\\\\circ C$")
 sum_mod_gr <- as.data.frame(sum_mod_gr)
 
 #options(xtable.sanitize.colnames = xtable::sanitize)
@@ -210,8 +219,8 @@ print(xtable(sum_mod_gr,caption ="Summary of multilevel model of growth rate.  O
 \pagebreak
 \begin{figure}[H]
 \centering
-\includegraphics[scale=1]{PLALAN_pops_plot.pdf}
-\caption{Germination success, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for \textit{Plantago lanceolata}, showing main random effect for the species and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Tables \ref{tab:mod_rate_intercept}, \ref{tab:mod_time_intercept}, \ref{tab:mod_gr_intercept}). The reference level for temperature is 18/8$^\circ$C, while temp1 = 22.67/12.67$^\circ$C, temp2 = 27.33/17.33$^\circ$C, and temp3 = 32/22$^\circ$C. Thirty days is the reference level for stratification (strat).}
+\includegraphics[scale=.75]{PLALAN_pops_plot.pdf}
+\caption{Germination success, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for \textit{Plantago lanceolata}, showing main random effect for the species and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Tables \ref{tab:mod_rate_intercept}, \ref{tab:mod_time_intercept}, \ref{tab:mod_gr_intercept}). The reference level for temperature is a high of 18$^\circ$C.  Sixty days is the reference level for stratification (strat).}
 \label{fig:pops}
 \end{figure}
 

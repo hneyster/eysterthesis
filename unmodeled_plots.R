@@ -1,4 +1,4 @@
-# Code for plotting the figurs in the SI 
+# Code for plotting the figures in the SI 
 
 library(plyr)
 library(ggplot2)
@@ -6,30 +6,34 @@ library(here)
 
 
 load(here('clean_dat/germs.rdata'))
-load(here('clean_dat/hlms.rdat'))
+load(here('clean_dat/hlms.rdata'))
 load(here('clean_dat/gh.rdata'))
+lab1<-read.csv("input/label.csv", header=TRUE) #read in the graph labeling file
 
 pd<-position_dodge(.4)
-templab <- c('18/8','22.7/12.7','27.3/17.3','32/22')
-xlabel <- "Temperature range (high/low°C)"
+#templab <- c('18/8','22.7/12.7','27.3/17.3','32/22')
+templab <- c('18','22.7','27.3','32')
+xlabel <- "Temperature (high°C)"
+an<-6
+bleed = 2
+
 ## Raw plot of rate: 
 germinatedsotsummarys<-
   ddply(subset(germs, sp!="PLACOR" & sp!="PLAMED"), c( "sp", "origin", "strat", "temp"), summarise,
         mean=mean(germinated), sd=sd(germinated),
         sem=sd(germinated)/sqrt(length(germinated)))
-plot3b<-ggplot(germinatedsotsummarys, aes(x=(as.factor(temp)),y=mean, color=origin, group=origin))+  
+plot3b<-
+  ggplot(germinatedsotsummarys, aes(x=(as.factor(temp)),y=mean, color=origin, group=origin))+  
   geom_errorbar(aes(ymin=mean-sem, ymax=mean+sem), width=.2, position=pd, size=.8) + 
   geom_line(size=.6) +geom_point(position=pd, size=1.6)+ 
-  facet_grid(sp~strat, scale="free_y")+theme_bw()+
-  ylab("Percent germination")+
-  xlab(xlabel)+
+  facet_grid(sp~factor(strat, levels = c('60','30')), scale="free_y")+theme_bw()+
+  ylab("Germination success")+
+  xlab(paste(xlabel,"Significant model parameters across all spp.: none",sep="\n \n"))+
   ggtitle("Stratification length (days)") +theme(plot.title=element_text(size=10))+
   geom_text(aes(x, y, label=labs, group=NULL, color=NULL),data=lab1) + 
-  scale_x_discrete(labels= templab)
+  scale_x_discrete(labels= templab) 
+ggsave(here("manuscript/figure5.pdf"),plot3b, width=8, height=11, device = 'pdf',units = 'in')
 
-pdf(here("manuscript/figure5.pdf"), width=8, height=11)
-print(plot3b)
-dev.off()
 
 ## Raw plot of dates: 
 germsn<-subset(germs, germinated==1) 
@@ -48,16 +52,15 @@ lab2[1:2, 2]<-25
 plot3a<-ggplot(subset(germinatedsummarydatests, sp!="PLAMED" & sp!="PLACOR"), aes(x=(as.factor(temp)),y=mean, color=origin, group=origin))+  
   geom_errorbar(aes(ymin=mean-sem, ymax=mean+sem), width=.2, position=pd, size=.8) + 
   geom_line(size=.6) +geom_point(position=pd, size=1.6)+ 
-  facet_grid(sp~strat, scales="free_y")+theme_bw()+
+  facet_grid(sp~factor(strat, levels = c('60','30')), scale="free_y")+theme_bw()+
   ylab("Days to germination")+
-  xlab(xlabel)+
+  xlab(paste(xlabel,"Significant model parameters across all spp.: \n 27.3°C, 32°C, origin × stratification × 32°C",sep="\n \n" ))+
   ggtitle("Stratification length (days)") +theme(plot.title=element_text(size=10))+
   geom_text(aes(x, y, label=labs, group=NULL, color=NULL),data=lab2) + 
     scale_x_discrete(labels= templab)
 #ggtitle("Germ date vs. temp by continent and strat for each sp")
-pdf(here("manuscript/figure7.pdf"), width=8, height=11)
-print(plot3a)
-dev.off()
+ggsave(here("manuscript/figure7.pdf"),plot3a, width=8, height=11, device = 'pdf',units = 'in')
+
 
 # raw plot of growth rate 
 
@@ -72,15 +75,14 @@ lab3[5:6, 2] <- .4
 plot3c<-ggplot(germinatedsummarygrts, aes(x=(as.factor(temp)),y=mean, color=origin, group=origin))+  
   geom_errorbar(aes(ymin=mean-sem, ymax=mean+sem), width=.2, position=pd, size=.8) + 
   geom_line(size=.6) +geom_point(position=pd, size=1.6)+ 
-  facet_grid(sp~strat, scale="free_y")+theme_bw()+
+  facet_grid(sp~factor(strat, levels = c('60','30')), scale="free_y")+theme_bw()+
   ylab("Growth rate (cm/day)")+
-  xlab(xlabel)+
+  xlab(paste(xlabel,"Significant model parameters across all spp.: \n 27.3°C, 32°C, origin × 27.3°C, \n origin × stratification × 27.3°C",sep="\n \n" ))+
   ggtitle("Stratification length (days)") +theme(plot.title=element_text(size=10))+
   geom_text(aes(x, y, label=labs, group=NULL, color=NULL),data=lab3) + 
   scale_x_discrete(labels= templab)
-pdf(here("manuscript/figure9.pdf"), width=8, height=11)
-print(plot3c)
-dev.off()
+ggsave(here("manuscript/figure9.pdf"),plot3c, width=8, height=11, device = 'pdf',units = 'in')
+
 
 ## LM models of gr for each seed: 
 templab2 <- templab
