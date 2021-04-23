@@ -71,6 +71,7 @@
 \usepackage{mathtools}
 \usepackage{breqn}
 \usepackage{url}
+\usepackage{afterpage}
 %R -e "knitr::knit2pdf('SI.rnw')" 
 
 
@@ -158,8 +159,8 @@ results in Figure \ref{fig:coef} show that these positive and negative differenc
 balance each other out).
 \printbibliography
 
-\section{Raw Data Plots}
-Below we provide plots of the raw data. In the main text we show model estimates because they provide best estimates that account for much of the variance and pseudoreplication in the data (as the model integrates over seed family, population, and species). % However, these effects may be obscured in the aggregate raw data plots shown here.
+\section{Unmodeled Data Plots}
+Below we provide plots of the unmodeled data. In the main text we show model estimates because they provide best estimates that account for much of the variance and pseudoreplication in the data (as the model integrates over seed family, population, and species). % However, these effects may be obscured in the aggregate raw data plots shown here.
 \begin{figure}[H]
   \centering
   \subcaptionbox{CAPBUR\label{fig:grCAPBUR}}
@@ -179,32 +180,40 @@ Below we provide plots of the raw data. In the main text we show model estimates
   {\includegraphics[scale=.5, page=6, trim=0cm 0cm 2.9cm 0cm, clip=TRUE]{supplement.pdf}}
   \subcaptionbox{TAROFF\label{fig:grTAROFF}}
   {\includegraphics[scale=.5, page=7, trim=0cm 0cm 0cm 0cm, clip=TRUE]{supplement.pdf}}
-  \caption{Height vs. age by stratification and temperature, which shows that growth rate was approximately linear.  Pink represents European plants, while blue represents those from  North America \label{fig:lmgr}}
+  \caption{Height vs. age by stratification and temperature, which shows that growth rate was approximately linear.  Pink represents European plants, while blue represents those from  North America.}\label{fig:lmgr}
 \end{figure}
-
+\afterpage{%
+	\thispagestyle{empty}
 \begin{figure}[H]
   \centering
   \includegraphics[scale=.8]{figure5}  %EMWAug19: maybe try scale of 0.8 or lower so the caption shows up?
-  \caption{Unmodeled germination success by population origin, and across stratification length and temperature treatments for each species (mean +/- standard error). Note the variable y-axis scale. Significant model parameters are noted. The reference level for temperature is a high of 18$^\circ$C, Sixty days (30 d) is the reference level for stratification (thus, strat=30 d), and Europe is the reference level for population origin.} \label{fig:rawrate}
+  \caption{Unmodeled germination success by population origin, and across stratification length and temperature treatments for each species (mean +/- standard error). Note the variable y-axis scale. Significant modeled parameters are indicated (based on 95\% credible intervals. The modeled reference level for temperature is a high of 18$^\circ$C, Sixty days is the reference level for stratification, and Europe is the reference level for population origin.} \label{fig:rawrate}
 \end{figure}
-
+}
+\afterpage{%
+	\thispagestyle{empty}
 \begin{figure}[H]
   \centering
   \includegraphics[scale=.8]{figure7} %EMWAug19: maybe try scale of 0.8 or lower so the caption shows up?
-  \caption{Unmodeled germination timing by population origin, and across stratification length and temperature treatments for   each species (mean +/- standard error). Note the variable y-axis scale. Significant model parameters are noted. The reference level for temperature is a high of 18$^\circ$C, Sixty days (30 d) is the reference level for stratification (thus, strat=30 d), and Europe is the reference level for population origin.} \label{fig:rawtime} 
+  \caption{Unmodeled germination timing by population origin, and across stratification length and temperature treatments for   each species (mean +/- standard error). Note the variable y-axis scale. Significant model results are indicated (based on 95\% credible intervals). The modeled reference level for temperature is a high of 18$^\circ$C, Sixty days is the reference level for stratification, and Europe is the reference level for population origin.} \label{fig:rawtime} 
 \end{figure}
+}
+\afterpage{%
+	\thispagestyle{empty}
 \begin{figure}[H]
   \centering
   \includegraphics[scale=.8]{figure9} %EMWAug19: maybe try scale of 0.8 or lower so the caption shows up?
-  \caption{Unmodeled growth rate by population origin, and across stratification length and temperature treatments for each   species (mean +/- standard error). Note the variable y-axis scale. Significant model parameters are noted. The reference level for temperature is a high of 18$^\circ$C, Sixty days (30 d) is the reference level for stratification (thus, strat=30 d), and Europe is the reference level for population origin. } \label{fig:rawgrowth} 
+  \caption{Unmodeled growth rate by population origin, and across stratification length and temperature treatments for each   species (mean +/- standard error). Note the variable y-axis scale. Significant model results are indicated (based on 95\% credible intervals). The  modeled reference level for temperature is a high of 18$^\circ$C, Sixty days is the reference level for stratification, and Europe is the reference level for population origin. } \label{fig:rawgrowth} 
 \end{figure}
+\clearpage
+}
 
 \section{Model Results}
 \subsection{Coefficient tables}
 
 
 % latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Sun Apr 18 23:39:57 2021
+% Thu Apr 22 23:23:11 2021
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of germination success. Output is in logit(fraction germinated)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -229,7 +238,7 @@ Below we provide plots of the raw data. In the main text we show model estimates
 \label{tab:mod_rate}
 \end{longtable}
 % latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Sun Apr 18 23:39:57 2021
+% Thu Apr 22 23:23:11 2021
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of germination timing. Output is in log(days)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -254,7 +263,7 @@ Below we provide plots of the raw data. In the main text we show model estimates
 \label{tab:mod_time}
 \end{longtable}
 % latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Sun Apr 18 23:39:57 2021
+% Thu Apr 22 23:23:11 2021
 \begin{longtable}{rrrrrrr}
 \caption{Summary of multilevel model of growth rate.  Output is in cm/day} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -283,17 +292,21 @@ Below we provide plots of the raw data. In the main text we show model estimates
 
 \subsection{Inter-population variability}
 \pagebreak
+\afterpage{%
+	\thispagestyle{empty}
 \begin{figure}[H]
 \centering
-\includegraphics[scale=.75]{PLALAN_pops_plot.pdf}
-\caption{Germination success, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for \textit{Plantago lanceolata}, showing main random effect for the species and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Tables \ref{tab:mod_rate_intercept}, \ref{tab:mod_time_intercept}, \ref{tab:mod_gr_intercept}). The reference level for temperature is a high of 18$^\circ$C.  Sixty days is the reference level for stratification (strat).}
+\includegraphics[scale=.7]{PLALAN_pops_plot.pdf}
+\caption{Germination success, germination timing, and growth rate multilevel model coefficients with 95\% credible intervals for \textit{Plantago lanceolata}, showing main random effect for the species and random effects of each population. Zero represents the global mean fixed effect across all species. All values are relative to the intercept coefficients (see Tables \ref{tab:mod_rate_intercept}, \ref{tab:mod_time_intercept}, \ref{tab:mod_gr_intercept}). The reference level for temperature is a high of 18$^\circ$C, sixty days is the reference level for stratification (strat), and Europe is the reference level for origin.  Parameters testing for effects only of stratification or temperature are in black, while parameter testing for rapid evolution vs. broad environmental tolerance (i.e., those parameters containing ‘origin') are in red.}
 \label{fig:pops}
 \end{figure}
+\clearpage
+}
 
 
 
 % latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Sun Apr 18 23:39:57 2021
+% Thu Apr 22 23:23:11 2021
 \begin{longtable}{rrrrrrr}
 \caption{Germination success model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in logit(fraction germinated)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -321,7 +334,7 @@ global intercept & 1.85 & 0.64 & 0.65 & 1.82 & 3.26 & 1.00 \\
 
 
 % latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Sun Apr 18 23:39:57 2021
+% Thu Apr 22 23:23:11 2021
 \begin{longtable}{rrrrrrr}
 \caption{Germination timing model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in log(days to germination)} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 
@@ -349,7 +362,7 @@ global intercept & 2.66 & 0.28 & 2.11 & 2.67 & 3.20 & 1.00 \\
 
 
 % latex table generated in R 4.0.3 by xtable 1.8-4 package
-% Sun Apr 18 23:39:57 2021
+% Thu Apr 22 23:23:11 2021
 \begin{longtable}{rrrrrrr}
 \caption{Growth rate model intercepts across all species (global intercept), across all populations of PLALAN (PLALAN intercept), and for each population of PLALAN. Note that all PLALAN intercepts are relative to the global intercept.  Output is in cm/dat} \\ 
   & mean & sd & 2.5\% & 50\% & 97.5\% & Rhat \\ 

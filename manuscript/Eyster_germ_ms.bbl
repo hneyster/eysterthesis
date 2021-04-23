@@ -264,12 +264,6 @@
       \verb{doi}
       \verb 10.1093/aob/mcw125
       \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/aob/article-lookup/doi/10.1093/aob/mcw125
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/aob/article-lookup/doi/10.1093/aob/mcw125
-      \endverb
       \keyw{Adaptation,Cerastium cerastoides,Climate warming,Leucanthemopsis alpina,Parental effects,Plastic responses,Seed dormancy,Seed germination,Seed phenology,Veronica alpina}
     \endentry
     \entry{Blois2013}{article}{}
@@ -348,11 +342,11 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{00220477}
+      \field{issn}{0022-0477}
       \field{journaltitle}{The Journal of Ecology}
       \field{month}{10}
       \field{number}{5}
-      \field{title}{{Evolution of Increased Competitive Ability in Invasive Nonindigenous Plants: A Hypothesis}}
+      \field{title}{Evolution of increased competitive ability in invasive nonindigenous plants: a hypothesis}
       \field{volume}{83}
       \field{year}{1995}
       \field{pages}{887\bibrangedash 889}
@@ -438,7 +432,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Publication of The Genetics of Colonizing Species in 1965 launched the field of invasion genetics and highlighted the value of biological invasions as natural ecological and evolutionary experiments. Here, we review the past 50 years of invasion genetics to assess what we have learned and what we still don't know, focusing on the genetic changes associated with invasive lineages and the evolutionary processes driving these changes. We also suggest potential studies to address still-unanswered questions. We now know, for example, that rapid adaptation of invaders is common and generally not limited by genetic variation. On the other hand, and contrary to prevailing opinion 50 years ago, the balance of evidence indicates that population bottlenecks and genetic drift typically have negative effects on invasion success, despite their potential to increase additive genetic variation and the frequency of peak shifts. Numerous unknowns remain, such as the sources of genetic variation, the role of so-called expansion load and the relative importance of propagule pressure vs. genetic diversity for successful establishment. While many such unknowns can be resolved by genomic studies, other questions may require manipulative experiments in model organisms. Such studies complement classical reciprocal transplant and field-based selection experiments, which are needed to link trait variation with components of fitness and population growth rates. We conclude by discussing the potential for studies of invasion genetics to reveal the limits to evolution and to stimulate the development of practical strategies to either minimize or maximize evolutionary responses to environmental change.}
-      \field{issn}{1365294X}
+      \field{issn}{1365-294X}
       \field{journaltitle}{Molecular Ecology}
       \field{number}{9}
       \field{title}{{What we still don't know about invasion genetics}}
@@ -538,7 +532,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Plant invasions often involve rapid evolutionary change. Founder effects, hybridization, and adaptation to novel environments cause genetic differentiation between native and introduced populations and may contribute to the success of invaders. An influential idea in this context has been the Evolution of Increased Competitive Ability (EICA) hypothesis. It proposes that after enemy release plants rapidly evolve to be less defended but more competitive, thereby increasing plant vigour in introduced populations. To detect evolutionary change in invaders, comparative studies of native versus introduced populations are needed. Here, we review the current empirical evidence from: (1) comparisons of phenotypic variation in natural populations; (2) comparisons of molecular variation with neutral genetic markers; (3) comparisons of quantitative genetic variation in a common environment; and (4) comparisons of phenotypic plasticity across different environments. Field data suggest that increased vigour and reduced herbivory are common in introduced plant populations. In molecular studies, the genetic diversity of introduced populations was not consistently different from that of native populations. Multiple introductions of invasive plants appear to be the rule rather than the exception. In tests of the EICA hypothesis in a common environment, several found increased growth or decreased resistance in introduced populations. However, few provided a full test of the EICA hypothesis by addressing growth and defence in the same species. Overall, there is reasonable empirical evidence to suggest that genetic differentiation through rapid evolutionary change is important in plant invasions. We discuss conceptual and methodological issues associated with cross-continental comparisons and make recommendations for future research. When testing for EICA, greater emphasis should be put on competitive ability and plant tolerance. Moreover, it is important to address evolutionary change in characteristics other than defence and growth that could play a role in plant invasions. {©} Springer-Verlag 2005.}
-      \field{issn}{00298549}
+      \field{issn}{0029-8549}
       \field{journaltitle}{Oecologia}
       \field{number}{1}
       \field{title}{{Phenotypic and genetic differentiation between native and introduced plant populations}}
@@ -634,7 +628,7 @@
       \field{issn}{1548-7660}
       \field{journaltitle}{Journal of Statistical Software}
       \field{number}{1}
-      \field{title}{{Stan: A Probabilistic Programming Language}}
+      \field{title}{Stan: a probabilistic programming language}
       \field{volume}{76}
       \field{year}{2017}
       \verb{doi}
@@ -715,7 +709,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Biological invasions are 'natural' experiments that can improve our understanding of contemporary evolution. We evaluate evidence for population differentiation, natural selection and adaptive evolution of invading plants and animals at two nested spatial scales: (i) among introduced populations (ii) between native and introduced genotypes. Evolution during invasion is frequently inferred, but rarely confirmed as adaptive. In common garden studies, quantitative trait differentiation is only marginally lower ({\~}3.5{\%}) among introduced relative to native populations, despite genetic bottlenecks and shorter timescales (i.e. millennia vs. decades). However, differentiation between genotypes from the native vs. introduced range is less clear and confounded by nonrandom geographic sampling; simulations suggest this causes a high false-positive discovery rate ({>}50{\%}) in geographically structured populations. Selection differentials (s) are stronger in introduced than in native species, although selection gradients ($\beta$) are not, consistent with introduced species experiencing weaker genetic constraints. This could facilitate rapid adaptation, but evidence is limited. For example, rapid phenotypic evolution often manifests as geographical clines, but simulations demonstrate that nonadaptive trait clines can evolve frequently during colonization ({\~}two-thirds of simulations). Additionally, Q{<}inf{>}ST{<}/inf{>}-F{<}inf{>}ST{<}/inf{>} studies may often misrepresent the strength and form of natural selection acting during invasion. Instead, classic approaches in evolutionary ecology (e.g. selection analysis, reciprocal transplant, artificial selection) are necessary to determine the frequency of adaptive evolution during invasion and its influence on establishment, spread and impact of invasive species. These studies are rare but crucial for managing biological invasions in the context of global change.}
-      \field{issn}{1365294X}
+      \field{issn}{1365-294X}
       \field{journaltitle}{Molecular Ecology}
       \field{number}{9}
       \field{title}{{Contemporary evolution during invasion: Evidence for differentiation, natural selection, and local adaptation}}
@@ -924,7 +918,7 @@
       \field{journaltitle}{Journal of Tropical Ecology}
       \field{month}{5}
       \field{number}{3}
-      \field{title}{Evaluating the fitness effects of seed size and maternal tree size on Polylepis tomentella (Rosaceae) seed germination and seedling performance}
+      \field{title}{Evaluating the fitness effects of seed size and maternal tree size on polylepis tomentella (rosaceae) seed germination and seedling performance}
       \field{volume}{36}
       \field{year}{2020}
       \field{pages}{115\bibrangedash 122}
@@ -970,7 +964,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{00143820}
+      \field{issn}{0014-3820}
       \field{journaltitle}{Evolution}
       \field{month}{8}
       \field{number}{4}
@@ -981,12 +975,6 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1111/j.1558-5646.1996.tb03924.x
-      \endverb
-      \verb{urlraw}
-      \verb http://doi.wiley.com/10.1111/j.1558-5646.1996.tb03924.x
-      \endverb
-      \verb{url}
-      \verb http://doi.wiley.com/10.1111/j.1558-5646.1996.tb03924.x
       \endverb
       \keyw{Colonization,Lythrum salicaria,floral polymorphism,founder effect,frequency‐dependent selection,gene flow,genetic drift,metapopulations,purple loosestrife,tristyly}
     \endentry
@@ -1160,7 +1148,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Ongoing climate change has affected the ecological dynamics of many species and is expected to impose natural selection on ecologically important traits. Droughts and other anticipated changes in precipitation may be particularly potent selective factors, especially in arid regions. Here we demonstrate the evolutionary response of an annual plant, Brassica rapa, to a recent climate fluctuation resulting in a multiyear drought. Ancestral (predrought) genotypes were recovered from stored seed and raised under a set of common environments with descendant (postdrought) genotypes and with ancestor x descendant hybrids. As predicted, the abbreviated growing seasons caused by drought led to the evolution of earlier onset of flowering. Descendants bloomed earlier than ancestors, advancing first flowering by 1.9 days in one study population and 8.6 days in another. The intermediate flowering time of ancestor x descendant hybrids supports an additive genetic basis for divergence. Experiments confirmed that summer drought selected for early flowering, that flowering time was heritable, and that selection intensities in the field were more than sufficient to account for the observed evolutionary change. Natural selection for drought escape thus appears to have caused adaptive evolution in just a few generations. A systematic effort to collect and store propagules from suitable species would provide biologists with materials to detect and elucidate the genetic basis of further evolutionary shifts driven by climate change. {©} 2007 by The National Academy of Sciences of the USA.}
-      \field{issn}{00278424}
+      \field{issn}{0027-8424}
       \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
       \field{number}{4}
       \field{title}{{Rapid evolution of flowering time by an annual plant in response to a climate fluctuation}}
@@ -1308,7 +1296,7 @@
       \field{labeltitlesource}{title}
       \field{abstract}{In a predictive model, what is the expected difference in the out- come associated with a unit difference in one of the inputs? In a linear regression model without interactions, this average predic- tive comparison is simply a regression coefficient (with associated uncertainty). In a model with nonlinearity or interactions, how- ever, the average predictive comparison in general depends on the values of the predictors. We consider various definitions based on averages over a population distribution of the predictors, and we compute standard errors based on uncertainty in model parame- ters. We illustrate with a study of criminal justice data for urban counties in the United States. The outcome of interest measures whether a convicted felon received a prison sentence rather than a}
       \field{isbn}{00811750}
-      \field{issn}{00811750}
+      \field{issn}{0081-1750}
       \field{journaltitle}{Sociological Methodology}
       \field{number}{1}
       \field{title}{{Average predictive comparisons for models with nonlinearity, interactions, and variance components}}
@@ -1393,7 +1381,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{‘Filtering', or the reduction in species diversity that occurs because not all species can persist in all locations, is thought to unfold hierarchically, controlled by the environment at large scales and competition at small scales. However, the ecological effects of competition and the environment are not independent, and observational approaches preclude investigation into their interplay. We use a demographic approach with 30 plant species to experimentally test: (i) the effect of competition on species persistence in two soil moisture environments, and (ii) the effect of environmental conditions on mechanisms underlying competitive coexistence. We find that competitors cause differential species persistence across environments even when effects are lacking in the absence of competition, and that the traits which determine persistence depend on the competitive environment. If our study had been observational and trait-based, we would have erroneously concluded that the environment filters species with low biomass, shallow roots and small seeds. Changing environmental conditions generated idiosyncratic effects on coexistence outcomes, increasing competitive exclusion of some species while promoting coexistence of others. Our results highlight the importance of considering environmental filtering in the light of, rather than in isolation from, competition, and challenge community assembly models and approaches to projecting future species distributions.}
-      \field{issn}{1744957X}
+      \field{issn}{1744-957X}
       \field{journaltitle}{Biology Letters}
       \field{number}{8}
       \field{title}{{The ‘filtering' metaphor revisited: Competition and environment jointly structure invasibility and coexistence}}
@@ -1592,7 +1580,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Comparative Plant Ecology: a Functional Approach to Common British Species}}
+      \field{title}{Comparative plant ecology: a functional approach to common {B}ritish species}
       \field{year}{1988}
     \endentry
     \entry{Guilioni2003}{article}{}
@@ -1676,7 +1664,7 @@
       \field{labeltitlesource}{title}
       \field{abstract}{This comprehensive manual offers accurate, up-to-date, and clear information for identifying New England's remarkable array of tracheophytes (vascular plants, excluding mosses). With fully researched entries on some 3,500 native and nonnative species, the book is the first in decades to provide a complete and correct botanical reference for the region's noncultivated plants. The volume includes many new species not documented in New England before, while also excluding many species that have erroneously appeared in earlier manuals.Focusing on the taxonomy and distribution of New England plants, the manual is largely dedicated to identification keys and to species entries that provide scientific name, origin, regional conservation ranking, common name, synonyms, distribution, ecology, and other miscellaneous items of interest. Nearly one-third of the entries are accompanied by helpful black-and-white line illustrations.Additional special features: •Precise distribution information, accurate to the state level•Details on unusual plant groups not included in other sources•Reliable and versatile keys for identification•Tips on recognizing hybrid plants in the field•A companion interactive teaching Web site (under development)•Comprehensive glossary}
       \field{isbn}{9780300171549}
-      \field{title}{New England Wild Flower Society's Flora Novae Angliae: A Manual for the Identification of Native and Naturalized Higher Vascular Plants of New England}
+      \field{title}{New england wild flower society's flora novae angliae: a manual for the identification of native and naturalized higher vascular plants of new england}
       \field{year}{2011}
       \verb{urlraw}
       \verb http://www.jstor.org/stable/j.ctt1np7h4
@@ -1852,7 +1840,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Colonization of new environments should promote rapid speciation as a by-product of adaptation to divergent selective regimes. Although this process of ecological speciation is known to have occurred over millennia or centuries, nothing is known about how quickly reproductive isolation actually evolves when new environments are first colonized. Using DNA microsatellites, population-specific natural tags, and phenotypic variation, we tested for reproductive isolation between two adjacent salmon populations of a common ancestry that colonized divergent reproductive environments (a river and a lake beach). We found evidence for the evolution of reproductive isolation after fewer than 13 generations.}
-      \field{issn}{00368075}
+      \field{issn}{0036-8075}
       \field{journaltitle}{Science}
       \field{number}{5491}
       \field{title}{{Rapid evolution of reproductive isolation in the wild: Evidence from introduced salmon}}
@@ -1992,7 +1980,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Genetically based phenotypic differentiation between native and invasive populations of exotic plants has been increasingly documented and commonly invoked to explain the success of some invasive species. Nonetheless, this basic information is lacking for invasive trees although they currently represent a major concern worldwide. Reciprocal common gardens were therefore set up in both native and introduced ranges of two exotic maple trees to assess the contribution of genetic differentiation and phenotypic plasticity to tree invasiveness. Almost 3,000 native and invasive seedlings of Acer negundo and Acer platanoides were planted in Canada and in France and their performances were compared in various life-history traits related to growth, leaf phenology and ecophysiology over 2 and 3 year periods. Invasive populations of A. negundo exhibited strong genetic differentiation in all the traits examined. Compared to their native conspecifics, they grew significantly larger in the introduced range and showed lower survival, reduced maximum assimilation rate and increased leaf area in the two gardens. They also expressed greater plasticity for growth and greater phenological sensitivity to temperature. Native and invasive populations of A. platanoides were plastic across environments but in contrast did not exhibit any genetic differentiation. This cross-continental comparison provides evidence that both genetic differentiation and phenotypic plasticity contribute synergistically to tree invasiveness. The influence of these respective processes depends on stage of invasion and the life-history strategy of each species. Plastic effects are likely more important during colonization and establishment whilst genetic effects may contribute more significantly during the spread of established populations.}
-      \field{issn}{13873547}
+      \field{issn}{1387-3547}
       \field{journaltitle}{Biological Invasions}
       \field{number}{4}
       \field{title}{{Genetic differentiation and phenotypic plasticity in life-history traits between native and introduced populations of invasive maple trees}}
@@ -2031,7 +2019,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The evolutionary genetics of invasive species has been relatively unexplored, but could offer insights into mechanisms of invasions. Recent studies suggest that the invasion success of many species might depend more heavily on their ability to respond to natural selection than on broad physiological tolerance or plasticity. Thus, these studies stress the importance of genetic architecture, selection upon which could result in evolutionary adaptations and possibly speciation. For instance, epistatic interactions and the action of a few genes could facilitate invasion success. These findings emphasize the utility of genomic approaches for determining invasion mechanisms, through analysis of gene expression, gene interactions, and genomic rearrangements that are associated with invasion events.}
-      \field{issn}{01695347}
+      \field{issn}{0169-5347}
       \field{journaltitle}{Trends in Ecology and Evolution}
       \field{number}{8}
       \field{title}{{Evolutionary genetics of invasive species}}
@@ -2075,7 +2063,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Insight into the speed and predictability of local adaptation can be gained by studying organisms, such as invasive species, that have recently expanded their geographical ranges. Common garden studies were designed to address these issues with the California poppy, Eschscholzia californica, collected from a wide range of environments in both its native (California) and invasive (Chile) ranges. We found similar patterns of plant trait variation along similar abiotic gradients in plants collected from both areas. Multivariate analysis demonstrated that coastal plants from both areas tended to be shorter, smaller plants with smaller seeds and flowers that germinate and flower later than plants collected from inland locations. In addition, size and fecundity traits in both native and invasive poppies were correlated with average rainfall totals; the plants that grew the largest and were the most fecund during the first year of growth originated from the driest areas. This parallel variation suggests that these traits are adaptive and that these patterns have evolved in Chile during the 110-150 years since introduction. {©} 2007 The Authors.}
-      \field{issn}{1010061X}
+      \field{issn}{1010-061X}
       \field{journaltitle}{Journal of Evolutionary Biology}
       \field{number}{3}
       \field{title}{{Assessing the speed and predictability of local adaptation in invasive California poppies (Eschscholzia californica)}}
@@ -2126,10 +2114,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Capsella bursa-pastoris (Brassicaceae) is an annual to biennial predominantly autogamous species distributed worldwide. Using a linkage map with RAPDs and isozymes we studied quantitative trait loci (QTL) controlling phenotypic traits in this invasive species. To obtain a mapping population we crossed two plants occurring in different climatic regions in California, USA (Central Valley and Sierra Nevada) with the most diverse ecotypes (phenotypic parameters) and genotypes (isozyme multilocus genotypes). A hundred and thirteen F2 individuals were raised and analysed for segregation at 107 RAPDs, six isozyme loci, and one locus determining leaf type. The number, location and magnitude of genes underlying 13 traits were determined by using both interval and composite interval mapping. Two to five QTL affecting one character have been detected. Altogether the 13 quantitative traits produced 48 QTL. The inheritance patterns of traits ranged from those controlled by one QTL with a major effect to those controlled by several QTL with only minor effects. Closely linked QTL, e.g. onset of flowering with rosette leaf number, were interpreted as pleiotropic. Three major QTL account for onset of flowering. These loci were linked to at least three isozyme loci and several other QTL responsible for developmental traits like rosette leaf number. Heritability of quantitative traits, segregation of the leaf type, and segregation of the allozymes was tested in the F3 generation. We conclude that historical events alone are insufficient to explain the distribution pattern of isozyme multilocus genotypes during the colonization of new regions and habitats. The present evidence indicates that ecotypic adaptation and genetic linkage of isozyme loci with adaptive characters are involved. {©} 2000 Annals of Botany Company.}
-      \field{issn}{03057364}
+      \field{issn}{0305-7364}
       \field{journaltitle}{Annals of Botany}
       \field{number}{1}
-      \field{title}{{Flowering ecotypes of Capsella bursa-pastoris (L.) Medik. (Brassicaceae) analysed by a cosegregation of phenotypic characters (QTL) and molecular markers}}
+      \field{title}{{Flowering ecotypes of Capsella bursa-pastoris (L.) Medik. (brassicaceae) analysed by a cosegregation of phenotypic characters (qtl) and molecular markers}}
       \field{volume}{87}
       \field{year}{2001}
       \field{pages}{91\bibrangedash 99}
@@ -2198,10 +2186,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Biotic invaders are species that establish a new range in which they proliferate, spread, and persist to the detriment of the environment. They are the most important ecological outcomes from the unprecedented alterations in the distribution of the earth's biota brought about largely through human transport and commerce. In a world without borders, few if any areas remain sheltered from these immigrations. The fate of immigrants is decidedly mixed. Few survive the hazards of chronic and stochastic forces, and only a small fraction become naturalized. In turn, some naturalized species do become invasive. There are several potential reasons why some immigrant species prosper: some escape from the constraints of their native predators or parasites; others are aided by human-caused disturbance that disrupts native communities. Ironically, many biotic invasions are apparently facilitated by cultivation and husbandry, unintentional actions that foster immigrant populations until they are self-perpetuating and uncontrollable. Whatever the cause, biotic invaders can in many cases inflict enormous environmental damage: (1) Animal invaders can cause extinctions of vulnerable native species through predation, grazing, competition, and habitat alteration. (2) Plant invaders can completely alter the fire regime, nutrient cycling, hydrology, and energy budgets in a native ecosystem and can greatly diminish the abundance or survival of native species. (3) In agriculture, the principal pests of temperate crops are nonindigenous, and the combined expenses of pest control and crop losses constitute an onerous "tax" on food, fiber, and forage production. (4) The global cost of virulent plant and animal diseases caused by parasites transported to new ranges and presented with susceptible new hosts is currently incalculable. Identifying future invaders and taking effective steps to prevent their dispersal and establishment constitutes an enormous challenge to both conservation and international commerce. Detection and management when exclusion fails have proved daunting for varied reasons: (1) Efforts to identify general attributes of future invaders have often been inconclusive. (2) Predicting susceptible locales for future invasions seems even more problematic, given the enormous differences in the rates of arrival among potential invaders. (3) Eradication of an established invader is rare, and control efforts vary enormously in their efficacy. Successful control, however, depends more on commitment and continuing diligence than on the efficacy of specific tools themselves. (4) Control of biotic invasions is most effective when it employs a long-term, ecosystemwide strategy rather than a tactical approach focused on battling individual invaders. (5) Prevention of invasions is much less costly than post-entry control. Revamping national and international quarantine laws by adopting a "guilty until proven innocent" approach would be a productive first step. Failure to address the issue of biotic invasions could effectively result in severe global consequences, including wholesale loss of agricultural, forestry, and fishery resources in some regions, disruption of the ecological processes that supply natural services on which human enterprise depends, and the creation of homogeneous, impoverished ecosystems composed of cosmopolitan species. Given their current scale, biotic invasions have taken their place alongside human-driven atmospheric and oceanic alterations as major agents of global change. Left unchecked, they will influence these other forces in profound but still unpredictable ways.}
-      \field{issn}{10510761}
+      \field{issn}{1051-0761}
       \field{journaltitle}{Ecological Applications}
       \field{number}{3}
-      \field{title}{{Biotic invasions: Causes, epidemiology, global consequences, and control}}
+      \field{title}{Biotic invasions: causes, epidemiology, global consequences, and control}
       \field{volume}{10}
       \field{year}{2000}
       \field{pages}{689\bibrangedash 710}
@@ -2240,10 +2228,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In Europe, exotic species are assessed for their potential threat only after they have already become weeds. To test hypotheses underlying risk assessment procedures, 274 North and South American exotic species naturalized in France were compared to differentiate environmental from agricultural weeds and to characterize weeds of several crops. Most agricultural exotic weeds belonged to the Asteraceae and the Poaceae, but proportionally to the total number of invasive species from a family the most successful families were the Amaranthaceae, Euphorbiaceae and Poaceae. Weed status in North and South America was the best predictor of agricultural weed status in France, and a pre-1900 date of introduction was associated with a greater likelihood of having become a major weed. The characteristics of 78 species present in field crops were examined in relation to management practices. In annual crops, the life-cycle compatibility of weeds appeared to be the main factor of selection. Exotic species differed in their C4 photosynthesis pathway in maize and rice. In vineyards, many ecological strategies are possible because the habitat is heterogeneous. Intrageneric comparison of exotic and native species showed a superior relative growth rate and higher biomass production under nutrient-rich conditions for exotics. However, it is still difficult to find a predictive function that fits well with all observed cases of weed invasion.}
-      \field{issn}{00431737}
+      \field{issn}{0043-1737}
       \field{journaltitle}{Weed Research}
       \field{number}{1}
-      \field{title}{{What criteria are relevant for predicting the invasive capacity of a new agricultural weed? The case of invasive American species in France}}
+      \field{title}{{What criteria are relevant for predicting the invasive capacity of a new agricultural weed? The case of invasive american species in france}}
       \field{volume}{40}
       \field{year}{2000}
       \field{pages}{11\bibrangedash 26}
@@ -2320,7 +2308,7 @@
       \field{journaltitle}{Methodology}
       \field{month}{1}
       \field{number}{3}
-      \field{title}{Sample Size and Accuracy of Estimates in Multilevel Models}
+      \field{title}{Sample size and accuracy of estimates in multilevel models}
       \field{volume}{7}
       \field{year}{2011}
       \field{pages}{111\bibrangedash 120}
@@ -2504,7 +2492,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Many emerging invasive species display evidence of rapid adaptation. Contemporary genetic studies demonstrate that adaptation to novel environments can occur within 20 generations or less, indicating that evolutionary processes can influence invasiveness. However, the source of genetic or epigenetic variation underlying these changes remains uncharacterised. Here, we review the potential for rapid adaptation from standing genetic variation and from new mutations, and examine four types of evolutionary change that might promote or constrain rapid adaptation during the invasion process. Understanding the source of variation that contributes to adaptive evolution in invasive plants is important for predicting future invasion scenarios, identifying candidate genes involved in invasiveness, and, more generally, for understanding how populations can evolve rapidly in response to novel and changing environments. {©} 2008 Elsevier Ltd. All rights reserved.}
-      \field{issn}{13601385}
+      \field{issn}{1360-1385}
       \field{journaltitle}{Trends in Plant Science}
       \field{number}{6}
       \field{title}{{Adaptive evolution in invasive species}}
@@ -2670,23 +2658,17 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{00129658}
+      \field{issn}{0012-9658}
       \field{journaltitle}{Ecology}
       \field{month}{9}
       \field{number}{6}
-      \field{title}{{What Attributes Make Some Plant Species More Invasive?}}
+      \field{title}{What attributes make some plant species more invasive?}
       \field{volume}{77}
       \field{year}{1996}
       \field{pages}{1655\bibrangedash 1661}
       \range{pages}{7}
       \verb{doi}
       \verb 10.2307/2265768
-      \endverb
-      \verb{urlraw}
-      \verb http://doi.wiley.com/10.2307/2265768
-      \endverb
-      \verb{url}
-      \verb http://doi.wiley.com/10.2307/2265768
       \endverb
     \endentry
     \entry{Reznick2001}{inbook}{}
@@ -2789,7 +2771,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Invasion biologists often suggest that phenotypic plasticity plays an important role in successful plant invasions. Assuming that plasticity enhances ecological niche breadth and therefore confers a fitness advantage, recent studies have posed two main hypotheses: (1) invasive species are more plastic than non-invasive or native ones; (2) populations in the introduced range of an invasive species have evolved greater plasticity than populations in the native range. These two hypotheses largely reflect the disparate interests of ecologists and evolutionary biologists. Because these sciences are typically interested in different temporal and spatial scales, we describe what is required to assess phenotypic plasticity at different levels. We explore the inevitable tradeoffs of experiments conducted at the genotype vs. species level, outline components of experimental design required to identify plasticity at different levels, and review some examples from the recent literature. Moreover, we suggest that a successful invader may benefit from plasticity as either (1) a Jack-of-all-trades, better able to maintain fitness in unfavourable environments; (2) a Master-of-some, better able to increase fitness in favourable environments; or (3) a Jack-and-master that combines some level of both abilities. This new framework can be applied when testing both ecological or evolutionary oriented hypotheses, and therefore promises to bridge the gap between the two perspectives. {©} 2006 Blackwell Publishing Ltd/CNRS.}
-      \field{issn}{1461023X}
+      \field{issn}{1461-023X}
       \field{journaltitle}{Ecology Letters}
       \field{number}{8}
       \field{title}{{Jack of all trades, master of some? On the role of phenotypic plasticity in plant invasions}}
@@ -3057,7 +3039,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Genetic diversity, and thus the adaptive potential of invasive populations, is largely based on three factors: patterns of genetic diversity in the species' native range, the number and location of introductions and the number of founding individuals per introduction. Specifically, reductions in genetic diversity ('founder effects') should be stronger for species with low within-population diversity in their native range and few introductions of few individuals to the invasive range. We test these predictions with Geranium carolinianum, a winter annual herb native to North America and invasive in China. We measure the extent of founder effects using allozymes and microsatellites, and ask whether this is consistent with its colonization history and patterns of diversity in the native range. In the native range, genetic diversity is higher and structure is lower than expected based on life history traits. In China, our results provide evidence for multiple introductions near Nanjing, Jiangsu province, with subsequent range expansion to the west and south. Patterns of genetic diversity across China reveal weak founder effects that are driven largely by low-diversity populations at the expansion front, away from the introduction location. This suggests that reduced diversity in China has resulted from successive founder events during range expansion, and that the loss of genetic diversity in the Nanjing area was mitigated by multiple introductions from diverse source populations. This has implications for the future of G. carolinianum in China, as continued gene flow among populations should eventually increase genetic diversity within the more recently founded populations.}
-      \field{issn}{13652540}
+      \field{issn}{1365-2540}
       \field{journaltitle}{Heredity}
       \field{number}{5}
       \field{title}{{Patterns of genetic diversity reveal multiple introductions and recurrent founder effects during range expansion in invasive populations of Geranium carolinianum (Geraniaceae)}}
@@ -3288,7 +3270,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A major aim in ecology is identifying determinants of invasiveness. We performed a meta-analysis of 117 field or experimental-garden studies that measured pair-wise trait differences of a total of 125 invasive and 196 non-invasive plant species in the invasive range of the invasive species. We tested whether invasiveness is associated with performance-related traits (physiology, leaf-area allocation, shoot allocation, growth rate, size and fitness), and whether such associations depend on type of study and on biogeographical or biological factors. Overall, invasive species had significantly higher values than non-invasive species for all six trait categories. More trait differences were significant for invasive vs. native comparisons than for invasive vs. non-invasive alien comparisons. Moreover, for comparisons between invasive species and native species that themselves are invasive elsewhere, no trait differences were significant. Differences in physiology and growth rate were larger in tropical regions than in temperate regions. Trait differences did not depend on whether the invasive alien species originates from Europe, nor did they depend on the test environment. We conclude that invasive alien species had higher values for those traits related to performance than non-invasive species. This suggests that it might become possible to predict future plant invasions from species traits. {©} 2009 Blackwell Publishing Ltd/CNRS.}
-      \field{issn}{1461023X}
+      \field{issn}{1461-023X}
       \field{journaltitle}{Ecology Letters}
       \field{number}{2}
       \field{title}{{A meta-analysis of trait differences between invasive and non-invasive plant species}}
@@ -3351,7 +3333,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The aim of the study was to determine whether there are genetic variations in growth and leaf phenology (flushing and senescence) among populations of six woody species (Abies alba Mill., Acer pseudoplatanus L., Fagus sylvatica L., Fraxinus excelsior L., Ilex aquifolium L., and Quercus petraea (Matt.) Liebl.) along altitudinal gradients, using a common-garden experiment. We found (i) significant differences in phenology and growth among provenances for most species and (ii) evidence that these among-population differences in phenology were related to the annual temperature at the provenance sites for ash, beech, and oak. It is noteworthy that along the same climatic gradient, species can exhibit opposing genetic clines: beech populations from high elevations flushed earlier than those from low elevations, whereas we observed the opposite trend for ash and oak. For most species, significant altitudinal clines for growth were also revealed. Finally, we highlighted the fact that both phenology timing and growth rate were highly consistent from year to year. The results demonstrated that despite the proximity of the populations in their natural area, differences in altitude led to genetic differentiation in their phenology and growth. These adaptive capacities acting along a natural climatic gradient could allow populations to cope with current climate change.}
-      \field{issn}{00455067}
+      \field{issn}{0045-5067}
       \field{journaltitle}{Canadian Journal of Forest Research}
       \field{number}{7}
       \field{title}{{Altitudinal differentiation in growth and phenology among populations of temperate-zone tree species growing in a common garden}}
@@ -3401,7 +3383,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Invasive plants may respond through adaptive evolution and/or phenotypic plasticity to new environmental conditions where they are introduced. Although many studies have focused on evolution of invaders particularly in the context of testing the evolution of increased competitive ability (EICA) hypothesis, few consistent patterns have emerged. Many tests of the EICA hypothesis have been performed in only one environment; such assessments may be misleading if plants that perform one way at a particular site respond differently across sites. Single common garden tests ignore the potential for important contributions of both genetic and environmental factors to affect plant phenotype. Using a widespread invader in North America, Cynoglossum officinale, we established reciprocal common gardens in the native range (Europe) and introduced range (North America) to assess genetically based differences in size, fecundity, flowering phenology and threshold flowering size between native and introduced genotypes as well as the magnitude of plasticity in these traits. In addition, we grew plants at three nutrient levels in a pot experiment in one garden to test for plasticity across a different set of conditions. We did not find significant genetically based differences between native and introduced populations in the traits we measured; in our experiments, introduced populations of C. officinale were larger and more fecund, but only in common garden experiments in the native range. We found substantial population-level plasticity for size, fecundity and date of first flowering, with plants performing better in a garden in Germany than in Montana. Differentiation of native populations in the magnitude of plasticity was much stronger than that of introduced populations, suggesting an important role for founder effects. We did not detect evidence of an evolutionary change in threshold flowering size. Our study demonstrates that detecting genetically based differences in traits may require measuring plant responses to more than one environment. {©} 2008 Springer-Verlag.}
-      \field{issn}{00298549}
+      \field{issn}{0029-8549}
       \field{journaltitle}{Oecologia}
       \field{number}{2}
       \field{title}{{Different gardens, different results: Native and introduced populations exhibit contrasting phenotypes across common gardens}}
@@ -3868,7 +3850,7 @@
       \field{journaltitle}{Ecology Letters}
       \field{month}{2}
       \field{number}{4}
-      \field{title}{Spring predictability explains different leaf-out strategies in the woody floras of North America, Europe and East Asia}
+      \field{title}{Spring predictability explains different leaf-out strategies in the woody floras of north america, europe and east asia}
       \field{volume}{20}
       \field{year}{2017}
       \field{pages}{452\bibrangedash 460}
