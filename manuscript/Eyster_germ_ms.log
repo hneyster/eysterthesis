@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.2.14)  22 APR 2021 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.2.14)  11 JUN 2021 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -982,28 +982,30 @@ File: apc_fig.pdf Graphic file (type pdf)
 <use apc_fig.pdf>
 Package pdftex.def Info: apc_fig.pdf  used on input line 255.
 (pdftex.def)             Requested size: 234.8775pt x 352.31538pt.
-<germ_inter_fig.pdf, id=92, 361.35pt x 505.89pt>
-File: germ_inter_fig.pdf Graphic file (type pdf)
-<use germ_inter_fig.pdf>
-Package pdftex.def Info: germ_inter_fig.pdf  used on input line 277.
-(pdftex.def)             Requested size: 289.0804pt x 404.71254pt.
-[15 <./apc_fig.pdf>]
-<germ_figs_onepage.pdf, id=125, 722.7pt x 794.97pt>
+[15] [16 <./apc_fig.pdf>]
+<germ_figs_onepage.pdf, id=127, 722.7pt x 794.97pt>
 File: germ_figs_onepage.pdf Graphic file (type pdf)
 <use germ_figs_onepage.pdf>
-Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 283.
+Package pdftex.def Info: germ_figs_onepage.pdf  used on input line 272.
 (pdftex.def)             Requested size: 542.02367pt x 596.22604pt.
 
-Overfull \hbox (72.26865pt too wide) in paragraph at lines 283--283
- [] 
+Overfull \hbox (72.26865pt too wide) in paragraph at lines 272--272
+ [][] 
  []
 
 
-Overfull \vbox (77.59607pt too high) has occurred while \output is active []
+LaTeX Warning: Float too large for page by 64.59607pt on input line 272.
 
-[16 <./germ_figs_onepage.pdf>] [17
+[17 <./germ_figs_onepage.pdf>]
+<germ_inter_fig.pdf, id=186, 361.35pt x 505.89pt>
+File: germ_inter_fig.pdf Graphic file (type pdf)
+<use germ_inter_fig.pdf>
+Package pdftex.def Info: germ_inter_fig.pdf  used on input line 276.
+(pdftex.def)             Requested size: 289.0804pt x 404.71254pt.
+[18
 
- <./germ_inter_fig.pdf>] [18] [19] [20] [21] [22] [23]
+
+ <./germ_inter_fig.pdf>] [19] [20] [21] [22] [23] [24]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
 21.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
@@ -1011,14 +1013,14 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 321.
-[24] [25] [26] [27] [28] [29] (./Eyster_germ_ms.aux)
+[25] [26] [27] [28] [29] [30] (./Eyster_germ_ms.aux)
 Package logreq Info: Writing requests to 'Eyster_germ_ms.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 18173 strings out of 479383
- 319019 string characters out of 5875830
- 1159187 words of memory out of 5000000
- 35009 multiletter control sequences out of 15000+600000
+ 18181 strings out of 479383
+ 319241 string characters out of 5875830
+ 1160308 words of memory out of 5000000
+ 35017 multiletter control sequences out of 15000+600000
  412117 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,9n,112p,3745b,5120s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1036,10 +1038,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on Eyster_germ_ms.pdf (29 pages, 1849407 bytes).
+Output written on Eyster_germ_ms.pdf (30 pages, 1850754 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
+ 284 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

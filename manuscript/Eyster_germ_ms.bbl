@@ -644,6 +644,63 @@
       \verb http://www.jstatsoft.org/v76/i01/
       \endverb
     \endentry
+    \entry{Chrobock2011}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fc2ba99274c0510279b10882b9cb8a41}{%
+           family={Chrobock},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ba1ac40d1cfa60f4f5f688e1563d395}{%
+           family={Kempel},
+           familyi={K\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fffddacc9de8cb6a519b6ce51ebdcd7e}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf74ed59cc167e4b68ae62e8ab741e01}{%
+           family={Kleunen},
+           familyi={K\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{793deab956d33f903762592f188c43bb}
+      \strng{fullhash}{560f7bfb16bda1e98d35934e762299f5}
+      \strng{bibnamehash}{560f7bfb16bda1e98d35934e762299f5}
+      \strng{authorbibnamehash}{560f7bfb16bda1e98d35934e762299f5}
+      \strng{authornamehash}{793deab956d33f903762592f188c43bb}
+      \strng{authorfullhash}{560f7bfb16bda1e98d35934e762299f5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Basic and Applied Ecology}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Introduction bias: Cultivated alien plant species germinate faster and more abundantly than native species in {S}witzerland}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{244\bibrangedash 250}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.baae.2011.03.001
+      \endverb
+    \endentry
     \entry{Clements2011}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=4ff2e95b1843058c6eec13891692981c}{%
@@ -2315,6 +2372,50 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1027/1614-2241/a000029
+      \endverb
+    \endentry
+    \entry{Paudel2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=318bc751eaa35225b8b499a1705f0421}{%
+           family={Paudel},
+           familyi={P\bibinitperiod},
+           given={Shishir},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a37b0c561912cd08e7b3ede4f180e25}{%
+           family={Battaglia},
+           familyi={B\bibinitperiod},
+           given={Loretta\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{31f109e2bcdd2863692f28ad03c9f293}
+      \strng{fullhash}{31f109e2bcdd2863692f28ad03c9f293}
+      \strng{bibnamehash}{31f109e2bcdd2863692f28ad03c9f293}
+      \strng{authorbibnamehash}{31f109e2bcdd2863692f28ad03c9f293}
+      \strng{authornamehash}{31f109e2bcdd2863692f28ad03c9f293}
+      \strng{authorfullhash}{31f109e2bcdd2863692f28ad03c9f293}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wetlands}
+      \field{month}{4}
+      \field{number}{3}
+      \field{title}{Germination responses of the invasive triadica sebifera and two co-occurring native woody species to elevated salinity across a gulf coast transition ecosystem}
+      \field{volume}{33}
+      \field{year}{2013}
+      \field{pages}{527\bibrangedash 535}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s13157-013-0410-4
       \endverb
     \endentry
     \entry{Pejchar2009}{article}{}
